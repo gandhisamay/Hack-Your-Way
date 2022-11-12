@@ -66,3 +66,17 @@ print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
 
 driver.find_element(By.ID, "ctl00_Content_txtcaptcha").send_keys(CAPTCHA_TEXT)
 driver.find_element(By.ID, "ctl00_Content_OpenButton").click()
+
+
+# r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/ViewPDF.aspx")
+
+if r.status_code == 200:
+    soup = BeautifulSoup(r.content, "html.parser")
+    r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/ViewPDF.aspx")
+    if r.status_code == 200:
+        guess = guess_extension(r.headers['content-type'])
+        if not guess: guess = ".pdf"
+        if guess:
+            with open("electoral_rolls" + guess, "wb") as f:
+                f.write(r.content)
+ 
