@@ -16,30 +16,30 @@ import chromedriver_autoinstaller
 
 
 # driver_path = "/home/samaygandhi/Documents/chromedriver"
-    
 # chromedriver_autoinstaller.install()
-options = webdriver.ChromeOptions()
-options.add_argument('--ignore-certificate-errors')
-options.add_argument('--no-sandbox')
-options.add_argument('--window-size=1920,1080')
-options.add_argument('--disable-gpu')
-options.add_argument('--incognito')
-options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
+    
+class ScraperClass:
+    def __init__(self) -> None:
+        options = webdriver.ChromeOptions()
+        options.add_argument('--ignore-certificate-errors')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--window-size=1920,1080')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--incognito')
+        options.add_argument('--headless')
+        self.DRIVER = webdriver.Chrome(options=options)
 
-s = requests.session()
-
-assemblyCode = 6
-partNumber = 30
-
-url = f"https://ceogoa.nic.in/PDF/EROLL/MOTHERROLL/2021/{assemblyCode}/S05A{assemblyCode}P{partNumber}.pdf"
-
-r = s.get(url, verify=False)
-if r.status_code == 200:
-    guess = guess_extension(r.headers['content-type'])
-    if not guess: guess = ".pdf"
-    if guess:
-        print("Storing pdf...")
-        with open("scripts/goa/electoral_rolls" + guess, "wb") as f:
-            f.write(r.content)
- 
+    def run(self, district, assemblyConstituency, pollingPart):
+        s = requests.session()
+        assemblyCode = assemblyConstituency if assemblyConstituency else 6
+        partNumber = pollingPart if pollingPart else 30
+        url = f"https://ceogoa.nic.in/PDF/EROLL/MOTHERROLL/2021/{assemblyCode}/S05A{assemblyCode}P{partNumber}.pdf"
+        r = s.get(url, verify=False)
+        if r.status_code == 200:
+            guess = guess_extension(r.headers['content-type'])
+            if not guess: guess = ".pdf"
+            if guess:
+                print("Storing pdf...")
+                with open("scripts/goa/electoral_rolls" + guess, "wb") as f:
+                    f.write(r.content)
+         
