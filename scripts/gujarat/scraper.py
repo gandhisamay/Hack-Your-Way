@@ -16,35 +16,41 @@ from time import sleep
 
 
 # driver_path = "/home/samaygandhi/Documents/chromedriver"
-    
-options = webdriver.ChromeOptions()
 # options.binary_location = "/usr/bin/brave-browser"
-options.add_argument('--ignore-certificate-errors')
-options.add_argument('--no-sandbox')
-options.add_argument('--window-size=1920,1080')
-options.add_argument('--disable-gpu')
-options.add_argument('--incognito')
-options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
-# driver = webdriver.Chrome(service=Service(executable_path=driver_path), options=options)
-# driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME, options=options)
-driver.get("https://erms.gujarat.gov.in/ceo-gujarat/master/frmEPDFRoll.aspx")
-driver.maximize_window()
+    
+class ScraperClass:
+    def __init__(self) -> None:
+        options = webdriver.ChromeOptions()
+        options.add_argument('--ignore-certificate-errors')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--window-size=1920,1080')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--incognito')
+        options.add_argument('--headless')
+        self.DRIVER = webdriver.Chrome(options=options)
+        # driver = webdriver.Chrome(service=Service(executable_path=driver_path), options=options)
+        # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME, options=options)
 
-district = "3-Patan"
-assembly = "16-Radhanpur"
-assemblyCode = 141
-partNumber = 22
-pollingArea = "Samavas, Eval,Anusuchit Jati Vas Eval,Rabari Vas, Eval,Kolivas, Eval"
+    def run(self, district, assemblyConstituency, pollingPart):
+        self.DRIVER.get("https://erms.gujarat.gov.in/ceo-gujarat/master/frmEPDFRoll.aspx")
+        self.DRIVER.maximize_window()
+        # district = "3-Patan"
+        # assembly = "16-Radhanpur"
+        assemblyCode = assemblyConstituency if assemblyConstituency else 141
+        partNumber = pollingPart if pollingPart else 22
+        # pollingArea = "Samavas, Eval,Anusuchit Jati Vas Eval,Rabari Vas, Eval,Kolivas, Eval"
+        s = requests.session()
+        url = f"https://erms.gujarat.gov.in/ceo-gujarat/DRAFT2022/{assemblyCode}/S06A{assemblyCode}P{partNumber}.pdf"
+        r = s.get(url)
+        if r.status_code == 200:
+            guess = guess_extension(r.headers['content-type'])
+            if not guess: guess = ".pdf"
+            if guess:
+                print("Storing pdf...")
+                with open("scripts/gujarat/electoral_rolls" + guess, "wb") as f:
+                    f.write(r.content)
+                print("PDF written.")
 
-s = requests.session()
-
-url = f"https://erms.gujarat.gov.in/ceo-gujarat/DRAFT2022/{assemblyCode}/S06A{assemblyCode}P{partNumber}.pdf"
-
-r = s.get(url)
-if r.status_code == 200:
-    guess = guess_extension(r.headers['content-type'])
-    if not guess: guess = ".pdf"
-    if guess:
-        with open("scripts/gujarat/electoral_rolls" + guess, "wb") as f:
-            f.write(r.content)
+if __name__ == "__main__":
+    scraper_class = ScraperClass()
+    scraper_class.run(None, None, None)
