@@ -9,7 +9,7 @@ googletrans==4.0.0rc1
 google-cloud-documentai==2.1.0
 grpcio==1.50.0
 grpcio-status==1.50.0
-idna==3.4
+idna
 proto-plus==1.22.1
 protobuf==4.21.9
 pyasn1==0.4.8

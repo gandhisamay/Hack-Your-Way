@@ -38,4 +38,4 @@ COPY scripts/keys.json $APP_HOME
 RUN ls
 ENV GOOGLE_APPLICATION_CREDENTIALS /home/app/keys.json
 
-CMD ["python3", "-m", "scripts.telangana.scraper"]
+CMD ["python3", "-m", "scripts.goa.scraper"]
