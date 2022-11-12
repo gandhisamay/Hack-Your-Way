@@ -3,6 +3,9 @@ import pandas as pd
 import string
 from data import Citizen
 
+import warnings
+warnings.filterwarnings("ignore")
+
 DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER"}
 Reverse_dict = {"MALE": 0, "FEMALE": 1, "OTHER": 2}
 
@@ -19,22 +22,26 @@ def parse_english(filename, output):
     text = compact(text)
     
     ls = string.punctuation
-    ls.replace(':','')
-    ls.replace("'",'')
+    ls = ls.replace(':','')
+    ls = ls.replace("'",'')
 
+
+    print(ls)
     #print(text)
 
     temp_list = []
     citizen_list = []
 
-    for ts in text:
-        ts = ts.translate(str.maketrans('', '', ls))
+    for i,ts in enumerate(text):
+        text[i] = text[i].translate(str.maketrans('', '', ls))
+        text[i] = text[i].strip()
 
+    print(text)
     for i, ts in enumerate(text):
         if ts.startswith("Name:"):
             temp_list.append(i)
 
-    #print((temp_list))
+    print((temp_list))
 
     i=0
     tmp_name = ''
@@ -70,7 +77,7 @@ def parse_english(filename, output):
                 tmp_houseNo = ''
             if text[i].startswith("Name: "):
                 tmp_name = text[i].split("Name: ", 1)
-                print("Name",tmp_name[1])
+                #print(tmp_name[1])
                 tmp_name = tmp_name[1]
             i+=1
             while i not in temp_list:
@@ -82,20 +89,20 @@ def parse_english(filename, output):
                     tmp_husband = text[i].split("Husband's Name: ", 1)
                     #print("Husband",tmp_husband[1])
                     tmp_husband = tmp_husband[1]
-                elif text[i].startswith("Other's Name: ") or text[i].startswith("Name of others: "):
+                elif text[i].startswith("Other's Name: "):
                     tmp_other = text[i].split("Other's Name: ", 1)
-                    if tmp_other=='':
-                        tmp_other = text[i].split("Name of others: ", 1)
-                    #print("Other",tmp_other[1])
                     tmp_other = tmp_other[1]
+
                 elif text[i].startswith("House Number: "):
                     tmp_houseNo = text[i].split("House Number: ", 1)
                     tmp_houseNo = tmp_houseNo[1]
                     #print("HouseNo ",tmp_houseNo)
                 elif text[i].startswith("Age:"):
+                    #print(text[i])
                     for ele in text[i]:
                         if ele == ':':
                             text[i] = text[i].replace(ele, "")
+                    #print(text[i])
                     test_str = text[i].split()
                     tmp_age = test_str[1]
                     sex = test_str[-1]
@@ -104,11 +111,12 @@ def parse_english(filename, output):
                         sex='MALE'
                     if sex=='WOMEN':
                         sex='FEMALE'
-                    if sex!='MALE' or sex!='FEMALE':
+                    if sex!='MALE' and sex!='FEMALE':
                         sex='OTHER'
                     tmp_gender = Reverse_dict[sex]
                     #print("Age ",tmp_age)
                     #print("Gender ",tmp_gender)
+                
                 else:
                     if i==len(text)-1:
                         try:
@@ -142,6 +150,24 @@ def parse_english(filename, output):
         if citizen.NAME == 0:
             continue
         df = df.append({'Name':citizen.NAME, 'Father Name':citizen.FATHER_NAME, 'Husband Name':citizen.HUSBAND_NAME,'Other Name':citizen.OTHER_NAME,'Age':citizen.AGE,'Gender':citizen.GENDER, 'House No':citizen.HOUSE}, ignore_index=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     master_df = df.to_csv(output,index=False)
     print(master_df)
