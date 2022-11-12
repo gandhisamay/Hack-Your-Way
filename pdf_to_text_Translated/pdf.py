@@ -63,7 +63,7 @@ def quickstart(
     print(document.text)
 
     
-    from_lang = 'mr'
+    from_lang = 'gu'
     to_lang = 'en'
 
     #no of char in string
@@ -79,7 +79,7 @@ def quickstart(
         translated = translator.translate(document.text[i:i+5000], src=from_lang, dest=to_lang)
         trans+=translated.text
 
-    with open(file_path+'trans.txt', 'w') as f:
+    with open(file_path+'trans.txt', 'w', encoding='utf-8') as f:
         f.write(trans)
 
 for i in range(noOfpdf+1):
