@@ -49,6 +49,7 @@ def parse_english(filename, output):
         if flag:
             break
         if i<temp_list[0]:
+            i+=1
             continue
         if i in temp_list:
             #print(i)
@@ -81,8 +82,10 @@ def parse_english(filename, output):
                     tmp_husband = text[i].split("Husband's Name: ", 1)
                     #print("Husband",tmp_husband[1])
                     tmp_husband = tmp_husband[1]
-                elif text[i].startswith("Other's Name: "):
+                elif text[i].startswith("Other's Name: ") or text[i].startswith("Name of others: "):
                     tmp_other = text[i].split("Other's Name: ", 1)
+                    if tmp_other=='':
+                        tmp_other = text[i].split("Name of others: ", 1)
                     #print("Other",tmp_other[1])
                     tmp_other = tmp_other[1]
                 elif text[i].startswith("House Number: "):
@@ -95,7 +98,15 @@ def parse_english(filename, output):
                             text[i] = text[i].replace(ele, "")
                     test_str = text[i].split()
                     tmp_age = test_str[1]
-                    tmp_gender = Reverse_dict[test_str[3]]
+                    sex = test_str[-1]
+                    sex = sex.upper()
+                    if sex=='MEN':
+                        sex='MALE'
+                    if sex=='WOMEN':
+                        sex='FEMALE'
+                    if sex!='MALE' or sex!='FEMALE':
+                        sex='OTHER'
+                    tmp_gender = Reverse_dict[sex]
                     #print("Age ",tmp_age)
                     #print("Gender ",tmp_gender)
                 else:
@@ -128,9 +139,11 @@ def parse_english(filename, output):
     df["House No"]=""
 
     for citizen in citizen_list:
+        if citizen.NAME == 0:
+            continue
         df = df.append({'Name':citizen.NAME, 'Father Name':citizen.FATHER_NAME, 'Husband Name':citizen.HUSBAND_NAME,'Other Name':citizen.OTHER_NAME,'Age':citizen.AGE,'Gender':citizen.GENDER, 'House No':citizen.HOUSE}, ignore_index=True)
 
     master_df = df.to_csv(output,index=False)
     print(master_df)
 
-parse_english('testingPNG.txt','test.csv')
+parse_english('document-page0.pdftrans.txt','test2.csv')
