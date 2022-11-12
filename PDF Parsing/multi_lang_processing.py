@@ -49,6 +49,7 @@ def parse_english(filename, output):
         if flag:
             break
         if i<temp_list[0]:
+            i+=1
             continue
         if i in temp_list:
             #print(i)
@@ -128,9 +129,11 @@ def parse_english(filename, output):
     df["House No"]=""
 
     for citizen in citizen_list:
+        if citizen.NAME == 0:
+            continue
         df = df.append({'Name':citizen.NAME, 'Father Name':citizen.FATHER_NAME, 'Husband Name':citizen.HUSBAND_NAME,'Other Name':citizen.OTHER_NAME,'Age':citizen.AGE,'Gender':citizen.GENDER, 'House No':citizen.HOUSE}, ignore_index=True)
 
     master_df = df.to_csv(output,index=False)
     print(master_df)
 
-parse_english('testingPNG.txt','test.csv')
+parse_english('document-page0.pdftrans.txt','test2.csv')
