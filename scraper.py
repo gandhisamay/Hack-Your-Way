@@ -1,5 +1,4 @@
 import sys
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -21,6 +20,7 @@ driver.get("https://ceoelection.maharashtra.gov.in/searchlist/")
 
 district = "Mumbai City"
 assemblyConstituency = "181 - Mahim"
+part = 105
 
 print(driver.find_element(By.ID, "ctl00_Content_DistrictList"))
 
@@ -34,13 +34,6 @@ selectAssemblyConstituency = Select(driver.find_element(By.ID, "ctl00_Content_As
 
 selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
 
-selectPart = Select(driver.find_element(By.ID, "ctl00_Content_DistrictList"))
+selectPart = Select(driver.find_element(By.ID, "ctl00_Content_PartList"))
 
-selectPart.select_by_visible_text("2 - K.A.Subramaniam Road, Matunga, Mumbai-19")
-
-# soup = BeautifulSoup(driver.page_source, 'lxml')
-
-# print(driver.page_source)
-
-# print(soup)
-
+selectPart.select_by_value(part)
