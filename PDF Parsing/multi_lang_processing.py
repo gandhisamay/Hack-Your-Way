@@ -82,8 +82,10 @@ def parse_english(filename, output):
                     tmp_husband = text[i].split("Husband's Name: ", 1)
                     #print("Husband",tmp_husband[1])
                     tmp_husband = tmp_husband[1]
-                elif text[i].startswith("Other's Name: "):
+                elif text[i].startswith("Other's Name: ") or text[i].startswith("Name of others: "):
                     tmp_other = text[i].split("Other's Name: ", 1)
+                    if tmp_other=='':
+                        tmp_other = text[i].split("Name of others: ", 1)
                     #print("Other",tmp_other[1])
                     tmp_other = tmp_other[1]
                 elif text[i].startswith("House Number: "):
@@ -96,7 +98,15 @@ def parse_english(filename, output):
                             text[i] = text[i].replace(ele, "")
                     test_str = text[i].split()
                     tmp_age = test_str[1]
-                    tmp_gender = Reverse_dict[test_str[3]]
+                    sex = test_str[-1]
+                    sex = sex.upper()
+                    if sex=='MEN':
+                        sex='MALE'
+                    if sex=='WOMEN':
+                        sex='FEMALE'
+                    if sex!='MALE' or sex!='FEMALE':
+                        sex='OTHER'
+                    tmp_gender = Reverse_dict[sex]
                     #print("Age ",tmp_age)
                     #print("Gender ",tmp_gender)
                 else:
