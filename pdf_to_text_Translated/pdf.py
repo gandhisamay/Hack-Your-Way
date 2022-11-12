@@ -1,14 +1,14 @@
 from google.api_core.client_options import ClientOptions
 from google.cloud import documentai
 import os
+from googletrans import Translator
 
 from PyPDF2 import PdfFileWriter, PdfFileReader
+
+translator = Translator()
 inputpdf = PdfFileReader("roll.pdf")
-
 offset=2
-
 noOfpdf= (inputpdf.numPages-offset)//10
-
 
 for i in range(noOfpdf+1):
     output = PdfFileWriter()
@@ -62,12 +62,28 @@ def quickstart(
     print("The document contains the following text:")
     print(document.text)
 
-    #write in file
-    with open(file_path+'.txt', 'w') as f:
-        f.write(document.text)
+    
+    from_lang = 'mr'
+    to_lang = 'en'
 
+    #no of char in string
+    #print(len(document.text))
+
+    chars=len(document.text)
+
+    trans=""
+    for i in range(0,chars,5000):
+        #print(i)
+        #print(document.text[i:i+5000])
+
+        translated = translator.translate(document.text[i:i+5000], src=from_lang, dest=to_lang)
+        trans+=translated.text
+
+    with open(file_path+'trans.txt', 'w') as f:
+        f.write(trans)
 
 for i in range(noOfpdf+1):
     file_path = os.path.abspath('document-page%s.pdf' % i)
     quickstart(project_id, location, processor_id, file_path, mime_type)
+
 
