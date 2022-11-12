@@ -11,60 +11,83 @@ from bs4 import BeautifulSoup
 from mimetypes import guess_extension
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import chromedriver_autoinstaller
-from time import sleep
+from ..mainCaptcha import main
+# from time import sleep
 # from captcha import main
 
 
-driver_path = "/home/samaygandhi/Documents/chromedriver"
+# driver_path = "/home/samaygandhi/Documents/chromedriver"
     
 options = webdriver.ChromeOptions()
-options.binary_location = "/usr/bin/brave-browser"
+# options.binary_location = "/usr/bin/brave-browser"
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--no-sandbox')
 options.add_argument('--window-size=1920,1080')
 options.add_argument('--disable-gpu')
 options.add_argument('--incognito')
 options.add_argument('--headless')
-# driver = webdriver.Chrome(options=options)
-driver = webdriver.Chrome(service=Service(executable_path=driver_path), options=options)
+driver = webdriver.Chrome(options=options)
+# driver = webdriver.Chrome(service=Service(executable_path=driver_path), options=options)
 # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME, options=options)
-driver.get("https://ceotserms2.telangana.gov.in/ts_erolls/rolls.aspx")
+# driver.get("https://ceotserms2.telangana.gov.in/ts_erolls/rolls.aspx")
 driver.maximize_window()
+# https://ceotserms2.telangana.gov.in/ts_erolls/Popuppage.aspx?partNumber=8&roll=EnglishMotherRoll&districtName=DIST_08&acname=AC_024&acnameeng=A24&acno=24&acnameurdu=024
+# https://ceotserms2.telangana.gov.in/ts_erolls/Popuppage.aspx?partNumber=6&roll=EnglishMotherRoll&districtName=DIST_17&acname=AC_067&acnameeng=A67&acno=67&acnameurdu=067
+#https://ceotserms2.telangana.gov.in/ts_erolls/Popuppage.aspx?partNumber=1&roll=EnglishMotherRoll&districtName=DIST_03&acname=AC_007&acnameeng=A7&acno=7&acnameurdu=007
+partNumber = 6
+districtNumber = 17
+assemblyConstituencyNumber = 67
 
-district = "3-Adilabad"
-assemblyConstituency = "8-Boath(ST)"
-
-selectDistrict = Select(driver.find_element(By.ID,"ctl00_ContentPlaceHolder1_ddlDist"))
-selectDistrict.select_by_visible_text(district)
-
-selectAssemblyConstituency = Select(driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_ddlAC"))
-selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
-
-driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_btnlogin").click()
+if len(str(districtNumber)) == 1:
+    districtNumber = f"0{districtNumber}"
 
 
-pollingStationNumber = 9
-pollingStationName = "Zilla Parishad Secondary School, Arlit"
+# if len(str(pollingStationNumber)) == 1:
+#     pollingStationNumberString = f"0{pollingStationNumber}"
+# else:
+#     pollingStationNumberString = str(pollingStationNumber)
+#
 
-# driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_GridView3")
+url = f"https://ceotserms2.telangana.gov.in/ts_erolls/Popuppage.aspx?partNumber={partNumber}&roll=EnglishMotherRoll&districtName=DIST_{districtNumber}&acname=AC_0{assemblyConstituencyNumber}&acnameeng=A{assemblyConstituencyNumber}&acno={assemblyConstituencyNumber}&acnameurdu=0{assemblyConstituencyNumber}"
 
-# soup = BeautifulSoup(driver.page_source, 'lxml')
-# print(soup.prettify)
+driver.get(url)
 
-# print(soup.find("table").tbody)
-pollingStationNumberString = ""
 
-if len(str(pollingStationNumber)) == 1:
-    pollingStationNumberString = f"0{pollingStationNumber}"
-else:
-    pollingStationNumberString = str(pollingStationNumber)
 
-englishId = f"ctl00_ContentPlaceHolder1_GridView3_ctl{pollingStationNumberString}_lnkEnglish"
-
-driver.find_element(By.ID, englishId).click()
-
-print(driver.window_handles)
-
+# district = "3-Adilabad"
+# assemblyConstituency = "8-Boath(ST)"
+#
+# selectDistrict = Select(driver.find_element(By.ID,"ctl00_ContentPlaceHolder1_ddlDist"))
+# selectDistrict.select_by_visible_text(district)
+#
+# selectAssemblyConstituency = Select(driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_ddlAC"))
+# selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
+#
+# driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_btnlogin").click()
+#
+#
+# pollingStationNumber = 9
+# pollingStationName = "Zilla Parishad Secondary School, Arlit"
+#
+# # driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_GridView3")
+#
+# # soup = BeautifulSoup(driver.page_source, 'lxml')
+# # print(soup.prettify)
+#
+# # print(soup.find("table").tbody)
+# pollingStationNumberString = ""
+#
+# if len(str(pollingStationNumber)) == 1:
+#     pollingStationNumberString = f"0{pollingStationNumber}"
+# else:
+#     pollingStationNumberString = str(pollingStationNumber)
+#
+# englishId = f"ctl00_ContentPlaceHolder1_GridView3_ctl{pollingStationNumberString}_lnkEnglish"
+#
+# driver.find_element(By.ID, englishId).click()
+#
+# print(driver.window_handles)
+#
 # ?partNumber=17&roll=EnglishMotherRoll&districtName=DIST_03&acname=AC_008&acnameeng=A8&acno=8&acnameurdu=008
 
 
@@ -98,44 +121,40 @@ print(driver.window_handles)
 # selectPart = Select(driver.find_element(By.ID, "ctl00_Content_PartList"))
 # selectPart.select_by_value(str(part))
 #
-# s = requests.session()
-#
-# r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/")
-#
-# for cookie in driver.get_cookies():
-#     c = {cookie['name']: cookie['value']}
-#     s.cookies.update(c)
-#
-#
-# if r.status_code == 200:
-#     soup = BeautifulSoup(r.content, "html.parser")
-#     r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/Captcha.aspx")
-#     if r.status_code == 200:
-#         guess = guess_extension(r.headers['content-type'])
-#         if not guess: guess = ".png"
-#         if guess:
-#             with open("captcha" + guess, "wb") as f:
-#                 f.write(r.content)
-#             # Image.open(BytesIO(r.content)).show()
-#
-# CAPTCHA_TEXT = main()
-# print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
-#
-# driver.find_element(By.ID, "ctl00_Content_txtcaptcha").send_keys(CAPTCHA_TEXT)
-# driver.find_element(By.ID, "ctl00_Content_OpenButton").click()
-#
-#
-# # r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/ViewPDF.aspx")
-#
-# print("Parsing PDF...")
-# if r.status_code == 200:
-#     soup = BeautifulSoup(r.content, "html.parser")
-#     r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/ViewPDF.aspx")
-#     if r.status_code == 200:
-#         guess = guess_extension(r.headers['content-type'])
-#         if not guess: guess = ".pdf"
-#         if guess:
-#             print("Storing pdf...")
-#             with open("electoral_rolls" + guess, "wb") as f:
-#                 f.write(r.content)
-#  
+s = requests.session()
+for cookie in driver.get_cookies():
+    c = {cookie['name']: cookie['value']}
+    s.cookies.update(c)
+
+
+r = s.get(url)
+if r.status_code == 200:
+    soup = BeautifulSoup(r.content, "html.parser")
+    r = s.get("https://ceotserms2.telangana.gov.in/ts_erolls/Captcha.aspx")
+    if r.status_code == 200:
+        guess = guess_extension(r.headers['content-type'])
+        if not guess: guess = ".png"
+        if guess:
+            with open("captcha_telangana" + guess, "wb") as f:
+                f.write(r.content)
+            # Image.open(BytesIO(r.content)).show()
+
+CAPTCHA_TEXT = main(state="telangana")
+print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
+
+driver.find_element(By.ID, "txtVerificationCode").send_keys(CAPTCHA_TEXT)
+driver.find_element(By.ID, "btnSubmit").click()
+
+print("Parsing PDF...")
+r = s.get(url)
+if r.status_code == 200:
+    soup = BeautifulSoup(r.content, "html.parser")
+    if r.status_code == 200:
+        guess = guess_extension(r.headers['content-type'])
+        if not guess: guess = ".pdf"
+        if guess:
+            print("Storing pdf...")
+            with open("electoral_rolls_telangana" + guess, "wb") as f:
+                f.write(r.content)
+
+

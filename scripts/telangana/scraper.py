@@ -12,7 +12,7 @@ from mimetypes import guess_extension
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import chromedriver_autoinstaller
 from ..mainCaptcha import main
-# from time import sleep
+from time import sleep
 # from captcha import main
 
 
@@ -143,10 +143,24 @@ CAPTCHA_TEXT = main(state="telangana")
 print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
 
 driver.find_element(By.ID, "txtVerificationCode").send_keys(CAPTCHA_TEXT)
-driver.find_element(By.ID, "btnSubmit").click()
+
+soup = BeautifulSoup(driver.page_source, 'lxml')
+print(soup.find('input', {'id': 'btnSubmit'}))
+
+driver.find_element(By.ID, "btnSubmit").submit()
+sleep(0.1)
+
+for cookie in driver.get_cookies():
+    c = {cookie['name']: cookie['value']}
+    s.cookies.update(c)
 
 print("Parsing PDF...")
-r = s.get(url)
+payload = {
+    'txtVerificationCode': CAPTCHA_TEXT,
+    'btnSubmit': 'Submit'
+}
+
+r = s.post(url, data=payload)
 if r.status_code == 200:
     soup = BeautifulSoup(r.content, "html.parser")
     if r.status_code == 200:
