@@ -10,6 +10,21 @@ inputpdf = PdfFileReader("roll.pdf")
 offset=2
 noOfpdf= (inputpdf.numPages-offset)//10
 
+language_to_code={
+    'English':'en',
+    'Hindi':'hi',
+    'Gujarati':'gu',
+    'Marathi':'mr',
+    'Tamil':'ta',
+    'Telugu':'te',
+    'Kannada':'kn',
+    'Malayalam':'ml',
+    'Bengali':'bn',
+    'Odia':'or',
+    'Punjabi':'pa',
+    'Assamese':'as'
+}
+
 for i in range(noOfpdf+1):
     output = PdfFileWriter()
     no=1
@@ -81,9 +96,7 @@ def quickstart(
         translated = translator.translate(document.text[i:i+5000], src=from_lang, dest=to_lang)
         trans+=translated.text
 
-    return trans
-
-    
+    return trans    
 
 for i in range(noOfpdf+1):
     file_path = os.path.abspath('document-page%s.pdf' % i)
@@ -91,4 +104,3 @@ for i in range(noOfpdf+1):
 
 with open('translated.txt', 'w', encoding='utf-8') as f:
         f.write(translated_text)
-
