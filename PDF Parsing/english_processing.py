@@ -43,6 +43,8 @@ def parse_english(filename, output):
     while i<len(text):
         if flag:
             break
+        if i<temp_list[0]:
+            continue
         if i in temp_list:
             #print(i)
             if i != 0:
