@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+
+</title>
+	   <script type="text/javascript" language="Javascript">
+        function isNumber(evt) {
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                return false;
+            }
+            return true;
+        }
+
+    </script>
+	</head>
+
+<body>
+    <form name="form1" method="post" action="./Popuppage.aspx?partNumber=6&amp;roll=EnglishMotherRoll&amp;districtName=DIST_17&amp;acname=AC_067&amp;acnameeng=A67&amp;acno=67&amp;acnameurdu=067" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="zLEHiYLxFcienF12KExa1fCSfegNao6rIRlI7TWgQJ7h8/jG0/RLHVAfkJmCqSZkwFlUqDV4NwY6wEfbMrrEzgnpqBIMW7PpbZI2aepiqjQ5yCXx0jagmFA9M5ghaVWutQvY7A==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4016BEDE" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Wj5Oy6VCO69URBfRd8BFFeHWbPloNG0ayJ5dQvGu2LVURV1LTfqyLw4emd0E2eR3s9g+EMXmvRC0Zy4gquHek8YSRrYJrCk1M5JmH0zEl+DJwgVpR3XGN97qtIKYkVAdQgmHnOPL6eXGFcoRkG+SlpDwjO7TOIQ4BtAogI7+4G+dJH1I" />
+    <table>  
+       
+      <tr>  
+            <td>Verification Code  
+            </td>  
+            <td>  
+               <img id="Image2" src="Captcha.aspx" height="55" width="186" border="0" />  
+                <br />  
+                <span id="lblCaptchaMessage"></span>  
+          
+            </td>  
+        </tr>  
+        <tr>  
+            <td>Enter Verifaction Code  
+            </td>  
+            <td>  
+                <input name="txtVerificationCode" type="text" maxlength="4" id="txtVerificationCode" onkeypress="return isNumber(event)" />  
+            </td>  
+        </tr>  
+        <tr>  
+            <td colspan="2" style="text-align: center">  
+                <input type="submit" name="btnSubmit" value="Submit" id="btnSubmit" style="font-weight: 700" />  
+            </td>  
+        </tr>   
+    </table>
+    </form>
+</body>
+</html>
