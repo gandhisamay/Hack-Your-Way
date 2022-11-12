@@ -126,10 +126,11 @@ for cookie in driver.get_cookies():
     c = {cookie['name']: cookie['value']}
     s.cookies.update(c)
 
-r = s.get("https://ceotserms2.telangana.gov.in/ts_erolls/Captcha.aspx")
 
+r = s.get(url)
 if r.status_code == 200:
     soup = BeautifulSoup(r.content, "html.parser")
+    r = s.get("https://ceotserms2.telangana.gov.in/ts_erolls/Captcha.aspx")
     if r.status_code == 200:
         guess = guess_extension(r.headers['content-type'])
         if not guess: guess = ".png"
@@ -141,24 +142,19 @@ if r.status_code == 200:
 CAPTCHA_TEXT = main(state="telangana")
 print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
 
-captcha = "urierwe"
-driver.find_element(By.ID, "txtVerificationCode").send_keys(captcha)
+driver.find_element(By.ID, "txtVerificationCode").send_keys(CAPTCHA_TEXT)
 driver.find_element(By.ID, "btnSubmit").click()
 
-# for cookie in driver.get_cookies():
-#     c = {cookie['name']: cookie['value']}
-#     s.cookies.update(c)
-
 print("Parsing PDF...")
+r = s.get(url)
 if r.status_code == 200:
     soup = BeautifulSoup(r.content, "html.parser")
-    r = s.get(url)
     if r.status_code == 200:
         guess = guess_extension(r.headers['content-type'])
         if not guess: guess = ".pdf"
         if guess:
             print("Storing pdf...")
-            with open("scripts/telangana/electoral_rolls_telangana" + guess, "wb") as f:
+            with open("scripts/telangana/electoral_rolls" + guess, "wb") as f:
                 f.write(r.content)
 
 
