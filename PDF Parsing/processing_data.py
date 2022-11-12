@@ -109,3 +109,4 @@ while i<len(text):
 
 #print(text)
 print(citizen_list)
+

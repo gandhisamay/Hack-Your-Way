@@ -7,7 +7,7 @@ class Citizen:
         self.HOUSE        = house if house else 0
         self.VOTER_ID     = voter_id if voter_id else 0
         self.GENDER       = DICT_GENDER[gender] if gender else DICT_GENDER[0]
-        self.NAME         = name if name else "Unnamed"
-        self.OTHER_NAME   = other_name if other_name else "Unnamed_Other"
-        self.FATHER_NAME  = father_husband_name if father_husband_name else "Unnamed_Father"
-        self.HUSBAND_NAME = father_husband_name if father_husband_name else "Unnamed_Husband"
+        self.NAME         = name if name else 0
+        self.OTHER_NAME   = other_name if other_name else 0
+        self.FATHER_NAME  = father_husband_name if father_husband_name else 0
+        self.HUSBAND_NAME = father_husband_name if father_husband_name else 0
