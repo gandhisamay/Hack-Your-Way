@@ -29,8 +29,10 @@ processor_id = 'd78cc8be15e93221' #  Create processor before running sample
 file_path = os.path.abspath('DraftRoll-3-7.pdf')
 mime_type = 'application/pdf' # Refer to https://cloud.google.com/document-ai/docs/file-types for supported file types
 
+translated_text=""
+
 def quickstart(
-    project_id: str, location: str, processor_id: str, file_path: str, mime_type: str
+    project_id: str, location: str, processor_id: str, file_path: str, mime_type: str,translated_text:str
 ):
 
     # You must set the api_endpoint if you use a location other than 'us', e.g.:
@@ -62,12 +64,19 @@ def quickstart(
     print("The document contains the following text:")
     print(document.text)
 
-    #write in file
-    with open(file_path+'.txt', 'w') as f:
-        f.write(document.text)
+    return document.text
+
+    # #write in file
+    # with open(file_path+'.txt', 'w') as f:
+    #     f.write(document.text)
 
 
 for i in range(noOfpdf+1):
     file_path = os.path.abspath('document-page%s.pdf' % i)
-    quickstart(project_id, location, processor_id, file_path, mime_type)
+    translated_text=quickstart(project_id, location, processor_id, file_path, mime_type,translated_text)
+
+    #write in file
+with open('output.txt', 'w') as f:
+    f.write(translated_text)
+
 
