@@ -59,11 +59,10 @@ if r.status_code == 200:
         if guess:
             with open("captcha" + guess, "wb") as f:
                 f.write(r.content)
-            CAPTCHA_TEXT = main()
-            print(CAPTCHA_TEXT)
             # Image.open(BytesIO(r.content)).show()
 
-captcha = "v34i34d"
+CAPTCHA_TEXT = main()
+print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
 
-driver.find_element(By.ID, "ctl00_Content_txtcaptcha").send_keys(captcha)
+driver.find_element(By.ID, "ctl00_Content_txtcaptcha").send_keys(CAPTCHA_TEXT)
 driver.find_element(By.ID, "ctl00_Content_OpenButton").click()
