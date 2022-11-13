@@ -23,11 +23,15 @@ class ScraperClass:
 
     def run(self, district, assemblyConstituency, pollingPart):
         s = requests.session()
-        assemblyCode = assemblyConstituency.split('-')[1].strip()
+        print(f"ac {assemblyConstituency} pp {pollingPart}")
+        assemblyCode = assemblyConstituency.split('-')[-1].strip()
 
         url = f"https://ceosikkim.nic.in/UploadedFiles/ElectoralRollPolling/S21A{assemblyCode}P{pollingPart}.pdf"
 
-        r = s.get(url, verify=False)
+        print(url)
+        r = s.get(url)
+        print("DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD")
+        print(r.status_code)
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
             if not guess: guess = ".pdf"

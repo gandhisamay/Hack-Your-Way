@@ -1,21 +1,9 @@
-from platform import version
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-# TODO
-# from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.select import Select
 import os
 import requests
 from pathlib import Path
-from bs4 import BeautifulSoup
 from mimetypes import guess_extension
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from ..scraperResponse import ScraperResponse
-import chromedriver_autoinstaller
-# from ..mainCaptcha import main
-# from .captcha import main
-
 
 # driver_path = "/home/samaygandhi/Documents/chromedriver"
 # chromedriver_autoinstaller.install()
@@ -35,21 +23,18 @@ class ScraperClass:
 
     def run(self, district, assemblyConstituency, pollingPart):
         s = requests.session()
+        assemblyCode = assemblyConstituency.split('-')[-1].strip()
 
-        partNumber = pollingPart if pollingPart else 1
-        assemblyCodeString = assemblyConstituency if assemblyConstituency else "3-MAMIT"
-        ############ TODO!!!!!!!!!!!! MIZORAM Code 
-        assemblyCode = assemblyConstituency if assemblyConstituency else 3
-        url = f"https://ceo.mizoram.gov.in/ERollReportWithoutPhoto/S16/{assemblyCodeString}/S16A{assemblyCode}P{partNumber}.pdf"
-# https://ceo.mizoram.gov.in/ERollReportWithoutPhoto/S16/3-MAMIT/S16A3P1.pdf
+        url = f"https://ceo.mizoram.gov.in/ERollReportWithoutPhoto/S16/{assemblyConstituency}/S16A{assemblyCode}P{pollingPart}.pdf"
 
         r = s.get(url)
-        print(r.status_code)
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
             if not guess: guess = ".pdf"
-            pdf_file_path = "scraper_parser_translator/views/mizoram/electoral_rolls" + guess
-            self.SCRAPER_RESPONSE.electoral_roll_PDF = Path(pdf_file_path)
+            pdf_file_path = "/scraper_parser_translator/views/mizoram/electoral_rolls" + guess
+            pdf_file_path = (os.path.abspath(os.getcwd()) + pdf_file_path)
+            print(pdf_file_path)
+            self.SCRAPER_RESPONSE.electoral_roll_PDF = pdf_file_path
             if guess:
                 print("Storing pdf...")
                 with open(pdf_file_path, "wb") as f:
@@ -60,3 +45,4 @@ class ScraperClass:
 
         return self.SCRAPER_RESPONSE
          
+

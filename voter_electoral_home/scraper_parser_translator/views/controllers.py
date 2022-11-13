@@ -84,7 +84,7 @@ def details(request):
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
-        return JsonResponse({"message": "Testing"})
+        return JsonResponse({"message": "Successfull", "data": final_response})
 
 @csrf_exempt
 def epic(request):

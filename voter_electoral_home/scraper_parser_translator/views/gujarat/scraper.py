@@ -28,7 +28,7 @@ class ScraperClass:
         self.DRIVER.maximize_window()
         # district = "3-Patan"
         # assembly = "16-Radhanpur"
-        assemblyCode = assemblyConstituency.split('-')[1].strip()
+        assemblyCode = assemblyConstituency.split('-')[-1].strip()
         partNumber = pollingPart
         assemblyCodeDir = assemblyCode
 

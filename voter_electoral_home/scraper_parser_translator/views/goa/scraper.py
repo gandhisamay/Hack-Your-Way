@@ -24,7 +24,7 @@ class ScraperClass:
 
     def run(self, district, assemblyConstituency,  pollingPart):
         s = requests.session()
-        assemblyCode = assemblyConstituency.split('-')[1].strip()
+        assemblyCode = assemblyConstituency.split('-')[-1].strip()
         partNumber = pollingPart
         
         url = f"https://ceogoa.nic.in/PDF/EROLL/MOTHERROLL/2021/{assemblyCode}/S05A{assemblyCode}P{partNumber}.pdf"

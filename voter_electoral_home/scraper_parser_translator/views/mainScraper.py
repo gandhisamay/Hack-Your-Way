@@ -89,8 +89,10 @@ class MainScraper:
         csvFilePath = 'scraper_parser_translator/views/relations/Out.csv'
         jsonFilePath = 'scraper_parser_translator/views/relations/Out.json'
         # subprocess.run(exec_location)
-        subprocess.run([exec_location, "TARUN RAI", "1", "HARKA BAHADUR RAI", "23"])
+        # subprocess.run([exec_location, "TARUN RAI", "1", "HARKA BAHADUR RAI", "23"])
+        subprocess.run([exec_location, name, father_or_husband, father_or_husband_name, age])
         dict=make_json(csvFilePath, jsonFilePath)
+        return dict
 
 
 # if __name__ == "__main__":
