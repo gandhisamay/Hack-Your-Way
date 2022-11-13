@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# APPEND_SLASH = False
 
 # Application definition
 
@@ -37,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'scripts_home.apps.ScriptsHomeConfig',
+    # 'scripts_home.apps.ScriptsHomeConfig',
     'scraper_parser_translator.apps.ScraperParserTranslatorConfig',
     # 'scripts.apps.ScriptsConfig'
 ]
