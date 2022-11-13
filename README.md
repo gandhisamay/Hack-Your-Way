@@ -102,7 +102,7 @@ and create a csv file containing their information. This csv file is now passed 
 3) Translation results received from the Google Translate are incorrect often.
 
 ## Family Tree Algorithm
-In this part, we use C++ language for writing the algorithms which will help us getting the required family tree. The required family tree returns the following relations if the data is return after translation is not broken.
+In this part, we use C++ language for writing the algorithms which will help us getting the required family tree. The required family tree returns the following relations if the data returned after translation is not broken.
 ```
 1) Father
 2) Mother
