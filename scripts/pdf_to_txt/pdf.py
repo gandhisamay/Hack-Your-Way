@@ -75,11 +75,11 @@ class PDF_to_Txt:
             return document.text
         for i in range(noOfpdf+1):
             file_path = os.path.abspath('document-page%s.pdf' % i)
-            translated_text=quickstart(self.project_id, self.location, self.processor_id, file_path, self.mime_type, translated_text)
+            translated_text+=quickstart(self.project_id, self.location, self.processor_id, file_path, self.mime_type, translated_text)
             #write in file
         file_path = "scripts/pdf_to_txt/parsed.txt"
         self.CUSTOM_RESPONSE.parsed_text_generated = Path(file_path)
-        with open(file_path, 'a') as f:
+        with open(file_path, 'w') as f:
             f.write(translated_text)
         self.CUSTOM_RESPONSE.status = True
         return self.CUSTOM_RESPONSE
