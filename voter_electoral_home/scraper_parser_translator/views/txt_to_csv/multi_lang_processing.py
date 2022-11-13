@@ -19,8 +19,11 @@ def parse_english(filename, output):
     CUSTOM_RESPONSE = CsvGenerateResponse()
     # filename = absol_path + "/" + filename
     # output = absol_path + "/" + output
-    with open(filename, "r") as txt_file:
-        text = txt_file.read().splitlines()
+    try:
+        with open(filename, "r") as txt_file:
+            text = txt_file.read().splitlines()
+    except:
+        print("Incorrect file name. File not found")
 
     def compact(lst):
         return list(filter(None, lst))
