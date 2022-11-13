@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 import os
+from time import sleep
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
@@ -30,12 +31,15 @@ class ScraperClass:
     def run(self, district, assemblyConstituency, pollingPart):
         self.DRIVER.get("https://ceoelection.maharashtra.gov.in/searchlist/")
 
+        sleep(1)
         selectDistrict = Select(self.DRIVER.find_element(By.ID,"ctl00_Content_DistrictList"))
         selectDistrict.select_by_visible_text(district)
 
+        sleep(2)
         selectAssemblyConstituency = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_AssemblyList"))
         selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
 
+        sleep(2)
         selectPart = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_PartList"))
         selectPart.select_by_value(str(pollingPart))
 
