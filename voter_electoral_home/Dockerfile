@@ -29,14 +29,17 @@ ENV DISPLAY=:99
 
 WORKDIR $APP_HOME
 
-COPY scripts/req.txt $APP_HOME
+COPY req.txt $APP_HOME
 RUN pip install --upgrade pip
 RUN pip install -r req.txt
 
-COPY scripts $APP_HOME/scripts
+COPY . $APP_HOME
 # COPY scripts/keys.json $APP_HOME
 RUN ls
 # ENV GOOGLE_APPLICATION_CREDENTIALS /home/app/keys.json
 
+# WORKDIR $APP_HOME/voter_electoral_home
 # CMD ["python3", "-m", "scripts.voter_portal.scraper"]
-CMD ["python3", "-m", "scripts.mainScraper"]
+# CMD ["python3", "-m", "scripts.mainScraper"]
+EXPOSE 8000
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
