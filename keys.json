@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "angular-port-366318",
+  "private_key_id": "16d3224153935c24cca2a520200e6b67620e660d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCX2fjSW+BQAij3\nIJkEf0Bypd1/qyJX82se4ZB8HicljtNWPOW75nxE8u1eg9EWEtp51ZKUQTgDpY4W\ny6ggVKvPJp5U9JzlPQxg3mSd6KqWt5W2jrL5vmZZJH9ifvtilpeDpPfC4ggZsiuo\noGhysfK38vZQvtdKW4pgollF+kuoaPiLDIEDeOwtwvxBc0qN8vonhTRSHYrq6fCx\n8vuRcc5kL6n4RFiDxkXca9gYXhxnKrdhx/wnsJ653mRJdTDJXCtgRjN2abpkDpOy\nF2CWuxvpRhB4rpSKvLYqVzzYcHv3VonZxBAqgy1dhoNaGHR5Hc9DBqNyuqKfC6Uw\nnILFSGcXAgMBAAECggEADcWMpcoEAkg/3jHMTuEaP4uVbA0MP1Jp5lIUtXz9QJBp\n0EoTl8Kj2z5Lks/STaCGGe3prke/7xdmVzY/LYzK9tg3cdhWxl+Oriuyj7Ot4koM\nv5LE3pY1rWNRqOV/97AAARtxW5uo775TQVF9nNv7Tv2E+KEQ4MMuk0Gwu6z4jEcH\nvmv1XLhfiiXqf0HxnUXHH8mcJfZz4rKdItDzlhglESYY8cVezYeSDo3eZCMs+j/m\nRYREDWx8NJoUETbBheZef+SGUwY0l0VYCZuKs6sq/+ltwtoADdPiddf78IyZg7kF\n5ugL7FaKi+wxtsML4tEtvzXxhN5Q33Z8LF3pEjXK2QKBgQDOeut2rw0OfvyIImPF\nUEkU8elOlEeKagSRQ3P6ZMqhKdbb6iOdLse7O4Q+VOovS5twVTVJT5EivnWNEiN8\nSi5jwRjTI+Dh6ERbd0+URvEwsV0X7AFre+gEQebNWshxfYd9RJU1RRKwxkTh4OMb\nBFM2S0gbjNoyMltjy7kXNd4gQwKBgQC8RQ/V6WpgQG+uQoDjlfxJnMaODYyHfv5j\nzm0KfXrzOi6QAoOKb7JWgdbc2oO2xtgd8P+v22M46qvfneEDiFuMDr6d60jm1Zw4\niH+vDq9uF/J9RKD5r+tS1Ug7F+2VZRGGId6iqFg6cUO2vPSDkjwfdj4w1Kt1YyPY\nWaSpP0QKnQKBgQCPQQ7uZ+L6JLZWSO3JrrsVkgUZZJ0B9i43DoJ/vcAr8phEOXz+\nB7/BMji8+jMEH0O3uxZeR5rdbSCngGcoS1tGEGmFy8WxVnFeuDd5G4MpElURTMdr\naCsAESztWsfonXwMODIBJGwkQ1r1EA7g5q5I5BAiNSYJX5Cye1xuMwxqewKBgFfA\nzP/E21tfzW5o+xCZcU2ScI33zL+/Nq2oovSXxj4mqVtggJV/OJ3PySmKBIimKEfU\ndCkw1g/KejAxs5bk8N7YZIrRB1rox/cl0HX1H1nueY1f9rRLBiHG3fMFVS0kPcXK\nda5VT0J2VryPWF0XRUTY5WX3Sq/ddPC7398vaPSVAoGAI/t+0lsxnKAikPxV9+n2\n22mBZy7MxNh35xjkjSGIvLWoP0pDl+aubdcMjxa/o8UUps/AgzfI9+STznZzk856\nuDb5xbU0+6qUfJ3ydZRTnhHpOPQsc8oxnLf6oFn34xXgBZLz0GUfUsKOYWArY/6R\n+9kAE9mjKhahaA0Bo+96+Sk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hack-a-thon@angular-port-366318.iam.gserviceaccount.com",
+  "client_id": "114288682676733688496",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hack-a-thon%40angular-port-366318.iam.gserviceaccount.com"
+}
