@@ -1,15 +1,21 @@
-import os
+
 import pandas as pd
 import string
 from data import Citizen
 
 import warnings
+import os
+
+absol_path = os.path.abspath(os.getcwd())
 warnings.filterwarnings("ignore")
 
 DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER"}
 Reverse_dict = {"MALE": 0, "FEMALE": 1, "OTHER": 2}
 
+#print(absol_path)
 def parse_english(filename, output):
+    filename = absol_path + "/" + filename
+    output = absol_path + "/" + output
     with open(filename, "r") as txt_file:
         text = txt_file.read().splitlines()
 
@@ -36,6 +42,7 @@ def parse_english(filename, output):
         text[i] = text[i].translate(str.maketrans('', '', ls))
         text[i] = text[i].strip()
         text[i] = text[i].upper()
+        text[i] = " ".join(text[i].split())
 
     #print(text)
     for i, ts in enumerate(text):
