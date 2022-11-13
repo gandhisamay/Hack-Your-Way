@@ -85,7 +85,7 @@ class VoterPortalScraper:
         self.SCRAPER_RESPONSE.parliamentary_constituency_name=self.DRIVER.find_element(By.CSS_SELECTOR, "input[name='pc_name']").get_attribute('value')
         self.SCRAPER_RESPONSE.part_number=self.DRIVER.find_element(By.CSS_SELECTOR, "input[name='part_no']").get_attribute('value')
         self.SCRAPER_RESPONSE.polling_station_name=self.DRIVER.find_element(By.CSS_SELECTOR, "input[name='ps_name']").get_attribute('value')
-        print(self.SCRAPER_RESPONSE)
+        return self.SCRAPER_RESPONSE
         # except:
             # print("Failed to get response, the voter information portal is slow. Please try again")
 

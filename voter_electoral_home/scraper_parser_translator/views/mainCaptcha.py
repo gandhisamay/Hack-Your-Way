@@ -27,7 +27,7 @@ class Captcha_To_Txt:
         texts = response.text_annotations
         # print('Texts:\n\n')
         CAPTCHA_TEXT = texts[0].description
-        # print(f"CAPTCHA TEXT = {CAPTCHA_TEXT}")
+        print(f"CAPTCHA TEXT = {CAPTCHA_TEXT}")
         if response.error.message:
             raise Exception(
                 '{}\nFor more info on error messages, check: '

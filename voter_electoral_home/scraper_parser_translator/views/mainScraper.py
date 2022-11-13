@@ -16,16 +16,16 @@ from .voter_portal.scraper import VoterPortalScraper, EpicData, DetailedData
 class MainScraper:
     def __init__(self) -> None:
         self.VOTER_PORTAL_SCRAPER = VoterPortalScraper()
-        self.STATE_SCRAPER_MAP = {"maharashtra": MaharashtraScraper,
-            "gujarat": GujuratScraper,
-            "goa": GoaScraper,
-            "sikkim": SikkimScraper,
-            "mizoram": MizoramScraper}
-        self.STATE_LANGUAGE = {"maharashtra": "mr",
-            "gujarat": "gu",
-            "goa": "en",
-            "sikkim": "en",
-            "mizoram": "en"}
+        self.STATE_SCRAPER_MAP = {"Maharashtra": MaharashtraScraper,
+            "Gujarat": GujuratScraper,
+            "Goa": GoaScraper,
+            "Sikkim": SikkimScraper,
+            "Mizoram": MizoramScraper}
+        self.STATE_LANGUAGE = {"Maharashtra": "mr",
+            "Gujarat": "gu",
+            "Goa": "en",
+            "Sikkim": "en",
+            "Mizoram": "en"}
         self.PDF_TO_TXT_PARSER = PDF_to_Txt()
 
     def callVoterPortal(self, epicSearch, UserInput):
@@ -45,8 +45,8 @@ class MainScraper:
 
     def callParticularScraper(self, state, district, assemblyConstituency, pollingPart):
         particular_parser = self.STATE_SCRAPER_MAP[state]()
+        print(particular_parser)
         scraper_response: ScraperResponse = particular_parser.run(district, assemblyConstituency, pollingPart)
-        print(scraper_response)
         return scraper_response
         # self.translateParseElectoralRollPDF(scraper_response, state)
 
@@ -71,7 +71,7 @@ class MainScraper:
         print(csv_generated_response)
         return csv_generated_response
 
-    def csvToJsonPostAlgo(self):
+    def csvToJsonPostAlgo(self, name, father_or_husband, father_or_husband_name, age):
         print("Generating JSON from created csv")
         exec_location = os.path.abspath(os.curdir)
         exec_location = str(exec_location) + "/scraper_parser_translator/views/relations/a.out"

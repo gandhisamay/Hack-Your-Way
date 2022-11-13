@@ -17,6 +17,7 @@ class ScraperResponse:
 class UserInput:
     def __init__(self) -> None:
         self.name: str = ""
+        self.father_or_husband = True
         self.father_or_husband_name: str = ""
         self.gender: str = "M"
         self.age: str = "18"
@@ -31,6 +32,7 @@ class UserInput:
         GENDER: {self.gender}\n \
         AGE: {self.age}\n \
         FATHER_OR_HUSBAND_NAME: {self.father_or_husband_name}\n \
+        FATHER_OR_HUSBAND: {self.father_or_husband}\n \
         STATE: {self.state}\n \
         DISTRICT: {self.district}\n \
         ASSEMBLYCONSTITUENCY: {self.assembly_constituency}\n" 

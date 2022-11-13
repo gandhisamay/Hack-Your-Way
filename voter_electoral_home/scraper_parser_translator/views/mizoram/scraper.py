@@ -48,7 +48,7 @@ class ScraperClass:
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
             if not guess: guess = ".pdf"
-            pdf_file_path = "scripts/mizoram/electoral_rolls" + guess
+            pdf_file_path = "scraper_parser_translator/views/mizoram/electoral_rolls" + guess
             self.SCRAPER_RESPONSE.electoral_roll_PDF = Path(pdf_file_path)
             if guess:
                 print("Storing pdf...")

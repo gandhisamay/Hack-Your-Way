@@ -43,6 +43,9 @@ def details(request):
             if "father_or_husband_name" in req_body:
                 input_data.father_or_husband_name = str(req_body["father_or_husband_name"])
             else: raise ValueError()
+            if "father_or_husband" in req_body:
+                input_data.father_or_husband = bool(req_body["father_or_husband"])
+            else: raise ValueError()
             input_data.district = str(req_body["district"]) if "district" in req_body else None
             input_data.assembly_constituency = str(req_body["assembly_constituency"]) if "assembly_constituency" in req_body else None
             input_data.epic_no = str(req_body["epic_no"]) if "epic_no" in req_body else None
@@ -60,9 +63,24 @@ def details(request):
         else:
             return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
 
-        if particular_portal_response:
+        if particular_portal_response != None:
             translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, voter_portal_response.state)
             print(translated_parsed_response)
+        else:
+            return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
+
+        if translated_parsed_response != None:
+            generated_csv_data = MAIN_SCRAPER.generateDataCSV(translated_parsed_response)
+            print(generated_csv_data)
+        else:
+            return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
+
+        if generated_csv_data != None:
+            final_response = MAIN_SCRAPER.csvToJsonPostAlgo(voter_portal_response.name, 
+                                                            "1" if input_data.father_or_husband else "0", 
+                                                            voter_portal_response.father_or_husband_name,
+                                                            voter_portal_response.age)
+            print(final_response)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
