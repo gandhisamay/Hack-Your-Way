@@ -1,4 +1,6 @@
 import os
+import csv
+import json
 import subprocess
 from .scraperResponse import ScraperResponse
 from .maharashtra.scraper import ScraperClass as MaharashtraScraper
@@ -55,8 +57,23 @@ class MainScraper:
         print("Generating JSON from created csv")
         exec_location = os.path.abspath(os.curdir)
         exec_location = str(exec_location) + "/scraper_parser_translator/views/relations/a.out"
+        # father-1, husband-0
+        # exec_location += " 'TARUN RAI' '1' 'HARKA BAHADUR RAI' '23'"
         print(exec_location)
-        subprocess.call(exec_location) 
+        def make_json(csvFilePath, jsonFilePath):
+            data = {}
+            with open(csvFilePath, encoding='utf-8') as csvf:
+                csvReader = csv.DictReader(csvf)
+                for rows in csvReader:
+                    key = rows['Id']
+                    data[key] = rows
+            with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
+                jsonf.write(json.dumps(data, indent=4))
+        csvFilePath = 'scraper_parser_translator/views/relations/Out.csv'
+        jsonFilePath = 'scraper_parser_translator/views/relations/Out.json'
+        # subprocess.run(exec_location)
+        subprocess.run([exec_location, "TARUN RAI", "1", "HARKA BAHADUR RAI", "23"])
+        make_json(csvFilePath, jsonFilePath)
 
 
 if __name__ == "__main__":

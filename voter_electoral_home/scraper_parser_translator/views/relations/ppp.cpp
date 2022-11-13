@@ -11,7 +11,7 @@ using namespace std;
 class Node{
 public:
 string name="Not defined";
-bool gender;
+int gender;
 bool f;
 int age;
 string hno;
@@ -23,7 +23,7 @@ Node* spouse;
 vector<Node*>neighbours;
 vector<Node*> children;
     
-    Node(bool F,string Name, bool gen,int Age,string HNo){
+    Node(bool F,string Name, int gen,int Age,string HNo){
         f=F;
         name=Name,
         hno=HNo;
@@ -50,7 +50,12 @@ vector<Node*> children;
         if(FIL)MIL=FIL->spouse;else MIL=nullptr;
         cout<<"Name: "<<name<<endl;
         cout<<"H.No.: "<<hno<<endl;
-        cout<<"Gender: "<<(gender?"Male":"Female")<<endl;
+
+        cout<<"Gender: ";
+        if(gender==1)cout<<"MALE"<<endl;
+        else if(gender==2)cout<<"UNDEFINED"<<endl;
+        else cout<<"FEMALE"<<endl;
+
         cout<<"Age: "<<(age==INT_MAX?"Not defined":to_string(age))<<endl;
         cout<<"Father: "<<(father==nullptr?"Not defined":father->name)<<endl;
         cout<<"Mother: "<<(mother==nullptr?"Not defined":mother->name)<<endl;
@@ -80,12 +85,12 @@ vector<Node*> peeps;
 unordered_map<string,vector<Node*>>homes;
 
 void getData(){
-bool f=0,m=0;
+bool f=0;int m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
 string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-// string fname="MASTER CSV.CSV";
+// string fname="test_undefined.csv";
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -103,7 +108,7 @@ cout<<"Could not open the file\n";
 for(int i=1;i<content.size();i++)
 {
 string name;
-bool gender;
+int gender;
 bool f;
 int age;
 string hno;
@@ -130,7 +135,8 @@ for(int j=0;j<content[i].size();j++)
       age=stoi(content[i][j]);
     }else
     if(j==5){
-       if(content[i][j]=="MALE")m=1;
+       if(content[i][j]=="OTHERS"||content[i][j]=="UNDEFINED")m=2;
+       else if(content[i][j]=="MALE")m=1;
        else m=0;
     }else
     if(j==6){
@@ -141,30 +147,18 @@ for(int j=0;j<content[i].size();j++)
 Node* n=new Node(f,name,m,age,hno);
 peeps.push_back(n);
 homes[hno].push_back(n);
-// cout<<"------------------------------------------------------------------------------------------------------------------------"<<endl;
-// cout<<i<<endl;
-// cout<<n->name<<endl;
-//     for(auto x:homes){
-//         cout<<x.first<<" : ";
-//         for(auto y:x.second){
-//             cout<<y->name<<", ";
-//         }
-//         cout<<endl;
-//     }
-
-// cout<<"------------------------------------------------------------------------------------------------------------------------"<<endl;
 
 }
 }
 
 
 void setData(){
-    bool f=0,m=0;
+    bool f=0;int m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
 string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-// string fname="MASTER CSV.CSV";
+// string fname="test_undefined.csv";
 
 fstream file (fname, ios::in);
 if(file.is_open())
@@ -183,9 +177,9 @@ cout<<"Could not open the file\n";
 for(int i=1;i<content.size();i++)
 {
     string name;
-bool gender;
+int gender;
 bool f;
-int age;
+int age=INT_MAX;
 string hno;
 Node* father=nullptr;
 string fana="";
@@ -214,7 +208,8 @@ for(int j=0;j<content[i].size();j++)
       age=stoi(content[i][j]);
     }else
     if(j==5){
-       if(content[i][j]=="MALE")m=1;
+      if(content[i][j]=="OTHERS"||content[i][j]=="UNDEFINED")m=2;
+       else if(content[i][j]=="MALE")m=1;
        else m=0;
     }else
     if(j==6){
@@ -224,6 +219,14 @@ for(int j=0;j<content[i].size();j++)
 
 int c=0;
 for(auto I:peeps){
+    string temp=I->name;
+    int sp=0;
+    for(auto x:temp){
+        if(x==' ')sp++;
+    }
+
+string s=I->name;
+if(sp>1){
     string a,b,C;
 int co=0;
 for(int K=0;K<I->name.size();K++){
@@ -238,11 +241,12 @@ for(int K=0;K<I->name.size();K++){
     else if(co==2)
     C.push_back(I->name[K]);
 }
-string s=a+" "+C;
+s=a+" "+C;
+}
     if(s==fana){
         c++;
         if(c==2){
-            cout<<"Error: Multiple fathers with same name"<<endl;
+            cout<<"Error: Multiple fathers with same name: "<<s<<" "<<I->name<<endl;
             // exit(0);
         }
 
@@ -316,19 +320,28 @@ void pruneData(){
 }
 
 
-void create()
+void create(string name, string f, string Fname, string age)
 {
 	// file pointer
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::app);
-   fout<<"Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
+	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::trunc);
+   fout<<"Id,Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
+    
     for(int i=0;i<n;i++){
+        if(peeps[i]->name!=name || (f=="1")&& peeps[i]->father && peeps[i]->father->name!=Fname || (f=="0")&& peeps[i]->spouse && peeps[i]->spouse->name!=Fname ||  peeps[i]->age!=stoi(age)){
+                continue;
+        }
+        fout<<i<<",";
         fout<<peeps[i]->name<<","<<peeps[i]->hno<<",";
-        fout<<(peeps[i]->gender)?"MALE":"FEMALE";
-        fout<<","<<peeps[i]->age<<",";
+        if(peeps[i]->gender==1)fout<<"MALE";
+        else if(peeps[i]->gender==2)fout<<"UNDEFINED";
+        else fout<<"FEMALE";
+        fout<<",";
+        if(peeps[i]->age==INT_MAX)cout<<"UNDEFINED";else fout<<peeps[i]->age;
+        fout<<",";
         if(peeps[i]->father)fout<<peeps[i]->father->name;else fout<<0;
         fout<<",";
         if(peeps[i]->mother)fout<<peeps[i]->mother->name;else fout<<0;
@@ -369,22 +382,32 @@ void create()
 
 
 
-    void createJson()
+    void createJson(string name, string f, string Fname, string age)
 {
 	// file pointer
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("scraper_parser_translator/views/relations/Out.json", ios::out | ios::app);
+	fout.open("Out.json", ios::out | ios::trunc);
     fout<<"{"<<endl;
 
 //    fout<<"Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     for(int i=0;i<n;i++){
-        fout<<"\""<<peeps[i]->name<<"\""<<":{"<<endl;
+        if(peeps[i]->name!=name || (f=="1")&& peeps[i]->father && peeps[i]->father->name!=Fname || (f=="0")&& peeps[i]->spouse && peeps[i]->spouse->name!=Fname ||  peeps[i]->age!=stoi(age)){
+                continue;
+        }
+        fout<<"\""<<i<<"\""<<":{"<<endl;
+        fout<<"\"Name\""<<":"<<"\""<<peeps[i]->name<<"\""<<","<<endl;
         fout<<"\"HNo\""<<":"<<"\""<<peeps[i]->hno<<"\""<<","<<endl;
-        fout<<"\"Gender\""<<":"<<"\""<<(peeps[i]->gender?"MALE":"FEMALE")<<"\""<<","<<endl;
-        fout<<"\"Age\""<<":"<<"\""<<peeps[i]->age<<"\""<<","<<endl;
+        fout<<"\"Gender\""<<":"<<"\"";
+        if(peeps[i]->gender==1)fout<<"MALE";
+        else if(peeps[i]->gender==2)fout<<"UNDEFINED";
+        else fout<<"FEMALE";
+        fout<<"\""<<","<<endl;
+        fout<<"\"Age\""<<":"<<"\"";
+        if(peeps[i]->age==INT_MAX)fout<<"UNDEFINED";else fout<<peeps[i]->age;
+        fout<<"\""<<","<<endl;
         fout<<"\"Father\""<<":"<<"\""<<(!(peeps[i]->father)?"_Not_defined_":peeps[i]->father->name)<<"\""<<","<<endl;
         fout<<"\"Mother\""<<":"<<"\""<<(!(peeps[i]->mother)?"_Not_defined_":peeps[i]->mother->name)<<"\""<<","<<endl;
         fout<<"\"Spouse\""<<":"<<"\""<<(!(peeps[i]->spouse)?"_Not_defined_":peeps[i]->spouse->name)<<"\""<<","<<endl;
@@ -428,8 +451,6 @@ void create()
 
     fout<<"}"<<endl;
 
-		// Insert the data to file
-		
 	}
 
 
@@ -438,22 +459,29 @@ void create()
 
 
 
-int32_t main(){
+int32_t main(int32_t argc, char **argv){
 Radhe Krishna
+cout<<argv[0]<<" "<<argv[1]<<" "<<argv[2]<<" "<<argv[3]<<" "<<stoi(argv[4])<<endl;
 
 
 getData();
 setData();
 pruneData();
-create();
-createJson();
+create(argv[1],argv[2],argv[3],argv[4]);
+
+// createJson(argv[1],argv[2],argv[3],argv[4]);
 // for(auto i:peeps){
 //     i->print();
 // }
 
 int n=peeps.size();
 // cout<<n<<endl;
+// string a=arg[4];
+
 for(int i=0;i<n;i++){
+    if(peeps[i]->name!=argv[1] || (argv[2]=="1")&& peeps[i]->father && peeps[i]->father->name!=argv[3] || (argv[2]=="0")&& peeps[i]->spouse && peeps[i]->spouse->name!=argv[3] ||  peeps[i]->age!=stoi(argv[4])){
+                continue;
+        }
     cout<<i<<endl;
     peeps[i]->print();
 }
