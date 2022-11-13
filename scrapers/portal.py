@@ -15,7 +15,7 @@ from time import sleep
 
 # craper.run(voter=voter)
 
-driver_path = "/home/samaygandhi/Documents/chromedriver"
+driver_path = "/usr/local/bin/chromedriver"
     
 options = webdriver.ChromeOptions()
 # options.binary_location = "/usr/bin/brave-browser"

@@ -7,10 +7,12 @@ from selenium.webdriver.support.select import Select
 import os
 import requests
 from bs4 import BeautifulSoup
+from pathlib import Path
 from mimetypes import guess_extension
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import chromedriver_autoinstaller
 from ..mainCaptcha import main
+from ..scraperResponse import ScraperResponse
 # from .captcha import main
 
 
@@ -27,6 +29,7 @@ class ScraperClass:
         options.add_argument('--incognito')
         options.add_argument('--headless')
         self.DRIVER = webdriver.Chrome(options=options)
+        self.SCRAPER_RESPONSE = ScraperResponse()
         # driver = webdriver.Chrome(options=options, executable_path='/usr/local/bin/chromedriver')
         # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME, options=options)
 
@@ -61,10 +64,15 @@ class ScraperClass:
             if r.status_code == 200:
                 guess = guess_extension(r.headers['content-type'])
                 if not guess: guess = ".png"
+                captcha_file_path = "scripts/maharashtra/captcha" + guess
+                self.SCRAPER_RESPONSE.captcha_generated = Path(captcha_file_path)
                 if guess:
-                    with open("scripts/maharashtra/captcha" + guess, "wb") as f:
+                    with open(captcha_file_path, "wb") as f:
                         f.write(r.content)
                     # Image.open(BytesIO(r.content)).show()
+            else:
+                self.SCRAPER_RESPONSE.message += "\n Could not solve Captcha."
+                return self.SCRAPER_RESPONSE
 
         CAPTCHA_TEXT = main("maharashtra")
         print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
@@ -82,8 +90,15 @@ class ScraperClass:
             if r.status_code == 200:
                 guess = guess_extension(r.headers['content-type'])
                 if not guess: guess = ".pdf"
+                pdf_file_path = "scripts/maharashtra/electoral_rolls" + guess
+                self.SCRAPER_RESPONSE.electoral_roll_PDF = Path(pdf_file_path)
                 if guess:
                     print("Storing pdf...")
-                    with open("scripts/maharashtra/electoral_rolls" + guess, "wb") as f:
+                    with open(pdf_file_path, "wb") as f:
                         f.write(r.content)
+                    self.SCRAPER_RESPONSE.status = True
+            else:
+                self.SCRAPER_RESPONSE.message = "Could not store Electoral PDFs"
+
+        return self.SCRAPER_RESPONSE
  
