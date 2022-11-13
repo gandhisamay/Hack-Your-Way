@@ -2,6 +2,7 @@ import io
 import os
 # Imports the Google Cloud client library
 from google.cloud import vision
+from google.oauth2 import service_account
 
 class Captcha_To_Txt:
     def __init__(self, STATE: str) -> None:
@@ -12,7 +13,11 @@ class Captcha_To_Txt:
         self.FILE_NAME = os.path.join(self.FILE_NAME, "scripts", STATE, self.CAPTCHA_LOCATION)
         print(self.FILE_NAME)
         # Instantiates a client
-        self.CLIENT = vision.ImageAnnotatorClient()
+        credentials = service_account.Credentials.from_service_account_file(
+            'keys.json')
+
+        # Instantiates a client
+        self.CLIENT = vision.ImageAnnotatorClient(credentials=credentials)
         with io.open(self.FILE_NAME, 'rb') as image_file:
             content = image_file.read()
         self.IMAGE = vision.Image(content=content)
