@@ -95,7 +95,7 @@ class VoterPortalScraper:
         self.DRIVER.find_element(By.ID, "txtEpicCaptcha").send_keys(captcha)
 
         self.DRIVER.execute_script("document.querySelector('#btnEpicSubmit').click()")
-        sleep(40)
+        sleep(60)
 
         forms = self.DRIVER.find_elements(By.TAG_NAME, "form")
         print(forms)
@@ -146,7 +146,7 @@ class VoterPortalScraper:
         
  
 detailed_data = DetailedData(name="Aditya Sheth", father_or_husband_name="Milap Sheth", age="20", state="Gujarat", district="Vadodara", assembly_constituency="Dabhoi", gender="M")
-epic_data = EpicData(epic_no="YBB4915526", state="Maharashtra")
+epic_data = EpicData(epic_no="YBB4915534", state="Maharashtra")
 scraper = VoterPortalScraper()
-scraper.detailed_search(detailed_data)
-# scraper.epic_search(epic_data)
+# scraper.detailed_search(detailed_data)
+scraper.epic_search(epic_data)
