@@ -40,10 +40,10 @@ After giving the user input the next thing is we use Google Vision API to get th
 Then the next step is we click the submit button using the scraper and once that is done the results appear in the HTML and then using the appropriate tags the data is scraped from the screen and sent back to the server.
 
 ## Scrapping the Statewise Electoral Portal
-## Input the State, Assembly Constituency data.
+### Input the State, Assembly Constituency data.
 The data that was obtained regarding the user from the previous step is used in this step to scrape the electoral roll data for the state of the user.
 
-## OCR of Captcha
+### OCR of Captcha
 Once again performed the PhotoOCR of the captcha available on this portal and used that to 
 
 ## Pdf Parsing
