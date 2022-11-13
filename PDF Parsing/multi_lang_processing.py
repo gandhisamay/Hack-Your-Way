@@ -13,6 +13,8 @@ DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER"}
 Reverse_dict = {"MALE": 0, "FEMALE": 1, "OTHER": 2}
 
 #print(absol_path)
+
+#filename should be present in the same directory, output csv is generated in same directory
 def parse_english(filename, output):
     filename = absol_path + "/" + filename
     output = absol_path + "/" + output
@@ -74,6 +76,7 @@ def parse_english(filename, output):
                     citizen_list.append(tmp_citizen)
                 except:
                     print("Cannot add ",i,"th citizen")
+                    #i+=1
                     with open('problemFiles.txt', 'a') as f:
                         f.write("Cannot add ",i,"th citizen")
                 tmp_name = ''
@@ -84,46 +87,64 @@ def parse_english(filename, output):
                 tmp_gender = 0
                 tmp_houseNo = ''
             if text[i].startswith("NAME: "):
-                tmp_name = text[i].split("NAME: ", 1)
-                #print(tmp_name[1])
-                tmp_name = tmp_name[1]
+                try:
+                    tmp_name = text[i].split("NAME: ", 1)
+                    #print(tmp_name[1])
+                    tmp_name = tmp_name[1]
+                except:
+                    print("Bt in NAME of ", i)
             i+=1
             while i not in temp_list:
                 if text[i].startswith("FATHER'S NAME: "):
-                    #print(text[i])
-                    tmp_father = text[i].split("FATHER'S NAME: ", 1)
-                    #print("Father",tmp_father)
-                    tmp_father = tmp_father[1]
+                    try:
+                        #print(text[i])
+                        tmp_father = text[i].split("FATHER'S NAME: ", 1)
+                        #print("Father",tmp_father)
+                        tmp_father = tmp_father[1]
+                    except:
+                        print("Bt in FATHER'S NAME of ", i)
                 elif text[i].startswith("HUSBAND'S NAME: "):
-                    tmp_husband = text[i].split("HUSBAND'S NAME: ", 1)
-                    #print("Husband",tmp_husband[1])
-                    tmp_husband = tmp_husband[1]
+                    try:
+                        tmp_husband = text[i].split("HUSBAND'S NAME: ", 1)
+                        #print("Husband",tmp_husband[1])
+                        tmp_husband = tmp_husband[1]
+                    except:
+                        print("Bt in HUSBAND'S NAME of ", i)
                 elif text[i].startswith("OTHER'S NAME: "):
-                    tmp_other = text[i].split("OTHER'S NAME: ", 1)
-                    tmp_other = tmp_other[1]
+                    try:
+                        tmp_other = text[i].split("OTHER'S NAME: ", 1)
+                        tmp_other = tmp_other[1]
+                    except:
+                        print("Bt in OTHER'S NAME of ", i)
 
                 elif text[i].startswith("HOUSE NUMBER: "):
-                    tmp_houseNo = text[i].split("HOUSE NUMBER: ", 1)
-                    tmp_houseNo = tmp_houseNo[1]
-                    #print("HouseNo ",tmp_houseNo)
+                    try:
+                        tmp_houseNo = text[i].split("HOUSE NUMBER: ", 1)
+                        tmp_houseNo = tmp_houseNo[1]
+                        #print("HouseNo ",tmp_houseNo)
+                    except:
+                        print("Bt in HOUSE NUMBER of ", i)
                 elif text[i].startswith("AGE:"):
-                    #print(text[i])
-                    for ele in text[i]:
-                        if ele == ':':
-                            text[i] = text[i].replace(ele, "")
-                    #print(text[i])
-                    test_str = text[i].split()
-                    tmp_age = test_str[1]
-                    sex = test_str[-1]
-                    if sex=='MEN':
-                        sex='MALE'
-                    if sex=='WOMEN':
-                        sex='FEMALE'
-                    if sex!='MALE' and sex!='FEMALE':
-                        sex='OTHER'
-                    tmp_gender = Reverse_dict[sex]
-                    #print("Age ",tmp_age)
-                    #print("Gender ",tmp_gender)
+                    try:
+                        #print(text[i])
+                        for ele in text[i]:
+                            if ele == ':':
+                                text[i] = text[i].replace(ele, "")
+                        #print(text[i])
+                        test_str = text[i].split()
+                        tmp_age = test_str[1]
+                        sex = test_str[-1]
+                        if sex=='MEN':
+                            sex='MALE'
+                        if sex=='WOMEN':
+                            sex='FEMALE'
+                        if sex!='MALE' and sex!='FEMALE':
+                            sex='OTHER'
+                        tmp_gender = Reverse_dict[sex]
+                        #print("Age ",tmp_age)
+                        #print("Gender ",tmp_gender)
+                    except:
+                        print("Bt in AGE and GENDER of ", i)
                 
                 else:
                     if i==len(text)-1:
