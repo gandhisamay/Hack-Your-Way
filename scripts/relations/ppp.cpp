@@ -179,7 +179,7 @@ for(int i=1;i<content.size();i++)
     string name;
 int gender;
 bool f;
-int age;
+int age=INT_MAX;
 string hno;
 Node* father=nullptr;
 string fana="";
@@ -338,7 +338,9 @@ void create(string name, string f, string Fname, string age)
         if(peeps[i]->gender==1)fout<<"MALE";
         else if(peeps[i]->gender==2)fout<<"UNDEFINED";
         else fout<<"FEMALE";
-        fout<<","<<peeps[i]->age<<",";
+        fout<<",";
+        if(peeps[i]->age==INT_MAX)cout<<"UNDEFINED";else fout<<peeps[i]->age;
+        fout<<",";
         if(peeps[i]->father)fout<<peeps[i]->father->name;else fout<<0;
         fout<<",";
         if(peeps[i]->mother)fout<<peeps[i]->mother->name;else fout<<0;
@@ -402,7 +404,9 @@ void create(string name, string f, string Fname, string age)
         else if(peeps[i]->gender==2)fout<<"UNDEFINED";
         else fout<<"FEMALE";
         fout<<"\""<<","<<endl;
-        fout<<"\"Age\""<<":"<<"\""<<peeps[i]->age<<"\""<<","<<endl;
+        fout<<"\"Age\""<<":"<<"\"";
+        if(peeps[i]->age==INT_MAX)fout<<"UNDEFINED";else fout<<peeps[i]->age;
+        fout<<"\""<<","<<endl;
         fout<<"\"Father\""<<":"<<"\""<<(!(peeps[i]->father)?"_Not_defined_":peeps[i]->father->name)<<"\""<<","<<endl;
         fout<<"\"Mother\""<<":"<<"\""<<(!(peeps[i]->mother)?"_Not_defined_":peeps[i]->mother->name)<<"\""<<","<<endl;
         fout<<"\"Spouse\""<<":"<<"\""<<(!(peeps[i]->spouse)?"_Not_defined_":peeps[i]->spouse->name)<<"\""<<","<<endl;
