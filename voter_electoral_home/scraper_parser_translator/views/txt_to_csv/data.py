@@ -1,4 +1,4 @@
-DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER"}
+DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER", 3 : "UNDEFINED"}
 
 class Citizen:
     def __init__(self, name, father_name,husband_name, other_name, 

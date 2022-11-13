@@ -9,7 +9,7 @@ from ..scraperResponse import CsvGenerateResponse
 absol_path = os.path.abspath(os.getcwd())
 warnings.filterwarnings("ignore")
 
-DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER"}
+DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER", 3 : "UNDEFINED"}
 Reverse_dict = {"MALE": 0, "FEMALE": 1, "OTHER": 2, "UNDEFINED": 3}
 
 #print(absol_path)
