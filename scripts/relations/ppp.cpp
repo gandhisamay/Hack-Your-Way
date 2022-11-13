@@ -85,6 +85,7 @@ vector<vector<string>> content;
 vector<string> row;
 string line, word;
 string fname="../txt_to_csv/output.csv";
+// string fname="MASTER CSV.CSV";
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -125,6 +126,7 @@ for(int j=0;j<content[i].size();j++)
         continue;
     }else
     if(j==4){
+        // cout<<content[i][j]<<endl;
       age=stoi(content[i][j]);
     }else
     if(j==5){
@@ -162,6 +164,8 @@ vector<vector<string>> content;
 vector<string> row;
 string line, word;
 string fname="../txt_to_csv/output.csv";
+// string fname="MASTER CSV.CSV";
+
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -206,6 +210,7 @@ for(int j=0;j<content[i].size();j++)
         continue;
     }else
     if(j==4){
+        // cout<<content[i][j]<<endl;
       age=stoi(content[i][j]);
     }else
     if(j==5){
