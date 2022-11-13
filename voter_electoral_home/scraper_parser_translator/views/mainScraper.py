@@ -2,7 +2,7 @@ import os
 import csv
 import json
 import subprocess
-from .scraperResponse import ScraperResponse
+from .scraperResponse import ScraperResponse, UserInput
 from .maharashtra.scraper import ScraperClass as MaharashtraScraper
 from .gujarat.scraper import ScraperClass as GujuratScraper
 from .goa.scraper import ScraperClass as GoaScraper
@@ -10,10 +10,12 @@ from .sikkim.scraper import ScraperClass as SikkimScraper
 from .mizoram.scraper import ScraperClass as MizoramScraper
 from .pdf_to_txt.pdf import PDF_to_Txt
 from .txt_to_csv.multi_lang_processing import parse_english
+from .voter_portal.scraper import VoterPortalScraper, EpicData, DetailedData
     
 
 class MainScraper:
     def __init__(self) -> None:
+        self.VOTER_PORTAL_SCRAPER = VoterPortalScraper()
         self.STATE_SCRAPER_MAP = {"maharashtra": MaharashtraScraper,
             "gujarat": GujuratScraper,
             "goa": GoaScraper,
@@ -26,11 +28,27 @@ class MainScraper:
             "mizoram": "en"}
         self.PDF_TO_TXT_PARSER = PDF_to_Txt()
 
+    def callVoterPortal(self, epicSearch, UserInput):
+        # GENDER - M/F/O, age - str
+        response = None
+        if epicSearch:
+            data = EpicData(epic_no=UserInput.epic_no, state=UserInput.state)
+            response = self.VOTER_PORTAL_SCRAPER.epic_search(data)
+        else:
+            data = DetailedData(name=UserInput.name, father_or_husband_name=UserInput.father_or_husband_name, 
+                                age=UserInput.age, state=UserInput.state, district=UserInput.district, 
+                                assembly_constituency=UserInput.assembly_constituency, gender=UserInput.gender)
+            print(f"Data for detailed Search:\n {data}")
+            response = self.VOTER_PORTAL_SCRAPER.detailed_search(data)
+        return response
+    # detailed_data = DetailedData(name="Aditya Sheth", father_or_husband_name="Milap Sheth", age="20", state="Gujarat", district="Vadodara", assembly_constituency="Dabhoi", gender="M")
+
     def callParticularScraper(self, state, district, assemblyConstituency, pollingPart):
         particular_parser = self.STATE_SCRAPER_MAP[state]()
         scraper_response: ScraperResponse = particular_parser.run(district, assemblyConstituency, pollingPart)
         print(scraper_response)
-        self.translateParseElectoralRollPDF(scraper_response, state)
+        return scraper_response
+        # self.translateParseElectoralRollPDF(scraper_response, state)
 
     def translateParseElectoralRollPDF(self, scraper_response, state):
         print("Parsing Electoral Roll PDF")
@@ -43,8 +61,8 @@ class MainScraper:
             print("Translating and parsing PDF...")
             pdf_parsed_response = self.PDF_TO_TXT_PARSER.convert_translated(pdf_file_path, self.STATE_LANGUAGE[state])
         print(pdf_parsed_response)
-        # return pdf_parsed_response
-        self.generateDataCSV(pdf_parsed_response)
+        return pdf_parsed_response
+        # self.generateDataCSV(pdf_parsed_response)
 
     def generateDataCSV(self, parsed_response):
         print("Generating Data CSV from parsed text")
@@ -76,9 +94,9 @@ class MainScraper:
         make_json(csvFilePath, jsonFilePath)
 
 
-if __name__ == "__main__":
-    main_scraper = MainScraper()
-    # main_scraper.callParticularScraper("gujarat", None, None, None)
-    # res = main_scraper.translateElectoralRollPDF(None, "maharashtra")
-    main_scraper.csvToJsonPostAlgo()
+# if __name__ == "__main__":
+#     main_scraper = MainScraper()
+#     # main_scraper.callParticularScraper("gujarat", None, None, None)
+#     # res = main_scraper.translateElectoralRollPDF(None, "maharashtra")
+#     main_scraper.csvToJsonPostAlgo()
         

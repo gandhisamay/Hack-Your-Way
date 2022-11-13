@@ -10,7 +10,7 @@ class Captcha_To_Txt:
         self.FILE_NAME = os.path.abspath('.')
         self.CAPTCHA_LOCATION = "captcha.png"
         # + os.path.abspath('captcha.png')
-        self.FILE_NAME = os.path.join(self.FILE_NAME, "scripts", STATE, self.CAPTCHA_LOCATION)
+        self.FILE_NAME = os.path.join(self.FILE_NAME, "scraper_parser_translator/views", STATE, self.CAPTCHA_LOCATION)
         print(self.FILE_NAME)
         # Instantiates a client
         credentials = service_account.Credentials.from_service_account_file('keys.json')
@@ -25,7 +25,6 @@ class Captcha_To_Txt:
         # get response
         response = self.CLIENT.text_detection(image=self.IMAGE)
         texts = response.text_annotations
-        print(texts)
         # print('Texts:\n\n')
         CAPTCHA_TEXT = texts[0].description
         # print(f"CAPTCHA TEXT = {CAPTCHA_TEXT}")
@@ -40,9 +39,9 @@ def main(state: str):
     ctt = Captcha_To_Txt(state)
     return ctt.get()
 
-if __name__ == "__main__":
-    response = main("maharashtra")
-    print(response)
+# if __name__ == "__main__":
+#     response = main("maharashtra")
+#     print(response)
 
 # for text in texts:
 #     print('\n"{}"'.format(text.description))
