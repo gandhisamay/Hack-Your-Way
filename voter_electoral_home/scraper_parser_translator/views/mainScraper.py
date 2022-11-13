@@ -1,3 +1,5 @@
+import os
+import subprocess
 from .scraperResponse import ScraperResponse
 from .maharashtra.scraper import ScraperClass as MaharashtraScraper
 from .gujarat.scraper import ScraperClass as GujuratScraper
@@ -49,9 +51,17 @@ class MainScraper:
         print(csv_generated_response)
         return csv_generated_response
 
+    def csvToJsonPostAlgo(self):
+        print("Generating JSON from created csv")
+        exec_location = os.path.abspath(os.curdir)
+        exec_location = str(exec_location) + "/scraper_parser_translator/views/relations/a.out"
+        print(exec_location)
+        subprocess.call(exec_location) 
 
-# if __name__ == "__main__":
-#     main_scraper = MainScraper()
-#     main_scraper.callParticularScraper("gujarat", None, None, None)
+
+if __name__ == "__main__":
+    main_scraper = MainScraper()
+    # main_scraper.callParticularScraper("gujarat", None, None, None)
     # res = main_scraper.translateElectoralRollPDF(None, "maharashtra")
+    main_scraper.csvToJsonPostAlgo()
         
