@@ -1,19 +1,12 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-# TODO
-# from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.select import Select
-import os
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 from mimetypes import guess_extension
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import chromedriver_autoinstaller
 from ..mainCaptcha import main
 from ..scraperResponse import ScraperResponse
-# from .captcha import main
 
 
 # driver_path = "/home/samaygandhi/Documents/chromedriver"
@@ -36,10 +29,6 @@ class ScraperClass:
     def run(self, district, assemblyConstituency, pollingPart):
         self.DRIVER.get("https://ceoelection.maharashtra.gov.in/searchlist/")
 
-        district = district if district else "Mumbai City"
-        assemblyConstituency = assemblyConstituency if assemblyConstituency else "181 - Mahim"
-        part = pollingPart if pollingPart else "105"
-
         selectDistrict = Select(self.DRIVER.find_element(By.ID,"ctl00_Content_DistrictList"))
         selectDistrict.select_by_visible_text(district)
 
@@ -47,7 +36,7 @@ class ScraperClass:
         selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
 
         selectPart = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_PartList"))
-        selectPart.select_by_value(str(part))
+        selectPart.select_by_value(str(pollingPart))
 
         s = requests.session()
 
@@ -59,7 +48,6 @@ class ScraperClass:
 
 
         if r.status_code == 200:
-            soup = BeautifulSoup(r.content, "html.parser")
             r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/Captcha.aspx")
             if r.status_code == 200:
                 guess = guess_extension(r.headers['content-type'])
@@ -69,7 +57,7 @@ class ScraperClass:
                 if guess:
                     with open(captcha_file_path, "wb") as f:
                         f.write(r.content)
-                    # Image.open(BytesIO(r.content)).show()
+
             else:
                 self.SCRAPER_RESPONSE.message += "\n Could not solve Captcha."
                 return self.SCRAPER_RESPONSE
@@ -80,12 +68,8 @@ class ScraperClass:
         self.DRIVER.find_element(By.ID, "ctl00_Content_txtcaptcha").send_keys(CAPTCHA_TEXT)
         self.DRIVER.find_element(By.ID, "ctl00_Content_OpenButton").click()
 
-
-        # r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/ViewPDF.aspx")
-
         print("Parsing PDF...")
         if r.status_code == 200:
-            soup = BeautifulSoup(r.content, "html.parser")
             r = s.get("https://ceoelection.maharashtra.gov.in/searchlist/ViewPDF.aspx")
             if r.status_code == 200:
                 guess = guess_extension(r.headers['content-type'])

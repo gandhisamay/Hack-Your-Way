@@ -1,20 +1,8 @@
-from platform import version
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-# TODO
-# from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.select import Select
-import os
 import requests
 from pathlib import Path
-from bs4 import BeautifulSoup
 from mimetypes import guess_extension
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import chromedriver_autoinstaller
 from ..scraperResponse import ScraperResponse
-# from ..mainCaptcha import main
-# from .captcha import main
 
 
 # driver_path = "/home/samaygandhi/Documents/chromedriver"
@@ -33,10 +21,11 @@ class ScraperClass:
         self.SCRAPER_RESPONSE = ScraperResponse()
         self.SCRAPER_RESPONSE.captcha_generated = None
 
-    def run(self, district, assemblyConstituency, pollingPart):
+    def run(self, district, assemblyConstituency,  pollingPart):
         s = requests.session()
-        assemblyCode = assemblyConstituency if assemblyConstituency else 6
-        partNumber = pollingPart if pollingPart else 30
+        assemblyCode = assemblyConstituency.split('-')[1].strip()
+        partNumber = pollingPart
+        
         url = f"https://ceogoa.nic.in/PDF/EROLL/MOTHERROLL/2021/{assemblyCode}/S05A{assemblyCode}P{partNumber}.pdf"
         r = s.get(url, verify=False)
         if r.status_code == 200:

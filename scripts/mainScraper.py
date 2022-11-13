@@ -4,12 +4,14 @@ from .gujarat.scraper import ScraperClass as GujuratScraper
 from .goa.scraper import ScraperClass as GoaScraper
 from .sikkim.scraper import ScraperClass as SikkimScraper
 from .mizoram.scraper import ScraperClass as MizoramScraper
+from .voter_portal.scraper import ScraperClass as VoterPortalScraper
 from .pdf_to_txt.pdf import PDF_to_Txt
 from .txt_to_csv.multi_lang_processing import parse_english
     
 
 class MainScraper:
     def __init__(self) -> None:
+        self.VOTER_PORTAL_SCRAPER = VoterPortalScraper
         self.STATE_SCRAPER_MAP = {"maharashtra": MaharashtraScraper,
             "gujarat": GujuratScraper,
             "goa": GoaScraper,
@@ -21,6 +23,10 @@ class MainScraper:
             "sikkim": "en",
             "mizoram": "en"}
         self.PDF_TO_TXT_PARSER = PDF_to_Txt()
+
+    def callVoterPortalDetailedSearch(self, ):
+        scraper_response = self.VOTER_PORTAL_SCRAPER.
+        
 
     def callParticularScraper(self, state, district, assemblyConstituency, pollingPart):
         particular_parser = self.STATE_SCRAPER_MAP[state]()

@@ -1,20 +1,8 @@
-from chromedriver_autoinstaller.utils import download_chromedriver
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-# TODO
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.select import Select
 import requests
 from pathlib import Path
-from selenium.webdriver.chrome.service import Service
-from bs4 import BeautifulSoup
 from mimetypes import guess_extension
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import chromedriver_autoinstaller
-from time import sleep
 from ..scraperResponse import ScraperResponse
-# from captcha import main
-
 
 # driver_path = "/home/samaygandhi/Documents/chromedriver"
 # options.binary_location = "/usr/bin/brave-browser"
@@ -39,11 +27,17 @@ class ScraperClass:
         self.DRIVER.maximize_window()
         # district = "3-Patan"
         # assembly = "16-Radhanpur"
-        assemblyCode = assemblyConstituency if assemblyConstituency else 141
-        partNumber = pollingPart if pollingPart else 22
-        # pollingArea = "Samavas, Eval,Anusuchit Jati Vas Eval,Rabari Vas, Eval,Kolivas, Eval"
+        assemblyCode = assemblyConstituency.split('-')[1].strip()
+        partNumber = pollingPart
+        assemblyCodeDir = assemblyCode
+
+        if len(assemblyCode)==1:
+            assemblyCodeDir = f"00{assemblyCode}"
+        elif len(assemblyCode)==2:
+            assemblyCodeDir = f"0{assemblyCode}"
+
         s = requests.session()
-        url = f"https://erms.gujarat.gov.in/ceo-gujarat/DRAFT2022/{assemblyCode}/S06A{assemblyCode}P{partNumber}.pdf"
+        url = f"https://erms.gujarat.gov.in/ceo-gujarat/DRAFT2022/{assemblyCodeDir}/S06A{assemblyCode}P{partNumber}.pdf"
         r = s.get(url)
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
