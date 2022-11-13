@@ -89,8 +89,8 @@ bool f=0;int m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-// string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-string fname="det.csv";
+string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+/* string fname="det.csv"; */
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -158,8 +158,8 @@ void setData(){
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-// string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-string fname="det.csv";
+string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+/* string fname="det.csv"; */
 
 fstream file (fname, ios::in);
 if(file.is_open())
@@ -349,7 +349,7 @@ void create(string name, string f, string Fname, string age)
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("Out.csv", ios::out | ios::trunc);
+	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::trunc);
    fout<<"Id,Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     
