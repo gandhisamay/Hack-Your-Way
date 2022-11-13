@@ -52,6 +52,6 @@ class MainScraper:
 
 if __name__ == "__main__":
     main_scraper = MainScraper()
-    main_scraper.callParticularScraper("sikkim", None, None, None)
+    main_scraper.callParticularScraper("gujarat", None, None, None)
     # res = main_scraper.translateElectoralRollPDF(None, "maharashtra")
         
