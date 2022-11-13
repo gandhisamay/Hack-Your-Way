@@ -84,7 +84,7 @@ bool f=0,m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="MASTER CSV.CSV";
+string fname="../txt_to_csv/output.csv";
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -139,6 +139,18 @@ for(int j=0;j<content[i].size();j++)
 Node* n=new Node(f,name,m,age,hno);
 peeps.push_back(n);
 homes[hno].push_back(n);
+// cout<<"------------------------------------------------------------------------------------------------------------------------"<<endl;
+// cout<<i<<endl;
+// cout<<n->name<<endl;
+//     for(auto x:homes){
+//         cout<<x.first<<" : ";
+//         for(auto y:x.second){
+//             cout<<y->name<<", ";
+//         }
+//         cout<<endl;
+//     }
+
+// cout<<"------------------------------------------------------------------------------------------------------------------------"<<endl;
 
 }
 }
@@ -149,7 +161,7 @@ void setData(){
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="MASTER CSV.CSV";
+string fname="../txt_to_csv/output.csv";
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -273,6 +285,20 @@ void pruneData(){
           peeps[i]->MIL=peeps[i]->spouse->mother;
         }
     }
+
+
+
+// cout<<"------------------------------------------------------------------------------------------------------------------------"<<endl;
+//     for(auto x:homes){
+//         cout<<x.first<<" : ";
+//         for(auto y:x.second){
+//             cout<<y->name<<" ";
+//         }
+//         cout<<endl;
+//     }
+
+// cout<<"------------------------------------------------------------------------------------------------------------------------"<<endl;
+
 
     for(int i=0;i<peeps.size();i++){
        for(auto I:homes[peeps[i]->hno]){
