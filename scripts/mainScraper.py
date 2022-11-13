@@ -9,8 +9,16 @@ from .pdf_to_txt.pdf import PDF_to_Txt
 
 class MainScraper:
     def __init__(self) -> None:
-        self.STATE_SCRAPER_MAP = {"maharashtra": MaharashtraScraper, "gujarat": GujuratScraper, "goa": GoaScraper, "sikkim": SikkimScraper, "mizoram": MizoramScraper}
-        self.STATE_LANGUAGE = {"maharashtra": "mr", "gujurat": "gu", "goa": "en", "sikkim": "en", "mizoram": "en"}
+        self.STATE_SCRAPER_MAP = {"maharashtra": MaharashtraScraper,
+            "gujarat": GujuratScraper,
+            "goa": GoaScraper,
+            "sikkim": SikkimScraper,
+            "mizoram": MizoramScraper}
+        self.STATE_LANGUAGE = {"maharashtra": "mr",
+            "gujarat": "gu",
+            "goa": "en",
+            "sikkim": "en",
+            "mizoram": "en"}
         self.PDF_TO_TXT_PARSER = PDF_to_Txt()
 
     def callParticularScraper(self, state, district, assemblyConstituency, pollingPart):
@@ -35,6 +43,6 @@ class MainScraper:
 
 if __name__ == "__main__":
     main_scraper = MainScraper()
-    main_scraper.callParticularScraper("sikkim", None, None, None)
+    main_scraper.callParticularScraper("gujarat", None, None, None)
     # res = main_scraper.translateElectoralRollPDF(None, "maharashtra")
         
