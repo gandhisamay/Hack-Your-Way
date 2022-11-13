@@ -26,7 +26,7 @@ def parse_english(filename, output):
     ls = ls.replace("'",'')
 
 
-    print(ls)
+    #print(ls)
     #print(text)
 
     temp_list = []
@@ -35,13 +35,14 @@ def parse_english(filename, output):
     for i,ts in enumerate(text):
         text[i] = text[i].translate(str.maketrans('', '', ls))
         text[i] = text[i].strip()
+        text[i] = text[i].upper()
 
-    print(text)
+    #print(text)
     for i, ts in enumerate(text):
-        if ts.startswith("Name:"):
+        if ts.startswith("NAME:"):
             temp_list.append(i)
 
-    print((temp_list))
+    #print((temp_list))
 
     i=0
     tmp_name = ''
@@ -75,29 +76,30 @@ def parse_english(filename, output):
                 tmp_age = 0
                 tmp_gender = 0
                 tmp_houseNo = ''
-            if text[i].startswith("Name: "):
-                tmp_name = text[i].split("Name: ", 1)
+            if text[i].startswith("NAME: "):
+                tmp_name = text[i].split("NAME: ", 1)
                 #print(tmp_name[1])
                 tmp_name = tmp_name[1]
             i+=1
             while i not in temp_list:
-                if text[i].startswith("Father's Name: "):
-                    tmp_father = text[i].split("Father's Name: ", 1)
+                if text[i].startswith("FATHER'S NAME: "):
+                    #print(text[i])
+                    tmp_father = text[i].split("FATHER'S NAME: ", 1)
                     #print("Father",tmp_father)
                     tmp_father = tmp_father[1]
-                elif text[i].startswith("Husband's Name: "):
-                    tmp_husband = text[i].split("Husband's Name: ", 1)
+                elif text[i].startswith("HUSBAND'S NAME: "):
+                    tmp_husband = text[i].split("HUSBAND'S NAME: ", 1)
                     #print("Husband",tmp_husband[1])
                     tmp_husband = tmp_husband[1]
-                elif text[i].startswith("Other's Name: "):
-                    tmp_other = text[i].split("Other's Name: ", 1)
+                elif text[i].startswith("OTHER'S NAME: "):
+                    tmp_other = text[i].split("OTHER'S NAME: ", 1)
                     tmp_other = tmp_other[1]
 
-                elif text[i].startswith("House Number: "):
-                    tmp_houseNo = text[i].split("House Number: ", 1)
+                elif text[i].startswith("HOUSE NUMBER: "):
+                    tmp_houseNo = text[i].split("HOUSE NUMBER: ", 1)
                     tmp_houseNo = tmp_houseNo[1]
                     #print("HouseNo ",tmp_houseNo)
-                elif text[i].startswith("Age:"):
+                elif text[i].startswith("AGE:"):
                     #print(text[i])
                     for ele in text[i]:
                         if ele == ':':
@@ -106,7 +108,6 @@ def parse_english(filename, output):
                     test_str = text[i].split()
                     tmp_age = test_str[1]
                     sex = test_str[-1]
-                    sex = sex.upper()
                     if sex=='MEN':
                         sex='MALE'
                     if sex=='WOMEN':
@@ -151,25 +152,7 @@ def parse_english(filename, output):
             continue
         df = df.append({'Name':citizen.NAME, 'Father Name':citizen.FATHER_NAME, 'Husband Name':citizen.HUSBAND_NAME,'Other Name':citizen.OTHER_NAME,'Age':citizen.AGE,'Gender':citizen.GENDER, 'House No':citizen.HOUSE}, ignore_index=True)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     master_df = df.to_csv(output,index=False)
-    print(master_df)
+    #print(master_df)
 
-parse_english('document-page0.pdftrans.txt','test2.csv')
+parse_english('document-page1.pdftrans.txt','test3.csv')
