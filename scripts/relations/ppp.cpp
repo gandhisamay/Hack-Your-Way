@@ -326,7 +326,7 @@ void create(string name, string f, string Fname, string age)
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("Out.csv", ios::out | ios::app);
+	fout.open("Out.csv", ios::out | ios::trunc);
    fout<<"Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     
@@ -387,7 +387,7 @@ void create(string name, string f, string Fname, string age)
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("Out.json", ios::out | ios::app);
+	fout.open("Out.json", ios::out | ios::trunc);
     fout<<"{"<<endl;
 
 //    fout<<"Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
@@ -450,8 +450,6 @@ void create(string name, string f, string Fname, string age)
 
     fout<<"}"<<endl;
 
-		// Insert the data to file
-		
 	}
 
 
@@ -462,6 +460,7 @@ void create(string name, string f, string Fname, string age)
 
 int32_t main(int32_t argc, char **argv){
 Radhe Krishna
+cout<<argv[0]<<" "<<argv[1]<<" "<<argv[2]<<" "<<argv[3]<<" "<<stoi(argv[4])<<endl;
 
 
 getData();
@@ -477,6 +476,7 @@ create(argv[1],argv[2],argv[3],argv[4]);
 int n=peeps.size();
 // cout<<n<<endl;
 // string a=arg[4];
+
 for(int i=0;i<n;i++){
     if(peeps[i]->name!=argv[1] || (argv[2]=="1")&& peeps[i]->father && peeps[i]->father->name!=argv[3] || (argv[2]=="0")&& peeps[i]->spouse && peeps[i]->spouse->name!=argv[3] ||  peeps[i]->age!=stoi(argv[4])){
                 continue;
