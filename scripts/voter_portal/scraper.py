@@ -39,7 +39,7 @@ class VoterPortalScraper:
         self.SESSION = s
 
 # /Home/GetCaptcha?image=true&id=Sun Nov 13 2022 07:43:13 GMT+0530 (India Standard Time)"
-    def get_session_captcha(self) ->str: 
+    def get_session_captcha(self) -> str: 
         for cookie in self.DRIVER.get_cookies():
             c = {cookie['name']: cookie['value']}
             self.SESSION.cookies.update(c)
@@ -75,10 +75,10 @@ class VoterPortalScraper:
     def epic_search(self, epicData: EpicData):
         url = "https://electoralsearch.in"
         self.DRIVER.get(url)
-        sleep(1)
+        sleep(2)
 
         self.DRIVER.find_element(By.ID, 'continue').click()
-        sleep(1)
+        sleep(2)
 
         tab1=self.DRIVER.find_element(By.CSS_SELECTOR, "li[role='tab']")
         self.DRIVER.execute_script("arguments[0].setAttribute('class','')", tab1)
@@ -107,27 +107,35 @@ class VoterPortalScraper:
         self.DRIVER.get(url)
         sleep(1)
 
-        self.DRIVER.find_element(By.ID, 'continue').click()
+        cont_tab_id = 'continue'
+        cont_tab = self.DRIVER.find_element(By.ID, cont_tab_id)
+        if cont_tab:
+            cont_tab.click()
+
+        sleep(2)
 
         self.DRIVER.find_element(By.NAME, "name").send_keys(detailedData.name)
         self.DRIVER.find_element(By.ID, "txtFName").send_keys(detailedData.father_or_husband_name)
 
         Select(self.DRIVER.find_element(By.ID, "listGender")).select_by_value(detailedData.gender)
         Select(self.DRIVER.find_element(By.ID, "nameStateList")).select_by_visible_text(detailedData.state)
-        sleep(1)
+        sleep(2)
 
         drop_down_boxes = self.DRIVER.find_elements(By.ID, "namelocationList")
         district_drop_down =  drop_down_boxes[0]
         assembly_constituency_drop_down = drop_down_boxes[1]
-        Select(district_drop_down).select_by_visible_text(detailedData.district)
-        sleep(1)
-        Select(assembly_constituency_drop_down).select_by_visible_text(detailedData.assembly_constituency)
+
+        if detailed_data.district:
+            Select(district_drop_down).select_by_visible_text(detailedData.district)
+            sleep(2)
+
+        if detailed_data.assembly_constituency:
+            Select(assembly_constituency_drop_down).select_by_visible_text(detailedData.assembly_constituency)
 
         Select(self.DRIVER.find_element(By.ID, "ageList")).select_by_visible_text(detailedData.age)
 
         captcha = self.get_session_captcha()
         self.DRIVER.find_element(By.ID, "txtCaptcha").send_keys(captcha)
-
         self.DRIVER.execute_script("document.querySelector('#btnDetailsSubmit').click()")
 
         sleep(50)
@@ -137,8 +145,8 @@ class VoterPortalScraper:
         self.extract_results()
         
  
-detailed_data = DetailedData(name="Nirali Gandhi", father_or_husband_name="Amit Gandhi", age="45", state="Maharashtra", district="Mumbai Suburban", assembly_constituency="Borivali", gender="F")
+detailed_data = DetailedData(name="Aditya Sheth", father_or_husband_name="Milap Sheth", age="20", state="Gujarat", district="Vadodara", assembly_constituency="Dabhoi", gender="M")
 epic_data = EpicData(epic_no="YBB4915526", state="Maharashtra")
 scraper = VoterPortalScraper()
-# scraper.detailed_search(detailedData=detailedData)
-scraper.epic_search(epic_data)
+scraper.detailed_search(detailed_data)
+# scraper.epic_search(epic_data)
