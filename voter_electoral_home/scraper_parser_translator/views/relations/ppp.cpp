@@ -84,7 +84,8 @@ bool f=0,m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="../txt_to_csv/output.csv";
+string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+// string fname="MASTER CSV.CSV";
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -125,6 +126,7 @@ for(int j=0;j<content[i].size();j++)
         continue;
     }else
     if(j==4){
+        // cout<<content[i][j]<<endl;
       age=stoi(content[i][j]);
     }else
     if(j==5){
@@ -161,7 +163,9 @@ void setData(){
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="../txt_to_csv/output.csv";
+string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+// string fname="MASTER CSV.CSV";
+
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -206,6 +210,7 @@ for(int j=0;j<content[i].size();j++)
         continue;
     }else
     if(j==4){
+        // cout<<content[i][j]<<endl;
       age=stoi(content[i][j]);
     }else
     if(j==5){
@@ -317,11 +322,13 @@ void create()
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("Out.csv", ios::out | ios::app);
+	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::app);
    fout<<"Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     for(int i=0;i<n;i++){
-        fout<<peeps[i]->name<<","<<peeps[i]->hno<<","<<peeps[i]->gender<<","<<peeps[i]->age<<",";
+        fout<<peeps[i]->name<<","<<peeps[i]->hno<<",";
+        fout<<(peeps[i]->gender)?"MALE":"FEMALE";
+        fout<<","<<peeps[i]->age<<",";
         if(peeps[i]->father)fout<<peeps[i]->father->name;else fout<<0;
         fout<<",";
         if(peeps[i]->mother)fout<<peeps[i]->mother->name;else fout<<0;
@@ -331,31 +338,96 @@ void create()
         if(peeps[i]->FIL)fout<<peeps[i]->FIL->name;else fout<<0;
         fout<<",";
         if(peeps[i]->MIL)fout<<peeps[i]->MIL->name;else fout<<0;
-        fout<<",[";
+        fout<<",";
         int z=peeps[i]->children.size();
         if(z)
         {for(int j=0;j<z;j++){
             fout<<peeps[i]->children[j]->name;
-            if(j!=z-1)fout<<",";
+            if(j!=z-1)fout<<"|";
         }}else{
           fout<<0;
         }
 
-        fout<<"],[";
+        fout<<",";
 
         z=peeps[i]->neighbours.size();
         if(z)
         {for(int j=0;j<z;j++){
             fout<<peeps[i]->neighbours[j]->name;
-            if(j!=z-1)fout<<",";
+            if(j!=z-1)fout<<"|";
         }}else{
           fout<<0;
         }
 
-        fout<<"]"<<endl;
+        fout<<""<<endl;
     }
 
 	
+		// Insert the data to file
+		
+	}
+
+
+
+    void createJson()
+{
+	// file pointer
+	fstream fout;
+
+	// opens an existing csv file or creates a new file.
+	fout.open("scraper_parser_translator/views/relations/Out.json", ios::out | ios::app);
+    fout<<"{"<<endl;
+
+//    fout<<"Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
+	int n=peeps.size();
+    for(int i=0;i<n;i++){
+        fout<<"\""<<peeps[i]->name<<"\""<<":{"<<endl;
+        fout<<"\"HNo\""<<":"<<"\""<<peeps[i]->hno<<"\""<<","<<endl;
+        fout<<"\"Gender\""<<":"<<"\""<<(peeps[i]->gender?"MALE":"FEMALE")<<"\""<<","<<endl;
+        fout<<"\"Age\""<<":"<<"\""<<peeps[i]->age<<"\""<<","<<endl;
+        fout<<"\"Father\""<<":"<<"\""<<(!(peeps[i]->father)?"_Not_defined_":peeps[i]->father->name)<<"\""<<","<<endl;
+        fout<<"\"Mother\""<<":"<<"\""<<(!(peeps[i]->mother)?"_Not_defined_":peeps[i]->mother->name)<<"\""<<","<<endl;
+        fout<<"\"Spouse\""<<":"<<"\""<<(!(peeps[i]->spouse)?"_Not_defined_":peeps[i]->spouse->name)<<"\""<<","<<endl;
+        fout<<"\"FIL\""<<":"<<"\""<<(!(peeps[i]->FIL)?"_Not_defined_":peeps[i]->FIL->name)<<"\""<<","<<endl;
+        fout<<"\"MIL\""<<":"<<"\""<<(!(peeps[i]->MIL)?"_Not_defined_":peeps[i]->MIL->name)<<"\""<<","<<endl;
+        fout<<"\"Children\""<<":";
+        int z=peeps[i]->children.size();
+        if(z==0){
+            fout<<"\"_Not_defined_\"";
+        }else{
+            fout<<"[";
+            for(int j=0;j<z;j++){
+            fout<<"\""<<peeps[i]->children[j]->name<<"\"";
+            if(j!=z-1)fout<<",";
+
+        }
+        fout<<"]";
+
+        }
+        fout<<","<<endl;
+        fout<<"\"Neighbours\""<<":";
+        z=peeps[i]->neighbours.size();
+        if(z==0){
+            fout<<"\"_Not_defined_\"";
+        }else{
+            fout<<"[";
+            for(int j=0;j<z;j++){
+            fout<<"\""<<peeps[i]->neighbours[j]->name<<"\"";
+            if(j!=z-1)fout<<",";
+
+        }
+        fout<<"]"<<endl;
+
+        }
+
+        fout<<"}";
+        if(i!=n-1)fout<<","<<endl;
+    }
+
+	
+
+    fout<<"}"<<endl;
+
 		// Insert the data to file
 		
 	}
@@ -374,6 +446,7 @@ getData();
 setData();
 pruneData();
 create();
+createJson();
 // for(auto i:peeps){
 //     i->print();
 // }
@@ -387,3 +460,4 @@ for(int i=0;i<n;i++){
 
 return 0;
 }
+
