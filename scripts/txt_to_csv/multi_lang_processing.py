@@ -1,9 +1,10 @@
 import pandas as pd
 import string
-from data import Citizen
+from .data import Citizen
 
 import warnings
 import os
+from ..scraperResponse import CsvGenerateResponse
 
 absol_path = os.path.abspath(os.getcwd())
 warnings.filterwarnings("ignore")
@@ -15,8 +16,9 @@ Reverse_dict = {"MALE": 0, "FEMALE": 1, "OTHER": 2}
 
 #filename should be present in the same directory, output csv is generated in same directory
 def parse_english(filename, output):
-    filename = absol_path + "/" + filename
-    output = absol_path + "/" + output
+    CUSTOM_RESPONSE = CsvGenerateResponse()
+    # filename = absol_path + "/" + filename
+    # output = absol_path + "/" + output
     with open(filename, "r") as txt_file:
         text = txt_file.read().splitlines()
 
@@ -179,7 +181,12 @@ def parse_english(filename, output):
             continue
         df = df.append({'Name':citizen.NAME, 'Father Name':citizen.FATHER_NAME, 'Husband Name':citizen.HUSBAND_NAME,'Other Name':citizen.OTHER_NAME,'Age':citizen.AGE,'Gender':citizen.GENDER, 'House No':citizen.HOUSE}, ignore_index=True)
 
+    print("Generating CSV . . .")
     master_df = df.to_csv(output,index=False)
+
+    CUSTOM_RESPONSE.status = True
+    CUSTOM_RESPONSE.csv_generated = output
+    return CUSTOM_RESPONSE
     #print(master_df)
 
-parse_english('parsed_translated.txt','test3.csv')
+# parse_english('parsed_translated.txt','test3.csv')

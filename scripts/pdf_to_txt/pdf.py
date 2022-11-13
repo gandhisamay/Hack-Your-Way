@@ -79,7 +79,7 @@ class PDF_to_Txt:
             #write in file
         file_path = "scripts/pdf_to_txt/parsed.txt"
         self.CUSTOM_RESPONSE.parsed_text_generated = Path(file_path)
-        with open(file_path, 'w') as f:
+        with open(file_path, 'a') as f:
             f.write(translated_text)
         self.CUSTOM_RESPONSE.status = True
         return self.CUSTOM_RESPONSE

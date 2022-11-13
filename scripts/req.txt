@@ -32,3 +32,4 @@ hstspreload==2022.11.1
 httpcore==0.9.1
 httpx==0.13.3
 lxml
+pandas==1.4.3

@@ -14,6 +14,18 @@ class ScraperResponse:
         ELECTORAL_ROLL_LOCATION: {self.electoral_roll_PDF}\n"
 
 
+class CsvGenerateResponse:
+    def __init__(self) -> None:
+        self.status: bool = False
+        self.message: str = "Not instantiated"
+        self.csv_generated: Path | None = None
+
+    def __str__(self) -> str:
+        return f"STATUS: {self.status}\n \
+        MESSAGE: {self.message}\n \
+        CSV_GENERATED: {self.csv_generated}\n"
+
+
 class PdfOCRParserResponse:
     def __init__(self) -> None:
         self.status: bool = False
