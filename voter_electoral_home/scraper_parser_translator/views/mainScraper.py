@@ -85,13 +85,12 @@ class MainScraper:
                 for rows in csvReader:
                     key = rows['Id']
                     data[key] = rows
-            with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
-                jsonf.write(json.dumps(data, indent=4))
+            return data
         csvFilePath = 'scraper_parser_translator/views/relations/Out.csv'
         jsonFilePath = 'scraper_parser_translator/views/relations/Out.json'
         # subprocess.run(exec_location)
         subprocess.run([exec_location, "TARUN RAI", "1", "HARKA BAHADUR RAI", "23"])
-        make_json(csvFilePath, jsonFilePath)
+        dict=make_json(csvFilePath, jsonFilePath)
 
 
 # if __name__ == "__main__":
