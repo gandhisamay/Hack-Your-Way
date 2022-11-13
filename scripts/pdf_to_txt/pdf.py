@@ -134,7 +134,7 @@ class PDF_to_Txt:
             file_path = os.path.abspath('document-page%s.pdf' % i)
             translated_text += quickstart(self.project_id, self.location, self.processor_id, file_path, self.mime_type,translated_text)
 
-        file_path = "scripts/pdf_to_txt_translated/parsed.txt"
+        file_path = "scripts/pdf_to_txt/parsed_translated.txt"
         self.CUSTOM_RESPONSE.parsed_text_generated = Path(file_path)
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(translated_text)
