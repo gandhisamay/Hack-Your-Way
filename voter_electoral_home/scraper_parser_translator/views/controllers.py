@@ -91,7 +91,50 @@ def epic(request):
     if request.method == "GET":
         return JsonResponse({"message": "Please make a POST Request with Citizen's EPIC No!"})
     elif request.method == "POST":
+        input_data = UserInput()
+        body_unicode = request.body.decode('utf-8')
+        req_body = json.loads(body_unicode)
+        try:
+            if "epic_no" in req_body:
+                input_data.epic_no = str(req_body["epic_no"])
+            else: raise ValueError()
+            if "state" in req_body:
+                input_data.state = str(req_body["state"])
+            else: raise ValueError()
+        except:
+            return JsonResponse({"message": f"Your request does not conform to the required format"})
+        voter_portal_response = MAIN_SCRAPER.callVoterPortal(True, input_data)
+        print(voter_portal_response)
+    
+        if voter_portal_response != None:
+            particular_portal_response = MAIN_SCRAPER.callParticularScraper(voter_portal_response.state, 
+                                            voter_portal_response.district, 
+                                            f"{voter_portal_response.assembly_constituency_name}-{voter_portal_response.assembly_constituency_no}",
+                                            voter_portal_response.part_number)
+            print(particular_portal_response)
+        else:
+            return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
+
+        if particular_portal_response != None:
+            translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, voter_portal_response.state)
+            print(translated_parsed_response)
+        else:
+            return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
+
+        if translated_parsed_response != None:
+            generated_csv_data = MAIN_SCRAPER.generateDataCSV(translated_parsed_response)
+            print(generated_csv_data)
+        else:
+            return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
+
+        if generated_csv_data != None:
+            final_response = MAIN_SCRAPER.csvToJsonPostAlgo(voter_portal_response.name, 
+                                                            "1" if input_data.father_or_husband else "0", 
+                                                            voter_portal_response.father_or_husband_name,
+                                                            voter_portal_response.age)
+            print(final_response)
+        else:
+            return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
+
+        return JsonResponse({"message": "Successfull", "data": final_response})
         # MAIN_SCRAPER.callParticularScraper("sikkim", None, None, None)
-        print("Post request called: EPIC. . .")
-        print(request.body)
-        return JsonResponse({"message": "Testing"})

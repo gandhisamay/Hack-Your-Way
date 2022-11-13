@@ -89,8 +89,8 @@ bool f=0;int m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-// string fname="test_undefined.csv";
+// string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+string fname="det.csv";
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -118,6 +118,7 @@ for(int j=0;j<content[i].size();j++)
     if(content[i][j]=="0"){
         continue;
     }
+    transform(content[i][j].begin(), content[i][j].end(), content[i][j].begin(), ::toupper);
     if(j==0){
         name=content[i][j];
     }else
@@ -157,8 +158,8 @@ void setData(){
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-// string fname="test_undefined.csv";
+// string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+string fname="det.csv";
 
 fstream file (fname, ios::in);
 if(file.is_open())
@@ -189,6 +190,7 @@ for(int j=0;j<content[i].size();j++)
     if(content[i][j]=="0"){
         continue;
     }
+    transform(content[i][j].begin(), content[i][j].end(), content[i][j].begin(), ::toupper);
     if(j==0){
         name=content[i][j];
     }else
@@ -219,14 +221,32 @@ for(int j=0;j<content[i].size();j++)
 
 int c=0;
 for(auto I:peeps){
-    string temp=I->name;
-    int sp=0;
-    for(auto x:temp){
-        if(x==' ')sp++;
+    
+string s=I->name;
+
+    if(s==fana){
+        c++;
+        if(c==2){
+            cout<<"Error: Multiple fathers with same name: "<<s<<" "<<I->name<<endl;
+            // exit(0);
+        }
+
+        father=I;
+        if(!f){
+           peeps[i-1]->setSpouse(I);
+        }else{
+            peeps[i-1]->setFather(I);
+            I->addChild(peeps[i-1]);
+        }
     }
+}
+
+if(!c){
+    for(auto I:peeps){
+   
 
 string s=I->name;
-if(sp>1){
+{
     string a,b,C;
 int co=0;
 for(int K=0;K<I->name.size();K++){
@@ -259,6 +279,9 @@ s=a+" "+C;
         }
     }
 }
+}
+
+
 if(!c){
     if(fana==""){
         continue;
@@ -326,12 +349,29 @@ void create(string name, string f, string Fname, string age)
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::trunc);
+	fout.open("Out.csv", ios::out | ios::trunc);
    fout<<"Id,Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     
     for(int i=0;i<n;i++){
-        if(peeps[i]->name!=name || (f=="1")&& peeps[i]->father && peeps[i]->father->name!=Fname || (f=="0")&& peeps[i]->spouse && peeps[i]->spouse->name!=Fname ||  peeps[i]->age!=stoi(age)){
+        string fnam=(f=="1")?(peeps[i]->father?peeps[i]->father->name:""):(peeps[i]->spouse?peeps[i]->spouse->name:"");
+        string A,B,C;
+        int co=0;
+        // if(!(peeps[i]->spouse))continue;
+        for(int K=0;K<fnam.size();K++){
+            if(fnam[K]==' '){
+                co++;
+                continue;
+            }
+            if(co==0)
+            A.push_back(fnam[K]);
+            else if(co==1)
+            B.push_back(fnam[K]);
+            else if(co==2)
+            C.push_back(fnam[K]);
+        }
+        fnam=A+" "+C;
+        if(peeps[i]->name!=name || (f=="1")&& peeps[i]->father && !(peeps[i]->father->name==Fname|| Fname==fnam) || (f=="0")&& peeps[i]->spouse && !(peeps[i]->spouse->name==Fname||Fname==fnam) ||  peeps[i]->age!=stoi(age)){
                 continue;
         }
         fout<<i<<",";
@@ -394,7 +434,24 @@ void create(string name, string f, string Fname, string age)
 //    fout<<"Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     for(int i=0;i<n;i++){
-        if(peeps[i]->name!=name || (f=="1")&& peeps[i]->father && peeps[i]->father->name!=Fname || (f=="0")&& peeps[i]->spouse && peeps[i]->spouse->name!=Fname ||  peeps[i]->age!=stoi(age)){
+          string fnam=(f=="1")?(peeps[i]->father?peeps[i]->father->name:""):(peeps[i]->spouse?peeps[i]->spouse->name:"");
+        string A,B,C;
+        int co=0;
+        // if(!(peeps[i]->spouse))continue;
+        for(int K=0;K<fnam.size();K++){
+            if(fnam[K]==' '){
+                co++;
+                continue;
+            }
+            if(co==0)
+            A.push_back(fnam[K]);
+            else if(co==1)
+            B.push_back(fnam[K]);
+            else if(co==2)
+            C.push_back(fnam[K]);
+        }
+        fnam=A+" "+C;
+        if(peeps[i]->name!=name || (f=="1")&& peeps[i]->father && !(peeps[i]->father->name==Fname|| Fname==fnam) || (f=="0")&& peeps[i]->spouse && !(peeps[i]->spouse->name==Fname||Fname==fnam) ||  peeps[i]->age!=stoi(age)){
                 continue;
         }
         fout<<"\""<<i<<"\""<<":{"<<endl;
@@ -453,6 +510,7 @@ void create(string name, string f, string Fname, string age)
 
 	}
 
+vector<string>v;
 
 
 
@@ -461,15 +519,26 @@ void create(string name, string f, string Fname, string age)
 
 int32_t main(int32_t argc, char **argv){
 Radhe Krishna
-cout<<argv[0]<<" "<<argv[1]<<" "<<argv[2]<<" "<<argv[3]<<" "<<stoi(argv[4])<<endl;
+v.push_back(argv[0]);
+v.push_back(argv[1]);
+v.push_back(argv[2]);
+v.push_back(argv[3]);
+v.push_back(argv[4]);
+transform(v[0].begin(), v[0].end(),v[0].begin(), ::toupper);
+transform(v[1].begin(), v[1].end(),v[1].begin(), ::toupper);
+// transform(v[2].begin(), v[2].end(),v[2].begin(), ::toupper);
+transform(v[3].begin(), v[3].end(),v[3].begin(), ::toupper);
+// transform(v[4].begin(), v[4].end(),v[4].begin(), ::toupper);
+
+cout<<v[0]<<" "<<v[1]<<" "<<v[2]<<" "<<v[3]<<" "<<stoi(v[4])<<endl;
 
 
 getData();
 setData();
 pruneData();
-create(argv[1],argv[2],argv[3],argv[4]);
+create(v[1],v[2],v[3],v[4]);
 
-// createJson(argv[1],argv[2],argv[3],argv[4]);
+// createJson(v[1],v[2],v[3],v[4]);
 // for(auto i:peeps){
 //     i->print();
 // }
@@ -479,7 +548,25 @@ int n=peeps.size();
 // string a=arg[4];
 
 for(int i=0;i<n;i++){
-    if(peeps[i]->name!=argv[1] || (argv[2]=="1")&& peeps[i]->father && peeps[i]->father->name!=argv[3] || (argv[2]=="0")&& peeps[i]->spouse && peeps[i]->spouse->name!=argv[3] ||  peeps[i]->age!=stoi(argv[4])){
+     string fnam=(v[2]=="1")?(peeps[i]->father?peeps[i]->father->name:""):(peeps[i]->spouse?peeps[i]->spouse->name:"");
+        string A,B,C;
+        int co=0;
+        // if(!(peeps[i]->spouse))continue;
+        for(int K=0;K<fnam.size();K++){
+            if(fnam[K]==' '){
+                co++;
+                continue;
+            }
+            if(co==0)
+            A.push_back(fnam[K]);
+            else if(co==1)
+            B.push_back(fnam[K]);
+            else if(co==2)
+            C.push_back(fnam[K]);
+        }
+        fnam=A+" "+C;
+        // if(peeps[i]->spouse)cout<<peeps[i]->name<<" "<<peeps[i]->spouse->name<<" "<<fnam<<endl;
+        if(peeps[i]->name!=v[1] || (v[2]=="1")&& peeps[i]->father && !(peeps[i]->father->name==v[3]|| fnam==v[3]) || (v[2]=="0")&& peeps[i]->spouse && !(peeps[i]->spouse->name==v[3]||fnam==v[3]) ||  peeps[i]->age!=stoi(v[4])){
                 continue;
         }
     cout<<i<<endl;
@@ -488,4 +575,5 @@ for(int i=0;i<n;i++){
 
 return 0;
 }
+
 
