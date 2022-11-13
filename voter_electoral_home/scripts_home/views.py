@@ -16,4 +16,3 @@ def home(request):
 def sikkim(request):
     MAIN_SCRAPER.callParticularScraper("sikkim", None, None, None)
     return JsonResponse({"message": "Testing"})
-    

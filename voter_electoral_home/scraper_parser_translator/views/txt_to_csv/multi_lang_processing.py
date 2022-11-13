@@ -10,7 +10,7 @@ absol_path = os.path.abspath(os.getcwd())
 warnings.filterwarnings("ignore")
 
 DICT_GENDER = {0: "MALE", 1: "FEMALE", 2: "OTHER"}
-Reverse_dict = {"MALE": 0, "FEMALE": 1, "OTHER": 2}
+Reverse_dict = {"MALE": 0, "FEMALE": 1, "OTHER": 2, "UNDEFINED": 3}
 
 #print(absol_path)
 
@@ -103,20 +103,20 @@ def parse_english(filename, output):
                         #print("Father",tmp_father)
                         tmp_father = tmp_father[1]
                     except:
-                        print("Bt in FATHER'S NAME of ", i)
+                        print("Bt in FATHER'S NAME of ", tmp_name)
                 elif text[i].startswith("HUSBAND'S NAME: "):
                     try:
                         tmp_husband = text[i].split("HUSBAND'S NAME: ", 1)
                         #print("Husband",tmp_husband[1])
                         tmp_husband = tmp_husband[1]
                     except:
-                        print("Bt in HUSBAND'S NAME of ", i)
+                        print("Bt in HUSBAND'S NAME of ", tmp_name)
                 elif text[i].startswith("OTHER'S NAME: "):
                     try:
                         tmp_other = text[i].split("OTHER'S NAME: ", 1)
                         tmp_other = tmp_other[1]
                     except:
-                        print("Bt in OTHER'S NAME of ", i)
+                        print("Bt in OTHER'S NAME of ", tmp_name)
 
                 elif text[i].startswith("HOUSE NUMBER: "):
                     try:
@@ -124,7 +124,14 @@ def parse_english(filename, output):
                         tmp_houseNo = tmp_houseNo[1]
                         #print("HouseNo ",tmp_houseNo)
                     except:
-                        print("Bt in HOUSE NUMBER of ", i)
+                        print("Bt in HOUSE NUMBER of ", tmp_name)
+                elif text[i].startswith("HOME NUMBER: "):
+                    try:
+                        tmp_houseNo = text[i].split("HOME NUMBER: ", 1)
+                        tmp_houseNo = tmp_houseNo[1]
+                        #print("HouseNo ",tmp_houseNo)
+                    except:
+                        print("Bt in HOUSE NUMBER of ", tmp_name)
                 elif text[i].startswith("AGE:"):
                     try:
                         #print(text[i])
@@ -134,18 +141,20 @@ def parse_english(filename, output):
                         #print(text[i])
                         test_str = text[i].split()
                         tmp_age = test_str[1]
+                        if not tmp_age.isnumeric():
+                            tmp_age = 0
                         sex = test_str[-1]
                         if sex=='MEN':
                             sex='MALE'
                         if sex=='WOMEN':
                             sex='FEMALE'
-                        if sex!='MALE' and sex!='FEMALE':
-                            sex='OTHER'
+                        if sex!='MALE' and sex!='FEMALE' and sex!='OTHER':
+                            sex='UNDEFINED'
                         tmp_gender = Reverse_dict[sex]
                         #print("Age ",tmp_age)
                         #print("Gender ",tmp_gender)
                     except:
-                        print("Bt in AGE and GENDER of ", i)
+                        print("Bt in AGE and GENDER of ", tmp_name)
                 
                 else:
                     if i==len(text)-1:
