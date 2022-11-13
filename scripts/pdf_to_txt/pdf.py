@@ -52,7 +52,7 @@ class PDF_to_Txt:
             else:
                 no=10
             for j in range(no):
-                output.addPage(inputpdf.getPage(i+j+offset))
+                output.addPage(inputpdf.getPage((i*10)+j+offset))
             with open("document-page%s.pdf" % i, "wb") as outputStream:
                 output.write(outputStream)
 
@@ -98,7 +98,7 @@ class PDF_to_Txt:
             else:
                 no=10
             for j in range(no):
-                output.addPage(inputpdf.getPage(i+j+offset))
+                output.addPage(inputpdf.getPage((i*10)+j+offset))
             with open("document-page%s.pdf" % i, "wb") as outputStream:
                 output.write(outputStream)
 
