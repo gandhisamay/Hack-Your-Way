@@ -91,6 +91,7 @@ def epic(request):
     if request.method == "GET":
         return JsonResponse({"message": "Please make a POST Request with Citizen's EPIC No!"})
     elif request.method == "POST":
+        print("Post request called: Epic. . .")
         input_data = UserInput()
         body_unicode = request.body.decode('utf-8')
         req_body = json.loads(body_unicode)

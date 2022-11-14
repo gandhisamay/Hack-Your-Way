@@ -35,11 +35,14 @@ class ScraperClass:
         selectDistrict = Select(self.DRIVER.find_element(By.ID,"ctl00_Content_DistrictList"))
         selectDistrict.select_by_visible_text(district)
 
-        sleep(2)
+        sleep(1)
+        
+        AS_name = str(assemblyConstituency.rsplit("-", 1)[0])
+        assemblyConstituency = AS_name
         selectAssemblyConstituency = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_AssemblyList"))
         selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
 
-        sleep(2)
+        sleep(1)
         selectPart = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_PartList"))
         selectPart.select_by_value(str(pollingPart))
 
