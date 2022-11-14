@@ -37,8 +37,11 @@ class ScraperClass:
 
         sleep(1)
         
-        AS_name = str(assemblyConstituency.rsplit("-", 1)[0])
-        assemblyConstituency = AS_name
+        rev = str(reversed(assemblyConstituency))
+        left = rev.split("-", 1)[0]
+        right = rev.split("-", 1)[1]
+        assemblyConstituency = left + " - " + right
+        # AS_name = str(assemblyConstituency.rsplit("-", 1)[0])
         selectAssemblyConstituency = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_AssemblyList"))
         selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
 
