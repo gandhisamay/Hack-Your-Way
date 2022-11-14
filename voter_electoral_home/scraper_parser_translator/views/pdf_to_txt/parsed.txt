@@ -1,6949 +1,2722 @@
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-Name: Rangchhingpuii
-Husband's Name: Vanlalhriata
-House Number: 1
-Age: 61 Gender: FEMALE
-Name: Lalrinkimi
-Father's Name: Vanlalhriata
-House Number: 1
-Age: 33 Gender: FEMALE
-7
-Name: Lalawmpuii
-Mother's Name: Laltluangi
-House Number: 2
-Age: 58 Gender: FEMALE
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 1-Torda, Salvador do Mundo
+1
+Name: Lakhan Pawar
+Father's Name: Chandrakant Pawar
+House Number: 76/4
+Age: 32 Gender: MALE
+Name: Bande Navaz Atani
+Father's Name: Aminsab Atani
+House Number: 143
+Age: 34 Gender: MALE
+Name: Denis Joseph D'Souza
+Father's Name: Joseph D'Souza
+House Number: 168
+Age: 56 Gender: MALE
 10
-Name: Lalchhanchhuahi
-Husband's Name: Lalramtiama
-House Number: 3
-Age: 53 Gender: FEMALE
+Name: Raju D'Souza
+Father's Name: Govind Kodliwad
+House Number: 168
+Age: 53 Gender: MALE
 13
-Name: Lalrindika
-Father's Name: Lalramtiama
-House Number: 3
-Age: 31 Gender: MALE
+Name: Daphne D'Souza
+Husband's Name: Ronnie D'Souza
+House Number: 168
+Age: 40 Gender: FEMALE
 16
-Name: Ruthi Malsawmtluangi
-Father's Name: Lalramtiama
-House Number: 3
-Age: 27 Gender: FEMALE
+Name: Sumati Naik
+Husband's Name: Laxman Naik
+House Number: 173
+Age: 60 Gender: FEMALE
 19
-Name: Lalthianghlima
-Father's Name: Dohmingthanga
-House Number: 4
-Age: 39 Gender: MALE
+Name: Suhas Naik
+Father's Name: Laxman Naik
+House Number: 173
+Age: 40 Gender: MALE
 22
-Name: Lalnunpuii
-Father's Name: H.Thawmliana
-House Number: 5
-Age: 31 Gender: FEMALE
+Name: Dipaksha Naik
+Father's Name : Dilipkumar Naik
+House Number: 173/1
+Age: 30 Gender: FEMALE
 25
-Name: Lalhusanga
-Father's Name : Saihlira
-House Number: 6
+Name: Ravindra Rohidas Gaunekar
+Father's Name: Rohidas Gaunekar
+House Number: 174
 Age: 49 Gender: MALE
 28
-Name: Benjamina
-Father's Name : Biakmawia
-House Number: 7
-Age: 36 Gender: MALE
+Name: Geeta Gaunekar
+Father's Name: Rohidas Gaunekar
+House Number: 174
+Age: 39 Gender: FEMALE
 Age as on 01.01.2023
-JKF0005785
+TMN0190488
 Photo is
 Available
-JKF0187617
+TMN0225482
 Photo is
 Available
-JKF0174441
+TMN0309807
 Photo is
 Available
-JKF0174177
+BGW4866570
 Photo is
 Available
-WTT0009134
+BGW3190238
 Photo is
 Available
-WTT0036491
+TMN0059824
 Photo is
 Available
-JKF0057265
+TMN0059212
 Photo is
 Available
-WTT0018598
+TMN0230110
 Photo is
 Available
-JKF0187567
+BGW8238172
 Photo is
 Available
-JKF0077263
+BGW0753509
 Photo is
 Available
-2
-Name: Vanlalhriata
-Father's Name: Vanlalliana (L)
-House Number: 1
-Age: 60 Gender: MALE
+Name: Noorjahan Athani
+Husband's Name: Mahboob Athani
+House Number: 116/8
+Age: 32 Gender: FEMALE
 5
-Name: Lalfakzuala
-Father's Name: Vanlalhriata
-House Number: 1
-Age: 29 Gender: MALE
+Name: Fatima Anton Lobo
+Husband's Name: William Charles
+Agnelo Abranches
+House Number: 143/1
+Age: 50 Gender: FEMALE
 8
-Name Lalthafamkimi
-Mother's Name : Lalawmpuii
-House Number: 2
-Age: 38 Gender: FEMALE
+Name: Sheryll D'souza
+Father's Name: Sanjeev D'souza
+House Number: 168
+Age: 54 Gender: FEMALE
 11
-Name: Lalramtiama
-Father's Name: T.Laldawla
-House Number: 3
-Age: 52 Gender: MALE
+Name: Luiza D'Souza
+Husband's Name: Denis D'Souza
+House Number: 168
+Age: 50 Gender: FEMALE
 14
-Name: Lalhruaizela
-Father's Name: Lalramtiama
-House Number: 3
-Age: 30 Gender: MALE
-17
-Name: Lalramluahpuii
-Father's Name: Lalramtiama
-House Number: 3
-Age: 25 Gender: FEMALE
-20
-Name: H.Thawmliana
-Father's Name: Lalzarliana
-House Number: 5
-Age: 55 Gender: MALE
-23
-Name: Lalremsanga
-Father's Name: Lalhusanga
-House Number: 6
-Age: 22 Gender: MALE
-26
-Name: Lalremengi
-Husband's Name: Lalhusanga
-House Number: 6
-Age: 49 Gender: FEMALE
-29
-Name: Lalremtluangi
-Father's Name: Zahnuna
-House Number: 8
-Age: 41 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0005777
-Photo is
-Available
-WIT0036475
-Photo is
-Available
-JKF0071993
-Photo is
-Available
-JKF0174094
-Photo is
-Available
-WTT0027862
-Photo is
-Available
-WTT0052456
-Photo is
-Available
-JKF0174482
-Photo is
-Available
-WTT0091538
-Photo is
-Available
-JKF0187625
-Photo is
-Available
-JKF0181891
-Photo is
-Available
-Name: Sangthannguri
-Father's Name: Vanlalhriata
-House Number: 1
-Age: 35 Gender: FEMALE
-6
-Name: Lalramnghahmawia
-Father's Name: Vanlalhriata
-House Number: 1
+Name: Sanjiv Naik
+Father's Name: Laximan Naik
+House Number: 168
 Age: 26 Gender: MALE
-9
-Name: Lalruatkimi
-Father's Name: Lalramthara
-House Number: 2
-Age: 25 Gender: FEMALE
-12
-Name: Malsawmkima
-Father's Name: Lalramtiama
-House Number: 3
-Age: 34 Gender: MALE
-15
-Part number: 1
-Name: Vanlalngheti
-Husband's Name: Malsawmkima
-House Number: 3
-Age: 27 Gender: FEMALE
-18
-Name: Lalbiaknii
-Husband's Name: Lalthianghlima
-House Number: 4
-Age: 44 Gender: FEMALE
-21
-Name: P.C.Zoramchhani
-Husband's Name: H.Thawmliana
-House Number: 5
-Age: 53 Gender: FEMALE
-24
-Name: Lalremruata
-Father's Name : Lalhunsanga
-House Number: 6
-Age: 20 Gender: MALE
-27
-Name: Zonunpari
-Father's Name: Lalhusanga
-House Number: 6
-Age: 28 Gender: FEMALE
-30
-Name: Tlangthanmawia
-Father's Name : Daniala
-House Number: 9
-Age: 61 Gender: MALE
-JKF0174318
-Photo is
-Available
-WIT0011361
-Photo is
-Available
-WTT0052431
-Photo is
-Available
-JKF0173088
-Photo is
-Available
-WTT0052449
-Photo is
-Available
-JKF0053678
-Photo is
-Available
-JKF0113159
-Photo is
-Available
-WTT0091504
-Photo is
-Available
-WTT0036616
-Photo is
-Available
-JKF0005603
-Photo is
-Available
-Total Pages 33 - Page 3
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-31
-Name: Lalrintluangi
-Husband's Name: Tlangthanmawia
-House Number: 9
-Age: 55 Gender: FEMALE
-34
-Name: Ramdinmawia
-Father's Name: Tlangthanmawia
-House Number: 9
-Age: 28 Gender: MALE
-37
-Name: Lalruatkima
-Father's Name: Thanvela (L)
-House Number: 10
+17
+Name: Sunil Laxman Naik
+Father's Name: Laxman Naik
+House Number: 173
 Age: 50 Gender: MALE
-40
-Name: Lalramnghaka
-Father's Name: Lalruatkima
-House Number: 10
-Age: 23 Gender: MALE
-43
-Name: Zothanpuii
-Father's Name: B Lalrithara
-House Number: 12
+20
+Name: Dipti Dilipakumar Naik
+Husband's Name: Dilipkumar Naik
+House Number: 173/1
+Age: 62 Gender: FEMALE
+23
+Name: Savitri Rohidas Gaunekar
+Husband's Name: Rohidas Gaunekar
+House Number: 174
+Age: 73 Gender: FEMALE
+26
+Name: Gauravi Gaunekar
+Husband's Name: Gokuldas Gaunekar
+House Number: 174
+Age: 47 Gender: FEMALE
+29
+Name: Yeshasvi Gaunekar
+Father's Name: Gokuldas Gaunekar
+House Number: 174
 Age: 19 Gender: FEMALE
+TMN0191460
+Date of Publication:-01-11-2022
+Photo is
+Available
+TMN0151720
+Photo is
+Available
+TMN0309781
+Photo is
+Available
+TMN0191486
+Photo is
+Available
+TMN0265371
+Photo is
+Available
+TMN0059840
+Photo is
+Available
+TMN0309757
+Photo is
+Available
+BGW8238412
+Photo is
+Available
+BGW7909203
+Photo is
+Available
+TMN0348284
+Photo is
+Available
+Name: Tanvi Raut
+Father's Name: Mahadev Raut
+House Number: 119
+Age: 22 Gender: FEMALE
+Part number: 16
+6
+Name: Paulina D'Souza
+Husband's Name: Joseph D'Souza
+House Number: 168
+Age: 83 Gender: FEMALE
+9
+Name: Sharon D'Souza
+Husband's Name: Raju D'Souza
+House Number: 168
+Age: 53 Gender: FEMALE
+12
+Name: Ronnie D'Souza
+Father's Name: Joseph D'Souza
+House Number: 168
+Age: 49 Gender: MALE
+15
+Name: Mamata Naik
+Husband's Name: Ranjit Naik
+House Number: 171/7
+Age: 36 Gender: FEMALE
+18
+Name: Sejal Naik
+Husband's Name: Sulesh Naik
+House Number: 173
+Age: 41 Gender: FEMALE
+21
+Name: Deepraj Naik
+Father's Name: Dilipkumar Naik
+House Number: 173/1
+Age: 37 Gender: MALE
+24
+Name: Gokuldas Rohidas Gaunekar
+Father's Name: Rohidas Gaunekar
+House Number: 174
+Age: 53 Gender: MALE
+27
+Name: Rashmi Gaunekar
+Husband's Name: Ravindra Gaunekar
+House Number: 174
+Age: 45 Gender: FEMALE
+30
+Name: Siddharth Chandrakant Naik
+Father's Name: Chandrakant Naik
+House Number: 175
+Age: 59 Gender: MALE
+TMN0294330
+Photo is
+Available
+BGW4886602
+Photo is
+Available
+TMN0223776
+Photo is
+Available
+TMN0309799
+Photo is
+Available
+LNJ0701599
+Photo is
+Available
+CDM0170688
+Photo is
+Available
+BGW0754101
+Photo is
+Available
+TMN0152850
+Photo is
+Available
+TMN0288688
+Photo is
+Available
+TMN0167973
+Photo is
+Available
+Total Pages 15 - Page 3
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 1-Torda, Salvador do Mundo
+31
+BGW8223489
+Name: Shanti Naik
+Husband's Name: Siddharth Naik
+House Number: 175
+Age: 56 Gender: FEMALE
+34
+Name: Sujay Prashant Naik
+Father's Name: Prashant Chandrakant
+Naik
+House Number: 175
+Age: 21 Gender: MALE
+37
+Name: Gurunath Govind Naik
+Father's Name: Govind Naik
+House Number: 176
+Age: 58 Gender: MALE
+40
+Name: Rupesh Naik
+Father's Name: Ranganath Naik
+House Number: 176
+Age: 38 Gender: MALE
+43
+Name: Siddhi Naik
+Father's Name: Gurunath Naik
+House Number: 176
+Age: 27 Gender: FEMALE
 46
-Name: Zosangliana
-Father's Name: C.Zolura
-House Number: 13
+Name: Shashi Shankar Madkaikar
+Father's Name: Shankar Madkaikar
+House Number: 177
 Age: 52 Gender: MALE
 49
-Name: Lalliankima
-Father's Name: Vanlalhriata
-House Number: 14
-Age: 40 Gender: MALE
+Name: Urmila Madkaikar
+Husband's Name: Uday Madkaikar
+House Number: 178
+Age: 50 Gender: FEMALE
 52
-Name: Lalzawngliani
-Husband's Name: Lalkhawliana
-House Number: 15
-Age: 61 Gender: FEMALE
+Name: Swapana Hitesh Madkaikar
+Husband's Name: Hitesh Kanta
+Madkaikar
+House Number: 178
+Age: 32 Gender: FEMALE
 55
-Name: Lalengzuala
-Father's Name: Lalchhanhima
-House Number: 16
-Age: 19 Gender: MALE
+Name : Deepali Madkaikar
+Father's Name: Uday Venu Madkaikar
+House Number: 178
+Age: 23 Gender: FEMALE
 58
-Name: C.Zolura
-Father's Name: C.P.Thanga
-House Number: 17
-Age: 82 Gender: MALE
+Name: Pramila Gawde
+Husband's Name: Prakash Madkaikar
+House Number: 178/1
+Age: 65 Gender: FEMALE
 Age as on 01.01.2023
-JKF0076794
 Photo is
 Available
-WTT0036525
+TMN0335786
 Photo is
 Available
-JKF0005942
+TMN0309708
 Photo is
 Available
-WTT0065110
+TMN0054262
 Photo is
 Available
-WTT0102368
+TMN0258954
 Photo is
 Available
-JKF0057240
+TMN0309666
 Photo is
 Available
-JKF0079822
+BGW3190576
 Photo is
 Available
-JKF0053223
+TMN0297598
 Photo is
 Available
-WTT0104844
+TMN0342964
 Photo is
 Available
-JKF0075713
+TMN0059998
 Photo is
 Available
 32
-Name: Lalfakawma
-Father's Name: Tlangthanmawia
-House Number: 9
-Age: 37 Gender: MALE
+Name: Shraddha Prashant Naik
+Husband's Name : Prashant Naik
+House Number: 175
+Age: 56 Gender: FEMALE
 35
-Name: Ramnunmawia
-Father's Name: P.C.Tlangthanmawia
-House Number: 9
-Age: 24 Gender: MALE
+Name: Ranganath Govind Naik
+Father's Name: Govind Naik
+House Number: 176
+Age: 67 Gender: MALE
 38
-Name: Lalrinpuii
-Husband's Name: Lalruatkima
-House Number: 10
-Age: 47 Gender: FEMALE
+Name: Ramdas Govind Naik
+Father's Name: Govind Naik
+House Number: 176
+Age: 51 Gender: MALE
 41
-Name: Laldinsangi
-Mother's Name : Roluti
-House Number: 11
-Age: 36 Gender: FEMALE
+Name: Roshan Naik
+Father's Name: Ramnath Naik
+House Number: 176
+Age: 34 Gender: FEMALE
 44
-Name: Lalrithara
-Father's Name : Zadingliana
-House Number: 12
-Age: 43 Gender: MALE
+Name : Prajyot Naik
+Father's Name: Gurunath Naik
+House Number: 176
+Age: 26 Gender: MALE
 47
-Name: J.Muankimi
-Husband's Name: Zosangliana
-House Number: 13
-Age: 40 Gender: FEMALE
+Name: Kanti Kanta Madkaikar
+Husband's Name: Kanta Madkaikar
+House Number: 178
+Age: 56 Gender: FEMALE
 50
-Name Lalthafamkimi
-Father's Name : Khawliana
-House Number: 15
-Age: 20 Gender: FEMALE
+Name: Pradeep Venu Madkaikar
+Father's Name: Venu Madkaikar
+House Number: 178
+Age: 48 Gender: MALE
 53
-Name: Malsawmtluangi
-Father's Name : Khawliana
-House Number: 15
-Age: 27 Gender: FEMALE
+Name: Hitesh Madkaikar
+Father's Name: Kanta Madkaikar
+House Number: 178
+Age: 31 Gender: MALE
 56
-Name Lalchhanhima
-Father's Name: Lalchhuanawmi
-House Number: 16
-Age: 38 Gender: MALE
+Name: Aniket Madkaikar
+Father's Name: Pradip Madkaikar
+House Number: 178
+Age: 21 Gender: MALE
 59
-Name: Lalremruati
-Father's Name: C.Zolura
-House Number: 17
-Age: 52 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0077461
+Name: Sharmila Gawde
+Husband's Name: Amol Gawde
+House Number: 178/1
+Age: 38 Gender: FEMALE
+Date of Publication:-01-11-2022
+BGW0753244
 Photo is
 Available
-WTT0072181
+TMN0309716
 Photo is
 Available
-JKF0113043
+TMN0309690
 Photo is
 Available
-HNV0167460
+TMN0060087
 Photo is
 Available
-JKF0071951
+TMN0287979
 Photo is
 Available
-JKF0114058
+TMN0309641
 Photo is
 Available
-WTT0091389
+TMN0060012
 Photo is
 Available
-WTT0036533
+TMN0190496
 Photo is
 Available
-JKF0007500
+TMN0335224
 Photo is
 Available
-JKF0008870
+TMN0271551
 Photo is
 Available
 33
-Name: Laltlanhlui
-Father's Name: Tlangthanmawia
-House Number: 9
-Age: 29 Gender: FEMALE
+Name: Geeta Naik
+Husband's Name: Nishant Naik
+House Number: 175
+Age: 45 Gender: FEMALE
 36
-Name: Lalremkimi
-Father's Name: Lalruatkima
-House Number: 10
-Age: 22 Gender: FEMALE
+Name: Vilas Ranganath Naik
+Husband's Name: Ranganath Naik
+Part number: 16
+House Number: 176
+Age: 59 Gender: FEMALE
 39
-Name: Lalropuia
-Father's Name: H.Lalruatkima
-House Number: 10
-Age: 25 Gender: MALE
+Name: Ranjit Naik
+Father's Name: Ramnath Naik
+House Number: 176
+Age: 39 Gender: MALE
 42
-Name: Lalrinawma
-Father's Name: Tlangthanmawia
-House Number: 11
-Age: 35 Gender: MALE
+Name Ramesh Naik
+Father's Name: Ramnath Naik
+House Number: 176
+Age: 34 Gender: MALE
 45
-Part number: 1
-Name: Lalramchhani
-Husband's Name: Lalrithara
-House Number: 12
-Age: 43 Gender: FEMALE
+Name: Girisha Naique
+Husband's Name: Gurunata Naique
+House Number: 176
+Age: 52 Gender: FEMALE
 48
-Name: Ramtharengi
-Husband's Name: Lalliankima
-House Number: 14
-Age: 49 Gender: FEMALE
+Name: Uday Venu Madkaikar
+Father's Name: Venu Madkaikar
+House Number: 178
+Age: 52 Gender: MALE
 51
-Name: Lalkhawliana
-Father's Name: F.Aichhunga (L)
-House Number: 15
-Age: 66 Gender: MALE
+Name Poonam Madkaikar
+Husband's Name: Pradeep Madkaikar
+House Number: 178
+Age: 42 Gender: FEMALE
 54
-Name: Laltlanmawii
-Father's Name: Lalkhawliana
-House Number: 15
-Age: 23 Gender: FEMALE
+Name: Alkesh Madkaikar
+Father's Name: Kanta Madkaikar
+House Number: 178
+Age: 29 Gender: MALE
 57
-Name: Jenny Zothanpari
-Husband's Name: Lalchhanhima
-House Number: 16
-Age: 37 Gender: FEMALE
+Name: Amol Prakash Gawade
+Father's Name: Prakash Madkaikar
+House Number: 178/1
+Age: 43 Gender: MALE
 60
-Name: Lalrammawia
-Father's Name: C.Zolura
-House Number: 17
-Age: 45 Gender: MALE
-WTT0036517
+Name: Sidhesh Chodankar
+Father's Name: Vinod Chodankar
+House Number: 181/A
+Age: 29 Gender: MALE
+BGW0753939
 Photo is
 Available
-WTT0091249
+TMN0151845
 Photo is
 Available
-WTT0065094
+BGW0754432
 Photo is
 Available
-JKF0187922
+TMN0059931
 Photo is
 Available
-JKF0007518
+TMN0309674
 Photo is
 Available
-JKF0077115
+TMN0309633
 Photo is
 Available
-JKF0078840
+BGW0754077
 Photo is
 Available
-WTT0065102
+TMN0285999
 Photo is
 Available
-JKF0077123
+BGW3190303
 Photo is
 Available
-JKF0073817
+TMN0233874
 Photo is
 Available
-Total Pages 33 - Page 4
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
+Total Pages 15 - Page 4
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 1-Torda, Salvador do Mundo
 61
-Name: Lalhmingchhuangi
-Husband's Name: Lalthazuala
-House Number: 17
-Age: 37 Gender: FEMALE
+TMN0263384
+Name: Harsha Chodankar
+Father's Name: Vinod Chodankar
+House Number: 181/A
+Age: 27 Gender: FEMALE
 64
-Name: C Lalmuanawma
-Father's Name: C Zochhuanmawia
-House Number: 18
-Age: 22 Gender: MALE
-67
-Name Lalnunkimi
-Father's Name: C.Zochhuanmawia
-House Number: 18
-Age: 23 Gender: FEMALE
-70
-Name: Romawia
-Father's Name: Sapchhawna (L)
-House Number: 20
-Age: 64 Gender: MALE
-73
-Name: Lalduhkimi
-Father's Name: Romawia
-House Number: 20
-Age: 28 Gender: FEMALE
-76
-Name: Ngurthanga
-Father's Name : Dingpuia (L)
-House Number: 22
-Age: 66 Gender: MALE
-79
-Name: Lalrinngheti
-Father's Name : Ngurthanga
-House Number: 22
-Age: 32 Gender: FEMALE
-82
-Name: Biakmawia
-Father's Name: Thangvela (L)
-House Number: 23
+Name: Umesh Kavlekar
+Father's Name: Amu Kavlekar
+House Number: 184
 Age: 58 Gender: MALE
-85
-Name: Lalrinfela
-Father's Name: H.Lalbiakmawia
-House Number: 23
+67
+Name: Amir Naik
+Father's Name: Ashok Naik
+House Number 185
+Age: 44 Gender: MALE
+70
+Name: Kalpana Gadkari
+Husband's Name: Namdev Gadkari
+House Number: 186
+Age: 76 Gender: FEMALE
+73
+Name: Rupali Gadkari
+Husband's Name: Rajesh Gadkari
+House Number: 186
+Age: 46 Gender: FEMALE
+76
+Name: Gajanan Babal Naik
+Father's Name: Babal Naik
+House Number: 187
+Age: 68 Gender: MALE
+79
+Name: Gautam Naik
+Father's Name: Gajanan Babal Naik
+House Number: 187
 Age: 30 Gender: MALE
+82
+Name: MEGAN ROSY BRAGANZA
+Father's Name: STEPHEN SAVIO
+ALCANTARA BRAGANZA
+House Number: 188 TORDA
+Age: 21 Gender: FEMALE
+85
+Name: Mukesh Naik
+Father's Name: Manohar Naik
+House Number: 189
+Age: 38 Gender: MALE
 88
-Name: Lalhmunsanga
-Father's Name: H.Biakmawia
-House Number: 23
-Age: 23 Gender: MALE
+Name: Rasika Ramakant Parsekar
+Husband's Name: Ramakant Parsekar
+House Number: 190
+Age: 68 Gender: FEMALE
 Age as on 01.01.2023
-FDV0084764
 Photo is
 Available
-WTT0083147
+BGW0753483
 Photo is
 Available
-WTT0072082
+TMN0203307
 Photo is
 Available
-JKF0075317
+TMN0052175
 Photo is
 Available
-WTT0052480
+TMN0050757
 Photo is
 Available
-JKF0041863
+TMN0309625
 Photo is
 Available
-JKF0201137
+TMN0238899
 Photo is
 Available
-JKF0071621
+TMN0355404
 Photo is
 Available
-WTT0048629
+BGW0754176
 Photo is
 Available
-WTT0068940
+BGW4507802
 Photo is
 Available
 62
-Name: Vanlalchhuangi
-Husband's Name: Lalrammawia
-House Number: 17
-Age: 35 Gender: FEMALE
+Name: Ganga Chodankar
+Father's Name: Vinod Chodankar
+House Number: 181/A
+Age: 24 Gender: FEMALE
 65
-Name: Rosangzuali
-Husband's Name: Zochhuanmawia
-House Number: 18
-Age: 48 Gender: FEMALE
+Name: Amita Kavlekar
+Husband's Name: Umesh Kavlekar
+House Number: 184
+Age: 53 Gender: FEMALE
 68
-Name: Lalramhluna
-Father's Name: Thangvela (L)
-House Number: 19
-Age: 47 Gender: MALE
+Name: Deeplaximi Naik
+Husband's Name: Ameer Naik
+House Number: 185
+Age: 36 Gender: FEMALE
 71
-Name: Biakthansangi
-Husband's Name: Romawia
-House Number: 20
-Age: 59 Gender: FEMALE
+Name Namdev Gadkari
+Father's Name: Parshuram Gadkari
+House Number: 186
+Age: 75 Gender: MALE
 74
-Name: Zoremsanga
-Father's Name: Lalhmuaka
-House Number: 21
-Age: 55 Gender: MALE
+Name Shekar Ravane
+Father's Name: Ramnath Ravane
+House Number: 186
+Age: 56 Gender: MALE
 77
-Name: Lalremi
-Husband's Name : Ngurthanga
-House Number: 22
+Name: Sharada Gajanan Naik
+Husband's Name: Gajanan Naik
+House Number: 187
 Age: 66 Gender: FEMALE
 80
-Name: Lalremruata
-Father's Name : Ngurthanga
-House Number: 22
-Age: 30 Gender: MALE
+Name: Steven Braganza
+Father's Name: Albert Braganza
+House Number: 188
+Age: 62 Gender: MALE
 83
-Name: Rochhingpuii
-Husband's Name: Biakmawia
-House Number: 23
-Age: 57 Gender: FEMALE
+Name: Manohar Naik
+Father's Name: Anant Naik
+House Number: 189
+Age: 68 Gender: MALE
 86
-Name: Zomuanpuii
-Mother's Name: Thansangi
-House Number: 23
-Age: 29 Gender: FEMALE
+Name: Monali Monohar Naik
+Father's Name: Monohar Naik
+House Number: 189
+Age: 35 Gender: FEMALE
 89
-Name: Thianghlimi
-Father's Name: Lalnghenga
-House Number: 24
-Age: 62 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0071720
+Name: Suvarna Parsekar
+Husband's Name: Digambar Parsekar
+House Number: 190
+Age: 64 Gender: FEMALE
+TMN0282137
 Photo is
 Available
-JKF0114017
+Date of Publication:-01-11-2022
+BGW0752881
 Photo is
 Available
-JKF0077867
+HLK3442381
 Photo is
 Available
-JKF0071969
+TMN0215103
 Photo is
 Available
-JKF0113019
+TMN0195461
 Photo is
 Available
-JKF0041822
+TMN0304923
 Photo is
 Available
-WTT0036558
+BGW3191822
 Photo is
 Available
-JKF0071605
+BGW0753921
 Photo is
 Available
-WTT0036699
+TMN0190520
 Photo is
 Available
-JKF0076612
+TMN0309609
 Photo is
 Available
 63
-Name Lalthazuala
-Father's Name: Ramthangliana
-House Number: 17
-Age: 31 Gender: MALE
+Name Nirmala Kavlekar
+Husband's Name: Amu Kavlekar
+Part number: 16
+House Number: 184
+Age: 83 Gender: FEMALE
 66
-Name Zochhuanmawia
-Father's Name: Zahlinga
-House Number: 18
-Age: 44 Gender: MALE
-69
-Name: Lalkrawsthangi
-Husband's Name: Lalramhluna
-House Number: 19
-Age: 37 Gender: FEMALE
-72
-Name: Lalsiammawia
-Father's Name: Romawia
-House Number: 20
-Age: 31 Gender: MALE
-Part number: 1
-75
-Name: Zomawii
-Husband's Name: Zoremsanga
-House Number: 21
-Age: 45 Gender: FEMALE
-78
-Name: Lalmuanpuii
-Father's Name : Ngurthanga
-House Number: 22
-Age: 45 Gender: FEMALE
-81
-Name: Lalramsiami
-Father's Name : Ngurthanga
-House Number: 22
-Age: 28 Gender: FEMALE
-84
-Name: Lalmalsawma
-Father's Name: Lalbiakmawia
-House Number: 23
-Age: 32 Gender: MALE
-87
-Name: Lalnunpuia
-Father's Name: H.Lalbiakmawia
-House Number: 23
-Age: 28 Gender: MALE
-90
-Name Lalnunhlima
-Father's Name : Thangmawia
-House Number: 24
-Age: 41 Gender: MALE
-WTT0009142
-Photo is
-Available
-JKF0071936
-Photo is
-Available
-JKF0071001
-Photo is
-Available
-WTT0011387
-Photo is
-Available
-JKF0174375
-Photo is
-Available
-JKF0057463
-Photo is
-Available
-WTT0036566
-Photo is
-Available
-WTT0045104
-Photo is
-Available
-WTT0048637
-Photo is
-Available
-JKF0174417
-Photo is
-Available
-Total Pages 33 - Page 5
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-91
-Name: Hruaitluanga
-Father's Name: Dohmingthanga
-House Number: 25
-Age: 50 Gender: MALE
-94
-Name: Rosy Vanlalthanpuii
-Father's Name: H.Lalbiakthanga
-House Number: 26
-Age: 29 Gender: FEMALE
-97
-Name: Lalduatpuii
-Husband's Name: J.Lalrongenga
-House Number: 27
-Age: 34 Gender: FEMALE
-100
-Name: Engmawii
-Husband's Name: Lalrosanga
-House Number: 28
+Name: Amita Ashok Naik
+Husband's Name: Ashok Naik
+House Number: 185
 Age: 63 Gender: FEMALE
-103
-Name: Vanlalnghaka
-Father's Name: Lalrosanga
-House Number: 28
-Age: 29 Gender: MALE
-106
-Name: Lalsawmliana
-Father's Name: Thangthuama
-House Number: 29
-Age: 76 Gender: MALE
-109
-Name: Michael Lalramsanga
-Father's Name: Zaluta
-House Number: 30
+69
+Name: Ramnath Ravane
+Mother's Name : Bharti Ravane
+House Number: 186
+Age: 22 Gender: MALE
+72
+Name: Rajesh Gadkari
+Father's Name: Namdev Gadkari
+House Number: 186
+Age: 50 Gender: MALE
+75
+Name Bharti Ravane
+Husband's Name: Shekar Ravane
+House Number: 186
+Age: 54 Gender: FEMALE
+78
+Name: Gaurav Gajanan Naik
+Father's Name: Gajanan Naik
+House Number: 187
+Age: 36 Gender: MALE
+81
+Name: Maril Braganza
+Husband's Name: Steven Braganza
+House Number: 188
+Age: 56 Gender: FEMALE
+84
+Name: Manisha Manohar Naik
+Husband's Name: Manohar Naik
+House Number: 189
+Age: 63 Gender: FEMALE
+87
+Name: Digambar Narayan Parsekar
+Father's Name: Narayan Parsekar
+House Number: 190
+Age: 71 Gender: MALE
+90
+Name: Rohan Parsekar
+Father's Name: Ramakant Parsekar
+House Number: 190
+Age: 43 Gender: MALE
+BGW0752873
+Photo is
+Available
+TMN0203299
+Photo is
+Available
+TMN0294355
+Photo is
+Available
+BGW4866828
+Photo is
+Available
+TMN0195479
+Photo is
+Available
+TMN0190512
+Photo is
+Available
+TMN0215251
+Photo is
+Available
+TMN0060178
+Photo is
+Available
+TMN0306126
+Photo is
+Available
+TMN0214700
+Photo is
+Available
+Total Pages 15 - Page 5
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 1-Torda, Salvador do Mundo
+91
+BGW0752683
+Name: Rohit Parsekar
+Father's Name: Ramakant Parsekar
+House Number: 190
+Age: 38 Gender: MALE
+94
+Name: Vaibhav Parsekar
+Father's Name: Digambar Narayan
+Parsekar
+House Number: 190
 Age: 35 Gender: MALE
+97
+Name: Vincent Porfirio Abranches
+Father's Name: Porfirio Abranches
+House Number: 190/1
+Age: 64 Gender: MALE
+100
+Name: Laximi Vasudev
+Kumbharjuvekar
+Husband's Name: Vasudev
+Kumbharjuvekar
+House Number: 191
+Age: 80 Gender: FEMALE
+103
+Name: Santosh Bhosle
+Father's Name: Anant Bhosle
+House Number: 191-2
+Age: 47 Gender: MALE
+106
+Name: Amita Amrut Chodankar
+Husband's Name: Amrut Chodankar
+House Number: 191/3
+Age: 60 Gender: FEMALE
+109
+Name: Vaibhavi Chodankar
+Father's Name: Amrut Chodankar
+House Number: 191/3
+Age: 37 Gender: FEMALE
 112
-Name: Rokima Pautu
-Father's Name: Thanghrima
-House Number: 31
-Age: 62 Gender: MALE
+Name: Shrikant Babu Chodankar
+Father's Name: Babu Chodankar
+House Number: 191-4
+Age: 66 Gender: MALE
 115
-Name: Hmangaihzuali
-Husband's Name: Samuela
-House Number: 32
-Age: 48 Gender: FEMALE
+Name: Abisha Silveira
+Father's Name: Jose Carmo Silveira
+House Number: 203
+Age: 20 Gender: FEMALE
 118
-Name: Lalrovi
-Father's Name: Dohmingthanga
-House Number: 33
-Age: 47 Gender: FEMALE
+Name: Siya Naik
+Husband's Name: Sandeep Laxman
+Naik
+House Number: 551/1
+Age: 45 Gender: FEMALE
 Age as on 01.01.2023
-JKF0053405
 Photo is
 Available
-WIT0019745
+TMN0238923
 Photo is
 Available
-JKF0174169
+TMN0309534
 Photo is
 Available
-JKF0078949
+TMN0149617
 Photo is
 Available
-WTT0011395
+TMN0214817
 Photo is
 Available
-JKF0112953
+TMN0309500
 Photo is
 Available
-JKF0119297
+TMN0152439
 Photo is
 Available
-JKF0057562
+BGW0754572
 Photo is
 Available
-JKF0053520
+TMN0341107
 Photo is
 Available
-JKF0053751
+TMN0271585
 Photo is
 Available
 92
-Name: Lalringzuali
-Husband's Name: Hruaitluanga
-House Number: 25
-Age: 43 Gender: FEMALE
+Name: Nishchai Parsekar
+Father's Name: Digambar Parsekar
+House Number: 190
+Age: 38 Gender: MALE
 95
-Name: Vanlalthafamkima
-Father's Name: H. Lalbiaktluanga
-House Number: 26
-Age: 27 Gender: MALE
-98
-Name: Vanlalpeki
-Father's Name: Laldinga
-House Number: 27
+Name: Saachi Parsekar
+Husband's Name: Nishchai Parsekar
+House Number: 190
 Age: 33 Gender: FEMALE
+98
+Name: Rita Vincent Abranches
+Husband's Name: Vincent Abranches
+House Number: 190/1
+Age: 63 Gender: FEMALE
 101
-Name: Rodinliana
-Father's Name: H.Lalrosanga
-House Number: 28
-Age: 39 Gender: MALE
+Name: Rajendra Vasudev
+Kumbharjuvekar
+Father's Name: Vasudev
+Kumbharjuvekar
+House Number: 191
+Age: 56 Gender: MALE
 104
-Name: Jeneth H.Lalruatmawii
-Husband's Name: Rodinliana
-House Number: 28
-Age: 29 Gender: FEMALE
+Name: Amrut Babu Chodankar
+Father's Name: Babu Chodankar
+House Number: 191/3
+Age: 70 Gender: MALE
 107
-Name: Tlangkhumi
-Husband's Name: Chuaukunga
-House Number: 30
-Age: 83 Gender: FEMALE
-110
-Name: Lalchhanhima
-Father's Name: Lallianzuala Pachuau
-House Number: 30
-Age: 26 Gender: MALE
+Name: Geeta Vinod Chodankar
+Husband's Name: Vinod Chodankar
+House Number: 191/3
+Age: 57 Gender: FEMALE
 113
-Name: Rokhawma
-Father's Name: Rokima Pautu
-House Number: 31
-Age: 41 Gender: MALE
+Name: Sumati Shrikant Chodankar
+Husband's Name: Shrikant Chodankar
+House Number: 191-4
+Age: 59 Gender: FEMALE
+110
+Name: Jayesh Chodankar
+Father's Name: Amrut Babu Chodankar
+House Number: 191/3
+Age: 28 Gender: MALE
 116
-Name: Remruatpuia
-Father's Name : Samuela
-House Number: 32
-Age: 30 Gender: MALE
+Name: Mayuri Chodankar
+Father's Name: Mangesh Chodankar
+House Number: 213
+Age: 33 Gender: FEMALE
 119
-Name: P.C.Lalremruata
-Father's Name: Dohmingthanga
-House Number: 33
-Age: 41 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0020123
+Name Sulesh Naik
+Father's Name: Laxman Naik
+BGW0754119
+House Number: 551/1
+Age: 43 Gender: MALE
 Photo is
 Available
-WTT0057919
+TKZ0274605
+Date of Publication:-01-11-2022
 Photo is
 Available
-WTT0018663
+TMN0152652
 Photo is
 Available
-JKF0005983
+TMN0149609
 Photo is
 Available
-WTT0019752
+TMN0309518
+BGW3190592
 Photo is
 Available
-JKF0077420
 Photo is
 Available
-WIT0052498
+TMN0264812
 Photo is
 Available
-JKF0114355
+BGW3190782
 Photo is
 Available
-WTT0036590
+TMN0203349
 Photo is
 Available
-JKF0005736
+TMN0152413
 Photo is
 Available
 93
-Name: Biaktluanga
-Father's Name: Lalhlira (L)
-House Number: 26
-Age: 66 Gender: MALE
+Name: Sanvi Parsekar
+Husband's Name: Rohan Parsekar
+House Number: 190
+Age: 37 Gender: FEMALE
 96
-Name: J.Lalrongenga
-Father's Name: Laldinga
-House Number: 27
-Age: 47 Gender: MALE
+Name : Divya Parsekar
+Father's Name: Digambar Narayan
+Parsekar
+Part number: 16
+House Number: 190
+Age: 32 Gender: FEMALE
 99
-Name: Lalrosanga
-Father's Name: Zuithanga
-House Number: 28
-Age: 65 Gender: MALE
+Name: Pravin Domnick Abranches
+Father's Name: Vincent Porfirio
+Abranches
+House Number: 190/1
+Age: 30 Gender: MALE
 102
-Name: Lalsiamtluangi
-Father's Name: H. Lalrosanga
-House Number: 28
-Age: 33 Gender: FEMALE
+Name: Surekha Kumbharjuvenkar
+Father's Name: Vassudev
+Kumbharjuvenkar
+House Number: 191
+Age: 57 Gender: FEMALE
 105
-Part number: 1
-Name: Lalroluahpuia
-Father's Name: Lalrosanga
-House Number: 28
-Age: 28 Gender: MALE
+Name: Vinod Babu Chodankar
+Father's Name: Babu Chodankar
+House Number: 191/3
+Age: 63 Gender: MALE
 108
-Name Remthansiami
-Father's Name : Chuaukunga
-House Number: 30
-Age: 52 Gender: FEMALE
+Name: Amit Chodankar
+Father's Name: Amrut Chodankar
+House Number: 191/3
+Age: 38 Gender: MALE
 111
-Name: Lalrinpuii
-Husband's Name: Rokima Pautu
-House Number: 31
-Age: 63 Gender: FEMALE
 114
-Name: Zaithannguri
-Father's Name: Vanlalfaka
-House Number: 31
-Age: 35 Gender: FEMALE
+Name: Prathamesh Chodankar
+Father's Name: Shrikant Chodankar
+House Number: 191-4
+Age: 27 Gender: MALE
 117
-Name: H.Lalruatmawia
-Father's Name: Samuela
-House Number: 32
-Age: 24 Gender: MALE
+Name: Shubhangi Naik
+Husband's Name: Sunil Naik
+House Number: 551/1
+Age: 46 Gender: FEMALE
+TMN0271395
+Name: Yashashree Shrikant Chodankar
+Father's Name : Shrikant Chodankar
+House Number: 191/4
+Age: 31 Gender: FEMALE
+Photo is
+Available
+TMN0238865
 120
-Name: Baby Zodinpuii
-Mother's Name: Lalrimawii
-House Number: 34
-Age: 21 Gender: FEMALE
-JKF0053157
+Name: Govind Pandurang Naik
+Father's Name: Pandurang Govind Naik
+House Number: 553
+Age: 45 Gender: MALE
 Photo is
 Available
-JKF0021428
+TMN0238881
 Photo is
 Available
-JKF0021501
+TMN0225516
+BGW3190584
 Photo is
 Available
-JKF0194795
+BGW0752675
 Photo is
 Available
-WTT0036574
 Photo is
 Available
-JKF0006015
+TMN0190538
 Photo is
 Available
-JKF0007575
+TMN0256966
 Photo is
 Available
-JKF0173484
+TMN0230144
 Photo is
 Available
-WTT0065128
+BGW0753947
 Photo is
 Available
-WTT0085134
-Photo is
-Available
-Total Pages 33 - Page 6
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
+Total Pages 15 - Page 6
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 1-Torda, Salvador do Mundo
 121
-Name: Lalhuapzauva
-Father's Name: Patea (L)
-House Number: 34
-Age: 68 Gender: MALE
+TMN0292409
+Name: Rupa Patil
+Husband's Name : Raju Patil
+House Number: 560
+Age: 39 Gender: FEMALE
 124
-Name: Hmingmawii
-Husband's Name : Saihlira
-House Number: 35
-Age: 72 Gender: FEMALE
+Name: Mali Rathod
+Husband's Name: Ravi Rathod
+House Number: 685/B
+Age: 53 Gender: FEMALE
 127
-Name: Lalenkawli
-Father's Name : Saihlira
-House Number: 35
-Age: 38 Gender: FEMALE
-130
-Name: B.Lalthantluanga
-Father's Name : B.Lalrema
-House Number: 36
-Age: 61 Gender: MALE
-133
-Name: Andrew Lalmuanpuia
-Father's Name: Lalthantluanga
-House Number: 36
-Age: 22 Gender: MALE
-136
-Name: Lalkhawngaiha
-Father's Name : Ngurengzauva
-House Number: 38
-Age: 36 Gender: MALE
-139
-Name: Lalmuanpuii
-Husband's Name: Lalremruata
-House Number: 39
-Age: 49 Gender: FEMALE
-142
-Name: Engmawii
-Husband's Name: C.Thankhuma
-House Number: 40
-Age: 70 Gender: FEMALE
-145
-Name: B. Lalhruaikima
-Father's Name : Zadingliana
-House Number: 41
-Age: 39 Gender: MALE
-148
-Name: Vanlalchelha
-Father's Name: Laldawla (L)
-House Number: 42
-Age: 58 Gender: MALE
+Name: Sachin Rathod
+Father's Name: Ravi Rathod
+House Number: 816/43
+Age: 31 Gender: MALE
 Age as on 01.01.2023
-JKF0056390
 Photo is
 Available
-JKF0078972
+TMN0052829
 Photo is
 Available
-JKF0071977
-Photo is
-Available
-WTT0083600
-Photo is
-Available
-WTT0072207
-Photo is
-Available
-JKF0003426
-Photo is
-Available
-JKF0071787
-Photo is
-Available
-JKF0021337
-Photo is
-Available
-JKF0114231
-Photo is
-Available
-JKF0056820
+TMN0190546
 Photo is
 Available
 122
-Name: Lalrimawii
-Father's Name: Patea (L)
-House Number: 34
-Age: 47 Gender: FEMALE
+Name: Umesh Patil
+Father's Name: Raju Patil
+House Number: 560
+Age: 20 Gender: MALE
 125
-Name: Lalrammawia
-Father's Name : Saihlira
-House Number: 35
-Age: 46 Gender: MALE
+Name: Sarita Rathod
+Father's Name: Ravi Rathod
+House Number: 685/B
+Age: 28 Gender: FEMALE
 128
-Name: Hmangaihzuali
-Father's Name : Saihlira
-House Number: 35
-Age: 36 Gender: FEMALE
-131
-Name: R Lalsangzuali
-Husband's Name: B Lalthantluanga
-House Number: 36
-Age: 48 Gender: FEMALE
-134
-Name S.T.Lalfamkima
-Father's Name: C.Rosanga
-House Number: 37
-Age: 39 Gender: MALE
-137
-Name: H.L. Malsawmzuali
-Father's Name: Tlanghluna
-House Number: 38
-Age: 34 Gender: FEMALE
-140
-Name: Laldingliana
-Father's Name: Lalremruata
-House Number: 39
-Age: 22 Gender: MALE
-143
-Name: C.Zomuansanga
-Father's Name: C.Thankhuma
-House Number: 40
-Age: 45 Gender: MALE
-146
-Name: Lalpantluangi
-Husband's Name: B. Lalhruaikima
-House Number: 41
-Age: 32 Gender: FEMALE
-149
-Name: Sangthanpari
-Father's Name: Laldawla (L)
-House Number: 42
-Age: 58 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0076935
-Photo is
-Available
-JKF0113001
-Photo is
-Available
-JKF0173476
-Photo is
-Available
-JKF0114066
-Photo is
-Available
-CDN0287342
-Photo is
-Available
-KDL0074179
-Photo is
-Available
-WTT0077537
-Photo is
-Available
-JKF0006007
-Photo is
-Available
-JKF0201012
-Photo is
-Available
-JKF0072694
-Photo is
-Available
-123
-Name Saihlira
-Father's Name: Zahunga (L)
-House Number: 35
-Age: 76 Gender: MALE
-126
-Name: Lalchungnunga
-Father's Name : Saihlira
-House Number: 35
-Age: 41 Gender: MALE
-129
-Name: Lalramhmachhuana
-Father's Name : Saihlira
-House Number: 35
-Age: 27 Gender: MALE
-132
-Name: Linda Vanlalhmangaihi
-Father's Name: B.Lalthantluanga
-House Number: 36
-Age: 25 Gender: FEMALE
-135
-Name Rinsangpuii
-Father's Name: B.Ramherliana
-House Number: 37
-Age: 33 Gender: FEMALE
-138
-Part number: 1
-Name: Lalremruata
-Father's Name : Lalthuama
-House Number: 39
-Age: 59 Gender: MALE
-141
-Name: C.Thankhuma
-Father's Name: Lianngura (L)
-House Number: 40
-Age: 78 Gender: MALE
-144
-Name: Vanlallawmi
-Husband's Name: Lalrammawia
-House Number: 41
-Age: 46 Gender: FEMALE
-147
-Name: Zothansanga
-Mother's Name: Sangthanpari
-House Number: 42
-Age: 20 Gender: MALE
-150
-Name: Lalramchhana
-Mother's Name: Sangthanpari
-House Number: 42
-Age: 34 Gender: MALE
-JKF0078980
-Photo is
-Available
-JKF0021436
-Photo is
-Available
-WTT0052506
-Photo is
-Available
-WTT0052464
-Photo is
-Available
-JKF0201087
-Photo is
-Available
-JKF0174250
-Photo is
-Available
-JKF0113084
-Photo is
-Available
-JKF0005629
-Photo is
-Available
-WTT0091355
-Photo is
-Available
-JKF0194803
-Photo is
-Available
-Total Pages 33 - Page 7
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-151
-Name: Lalrinzuala
-Mother's Name : Sangthanpari
-House Number: 42
-Age: 28 Gender: MALE
-154
-Name: Vanlalramnghaki
-Husband's Name: B.Ramngaihzuala
-House Number: 43
-Age: 40 Gender: FEMALE
-157
-Name: Zirtluangpuii
-Father's Name: Lalawmpuia
-House Number: 43
-Age: 27 Gender: FEMALE
-160
-Name: B.Lawmzuala
-Father's Name: B. Ralzuala
-House Number: 44
-Age: 55 Gender: MALE
-163
-Name: H Lalmuanpuia
-Father's Name: Thiamsanga
-House Number: 46
-Age: 31 Gender: MALE
-166
-Name: Lalrinzuali
-Father's Name: Thiamsanga
-House Number: 46
-Age: 33 Gender: FEMALE
-169
-Name: C Lalhlimpuii
-Father's Name: C Lalramhluna
-House Number: 48
-Age: 19 Gender: FEMALE
-172
-Name: Malsawmsanga
-Mother's Name: Sangdinliani
-House Number: 49
-Age: 22 Gender: MALE
-175
-Name: C.Lalremruatfela
-Mother's Name : Sangdinliani
-House Number: 49
-Age: 29 Gender: MALE
-178
-Name: Lalrinchhani
-Husband's Name: Lalnunnema
-House Number: 50
-Age: 50 Gender: FEMALE
-Age as on 01.01.2023
-WTT0036624
-Photo is
-Available
-JKF0056622
-Photo is
-Available
-WTT0057992
-Photo is
-Available
-JKF0007583
-Photo is
-Available
-WTT0036632
-Photo is
-Available
-JKF0198150
-Photo is
-Available
-WTT0104661
-Photo is
-Available
-WTT0091348
-Photo is
-Available
-WTT0036657
-Photo is
-Available
-JKF0020057
-Photo is
-Available
-152
-Name: Laltanpuii
-Husband's Name: B. Ralzuala
-House Number: 43
-Age: 75 Gender: FEMALE
-155
-Name: B.Ramngaihawma
-Father's Name: B.Ralzuala
-House Number: 43
-Age: 37 Gender: MALE
-158
-Name: C.Lalrempuii
-Husband's Name: B.Lawmzuala
-House Number: 44
-Age: 25 Gender: FEMALE
-161
-Name L.R.Chanchinmawii
-Father's Name: B.Ralzuala
-House Number: 45
-Age: 40 Gender: FEMALE
-164
-Name: Thiamsanga
-Father's Name: Aichhunga (L)
-House Number: 46
-Age: 59 Gender: MALE
-167
-Name: J Ramdinthara
-Father's Name: J.Khawlhmingthanga
-House Number: 47
-Age: 20 Gender: MALE
-170
-Name: Lalmalsawmi
-Husband's Name: Lalramhluna
-House Number: 48
-Age: 47 Gender: FEMALE
-173
-Name: Zonunsangi
-Mother's Name: Sangdinliani
-House Number: 49
-Age: 19 Gender: FEMALE
-176
-Name: Lalniropuia
-Father's Name: Lalnunnema
-House Number: 50
-Age: 23 Gender: MALE
-179
-Name: Lalremruatkimi
-Father's Name: Lalnunnema
-House Number: 50
-Age: 26 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0057646
-Photo is
-Available
-JKF0007435
-Photo is
-Available
-WTT0091181
-Photo is
-Available
-JKF0072595
-Photo is
-Available
-JKF0078964
-Photo is
-Available
-WTT0091520
-Photo is
-Available
-JKF0070821
-Photo is
-Available
-WTT0102087
-Photo is
-Available
-WTT0083105
-Photo is
-Available
-WTT0052514
-Photo is
-Available
-153
-Name: B.Ramngaihzuala
-Father's Name : B.Ralzuala
-House Number: 43
-Age: 44 Gender: MALE
-156
-Name: Lalmalsawmi
-Husband's Name: B. Ramngaihawma
-House Number: 43
-Age: 35 Gender: FEMALE
-159
-Name: Sairengpuia
-Father's Name: Lianzela
-House Number: 44
-Age: 21 Gender: MALE
-162
-Name: C.Vanlalruata
-Father's Name: Hermana
-House Number: 45
-Age: 36 Gender: MALE
-165
-Part number: 1
-Name Lalthlenkima
-Father's Name: Vanlalsanga
-House Number: 46
-Age: 42 Gender: MALE
-168
-Name: Zothanpuii
-Husband's Name: Khawlhmingthanga
-House Number: 47
-Age: 39 Gender: FEMALE
-171
-Name: Lalramhluna
-Father's Name: Lalkhawdina
-House Number: 48
-Age: 45 Gender: MALE
-174
-Name: Sangdinliani
-Husband's Name: Lalenpuia
-House Number: 49
-Age: 52 Gender: FEMALE
-177
-Name: Lalnunnema
-Father's Name: Rangkhuma (L)
-House Number: 50
-Age: 62 Gender: MALE
-180
-Name: Imanuel Lalruatsanga
-Father's Name: Lalnunnema
-House Number: 50
-Age: 25 Gender: MALE
-JKF0057349
-Photo is
-Available
-JKF0192393
-Photo is
-Available
-WTT0085118
-Photo is
-Available
-JKF0173989
-Photo is
-Available
-JKF0005660
-Photo is
-Available
-JKF0044115
-Photo is
-Available
-JKF0173047
-Photo is
-Available
-JKF0316927
-Photo is
-Available
-JKF0070920
-Photo is
-Available
-WTT0065136
-Photo is
-Available
-Total Pages 33 - Page 8
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-181
-Name: Samson Laltlanzuala
-Father's Name: Lalngaizuala
-House Number: 51
-Age: 20 Gender: MALE
-184
-Name: Vanlalhriatpuia
-Father's Name: Lalngaizuala
-House Number: 51
-Age: 23 Gender: MALE
-187
-Name: Malsawmdawnga
-Father's Name: Thanghrima
-House Number: 52
-Age: 48 Gender: MALE
-190
-Name: Lalthazuala
-Father's Name: Malsawmdawnga
-House Number: 52
-Age: 25 Gender: MALE
-193
-Name: Lalnunmawii
-Husband's Name: Lalhmunmawia
-House Number: 53
-Age: 46 Gender: FEMALE
-196
-Name: Laldinsanga
-Father's Name: Lalhmunmawia
-House Number: 53
+Name: Manjunath Umesh Kavlekar
+Father's Name: Umesh Kaulekar
+House Number: Gpa-1/3
 Age: 24 Gender: MALE
-199
-Name: Lalpanmawia
-Father's Name: Zahnuna
-House Number: 54
-Age: 31 Gender: MALE
-202
-Name: Hmangaihzuali
-Husband's Name: Ropianga
-House Number: 55
-Age: 58 Gender: FEMALE
-205
-Name: Biakdailovi
-Father's Name: Ropianga
-House Number: 55
-Age: 28 Gender: FEMALE
-208
-Name: Hmingmawii
-Husband's Name: Vanlalfaka
-House Number: 56
-Age: 70 Gender: FEMALE
-Age as on 01.01.2023
-WIT0091512
+Date of Publication:-01-11-2022
+TMN0335158
 Photo is
 Available
-WTT0072199
+TMN0255778
 Photo is
 Available
-JKF0192401
+TMN0284992
 Photo is
 Available
-WTT0057901
-Photo is
-Available
-JKF0077297
-Photo is
-Available
-WTT0065144
-Photo is
-Available
-WTT0019760
-Photo is
-Available
-JKF0073908
-Photo is
-Available
-WTT0046409
-Photo is
-Available
-JKF0021287
-Photo is
-Available
-182
-Name: Lalngaizuala
-Father's Name: Hranglawta
-House Number: 51
-Age: 62 Gender: MALE
-185
-Name: Lalrempuii
-Father's Name: Malsawmdawnga
-House Number: 52
-Age: 22 Gender: FEMALE
-188
-Name Rolengpuii
-Mother's Name: Roneihthangi (L)
-House Number: 52
-Age: 46 Gender: FEMALE
-191
-Name: Laltansanga
-Father's Name: Lalhmunmawia
-House Number: 53
-Age: 22 Gender: MALE
-194
-Name: F.Lalrinsiami
-Father's Name: Zaithantluanga
-House Number: 53
-Age: 28 Gender: FEMALE
-197
-Name: Zahnuna
-Father's Name: F.Khama (L)
-House Number: 54
-Age: 73 Gender: MALE
-200
-Name: Malsawmtluanga
-Father's Name : Zahnuna
-House Number: 54
-Age: 28 Gender: MALE
-203
-Name: Ropianga
-Father's Name: Buanga (L)
-House Number: 55
-Age: 57 Gender: MALE
-206
-Name: Vanlalhluna
-Father's Name: Lalropianga
-House Number: 55
-Age: 26 Gender: MALE
-209
-Name: Vanlalfaka
-Father's Name: Darbuaia (L)
-House Number: 56
-Age: 67 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0076786
-Photo is
-Available
-WTT0083162
-Photo is
-Available
-JKF0187286
-Photo is
-Available
-WTT0085142
-Photo is
-Available
-WTT0038208
-Photo is
-Available
-JKF0075531
-Photo is
-Available
-WTT0036640
-Photo is
-Available
-JKF0077735
-Photo is
-Available
-WTT0058057
-Photo is
-Available
-JKF0078022
-Photo is
-Available
-183
-Name: Lalhmangaihi
-Husband's Name: Lalngaizuala
-House Number: 51
-Age: 48 Gender: FEMALE
-186
-Name: Vanlalruata
-Father's Name: Malsawmdawnga
-House Number: 52
-Age: 20 Gender: MALE
-189
-Name: Zothanpari
-Husband's Name: M.S.Dawnga
-House Number: 52
-Age: 43 Gender: FEMALE
-192
-Name Lalhmunmawia
-Father's Name: Hranglawta(L)
-House Number: 53
-Age: 59 Gender: MALE
-195
-Part number: 1
-Name: Lalbiakfela
-Father's Name: Lalhmunmawia
-House Number: 53
-Age: 26 Gender: MALE
-198
-Name: Vanramengi
-Husband's Name: Zahnuna
-House Number: 54
-Age: 72 Gender: FEMALE
-201
-Name Lalchhanhimi
-Husband's Name: Malsawmtluanga
-House Number: 54
-Age: 23 Gender: FEMALE
-204
-Name: Lalduhsanga
-Father's Name: Lalropianga
-House Number: 55
-Age: 28 Gender: MALE
-207
-Name: Lalmalsawmi
-Father's Name: Lalrinliana
-House Number: 56
-Age: 21 Gender: FEMALE
-210
-Name: Remsangpuia
-Father's Name : Vanlalfaka
-House Number: 56
-Age: 31 Gender: MALE
-JKF0079970
-Photo is
-Available
-WTT0091496
-Photo is
-Available
-JKF0053561
-Photo is
-Available
-JKF0077768
-Photo is
-Available
-WTT0052225
-Photo is
-Available
-JKF0042010
-Photo is
-Available
-WTT0072157
-Photo is
-Available
-WIT0052233
-Photo is
-Available
-WTT0085126
-Photo is
-Available
-WTT0011403
-Photo is
-Available
-Total Pages 33 - Page 9
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-211
-Name: Lalengmawii
-Father's Name: Ramhluna
-House Number: 56
-Age: 25 Gender: FEMALE
-214
-Name: Lalsaikunga
-Father's Name: Khawtinkhuma (L)
-House Number: 57
-Age: 54 Gender: MALE
-217
-Name: Lalmuanawma
-Father's Name: Lalsaikunga
-House Number: 57
-Age: 25 Gender: MALE
-220
-Name: Ngurengzauva
-Father's Name: Lalriliana
-House Number: 58
-Age: 51 Gender: MALE
-223
-Name: Rochhungi
-Father's Name: Ruala (L)
-House Number: 59
-Age: 79 Gender: FEMALE
-226
-Name: Lalkhawdina
-Father's Name: Chalkaia (L)
-House Number: 60
-Age: 77 Gender: MALE
-229
-Name: Lalrinkimi
-Father's Name: Khawllianthanga
-House Number: 60
-Age: 35 Gender: FEMALE
-232
-Name: Lallianthanga
-Father's Name: Vanlalliana (L)
-House Number: 61
-Age: 55 Gender: MALE
-235
-Name: Lalhmangaihi
-Husband's Name: Laltanpuia
-House Number: 62
-Age: 49 Gender: FEMALE
-238
-Name: C Lalremsiami
-Father's Name: C Lalthanliana
-House Number: 63
-Age: 22 Gender: FEMALE
-Age as on 01.01.2023
-WIT0077719
-Photo is
-Available
-JKF0056739
-Photo is
-Available
-WTT0058099
-Photo is
-Available
-JKF0020032
-Photo is
-Available
-JKF0072009
-Photo is
-Available
-JKF0057166
-Photo is
-Available
-JKF0188003
-Photo is
-Available
-JKF0070987
-Photo is
-Available
-JKF0057190
-Photo is
-Available
-WTT0083139
-Photo is
-Available
-212
-Name: Lalramngheta
-Father's Name: Lalrinliana
-House Number: 56
-Age: 23 Gender: MALE
-215
-Name: Lalbiaknii
-Husband's Name: Lalsaikunga
-House Number: 57
-Age: 51 Gender: FEMALE
-218
-Name: Remruatpuii
-Father's Name: Lalkhawngaiha
-House Number: 58
-Age: 20 Gender: FEMALE
-221
-Name: Lalhriatpuia
-Father's Name : Ngurengzauva Sailo
-House Number: 58
-Age: 33 Gender: MALE
-224
-Name: Ngurthantluanga
-Father's Name: Thanzuala (L)
-House Number: 59
-Age: 50 Gender: MALE
-227
-Name: Vanlalengi
-Husband's Name: Lalkhawdina
-House Number: 60
-Age: 74 Gender: FEMALE
-230
-Name: Lalduatpuia
-Father's Name: Lalkhawdina
-House Number: 60
-Age: 31 Gender: MALE
-233
-Name: Nuzawni
-Father's Name: Laltanpuia
-House Number: 62
-Age: 20 Gender: FEMALE
-236
-Name: Lalhriatpuii
-Father's Name: H.Laltanpuia
-House Number: 62
-Age: 29 Gender: FEMALE
-239
-Name: Zaithanvawri
-Husband's Name: Pachhunga
-House Number: 63
-Age: 51 Gender: FEMALE
-Date of Publication:-09-11-2022
-WIT0077545
-Photo is
-Available
-JKF0057794
-Photo is
-Available
-WTT0091447
-Photo is
-Available
-WTT0011411
-Photo is
-Available
-JKF0020099
-Photo is
-Available
-JKF0073825
-Photo is
-Available
-WTT0019778
-Photo is
-Available
-WTT0102079
-Photo is
-Available
-WTT0036665
-Photo is
-Available
-JKF0114272
-Photo is
-Available
-213
-Name : Saizampuii Sailo
-Father's Name: Lalsaikunga
-House Number: 57
-Age: 21 Gender: FEMALE
-216
-Name: Ngurremsiami
-Father's Name: Lalsaikunga
-House Number: 57
-Age: 26 Gender: FEMALE
-219
-Name: Lianthangi
-Husband's Name : Ngurengzauva
-House Number: 58
-Age: 53 Gender: FEMALE
-222
-Part number: 1
-Name Lalnunpuii
-Father's Name: P.C.Lalvunga
-House Number: 58
-Age: 32 Gender: FEMALE
-225
-Name Remlalnghaki
-Father's Name: Laltinkhuma
-House Number: 59
-Age: 27 Gender: FEMALE
-228
-Name: Lalhmangaiha
-Father's Name: Lalkhawdina
-House Number: 60
-Age: 40 Gender: MALE
-231
-Name : Saizingi
-Father's Name: Thanthuama (L)
-House Number: 61
-Age: 82 Gender: FEMALE
-234
-Name: Laltanpuia
-Father's Name: Vanlalliana (L)
-House Number: 62
-Age: 57 Gender: MALE
-237
-Name: Lalawmpuii
-Father's Name: Laltanpuia
-House Number: 62
-Age: 26 Gender: FEMALE
-240
-Name: Zirsangkimi
-Father's Name: Pachhunga
-House Number: 63
-Age: 34 Gender: FEMALE
-WTT0091264
-Photo is
-Available
-WTT0057943
-Photo is
-Available
-JKF0020024
-Photo is
-Available
-WTT0019844
-Photo is
-Available
-WTT0048645
-Photo is
-Available
-JKF0070946
-Photo is
-Available
-JKF0076851
-Photo is
-Available
-JKF0112987
-Photo is
-Available
-WTT0058065
-Photo is
-Available
-JKF0201103
-Photo is
-Available
-Total Pages 33 - Page 10
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-241
-Name: Lalrinawma
-Father's Name: Pachhunga
-House Number: 63
-Age: 31 Gender: MALE
-244
-Name: Vanlalhmangaihsanga
-Father's Name : Thangkima
-House Number: 64
-Age: 19 Gender: MALE
-247
-Name: Lalhminghlui
-Husband's Name: Thangkima
-House Number: 64
-Age: 39 Gender: FEMALE
-250
-Name: Lalnuntluanga
-Father's Name: Lalthanliana (L)
-House Number: 64
-Age: 33 Gender: MALE
-253
-Name: Vanlalruatkima
-Father's Name: Lalchuangliana
-House Number: 65
-Age: 30 Gender: MALE
-256
-Name: Lalthansangi
-Husband's Name: Pahlira
-House Number: 66
-Age: 62 Gender: FEMALE
-259
-Name: F.Lalramliani
-Husband's Name: Lalawmpuia
-House Number: 66
-Age: 30 Gender: FEMALE
-262
-Name: Lalremhlua
-Father's Name: B.Lalchhuankima
-House Number: 67
-Age: 28 Gender: MALE
-265
-Name: Ramherliana
-Father's Name : Zadingliana
-House Number: 68
-Age: 52 Gender: MALE
-268
-Name: Lalrintluanga
-Mother's Name: Lalawmpuii
-House Number: 69
-Age: 27 Gender: MALE
-Age as on 01.01.2023
-WIT0009167
-Photo is
-Available
-WTT0102038
-Photo is
-Available
-JKF0175463
-Photo is
-Available
-JKF0175315
-Photo is
-Available
-WTT0011437
-Photo is
-Available
-JKF0042028
-Photo is
-Available
-WTT0019802
-Photo is
-Available
-WTT0036707
-Photo is
-Available
-JKF0075291
-Photo is
-Available
-WTT0036483
-Photo is
-Available
-242
-Name: Lalhmangaihsangzuali
-Father's Name: Pachhunga
-House Number: 63
-Age: 27 Gender: FEMALE
-245
-Name: Ngurkhumi
-Husband's Name: Lalthanliana (L)
-House Number: 64
-Age: 64 Gender: FEMALE
-248
-Name: Lalhruaitluangi
-Mother's Name : Ngurkhumi
-House Number: 64
-Age: 39 Gender: FEMALE
-251
-Name: Lalchuangliana
-Father's Name: Ringliana
-House Number: 65
+Part number: 16
+123
+Name: Ravi Rathod
+Father's Name: Hamappa Rathod
+House Number: 685/B
 Age: 58 Gender: MALE
-254
-Name: Stephan Lalrinngheta
-Father's Name: Lalchuangliana
-House Number: 65
-Age: 29 Gender: MALE
-257
-Name: C. Lalawmpuia
-Father's Name: Pahlira (L)
-House Number: 66
-Age: 35 Gender: MALE
-260
-Name B.Lalchhuankima
-Father's Name: B. Zalawma
-House Number: 67
-Age: 48 Gender: MALE
-263
-Name: B.Malsawmtluanga
-Father's Name: B.Lalchhuankima
-House Number: 67
-Age: 25 Gender: MALE
-266
-Name: Lalduhzuala
-Father's Name: Ramherliana
-House Number: 68
-Age: 27 Gender: MALE
-269
-Name: Jakob Lalchhuanliana
-Father's Name: B.Lalauva
-House Number: 70
-Age: 45 Gender: MALE
-Date of Publication:-09-11-2022
-WTT0036673
+126
+Name Pornima Rathod
+Father's Name: Ravi Rathod
+House Number: 816/43
+Age: 33 Gender: FEMALE
+129
+Name: Shobha Mahesh Pujari
+Husband's Name: Mahesh Pujari
+House Number: H.No-112/5
+Age: 31 Gender: FEMALE
+TMN0052811
 Photo is
 Available
-WTT0027805
+TMN0190553
 Photo is
 Available
-JKF0021295
+ZKO3520277
 Photo is
 Available
-JKF0005645
-Photo is
-Available
-WTT0036681
-Photo is
-Available
-JKF0113993
-Photo is
-Available
-JKF0076828
-Photo is
-Available
-WTT0065151
-Photo is
-Available
-WIT0052241
-Photo is
-Available
-JKF0114678
-Photo is
-Available
-243
-Name: Lalremliana
-Father's Name: Pachhunga
-House Number: 63
-Age: 25 Gender: MALE
-246
-Name: Thangkima
-Mother's Name : Ngurkhumi
-House Number: 64
-Age: 42 Gender: MALE
-249
-Name: Remsangpuii
-Mother's Name : Ngurkhumi
-House Number: 64
-Age: 37 Gender: FEMALE
-252
-Part number: 1
-Name: Ramchuhthangi
-Husband's Name: Lalchuangliana
-House Number: 65
-Age: 51 Gender: FEMALE
-255
-Name: Biakthianghlimi
-Father's Name : Chuangliana
-House Number: 65
-Age: 27 Gender: FEMALE
-258
-Name: Lalrinpuii
-Father's Name: Pahlira
-House Number: 66
-Age: 32 Gender: FEMALE
-261
-Name: B.Remlalruati
-Father's Name: B.Lalchhuankima
-House Number: 67
-Age: 30 Gender: FEMALE
-264
-Name: Lallianpuii
-Husband's Name: B.Ramhera
-House Number: 68
-Age: 53 Gender: FEMALE
-267
-Name: Hmingthazuali
-Father's Name: Ramherliana
-House Number: 68
-Age: 23 Gender: FEMALE
-270
-Name: Heleni
-Father's Name : B.Lalauva
-House Number: 70
-Age: 44 Gender: FEMALE
-WTT0057927
-Photo is
-Available
-JKF0005934
-Photo is
-Available
-JKF0079996
-Photo is
-Available
-JKF0078931
-Photo is
-Available
-WTT0048652
-Photo is
-Available
-WTT0011445
-Photo is
-Available
-WTT0031401
-Photo is
-Available
-JKF0021113
-Photo is
-Available
-WTT0072173
-Photo is
-Available
-JKF0057174
-Photo is
-Available
-Total Pages 33 - Page 11
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 1-W.Phaileng-Chawngbawla
-271
-Name: Kapmawii
-Father's Name : Noliana (L)
-House Number: 70
-Age: 28 Gender: FEMALE
-Age as on 01.01.2023
-JKF0074013
-Photo is
-Available
-Date of Publication:-09-11-2022
-Part number: 1
-Total Pages 33 - Page 12
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-272
-Name: Vanlalsanga
-Father's Name: Lalhlira
-House Number: 1
-Age: 67 Gender: MALE
-275
-Name: Lalchungnunga
-Father's Name: Vanlalsanga
-House Number: 1
-Age: 47 Gender: MALE
-278
-Name: Lalruatkima
-Father's Name: R. Zohlira
-House Number: 2
-Age: 21 Gender: MALE
-281
-Name: Vanlalnghaka
-Father's Name: Zohlira
-House Number: 2
-Age: 27 Gender: MALE
-284
-Name: H.Lalthianghlima
-Father's Name: Biakthanga
-House Number: 3
-Age: 45 Gender: MALE
-287
-Name: Lalhmangaihsangi
-Father's Name: Lalronghaka
-House Number: 4
-Age: 21 Gender: FEMALE
-290
-Name: Vanlalchhuangi
-Father's Name: Biakthanga
-House Number: 5
-Age: 40 Gender: FEMALE
-293
-Name: Sangmawii
-Father's Name: Zakhuma (L)
-House Number: 6
-Age: 71 Gender: FEMALE
-296
-Name: Lalthlangliana
-Father's Name: Rangkhuma (L)
-House Number: 7
-Age: 48 Gender: MALE
-299
-Name: Thangngaihzuali
-Husband's Name: C.Rokunga
-House Number: 9
-Age: 60 Gender: FEMALE
-Age as on 01.01.2023
-JKF0007617
-Photo is
-Available
-JKF0114124
-Photo is
-Available
-WTT0085068
-Photo is
-Available
-WTT0048660
-Photo is
-Available
-JKF0008896
-Photo is
-Available
-WTT0085050
-Photo is
-Available
-JKF0041913
-Photo is
-Available
-JKF0075473
-Photo is
-Available
-JKF0112938
-Photo is
-Available
-JKF0194829
-Photo is
-Available
-273
-Name: Lalhlupuii
-Husband's Name: Vanlalsanga
-House Number: 1
+Total Pages 15 - Page 7
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 2-Badem, Salvador do Mundo
+130
+TMN0159293
+Name: Sunanda Naique
+Husband's Name: Subaxa Naique
+House Number: 27/2
 Age: 65 Gender: FEMALE
-276
-Name: Ruth Vanlalpeki
-Husband's Name : Vanlalnghaka
-House Number: 2
-Age: 24 Gender: FEMALE
-279
-Name: Lalruatfeli
-Father's Name: R. Zohlira
-House Number: 2
-Age: 21 Gender: FEMALE
-282
-Name: H Malsawmkima
-Father's Name: H Lalthianghlima
-House Number: 3
-Age: 19 Gender: MALE
-285
-Name: Estheri
-Husband's Name: Lalthianglhima
-House Number: 3
-Age: 40 Gender: FEMALE
-288
-Name: Lalronghaka
-Father's Name : Biakthanga
-House Number: 4
-Age: 48 Gender: MALE
-291
-Name: Zomuankimi
-Mother's Name: Vanlalchhuangi
-House Number: 5
-Age: 28 Gender: FEMALE
-294
-Name B.Vanlalruata
-Father's Name: Zakhuma (L)
-House Number: 6
-Age: 57 Gender: MALE
-297
-Name: Lalnunmawia
-Father's Name : Kapliana (L)
-House Number: 8
-Age: 71 Gender: MALE
-300
-Name: Rokunga Chhakchhuak
-Father's Name: Hualhnuna (L)
-House Number: 9
-Age: 56 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0042044
-Photo is
-Available
-WTT0091421
-Photo is
-Available
-WTT0085076
-Photo is
-Available
-WTT0104695
-Photo is
-Available
-JKF0187930
-Photo is
-Available
-JKF0072017
-Photo is
-Available
-WTT0036715
-Photo is
-Available
-JKF0173021
-Photo is
-Available
-JKF0021063
-Photo is
-Available
-JKF0194811
-Photo is
-Available
-274
-Name: Zachhungi
-Father's Name : Biakthanga
-House Number: 1
-Age: 58 Gender: FEMALE
-277
-Name: Vanlalhumi
-Father's Name : R. Zohlira
-House Number: 2
+133
+Name: Savita Valke
+Husband's Name: Manguesh Valke
+House Number: 104
+Age: 73 Gender: FEMALE
+136
+Name: Dharma Kumudchandra
+Alornekar
+Father's Name: Kumudchandra
+Alornekar
+House Number: 105
+Age: 37 Gender: MALE
+139
+Name: Bhavesh Subhash Naik
+Father's Name: Subhash Naik
+House Number: 106
+Age: 31 Gender: MALE
+142
+Name: Bramhanand Janu Naik
+Father's Name: Janu Naik
+House Number: 107
+Age: 70 Gender: MALE
+145
+Name: Kanchan Keshav Chodankar
+Husband's Name: Keshav Chodankar
+House Number: 108
+Age: 53 Gender: FEMALE
+148
+Name: Tanvi Naik
+Father's Name: Jaihind Naik
+House Number: 108/1
 Age: 22 Gender: FEMALE
-280
-Name: Lalronghaki
-Husband's Name: Zohlira
-House Number: 2
+151
+Name: Gopika Ganesh Dhaude
+Husband's Name: Ganesh Dhaude
+House Number: 109
+Age: 69 Gender: FEMALE
+154
+Name: Sarvesh Volvoikar
+Father's Name: Santosh Volvoikar
+House Number: 110
+Age: 38 Gender: MALE
+157
+Name: Manpreet Kaur
+Father's Name: Surinder Singh
+House Number: 112
+Age: 29 Gender: FEMALE
+Age as on 01.01.2023
+Photo is
+Available
+BGW0777896
+Photo is
+Available
+BGW1896034
+Photo is
+Available
+TMN0191494
+Photo is
+Available
+TMN0203356
+Photo is
+Available
+BGW0753202
+Photo is
+Available
+TMN0298653
+Photo is
+Available
+TMN0059782
+Photo is
+Available
+BGW0753608
+Photo is
+Available
+TMN0260851
+Photo is
+Available
+131
+Name: Reshma Khawas
+Husband's Name: Alladin Khawas
+House Number: 65/10
+Age: 36 Gender: FEMALE
+134
+Name: Atmaram Valke
+Father's Name: Manguesh Valke
+House Number: 104
+Age: 42 Gender: MALE
+137
+Name: Kumudini Kumudchandra
+Halarnkar
+Husband's Name: Kumudchandra
+Halarnkar
+House Number: 105
+Age: 63 Gender: FEMALE
+140
+Name : Prajyot Naik
+Father's Name: Subhash Bhiku Naik
+House Number: 106
+Age: 29 Gender: MALE
+143
+Name: Archana Naik
+Husband's Name: Brahmanand Naik
+House Number: 107
+Age: 60 Gender: FEMALE
+146
+Name: Kunaal Chodankar
+Father's Name: Keshav Chodankar
+House Number: 108
+Age: 27 Gender: MALE
+149
+Name Jaihind Janu Naik
+Father's Name : Janu Naik
+House Number: 108/1
+Age: 70 Gender: MALE
+152
+Name: Adarsh Dhaude
+Husband's Name: Ashok Dhaude
+House Number: 109
+Age: 58 Gender: FEMALE
+155
+Name: Shilpa Sarvesh Volvoikar
+Husband's Name: Sarvesh Volvoikar
+House Number: 110
+Age: 36 Gender: FEMALE
+158
+Name: Santsen Ganeshsindh Reena
+Father's Name: Ganeshsindh Reena
+House Number: 112
+Age: 80 Gender: MALE
+TMN0209775
+Photo is
+Available
+BGW7909930
+Photo is
+Available
+BGW0754309
+Photo is
+Available
+Date of Publication:-01-11-2022
+TMN0285841
+Photo is
+Available
+BGW3190493
+Photo is
+Available
+TMN0256164
+Photo is
+Available
+BGW0753236
+Photo is
+Available
+BGW4507844
+Photo is
+Available
+TMN0189795
+Photo is
+Available
+BGW3190394
+Photo is
+Available
+132
+Name: Mangesh Valke
+Father's Name: Atmaram Valke
+House Number: 104
+Age: 81 Gender: MALE
+Part number: 16
+135
+Name: Ashi Valke
+Husband's Name: Atmaram Valke
+House Number: 104
+Age: 36 Gender: FEMALE
+138
+Name Pratima Premanath Naik
+Husband's Name: Premanath Naik
+House Number: 106
+Age: 61 Gender: FEMALE
+141
+Name Tushal Premnath Naik Dhaude
+Father's Name: Premanath Bhiku Naik
+Dhaude
+House Number: 106
+Age: 29 Gender: MALE
+144
+Name: Keshav Dhananjay Chodankar
+Father's Name : Dhananjay Chodankar
+House Number: 108
+Age: 59 Gender: MALE
+147
+Name: Kanak Keshav Chodankar
+Father's Name: Keshav Dhananjay
+Chodankar
+House Number: 108
+Age: 20 Gender: FEMALE
+150
+Name: Jyoti Jaihind Naik
+Husband's Name: Jaihind Naik
+House Number: 108/1
+Age: 57 Gender: FEMALE
+153
+Name: Sarita Santosh Volvoikar
+Husband's Name: Santosh Volvoikar
+House Number: 110
+Age: 53 Gender: FEMALE
+156
+Name: Parvinder Kaur
+Father's Name: Sant Singh
+House Number: 112
 Age: 51 Gender: FEMALE
-283
-Part number: 1
-Name: Biakthanga
-Father's Name: Taipuia (L)
-House Number: 3
-Age: 92 Gender: MALE
-286
-Name: Vanlalhmangaihzuala
-Father's Name: Lalronghaka
-House Number: 4
-Age: 23 Gender: MALE
-289
-Name: Lalruatkimi
-Husband's Name: Lalronghaka
-House Number: 4
+159
+Name: Harjeet Kaur Reena
+Husband's Name: Santsen Reena
+House Number: 112
+Age: 73 Gender: FEMALE
+TMN0309401
+Photo is
+Available
+TKZ0324798
+Photo is
+Available
+TMN0060137
+Photo is
+Available
+TMN0238915
+Photo is
+Available
+BGW0753228
+Photo is
+Available
+TMN0336305
+Photo is
+Available
+BGW4506739
+Photo is
+Available
+TMN0160044
+Photo is
+Available
+TMN0260836
+Photo is
+Available
+BGW0752501
+Photo is
+Available
+Total Pages 15 - Page 8
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 2-Badem, Salvador do Mundo
+160
+BGW0753020
+Name: Mallava Pujari
+Husband's Name: Lingappa Pujari
+House Number: 112/5
+Age: 58 Gender: FEMALE
+163
+Name: Revati Naik
+Husband's Name: Shankar Naik
+House Number: 113
+Age: 56 Gender: FEMALE
+166
+Name: Mohan Naik
+Father's Name: Shankar Naik
+House Number: 113
+Age: 22 Gender: MALE
+169
+Name: Charles Reuben Hugo De
+Souza
+Father's Name: George Elmer Vasco
+Jose De Souza
+House Number: 113/14
+Age: 27 Gender: MALE
+172
+Name: Sunita Subhash Sawant
+Husband's Name: Subhash Sawant
+House Number: 114
+Age: 61 Gender: FEMALE
+175
+Name: Rajashree Chari
+Husband's Name: Gurudas Chari
+House Number: 115
 Age: 47 Gender: FEMALE
-292
-Name Isak Malsawmtluanga
-Father's Name: B. Lawmzuala
-House Number: 5
+178
+Name : Vijaya Sadanand Potekar
+Father's Name: Sadanand Potekar
+House Number: 116
+Age: 65 Gender: FEMALE
+181
+Name: Govind Sadanand Potekar
+Father's Name: Sadanand Potekar
+House Number: 116
+Age: 56 Gender: MALE
+184
+Name : Niraj Lotlikar
+Father's Name: Gajanan Lotlikar
+House Number: 117
+Age: 37 Gender: MALE
+187
+Name: Manohar Dukalo Kundaikar
+Father's Name: Dukalo Kundaikar
+House Number: 118
+Age: 62 Gender: MALE
+Age as on 01.01.2023
+Photo is
+Available
+BGW0753640
+Photo is
+Available
+TMN0298661
+Photo is
+Available
+TMN0261586
+Photo is
+Available
+TMN0151605
+Photo is
+Available
+BGW0754143
+Photo is
+Available
+TMN0214783
+Photo is
+Available
+TMN0214775
+Photo is
+Available
+BGW0753418
+Photo is
+Available
+TMN0059337
+Photo is
+Available
+161
+Name: Mahesh Pujari
+Father's Name: Lingappa Pujari
+House Number: 112/5
+Age: 37 Gender: MALE
+164
+Name: Susmita Naik
+Father's Name: Shankar Naik
+House Number: 113
+Age: 28 Gender: FEMALE
+167
+Name: Raquel De Souza
+Husband's Name: George De Souza
+House Number: 113/14
+Age: 68 Gender: FEMALE
+170
+Name: George D'Souza
+Father's Name: Hugo M.G. De Souza
+House Number: 113/14
+Age: 71 Gender: MALE
+173
+Name: Sunny Subhash Sawant
+Father's Name: Subhash Sawant
+House Number: 114
+Age: 35 Gender: MALE
+176
+Name: Lulu Sadanand Potekar
+Father's Name: Sadanand Potekar
+House Number: 116
+Age: 75 Gender: MALE
+179
+Name: Shakuntala Potekar
+Husband's Name: Shivnath Potekar
+House Number: 116
+Age: 58 Gender: FEMALE
+182
+Name: Navya Lotlekar
+Husband's Name: Niraj Lotlekar
+House Number: 117
+Age: 35 Gender: FEMALE
+185
+House Number: 118
+Age: 68 Gender: MALE
+188
+Name: Ghanashyam Dukalo Kundaikar
+Father's Name: Dukalo Kundaikar
+Name: Gandhalli Kundaikar
+Husband's Name: Ghanashyam
+Kundaikar
+BGW0753616
+House Number: 118
+Age: 56 Gender: FEMALE
+Photo is
+Available
+TMN0267674
+Date of Publication:-01-11-2022
+Photo is
+Available
+TMN0209080
+Photo is
+Available
+TMN0209098
+Photo is
+Available
+TMN0151613
+BGW0765248
+Photo is
+Available
+Photo is
+Available
+TMN0153064
+Photo is
+Available
+TMN0143578
+BGW0753210
+Photo is
+Available
+Photo is
+Available
+TMN0309286
+Photo is
+Available
+162
+Name: Shankar Pandurang Naik
+Father's Name: Pandurang Naik
+House Number: 113
+Age: 73 Gender: MALE
+165
+Name: Vaibhavi Naik
+Father's Name: Shankar Naik
+House Number: 113
+Age: 24 Gender: FEMALE
+Part number: 16
+168
+Name: Ana Karina Fatima De Souza
+Father's Name: George De Souza
+House Number: 113/14
+Age: 37 Gender: FEMALE
+171
+Name: Subhash Sawant
+Father's Name: Balchandra Sawant
+House Number: 114
+Age: 72 Gender: MALE
+174
+Name: Gurudas Chari
+Father's Name: Kaka Chari
+House Number: 115
+Age: 53 Gender: MALE
+177
+Name: Shivanath Sadanand Potekar
+Father's Name: Sadanand Potekar
+House Number: 116
+Age: 68 Gender: MALE
+180
+Name Triveni Sadanand Potekar
+Father's Name: Sadanand Potekar
+House Number: 116
+Age: 58 Gender: FEMALE
+183
+Name: Vasanti Gajanan Lotlikar
+Husband's Name: Gajanan Lotlikar
+House Number: 117
+Age: 74 Gender: FEMALE
+186
+Name: Vasudev Kundaikar
+Father's Name: Duclo Kundaikar
+House Number: 118
+Age: 65 Gender: MALE
+189
+Name: Mukta Manohar Kundaikar
+Husband's Name: Manohar Kundaikar
+House Number: 118
+Age: 55 Gender: FEMALE
+BGW0753657
+Photo is
+Available
+TMN0282160
+Photo is
+Available
+TMN0209106
+Photo is
+Available
+TMN0151597
+Photo is
+Available
+BGW0754671
+Photo is
+Available
+TMN0051748
+Photo is
+Available
+TMN0058909
+Photo is
+Available
+TMN0151506
+Photo is
+Available
+TMN0059089
+Photo is
+Available
+TMN0059360
+Photo is
+Available
+Total Pages 15 - Page 9
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 2-Badem, Salvador do Mundo
+190
+TMN0059071
+Name: Jai Kundaikar
+Husband's Name: Vasudev Kundaikar
+House Number: 118
+Age: 48 Gender: FEMALE
+193
+Name: Mohit Kundaikar
+Father's Name: Ghanashyam Dukalo
+Kundaikar
+House Number: 118
 Age: 26 Gender: MALE
-295
-Name: Lalnunmawii
-Husband's Name: B.Vanlalruata
-House Number: 6
+196
+Name: Rukmini Prabhakar Kerkar
+Husband's Name: Prabhakar Kerkar
+House Number: 119
+Age: 76 Gender: FEMALE
+199
+Name: Mahadev P. Raut
+Father's Name: Pundalik Raut
+House Number: 119
+Age: 55 Gender: MALE
+202
+Name: Melvin Gerald Fernandes
+Father's Name: Lourenco Fernandes
+House Number: 120/A
+Age: 41 Gender: MALE
+205
+Name: Joaquim Vincent Maurish
+Fernandes
+Father's Name: Caridade Fernandes
+House Number: 120/B
+Age: 48 Gender: MALE
+208
+Name: Babuso Chodankar
+Father's Name: Surya Chodankar
+House Number: 131
+Age: 50 Gender: MALE
+211
+Name: Tejas Chodankar
+Father's Name: Surya Chodankar
+House Number: 131
+Age: 37 Gender: MALE
+214
+Name: Kiran Chodankar
+Husband's Name: Krishnakant
+Chodankar
+House Number: 144
+Age: 53 Gender: FEMALE
+217
+Name Escolastica J. Fernandes
+Husband's Name: Joaquim V. M.
+Fernandes
+House Number: 169
+Age: 45 Gender: FEMALE
+Age as on 01.01.2023
+Photo is
+Available
+TMN0265389
+Photo is
+Available
+TMN0214643
+Photo is
+Available
+TMN0191528
+Photo is
+Available
+BGW0752998
+Photo is
+Available
+BGW4507786
+Photo is
+Available
+BGW0754010
+Photo is
+Available
+TMN0203364
+Photo is
+Available
+BGW0754713
+TMN0256958
+191
+Photo is
+Available
+Name: Namrata Kundaikar
+Father's Name : Manohar Kundaikar
+House Number: 118
+Age: 32 Gender: FEMALE
+194
+Name Aditi Kundaikar
+Father's Name: Manohar Dukalo
+Kundaikar
+House Number: 118
+Age: 25 Gender: FEMALE
+197
+Name: Pramod Prabhakar Kerkar
+Father's Name: Prabhakar Kerkar
+House Number: 119
+Age: 50 Gender: MALE
+200
+Name: Kashibai Mahadev Raut
+Husband's Name: Mahadev Raut
+House Number: 119
+Age: 49 Gender: FEMALE
+203
+Name: Lourence Joao Mariano
+Fernandes
+Father's Name: Joaquim Vicente
+Fernandes
+House Number: 120A
+Age: 77 Gender: MALE
+206
+Name: Hanumant Mukund Chodankar
+Father's Name: Mukund Chodankar
+House Number: 122
+Age: 63 Gender: MALE
+209
+Name: Amrut Chodankar
+Father's Name: Surya Chodankar
+House Number: 131
+Age: 46 Gender: MALE
+212
+Name: Kishori Chodankar
+Husband's Name: Rajesh Chodankar
+House Number: 131/1
+Age: 43 Gender: FEMALE
+215
+Photo is
+Available Age: 53 Gender: MALE
+Name: Krishnakant Dattaram
+Chodankar
+Father's Name: Dattaram Chodankar
+House Number: 144
+218
+Name: Teja Chodankar
+Father's Name: Vinod Chodankar
+House Number: 181/A
+Age: 20 Gender: FEMALE
+Date of Publication:-01-11-2022
+TMN0191585
+Photo is
+Available
+TMN0271452
+Photo is
+Available
+TMN0214668
+Photo is
+Available
+TMN0191510
+Photo is
+Available
+TMN0052308
+Photo is
+Available
+TMN0160150
+Photo is
+Available
+TMN0215327
+Photo is
+Available
+TMN0288514
+Photo is
+Available
+TMN0052068
+Photo is
+Available
+TMN0336164
+Photo is
+Available
+192
+Name: Tarak Kundaikar
+Father's Name: Ghanasham Kundaikar
+House Number: 118
+Age: 32 Gender: MALE
+195
+Name : Saivijay Kundaikar
+Father's Name: Vasudev Kundaikar
+House Number: 118
+Age: 25 Gender: MALE
+Part number: 16
+198
+Name: Nina Kerkar
+Father's Name: Prabhakar Kerkar
+House Number: 119
+Age: 44 Gender: FEMALE
+201
+Name: Liberata Fernandes
+Father's Name: Lorenso Joao M
+Fernandes
+House Number: 120/1
+Age: 36 Gender: FEMALE
+204
+Name: Tertulina Helena Fernandes
+Husband's Name: Caridade Fernandes
+House Number: 120/B
+Age: 79 Gender: FEMALE
+207
+Name: Dhilan Mukund Chodankar
+Father's Name: Mukund Chodankar
+House Number: 122
+Age: 56 Gender: FEMALE
+210
+Name: Rajesh Chodankar
+Father's Name: Surya Chodankar
+House Number: 131
+Age: 44 Gender: MALE
+213
+Name: Ranjita Chodankar
+Husband's Name: Babuso Chodankar
+House Number: 131/1
 Age: 42 Gender: FEMALE
+216
+Name Krishnanath Chodankar
+Father's Name: Dattaram Chodankar
+House Number: 144
+Age: 50 Gender: MALE
+219
+Name: Shilpa Santosh Bhosle
+Husband's Name: Santosh Anant
+Bhosle
+House Number: 191/2
+Age: 38 Gender: FEMALE
+TMN0191577
+Photo is
+Available
+TMN0271403
+Photo is
+Available
+TMN0214650
+Photo is
+Available
+TMN0152082
+Photo is
+Available
+TMN0059568
+Photo is
+Available
+BGW3190733
+Photo is
+Available
+BGW0752782
+Photo is
+Available
+TMN0288506
+Photo is
+Available
+BGW8237935
+Photo is
+Available
+ZMI0361501
+Photo is
+Available
+Total Pages 15 - Page 10
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 2-Badem, Salvador do Mundo
+220
+TMN0351593
+Name: Pallavi Naik
+Father's Name: Pandharil Naik
+House Number: 191/5
+Age: 19 Gender: FEMALE
+223
+Name: Felix Izidor Fernandes
+Father's Name: Izidor Fernandes
+House Number: 192
+Age: 60 Gender: MALE
+226
+Name Lourdes Fernandes
+Husband's Name: Felix Fernandes
+House Number: 192
+Age: 53 Gender: FEMALE
+229
+Name: Aruna Harikumar Chatim
+Husband's Name: Harikumar Chatim
+House Number: 192/2
+Age: 69 Gender: FEMALE
+232
+Name: Bernard Fernandes
+Father's Name: Thomas Fernandes
+House Number: 192/2
+Age: 81 Gender: MALE
+235
+Name: Eduardo Fernandes
+Father's Name: Felicio Fernandes
+House Number: 194
+Age: 56 Gender: MALE
+238
+Name: Vandana Chatim
+Husband's Name: Narendra Chatim
+House Number: 196
+Age: 70 Gender: FEMALE
+241
+Name: Santosh Tatu Gaude
+Father's Name : Tatu Gaude
+House Number: 197
+Age: 63 Gender: MALE
+244
+Name: Sushama Santosh Gaude
+Husband's Name: Santosh Gaude
+House Number: 197
+Age: 51 Gender: FEMALE
+247
+Name: Otilia Noemia ivete Ferrao
+Husband's Name: Luis Ferrao
+House Number: 198
+Age: 73 Gender: FEMALE
+Age as on 01.01.2023
+Photo is
+Available
+TMN0215160
+Photo is
+Available
+BGW0753632
+Photo is
+Available
+BGW3190865
+Photo is
+Available
+BGW0754184
+Photo is
+Available
+BGW7909468
+Photo is
+Available
+TMN0309203
+Photo is
+Available
+BGW0752865
+Photo is
+Available
+TMN0309195
+Photo is
+Available
+TMN0152561
+Photo is
+Available
+221
+Name: Tereza Izidor Fernandes
+Husband's Name: Izador Fernandes
+House Number: 192
+Age: 84 Gender: FEMALE
+224
+Name: Victoria Fernandes
+Father's Name: Isidorio Fernandes
+House Number: 192
+Age: 58 Gender: FEMALE
+227
+Name: Carmin Fernandes
+Husband's Name: Guilherme
+Fernandes
+House Number: 192
+Age: 51 Gender: FEMALE
+230
+Name: Abita Chatim
+Father's Name: Harikumar Chatim
+House Number: 192/2
+Age: 41 Gender: FEMALE
+233
+Name: Francisca Barreto
+Husband's Name: Eduardo Fernandes
+House Number: 194
+Age: 51 Gender: FEMALE
+236
+Name: Rerik Fernandes
+Father's Name: Domnic Fernandes
+House Number: 194
+Age: 37 Gender: MALE
+239
+Name: Pandurang Chatim
+Father's Name: Narendra Chatim
+House Number: 196
+Age: 45 Gender: MALE
+242
+Name: Rekha Tatu Gaude
+Father's Name: Tatu Gaude
+House Number: 197
+Age: 60 Gender: FEMALE
+245
+Name: Meera Gaude
+Husband's Name: Rajendra Gaude
+House Number: 197
+Age: 50 Gender: FEMALE
+248
+Name: Leroy Luis Ferrao
+Father's Name: Luis Ferrao
+House Number: 198
+Age: 49 Gender: MALE
+TMN0203380
+Photo is
+Available
+TMN0350546
+Photo is
+Available
+BGW0753590
+Photo is
+Available
+BGW6606115
+Date of Publication:-01-11-2022
+Photo is
+Available
+BGW7909450
+Photo is
+Available
+BGW0753400
+Photo is
+Available
+BGW2800241
+Photo is
+Available
+BGW3191103
+Photo is
+Available
+BGW0754739
+Photo is
+Available
+TMN0214635
+Photo is
+Available
+222
+Name: Merciana Fernandes
+Husband's Name: Bernardo Fernandes
+House Number: 192
+Age: 73 Gender: FEMALE
+225
+Part number: 16
+Name: Guilherme Fernandes
+Father's Name: Izidor Fernandes
+House Number: 192
+Age: 55 Gender: MALE
+228
+Name: Elison Fernandes
+Mother's Name: Lourdes Fernandes
+House Number: 192
+Age: 22 Gender: MALE
+231
+Name: Abhay Kumar Chatim
+Father's Name: Harikumar Chatim
+House Number: 192/2
+Age: 40 Gender: MALE
+234
+Name Pedro Fernandes
+Father's Name: Felicio Fernandes
+House Number: 194
+Age: 58 Gender: MALE
+237
+Name: Narendra Chatim
+Father's Name: Pandu Chatim
+House Number: 196
+Age: 73 Gender: MALE
+240
+Name: Sonia Chatim
+Husband's Name: Pandurang Chatim
+House Number: 196
+Age: 37 Gender: FEMALE
+243
+Name: Rajendra Tatu Gaude
+Father's Name : Tatu Gaude
+House Number: 197
+Age: 59 Gender: MALE
+246
+Name: Luis Rock Ferrao
+Father's Name: Rock Ferrao
+House Number: 198
+Age: 78 Gender: MALE
+249
+Name: Levi Luis Ferrao
+Father's Name: Luis Gonzaga
+Caitaninho De Perpetuo
+House Number: 198
+Age: 46 Gender: MALE
+TMN0059477
+Photo is
+Available
+TMN0159319
+Photo is
+Available
+TMN0297788
+Photo is
+Available
+TMN0203398
+Photo is
+Available
+BGW0754648
+Photo is
+Available
+BGW2800225
+Photo is
+Available
+CPQ0627737
+Photo is
+Available
+BGW0754747
+Photo is
+Available
+TMN0152579
+Photo is
+Available
+TMN0214718
+Photo is
+Available
+Total Pages 15 - Page 11
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 2-Badem, Salvador do Mundo
+250
+TMN0152587
+Name: Lee Ferrao
+Father's Name: Luis Ferrao
+House Number: 198
+Age: 41 Gender: MALE
+253
+Name: Enrico Nazareth Fernandes
+Father's Name: Cajetan Domnic
+Fernandes
+House Number: 201
+Age: 21 Gender: MALE
+256
+Name: Roger Fernandes
+Father's Name: Francisco Fernandes
+House Number: 201/1
+Age: 39 Gender: MALE
+259
+Name: Steffy Elly Noronha
+Father's Name: Wesley Simon
+Fernandes
+House Number: 201/A
+Age: 36 Gender: FEMALE
+262
+Name: Leo H. M. S. D'Souza
+Father's Name: Caitan D'Souza
+House Number: 203
+Age: 72 Gender: MALE
+265
+Name: Tereza Fernandes
+Husband's Name: Simon Fernandes
+House Number: 204
+Age: 53 Gender: FEMALE
+268
+Name: Sharmila Alexo Veloso
+Father's Name: Alexo Veloso
+House Number: 205
+Age: 78 Gender: FEMALE
+271
+Name: Kedar Naik
+Father's Name: Subhash Krishna Naik
+House Number: 206
+Age: 28 Gender: MALE
+274
+Name: Andrew Stephen Fernandes
+Mother's Name: Tereza Fernandes
+House Number: 209
+Age: 22 Gender: MALE
+277
+Name: Bhamini Surya Naik
+Husband's Name: Surya Naik
+House Number: 212
+Age: 78 Gender: FEMALE
+Age as on 01.01.2023
+Photo is
+Available
+TMN0335778
+Photo is
+Available
+BGW0754853
+Photo is
+Available
+BGW0779272
+Photo is
+Available
+TMN0203406
+Photo is
+Available
+TMN0059618
+Photo is
+Available
+TMN0309153
+Photo is
+Available
+TMN0250837
+Photo is
+Available
+TMN0297796
+Photo is
+Available
+TMN0309146
+Photo is
+Available
+251
+Name: Cajetan D. Fernandes
+Father's Name: Joao Fernandes
+House Number: 201
+Age: 61 Gender: MALE
+254
+Name: Esperanca Fernandes
+Husband's Name: Francisco
+Fernandes
+House Number: 201/1
+Age: 69 Gender: FEMALE
+257
+Name: Kevin Cajetan Fernandes
+Father's Name: Francisco T.
+Fernandes
+House Number: 201/1
+Age: 38 Gender: MALE
+260
+Name: Sally De souza
+Father's Name: Caetano De Souza
+House Number: 203
+Age: 74 Gender: FEMALE
+263
+House Number: 204
+Age: 81 Gender: FEMALE
+266
+Name: Shea Fernandes
+Father's Name: Simon Fernandes
+Name: Marcelina Fernandes
+Husband's Name: Maximian Fernandes
+House Number: 204
+Age: 19 Gender: FEMALE
+269
+Name: Subhash Krishna Naik
+Father's Name: Krishna Naik
+House Number: 206
+Age: 62 Gender: MALE
+272
+Name: Prithvi Naik
+Father's Name: Subhash Naik
+House Number: 206
+Age: 22 Gender: FEMALE
+275
+Name: Ranjita Rajnikant Naik
+Husband's Name: Rajnikant Naik
+House Number: 211
+Age: 58 Gender: FEMALE
+278
+BGW0765313
+Name: Dnyaneshwar Surya Naik
+Father's Name: Surya Naik
+House Number: 212
+Age: 56 Gender: MALE
+BGW0765271
+Photo is
+Available
+BGW0753087
+Date of Publication:-01-11-2022
+Photo is
+Available
+Photo is
+Available
+TMN0331603
+Photo is
+Available
+TMN0059915
+Photo is
+Available
+TMN0349746
+Photo is
+Available
+TMN0219840
+Photo is
+Available
+TMN0332064
+Photo is
+Available
+TMN0060228
+Photo is
+Available
+TMN0309138
+Photo is
+Available
+252
+Name: Senalda Francine Fernandes
+Father's Name: Cajetan Domnic
+Fernandes
+House Number: 201
+Age: 27 Gender: FEMALE
+255
+Part number: 16
+Name: Wesley Simon Fernandes
+Father's Name: Francisco Fernandes
+House Number: 201/1
+Age: 42 Gender: MALE
+258
+Name: Ramchandra Verlekar
+Father's Name: Datta Verlekar
+House Number: 201/2
+Age: 83 Gender: MALE
+261
+Name: Celina Dsouza
+Husband's Name: Leo H.M.S. Dsouza
+House Number: 203
+Age: 44 Gender: FEMALE
+264
+Name: Simon Fernandes
+Father's Name : Maximian Fernandes
+House Number: 204
+Age: 57 Gender: MALE
+267
+Name: Jacinta Avelina Rodrigues
+Husband's Name: Mario Fernandes
+House Number: 204
+Age: 56 Gender: FEMALE
+270
+Name: Malika Subhash Naik
+Husband's Name: Subhash Naik
+House Number: 206
+Age: 51 Gender: FEMALE
+273
+Name: Mario Caridade Jose Fernandes
+Father's Name: Maximiano G. S.
+Fernandes
+House Number: 209
+Age: 60 Gender: MALE
+276
+Name: Kirti Naik
+Father's Name: Rajanikant Naik
+House Number: 211
+Age: 43 Gender: FEMALE
+279
+Name: Chandreshwar Surya Naik
+Father's Name: Surya Naik
+House Number: 212
+Age: 53 Gender: MALE
+TMN0259556
+Photo is
+Available
+TMN0169383
+Photo is
+Available
+BGW0753574
+Photo is
+Available
+CCQ2633451
+Photo is
+Available
+TMN0059527
+Photo is
+Available
+TMN0159384
+Photo is
+Available
+TMN0159731
+Photo is
+Available
+TMN0159392
+Photo is
+Available
+TMN0060210
+Photo is
+Available
+TMN0309120
+Photo is
+Available
+Total Pages 15 - Page 12
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name: 2-Badem, Salvador do Mundo
+280
+TMN0060202
+Name: Anita Naik
+Husband's Name : Anil Naik
+House Number: 212
+Age: 53 Gender: FEMALE
+283
+Name: Shamal Shamba Chodankar
+Husband's Name: Shamba Chodankar
+House Number: 213
+Age: 63 Gender: FEMALE
+286
+Name: Meghanath Jamuvant
+Chodankar
+Father's Name : Jamuvant Chodankar
+House Number: 213
+Age: 53 Gender: MALE
+289
+Name: Teja Chodankar
+Father's Name: Mangesh Chodankar
+House Number: 213
+Age: 32 Gender: FEMALE
+292
+Name: Vaman Narayan Tari
+Father's Name : Narayan Tari
+House Number: 216
+Age: 58 Gender: MALE
+295
+Name: Laxman Tari
+Father's Name : Narayan Tari
+House Number: 216
+Age: 45 Gender: MALE
 298
-Name: Lalrinsanga
-Father's Name: Rualthankhuma
-House Number: 8
+Name: Virendra Tari
+Father's Name : Narayan Tari
+House Number: 216
 Age: 40 Gender: MALE
 301
-Name: C.Rosangpuii
-Father's Name: C.Rokunga
-House Number: 9
-Age: 34 Gender: FEMALE
-WTT0009183
-Photo is
-Available
-WTT0085084
-Photo is
-Available
-JKF0056978
-Photo is
-Available
-JKF0113126
-Photo is
-Available
-WTT0091462
-Photo is
-Available
-JKF0071589
-Photo is
-Available
-WTT0057950
-Photo is
-Available
-JKF0173526
-Photo is
-Available
-JKF0021147
-Photo is
-Available
-JKF0194837
-Photo is
-Available
-Total Pages 33 - Page 13
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-302
-Name: C.Rodingliana
-Father's Name: C.Rokunga
-House Number: 9
-Age: 33 Gender: MALE
-305
-Name: C.Rosangliana
-Father's Name: C.Rokunga
-House Number: 9
-Age: 27 Gender: MALE
-308
-Name: Malsawmdawngliana
-Father's Name: Zahlinga
-House Number: 10
-Age: 40 Gender: MALE
-311
-Name: Lallawmzuala
-Father's Name: H.Vanlalliana
-House Number: 11
-Age: 21 Gender: MALE
-314
-Name: Sapchhungi
-Husband's Name: Thangbuta
-House Number: 12
-Age: 90 Gender: FEMALE
-317
-Name: C. Engzauva
-Father's Name : Biakvela (L)
-House Number: 13
-Age: 74 Gender: MALE
-320
-Name: Lalmuansanga
-Father's Name: C.Engzauva
-House Number: 13
-Age: 40 Gender: MALE
-323
-Name: Lalrinmawia
-Father's Name: Ringliana
-House Number: 15
-Age: 61 Gender: MALE
-326
-Name: P.C.Lalbiaktluangi
-Father's Name: P.C.Lalrinmawia
-House Number: 15
-Age: 32 Gender: FEMALE
-329
-Name: Remtluangpuia
-Father's Name: Hauhmingliana
-House Number: 16
-Age: 22 Gender: MALE
-Age as on 01.01.2023
-WTT0009191
-Photo is
-Available
-WTT0036723
-Photo is
-Available
-JKF0077701
-Photo is
-Available
-WTT0091470
-Photo is
-Available
-JKF0056648
-Photo is
-Available
-JKF0053116
-Photo is
-Available
-JKF0057547
-Photo is
-Available
-JKF0075358
-Photo is
-Available
-WTT0018648
-Photo is
-Available
-WTT0083154
-Photo is
-Available
-303
-Name: C.Rozampuii
-Father's Name: C.Rokunga
-House Number: 9
-Age: 31 Gender: FEMALE
-306
-Name: Zahlinga
-Father's Name : Rosiama (L)
-House Number: 10
-Age: 74 Gender: MALE
-309
-Name: Lalnunchhungi
-Father's Name: Hmingthansanga
-House Number: 10
-Age: 36 Gender: FEMALE
-312
-Name: H.Vanlalliana
-Father's Name: Chhawnkima
-House Number: 11
-Age: 50 Gender: MALE
-315
-Name: Vanlalzapi
-Father's Name: Thangbuta
-House Number: 12
-Age: 46 Gender: FEMALE
-318
-Name: Vanlaltluangi
-Husband's Name: C. Engzauva
-House Number: 13
-Age: 74 Gender: FEMALE
-321
-Name: Zaithansanga
-Father's Name: C. Engzauva
-House Number: 14
-Age: 46 Gender: MALE
-324
-Name: Lalhmangaihi
-Husband's Name: Lalrinmawia
-House Number: 15
-Age: 52 Gender: FEMALE
-327
-Name: Vanlalnghaka
-Father's Name: Lalrinmawia
-House Number: 15
-Age: 30 Gender: MALE
-330
-Name: Hauhmingliana
-Father's Name: Vanlalngena
-House Number: 16
-Age: 59 Gender: MALE
-Date of Publication:-09-11-2022
-WTT0009209
-Photo is
-Available
-JKF0057000
-Photo is
-Available
-JKF0188011
-Photo is
-Available
-JKF0182295
-Photo is
-Available
-JKF0053694
-Photo is
-Available
-JKF0114314
-Photo is
-Available
-WTT0009217
-Photo is
-Available
-JKF0075481
-Photo is
-Available
-WTT0031419
-Photo is
-Available
-JKF0072793
-Photo is
-Available
+Name: Veena Tari
+Father's Name: Vaman Tari
+House Number: 216
+Age: 24 Gender: FEMALE
 304
-Name: Lalnunsiami
-Father's Name: Lalchungnunga
-House Number: 9
-Age: 31 Gender: FEMALE
+Name: Sarita Gaude
+Husband's Name: Vithu Gaude
+House Number: 576
+Age: 54 Gender: FEMALE
 307
-Name: Lalduhawmi
-Husband's Name: Zahlinga
-House Number: 10
-Age: 68 Gender: FEMALE
-310
-Name: Lalbiakzuala
-Father's Name: H Vanlalliana
-House Number: 11
-Age: 25 Gender: FEMALE
-313
-Name: Lalrinchhani
-Husband's Name: H.Vanlalliana
-House Number: 11
-Age: 36 Gender: FEMALE
-316
-Part number: 1
-Name: Lalchhuanmawia
-Father's Name: Vanlalsanga
-House Number: 12
-Age: 38 Gender: MALE
-319
-Name: Lalramtani
-Husband's Name: Lalmuansanga
-House Number: 13
-Age: 47 Gender: FEMALE
-322
-Name Lalchhandami
-Husband's Name: Zaithansanga
-House Number: 14
-Age: 36 Gender: FEMALE
-325
-Name: Lalremruatpuii
-Father's Name: Lalrinmawia
-House Number: 15
-Age: 35 Gender: FEMALE
-328
-Name: Lalhriatpuii
-Father's Name: Lalrinmawia
-House Number: 15
-Age: 28 Gender: FEMALE
-331
-Name: H.Lalrinchhani
-Husband's Name: Hauhmingliana
-House Number: 16
-Age: 56 Gender: FEMALE
-WTT0019877
-Photo is
-Available
-JKF0056994
-Photo is
-Available
-WTT0083121
-Photo is
-Available
-WTT0018655
-Photo is
-Available
-JKF0053272
-Photo is
-Available
-JKF0058024
-Photo is
-Available
-JKF0173468
-Photo is
-Available
-JKF0173120
-Photo is
-Available
-WTT0036731
-Photo is
-Available
-JKF0056291
-Photo is
-Available
-Total Pages 33 - Page 14
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-332
-Name: Lalmuankima
-Father's Name: Hauhmingliana
-House Number: 16
-Age: 32 Gender: MALE
-335
-Name: C.Vanlaldika
-Father's Name: C. Zahlinga
-House Number: 18
-Age: 48 Gender: MALE
-338
-Name: Chawngthangpuii
-Husband's Name: R.Thanzuala
-House Number: 19
-Age: 62 Gender: FEMALE
-341
-Name: Lalhmunliani
-Husband's Name: Zoramsanga
-House Number: 20
-Age: 54 Gender: FEMALE
-344
-Name: V.L.Duhthusama
-Father's Name: Zoramsanga
-House Number: 20
-Age: 27 Gender: MALE
-347
-Name: Lalchharliani
-Father's Name: Ramhluna
-House Number: 21
-Age: 32 Gender: FEMALE
-350
-Name: Johana
-Father's Name: Zachhawna (L)
-House Number: 22
-Age: 69 Gender: MALE
-353
-Name: Malsawmdawngliani
-Father's Name: Johana
-House Number: 22
-Age: 35 Gender: FEMALE
-356
-Name: Vanlalchhuanga
-Father's Name: Zahlinga
-House Number: 23
-Age: 49 Gender: MALE
-359
-Name: Lalrempuii
-Father's Name: Lalhmingliana
-House Number: 24
-Age: 20 Gender: FEMALE
-Age as on 01.01.2023
-WIT0008235
-Photo is
-Available
-JKF0041152
-Photo is
-Available
-JKF0021105
-Photo is
-Available
-JKF0021253
-Photo is
-Available
-WTT0052258
-Photo is
-Available
-WTT0009233
-Photo is
-Available
-JKF0113142
-Photo is
-Available
-JKF0188029
-Photo is
-Available
-JKF0075697
-Photo is
-Available
-WTT0091371
-Photo is
-Available
-333
-Name: Lalmuanzova
-Father's Name: Hauhmingliana
-House Number: 16
-Age: 25 Gender: MALE
-336
-Name: P.C.Lalthakimi
-Husband's Name: C.Vanlaldika
-House Number: 18
-Age: 42 Gender: FEMALE
-339
-Name: Zodinpuii
-Father's Name: R.Thanzuala
-House Number: 19
-Age: 28 Gender: FEMALE
-342
-Name: Lalsiamkimi
-Father's Name: Zoramsanga
-House Number: 20
-Age: 35 Gender: FEMALE
-345
-Name: Ramhluna
-Father's Name: Chhawnkima
-House Number: 21
-Age: 58 Gender: MALE
-348
-Name: Lalthanpuia
-Father's Name : Ramhluna
-House Number: 21
-Age: 29 Gender: MALE
-351
-Name: Rinthangi
-Husband's Name: Johana
-House Number: 22
-Age: 65 Gender: FEMALE
-354
-Name: Malsawmsanga
-Father's Name: C Vanlalchhuanga
-House Number: 23
-Age: 21 Gender: MALE
-357
-Name: Eric Remsangzuala
-Father's Name: Vanlalchhuanga
-House Number: 23
-Age: 25 Gender: MALE
-360
-Name: Lalhlimpuii
-Husband's Name: Sangliana (L)
-House Number: 24
-Age: 78 Gender: FEMALE
-Date of Publication:-09-11-2022
-WTT0057984
-Photo is
-Available
-JKF0070771
-Photo is
-Available
-WTT0036756
-Photo is
-Available
-JKF0173062
-Photo is
-Available
-JKF0070847
-Photo is
-Available
-WTT0036772
-Photo is
-Available
-JKF0053264
-Photo is
-Available
-WTT0104703
-Photo is
-Available
-WTT0065169
-Photo is
-Available
-JKF0113977
-Photo is
-Available
-334
-Name: Lalramkima
-Father's Name: Remdingsanga
-House Number: 17
-Age: 30 Gender: MALE
-337
-Name: R.Thanzuala
-Father's Name : Tlangkhuma
-House Number: 19
-Age: 66 Gender: MALE
-340
-Name: Zoramsanga
-Father's Name: Ch. Sena
-House Number: 20
-Age: 60 Gender: MALE
-343
-Name: Lalngaihawma
-Father's Name: Zoramsanga
-House Number: 20
-Age: 29 Gender: MALE
-346
-Name: Lalthansiami
-Husband's Name: Ramhluna
-House Number: 21
+Name: Suman Lavu Naik
+Husband's Name: Lavu Naik
+House Number: 584
 Age: 57 Gender: FEMALE
-349
-Part number: 1
-Name: H.Zosangpuia
-Father's Name : Ramhluna
-House Number: 21
-Age: 27 Gender: MALE
-352
-Name: Lalhmingmawia
-Father's Name: Johana
-House Number: 22
-Age: 37 Gender: MALE
-355
-Name: Thangzuali
-Husband's Name: Vanlalchhuanga
-House Number: 23
-Age: 54 Gender: FEMALE
-358
-Name: Lalnunsangi
-Father's Name: Vanlalchhuanga
-House Number: 23
-Age: 24 Gender: FEMALE
-361
-Name: Chawngthanmawia
-Father's Name: Sangliana (L)
-House Number: 24
-Age: 51 Gender: MALE
-WTT0031476
-Photo is
-Available
-JKF0021139
-Photo is
-Available
-JKF0041897
-Photo is
-Available
-WTT0036764
-Photo is
-Available
-JKF0072660
-Photo is
-Available
-WTT0036780
-Photo is
-Available
-JKF0075325
-Photo is
-Available
-JKF0053686
-Photo is
-Available
-WTT0065177
-Photo is
-Available
-JKF0073874
-Photo is
-Available
-Total Pages 33 - Page 15
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-362
-Name: Lallawmsanga
-Father's Name : Sangliana (L)
-House Number: 24
-Age: 42 Gender: MALE
-365
-Name: Lalrinfela
-Father's Name: Vanenga
-House Number: 25
-Age: 39 Gender: MALE
-368
-Name: Rokima Rokhum
-Father's Name: R. Zakiamlova R.
-Zakiamlova
-House Number: 26
-Age: 48 Gender: MALE
-371
-Name: Liliparmawii
-Husband's Name: Lalchhanhimi
-House Number: 27
-Age: 45 Gender: FEMALE
-374
-Name: Hmangaihsanga
-Father's Name: Hmingthansanga
-House Number: 28
-Age: 29 Gender: MALE
-377
-Name: Lalramzauva
-Father's Name: Khawliantluanga
-House Number: 29
-Age: 37 Gender: MALE
-380
-Name: Lalremruata
-Father's Name: Khawlliantluanga
-House Number: 29
-Age: 27 Gender: MALE
-383
-Name: Lalmuanawma
-Father's Name : Rohluna
-House Number: 30
-Age: 34 Gender: MALE
-386
-Name: Vanlalzuali
-Father's Name: Lalhmangaiha
-House Number: 31
-Age: 29 Gender: FEMALE
-389
-Name: Lalhriatzela
-30-
-Father's Name : Lalrinmawia
-Age: 29 Gender: MALE
-House Number: 31
 Age as on 01.01.2023
-JKF0076927
 Photo is
 Available
-JKF0113027
+TMN0158485
 Photo is
 Available
-JKF0056853
+BGW6605794
 Photo is
 Available
-JKF0053348
+TMN0230136
 Photo is
 Available
-WTT0031427
+BGW4505913
 Photo is
 Available
-WTT0078030
+TMN0160556
 Photo is
 Available
-WTT0058073
+TMN0060376
 Photo is
 Available
-WTT0009266
+TMN0282129
 Photo is
 Available
-SKV0032128
+TMN0245944
 Photo is
 Available
-WTT0036830
+TMN0191536
 Photo is
 Available
-363
-Name: Vanenga
-Father's Name: Chhawnkima
-House Number: 25
-Age: 69 Gender: MALE
-366
-Name: Lalngaihawmi
-Father's Name: Vanenga
-House Number: 25
-Age: 24 Gender: FEMALE
-369
-Name: Saihmingthangi
-Father's Name: Laldawla
-House Number: 26
-Age: 44 Gender: FEMALE
-372
-Name: Vanlalduati
-Father's Name: Lalchhanhima
-House Number: 27
-Age: 22 Gender: FEMALE
-375
-Name: Lalchungnungi
-Father's Name: Laldangliana
-House Number: 28
-Age: 27 Gender: FEMALE
-378
-Name: Vankungi
-Husband's Name: Khawlliantluanga
-House Number: 29
-Age: 58 Gender: FEMALE
-381
-Name: Rohluna
-Father's Name: Rotluanga
-House Number: 30
-Age: 55 Gender: MALE
-384
-Name: Lalbiaktluangi
-Father's Name : Rohluna
-House Number: 30
-Age: 33 Gender: FEMALE
-387
-Name: Lalrinmawia
-Father's Name: Thanchhunga
-House Number: 31
-Age: 55 Gender: MALE
-390
-Name: Lalduhsanga
-Father's Name: H.Lalrinmawia
-House Number: 31
-Age: 27 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0075341
-Photo is
-Available
-JKF0201038
-Photo is
-Available
-JKF0053066
-Photo is
-Available
-WTT0072090
-Photo is
-Available
-WTT0065185
-Photo is
-Available
-JKF0072678
-Photo is
-Available
-JKF0112995
-Photo is
-Available
-WTT0011452
-Photo is
-Available
-JKF0113092
-Photo is
-Available
-WTT0052274
-Photo is
-Available
-364
-Name: H.Lalnunmawii
-Father's Name: Vanenga
-House Number: 25
-Age: 40 Gender: FEMALE
-367
-Name: Lalruatpuia Rokhum
-Father's Name: Rokima Rokhum
-House Number: 26
-Age: 19 Gender: MALE
-370
-Name Lalchhanhima
-Father's Name: Johana
-House Number: 27
-Age: 45 Gender: MALE
-373
-Name: Malsawmtluanga
-Father's Name: Hmingthansanga
-House Number: 28
-Age: 31 Gender: MALE
-376
-Part number: 1
-Name: Lallawmzuali
-Husband's Name: Malsawmtluanga
-House Number: 28
-Age: 23 Gender: FEMALE
-379
-Name: Lalhruaitluanga
-Father's Name: Khawlliantluanga
-House Number: 29
-Age: 36 Gender: MALE
-382
-Name: Zaithanmawii
-Husband's Name: Rohluna
-House Number: 30
-Age: 52 Gender: FEMALE
-385
-Name: Lalthafamkima
-Father's Name: Rohluna
-House Number: 30
-Age: 28 Gender: MALE
-388
-Name: Sangthangpuii
-Husband's Name: Lalrinmawia
-House Number: 31
-Age: 50 Gender: FEMALE
-391
-Name: Darhmingliana
-Father's Name: H. Lalrinmawia
-House Number: 31
+281
+Name: Prathamesh Naik
+Father's Name : Anil Naik
+House Number: 212
 Age: 25 Gender: MALE
-JKF0005686
-Photo is
-Available
-WTT0102046
-Photo is
-Available
-JKF0070854
-Photo is
-Available
-WTT0009241
-Photo is
-Available
-WTT0072124
-Photo is
-Available
-JKF0173070
-Photo is
-Available
-JKF0053058
-Photo is
-Available
-WTT0052266
-Photo is
-Available
-JKF0113134
-Photo is
-Available
-WTT0058024
-Photo is
-Available
-Total Pages 33 - Page 16
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-392
-Name: Lalnuntlanga
-Father's Name: Chalhmingthanga
-House Number: 32
-Age: 61 Gender: MALE
-395
-Name: H.Laltanpuia
-Father's Name : Lalnuntlanga
-House Number: 32
-Age: 29 Gender: MALE
-398
-Name: Rosangzuala
-Father's Name: Lalnuntlanga
-House Number: 32
-Age: 25 Gender: MALE
-401
-Name: RK Lalnunmawia
-Father's Name: RK Lalduha
-House Number: 34
-Age: 43 Gender: MALE
-404
-Name: Rangthanga
-Father's Name: Dara (L)
-House Number: 36
-Age: 90 Gender: MALE
-407
-Name: Florence Zairemtluangi
-Husband's Name: Lalsangzuala Sailo
-House Number: 36
-Age: 40 Gender: FEMALE
-410
-Name: K.Lalramsanga
-Father's Name: K.Biakthanga
-House Number: 37
-Age: 37 Gender: MALE
-413
-Name: Lalthanpuia
-Father's Name: Rammawia
-House Number: 37
-Age: 26 Gender: MALE
-416
-Name: C.Lalramfela
-Father's Name: Hermana
-House Number: 38
-Age: 33 Gender: MALE
-419
-Name: Lalhmingliani
-Husband's Name: Laltanpuia
-House Number: 39
-Age: 48 Gender: FEMALE
-Age as on 01.01.2023
-JKF0075499
-Photo is
-Available
-WTT0036061
-Photo is
-Available
-WTT0058032
-Photo is
-Available
-WTT0078022
-Photo is
-Available
-JKF0077222
-Photo is
-Available
-JKF0194852
-Photo is
-Available
-JKF0114009
-Photo is
-Available
-WTT0058016
-Photo is
-Available
-WTT0009290
-Photo is
-Available
-JKF0057679
-Photo is
-Available
-393
-Name: Biakveli
-Husband's Name: Lalnuntlanga
-House Number: 32
-Age: 57 Gender: FEMALE
-396
-Name: Lalmalsawma
-Father's Name: Lalnuntlanga
-House Number: 32
-Age: 29 Gender: MALE
-399
-Name: Lalfakawma
-Father's Name: Buatsaiha
-House Number: 33
-Age: 43 Gender: MALE
-402
-Name: Lalpianmawia
-Father's Name: J.G.Thanchungnunga
-House Number: 35
-Age: 57 Gender: MALE
-405
-Name: Lalrinawmi
-Husband's Name: Lalsikula
-House Number: 36
-Age: 67 Gender: FEMALE
-408
-Name: Chawngthapari
-Father's Name : Rosiama (L)
-House Number: 37
-Age: 64 Gender: FEMALE
-411
-Name: Lalremtluangi
-Mother's Name: Chawngthanpari
-House Number: 37
-Age: 32 Gender: FEMALE
-414
-Name: Hermana
-Father's Name : Rosiama (L)
-House Number: 38
-Age: 62 Gender: MALE
-417
-Name Lalnunsiami
-Father's Name : Hermana
-House Number: 38
-Age: 28 Gender: FEMALE
-420
-Name: Lalawmpuia
-Father's Name: PC Laltanpuia
-House Number: 39
-Age: 26 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0077818
-Photo is
-Available
-WTT0036806
-Photo is
-Available
-JKF0041996
-Photo is
-Available
-GDP0077537
-Photo is
-Available
-JKF0056937
-Photo is
-Available
-JKF0056721
-Photo is
-Available
-WTT0009282
-Photo is
-Available
-JKF0070938
-Photo is
-Available
-WTT0046417
-Photo is
-Available
-WTT0068932
-Photo is
-Available
-394
-Name Lalnuntluangi
-Father's Name: Lalnuntlanga
-House Number: 32
-Age: 31 Gender: FEMALE
-397
-Name: Lalremdiki
-Husband's Name: Lalmalsawma
-House Number: 32
-Age: 27 Gender: FEMALE
-400
-Name: L.Lalduhsaki
-Husband's Name: Lalfakawma
-House Number: 33
-Age: 34 Gender: FEMALE
-403
-Part number: 1
-Name: Vanlalvuani
-Husband's Name: Lalpianmawia
-House Number: 35
-Age: 37 Gender: FEMALE
-406
-Name: Lalsangzuala Sailo
-Father's Name: Lalsikula
-House Number: 36
-Age: 48 Gender: MALE
-409
-Name: Hmingthansanga
-Father's Name: Rohmingliana
-House Number: 37
-Age: 45 Gender: MALE
-412
-Name: Jerome Lalbiakdika
-Father's Name: Lalrammawia
-House Number: 37
-Age: 27 Gender: MALE
-415
-Name: Lianzuali
-Husband's Name: Hermana
-House Number: 38
-Age: 60 Gender: FEMALE
-418
-Name: Laltanpuia
-Father's Name: Zachhawna (L)
-House Number: 39
-Age: 56 Gender: MALE
-421
-Name: Lalchhanchhuahi
-Father's Name: B.Lalsangliana
-House Number: 40
-Age: 20 Gender: FEMALE
-WTT0009274
-Photo is
-Available
-WTT0036814
-Photo is
-Available
-JSW0153635
-Photo is
-Available
-GDP0280362
-Photo is
-Available
-JKF0041129
-Photo is
-Available
-JKF0113118
-Photo is
-Available
-WTT0036822
-Photo is
-Available
-JKF0071795
-Photo is
-Available
-JKF0021303
-Photo is
-Available
-WTT0091405
-Photo is
-Available
-Total Pages 33 - Page 17
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-422
-Name: Biaksangi
-Husband's Name: Thansanga
-House Number: 40
+284
+Name: Manisha Mangesh Chodankar
+Husband's Name : Manguesh
+Chodankar
+House Number: 213
 Age: 59 Gender: FEMALE
-425
-Name: Ariel Laldanmawia
-Father's Name : Kailiana
-House Number: 41
-Age: 34 Gender: MALE
-428
-Name: Lalchhuanawma
-Father's Name : Sawikunga (L)
-House Number: 43
-Age: 68 Gender: MALE
-431
-Name: Zoramchhana
-Father's Name: Lalchhuanawma
-House Number: 43
-Age: 31 Gender: MALE
-434
-Name Lalnunhlima
-Other's Name: Kananramtharchuani
-House Number: 44
-Age: 40 Gender: MALE
-437
-Name: K.Mangvunga
-Father's Name: Biakthanga
-House Number: 45
-Age: 56 Gender: MALE
-440
-Name: Lalruatfela
-Father's Name : Mangvunga
-House Number: 45
+House Number: 213
+Age: 46 Gender: FEMALE
+287
+Name: Megha Chodankar
+Husband's Name: Meghanath Jamuvant
+Chodankar
+290
+Name: Gautam Chodankar
+Father's Name: Mangesh Chodankar
+House Number: 213
 Age: 27 Gender: MALE
-443
-Name: Lalnipuii
-Husband's Name : Kapkima
-House Number: 46
-Age: 54 Gender: FEMALE
-446
-Name: Lalhruaitluanga
-Father's Name : Kapkima
-House Number: 46
-Age: 31 Gender: MALE
-449
-Name: H.Lalrindika
-Father's Name: H.Vanlalchhuana
-House Number: 47
-Age: 21 Gender: MALE
-Age as on 01.01.2023
-JKF0021345
-Photo is
-Available
-WTT0009399
-Photo is
-Available
-JKF0113068
-Photo is
-Available
-WTT0027870
-Photo is
-Available
-JKF0174342
-Photo is
-Available
-JKF0076695
-Photo is
-Available
-WTT0058008
-Photo is
-Available
-JKF0075747
-Photo is
-Available
-WTT0011460
-Photo is
-Available
-WTT0091454
-Photo is
-Available
-423
-Name: Lalruatfela
-Father's Name: Thansanga
-House Number: 40
-Age: 28 Gender: MALE
-426
-Name: Lalhruaitluangi
-Father's Name : Kailiana
-House Number: 42
-Age: 36 Gender: FEMALE
-429
-Name: Lalhlimpuii
-Husband's Name: Lalchhuanawma
-House Number: 43
-Age: 54 Gender: FEMALE
-432
-Name: C.Lalmuanpuia
-Father's Name: C.Lalchhuanawma
-House Number: 43
-Age: 29 Gender: MALE
-435
-Name: Kananramtharchuani
-Father's Name: Rochhunga (L)
-House Number: 44
-Age: 36 Gender: FEMALE
-438
-Name: Lalramnghaki
-Father's Name: Lianzela
-House Number: 45
-Age: 30 Gender: FEMALE
-441
-Name: Lalmuanpuii
-Husband's Name: Lalmalsawma
-House Number: 45
-Age: 24 Gender: FEMALE
-444
-Name: Venus Lalnuntluangi
-Father's Name : Kapkima
-House Number: 46
-Age: 35 Gender: FEMALE
-447
-Name: Lalpianmawii
-Father's Name : Kapkima
-House Number: 46
-Age: 30 Gender: FEMALE
-450
-Name: Vanlalchhuana
-Father's Name: Thantluanga (L)
-House Number: 47
-Age: 56 Gender: MALE
-Date of Publication:-09-11-2022
-WTT0036848
-Photo is
-Available
-JKF0192344
-Photo is
-Available
-JKF0053132
-Photo is
-Available
-WTT0036855
-Photo is
-Available
-JKF0053215
-Photo is
-Available
-WTT0036863
-Photo is
-Available
-WTT0065029
-Photo is
-Available
-JKF0187997
-Photo is
-Available
-WIT0031435
-Photo is
-Available
-JKF0113951
-Photo is
-Available
-424
-Name: Zomuani
-Father's Name : Thansanga
-House Number: 41
-Age: 40 Gender: FEMALE
-427
-Name Lalthlamuana
-Father's Name: Lalpianmawia
-House Number: 42
-Age: 35 Gender: MALE
-430
-Name: Laltleipuii
-Father's Name: Lalchhuanawma
-House Number: 43
-Age: 35 Gender: FEMALE
-433
-Name: Ramdinenga
-Father's Name: Khawhmingthanga
-House Number: 43
-Age: 25 Gender: MALE
-436
-Name: Lalhmunmawii
-Husband's Name: K.Mangvunga
-Part number: 1
-House Number: 45
-Age: 57 Gender: FEMALE
-439
-Name: Lalmalsawma
-Father's Name: K.Mangvunga
-House Number: 45
-Age: 29 Gender: MALE
-442
-Name: Kapkima
-Father's Name: Ringliana
-House Number: 46
-Age: 54 Gender: MALE
-445
-Name: Lalengfima
-Father's Name: Kapkima
-House Number: 46
-Age: 32 Gender: MALE
-448
-Name: Lalhmingliani
-Father's Name: Lalthanmawia
-House Number: 46
-Age: 28 Gender: FEMALE
-451
-Name: Hualliantluangi
-Husband's Name: Vanlalchhuana
-House Number: 47
-Age: 50 Gender: FEMALE
-JKF0041285
-Photo is
-Available
-WTT0030056
-Photo is
-Available
-WTT0009308
-Photo is
-Available
-WTT0065011
-Photo is
-Available
-JKF0072686
-Photo is
-Available
-WTT0036871
-Photo is
-Available
-JKF0113035
-Photo is
-Available
-WTT0009316
-Photo is
-Available
-WTT0036509
-Photo is
-Available
-JKF0113969
-Photo is
-Available
-Total Pages 33 - Page 18
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-452
-Name: Lalramngaihzuala
-Father's Name: Vanlalchhuana
-House Number: 47
-Age: 29 Gender: MALE
-455
-Name: David Lalthanfela
-Father's Name: Vanlalchhuana
-House Number: 47
-Age: 23 Gender: MALE
-458
-Name Ringliana
-Father's Name: Lura (L)
-House Number: 48
-Age: 98 Gender: MALE
-461
-Name: Vanhmingliani
-Father's Name: P.C Lalramthara
-House Number: 48
-Age: 23 Gender: FEMALE
-464
-Name: Lalremtluanga
-Father's Name: David-a
-House Number: 49
-Age: 29 Gender: MALE
-467
-Name: Malsawmdawngzuala
-Father's Name: Lalmalsawma
-House Number: 50
-Age: 20 Gender: MALE
-470
-Name: Zosangzuala
-Father's Name: R.Lalmalsawma
-House Number: 50
-Age: 32 Gender: MALE
-473
-Name: Vanlalnghaki
-Father's Name: Lalrinsanga
-House Number: 51
-Age: 32 Gender: FEMALE
-476
-Name: Lalruatliana
-Father's Name: Buatsaiha
-House Number: 52
-Age: 56 Gender: MALE
-479
-Name: Lalthanzami
-Father's Name: C. Kaphranga
-House Number: 54
-Age: 46 Gender: FEMALE
-Age as on 01.01.2023
-WTT0036889
-Photo is
-Available
-WTT0072223
-Photo is
-Available
-JKF0003418
-Photo is
-Available
-WTT0072116
-Photo is
-Available
-WTT0019828
-Photo is
-Available
-WTT0091322
-Photo is
-Available
-WTT0027888
-Photo is
-Available
-WTT0009324
-Photo is
-Available
-JKF0075382
-Photo is
-Available
-JKF0058008
-Photo is
-Available
-453
-Name: Lallawmzuali
-Father's Name: Vanlalchhuana
-House Number: 47
-Age: 28 Gender: FEMALE
-456
-Name: P.C. Lalramthara
-Father's Name: Ringliana
-House Number: 48
-Age: 47 Gender: MALE
-459
-Name: Lalrinpuii
-Husband's Name: Lalramthara
-House Number: 48
-Age: 52 Gender: FEMALE
-462
-Name: Davida
-Father's Name: Ringliana
-House Number: 49
-Age: 52 Gender: MALE
-465
-Name: Lalhriatchhungi
-Father's Name: Davida
-House Number: 49
-Age: 28 Gender: FEMALE
-468
-Name R.Lalmalsawma
-Father's Name : Kailiana
-House Number: 50
-Age: 51 Gender: MALE
-471
-Name: Sialkungi
-Husband's Name: S.Thianga
-House Number: 51
-Age: 86 Gender: FEMALE
-474
-Name: Vanlalkhawngaihzuala
-Father's Name: Lalrinsanga
-House Number: 51
-Age: 25 Gender: MALE
-477
-Name: Tlanghmingthanga
-Father's Name: C.Kaphranga (L)
-House Number: 53
-Age: 62 Gender: MALE
-480
-Name: H Lalruatdika
-Father's Name: H Lalthantlinga
-House Number: 55
-Age: 21 Gender: MALE
-Date of Publication:-09-11-2022
-WTT0036897
-Photo is
-Available
-JKF0079004
-Photo is
-Available
-JKF0073890
-Photo is
-Available
-JKF0021154
-Photo is
-Available
-WTT0031443
-Photo is
-Available
-JKF0057356
-Photo is
-Available
-JKF0075432
-Photo is
-Available
-WTT0058115
-Photo is
-Available
-JKF0053512
-Photo is
-Available
-WTT0091306
-Photo is
-Available
-454
-Name: H.Lalthankima
-Father's Name: Vanlalchhuana
-House Number: 47
-Age: 26 Gender: MALE
-457
-Name: Lalremsangi
-Father's Name: Lalramthara
-House Number: 48
-Age: 20 Gender: FEMALE
-460
-Name Lallawmawmi
-Father's Name: P.C. Lalramthara
-House Number: 48
-Age: 26 Gender: FEMALE
-463
-Name: Lalthangliani
-Husband's Name: Davida
-House Number: 49
-Age: 49 Gender: FEMALE
-466
-Part number: 1
-Name: Lalthupuii
-Father's Name: Davida
-House Number: 49
-Age: 26 Gender: FEMALE
-469
-Name: Laldawngkimi
-Husband's Name: Lalmalsawma
-House Number: 50
-Age: 40 Gender: FEMALE
-472
-Name: Lalrinsanga
-Father's Name: S.Thianga
-House Number: 51
-Age: 59 Gender: MALE
-475
-Name: Buatsaiha
-Father's Name: Chalchhunngura (L)
-House Number: 52
-Age: 79 Gender: MALE
-478
-Name: P.C.Tlangkhuma
-Mother's Name : Vannguri
-House Number: 53
-Age: 57 Gender: MALE
-481
-Name: H.Siamkunga
-Father's Name: Lalliauva (L)
-House Number: 55
-Age: 90 Gender: MALE
-WTT0065037
-Photo is
-Available
-WTT0091231
-Photo is
-Available
-WTT0057976
-Photo is
-Available
-JKF0021188
-Photo is
-Available
-WTT0057968
-Photo is
-Available
-JKF0056267
-Photo is
-Available
-JKF0114363
-Photo is
-Available
-JKF0077891
-Photo is
-Available
-JKF0194878
-Photo is
-Available
-JKF0053017
-Photo is
-Available
-Total Pages 33 - Page 19
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-482
-Name: Nuchhungi
-Husband's Name: H.Siamkunga
-House Number: 55
-Age: 85 Gender: FEMALE
-485
-Name: H.Malsawmdawngliana
-Father's Name: H.Siamkunga
-House Number: 55
-Age: 43 Gender: MALE
-488
-Name: H.Lawmsangzela
-Father's Name: H.Lalthantlinga
-House Number: 55
-Age: 22 Gender: MALE
-491
-Name: Lalrindiki
-Father's Name: Lalzawmliana
-House Number: 56
-Age: 41 Gender: FEMALE
-494
-Name: H.Hmingliani
-Husband's Name: C.Hlunenga
-House Number: 58
-Age: 53 Gender: FEMALE
-497
-Name: C. Lallawmzuali
-Father's Name: C. Hlunenga
-House Number: 58
-Age: 26 Gender: FEMALE
-500
-Name: Lalramnghaki
-Husband's Name: H.Chalngura
-House Number: 59
-Age: 39 Gender: FEMALE
-503
-Name: Rohmingliani
-Husband's Name: B.Kaphranga
-House Number: 61
-Age: 70 Gender: FEMALE
-506
-Name: Ramdinsanga
-Father's Name: B.Kaphranga
-House Number: 62
-Age: 32 Gender: MALE
-509
-Name: Lalmalsawma Chhangte
-Father's Name: C.Lalhmingthanga
-House Number: 63
-Age: 30 Gender: MALE
-Age as on 01.01.2023
-JKF0056838
-Photo is
-Available
-JKF0192302
-Photo is
-Available
-WTT0072249
-Photo is
-Available
-JKF0041277
-Photo is
-Available
-JKF0079954
-Photo is
-Available
-WTT0058107
-Photo is
-Available
-JKF0114389
-Photo is
-Available
-JKF0079020
-Photo is
-Available
-JKF0194894
-Photo is
-Available
-WTT0036996
-Photo is
-Available
-483
-Name: H.Thantlinga
-Father's Name: H.Siamkunga
-House Number: 55
-Age: 56 Gender: MALE
-486
-Name: H.Laltlanhlui
-Father's Name: H.Lalthantlinga
-House Number: 55
-Age: 27 Gender: FEMALE
-489
-Name: Lalzawmliana
-Father's Name : Remvela
-House Number: 56
-Age: 71 Gender: MALE
-492
-Name Lalhriatkima
-Father's Name: Lalzawmliana
-House Number: 56
-Age: 30 Gender: MALE
-495
-Name: C.Lallawmkima
-Father's Name: C.Hlunenga
-House Number: 58
-Age: 28 Gender: MALE
-498
-Name: C.Lallawmsangi
-Father's Name: C Hlunenga
-House Number: 58
-Age: 23 Gender: FEMALE
-501
-Name: Tlankimi
-Husband's Name: Dangliana
-House Number: 60
-Age: 52 Gender: FEMALE
-504
-Name: B.Kaphranga
-Father's Name: Lalchungnunga (L)
-House Number: 61
-Age: 57 Gender: MALE
-507
-Name: Lalmuanpuii
-Father's Name: Pachhunga
-House Number: 62
-Age: 29 Gender: FEMALE
-510
-Name: Lalremtluangi
-Father's Name : Lallianzuala
-House Number: 63
-Age: 24 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0057802
-Photo is
-Available
-WTT0048678
-Photo is
-Available
-JKF0078006
-Photo is
-Available
-WTT0031450
-Photo is
-Available
-WTT0036905
-Photo is
-Available
-WTT0072108
-Photo is
-Available
-JKF0175380
-Photo is
-Available
-JKF0041293
-Photo is
-Available
-WTT0019794
-Photo is
-Available
-WTT0072165
-Photo is
-Available
-484
-Name: Ramfangzauvi
-Husband's Name: H.Thantlinga
-House Number: 55
-Age: 49 Gender: FEMALE
-487
-Name: Lalrempuii
-Father's Name: Lalthantlinga
-House Number: 55
-Age: 25 Gender: FEMALE
-490
-Name: Thangpuii
-Husband's Name: Lalzawmliana
-House Number: 56
-Age: 60 Gender: FEMALE
-493
-Part number: 1
-Name: Vanlalbeli
-Father's Name : F Lalzara (L)
-House Number: 57
-Age: 40 Gender: FEMALE
-496
-Name: C.Hlunenga
-Father's Name : Biakvela (L)
-House Number: 58
-Age: 54 Gender: MALE
-499
-Name: H.Chalngura
-Father's Name: H.Liankhuma
-House Number: 59
-Age: 50 Gender: MALE
-502
-Name: Zorinpuii
-Mother's Name: Malsawmkimi
-House Number: 61
-Age: 21 Gender: FEMALE
-505
-Name: Zomuanpuia
-Father's Name: B.Lalhmangaiha (L)
-House Number: 61
-Age: 24 Gender: MALE
-508
-Name: Hmangaihdawngi
-Husband's Name: Lalmalsawma
-Chhangte
-House Number: 63
-Age: 46 Gender: FEMALE
-511
-Name: C.Lalmalsawmi
-Father's Name: C.Zaithankima
-House Number: 64
-Age: 20 Gender: FEMALE
-JKF0071662
-Photo is
-Available
-WTT0052290
-Photo is
-Available
-JKF0114165
-Photo is
-Available
-WTT0077594
-Photo is
-Available
-JKF0053454
-Photo is
-Available
-WTT0009332
-Photo is
-Available
-WTT0091223
-Photo is
-Available
-WTT0065045
-Photo is
-Available
-JKF0076836
-Photo is
-Available
-WTT0091413
-Photo is
-Available
-Total Pages 33 - Page 20
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-512
-Name: C.Lalkhuma
-Father's Name : Rosiama (L)
-House Number: 64
-Age: 66 Gender: MALE
-515
-Name: Chawnglianmawia
-Father's Name: C.Lalkhuma
-House Number: 65
-Age: 37 Gender: MALE
-518
-Name: Lalhmangaihzuali
-Husband's Name: Lalramdinthara
-House Number: 66
+293
+Name: Vividha Vaman Tari
+Husband's Name: Vaman N. Tari
+House Number: 216
+Age: 56 Gender: FEMALE
+296
+Name: Sampada Tari
+Husband's Name : Gopal Tari
+House Number: 216
+Age: 45 Gender: FEMALE
+299
+Name: Suvidha Tari
+Husband's Name: Virendra Tari
+House Number: 216
 Age: 34 Gender: FEMALE
-521
-Name: Lalhruaikima
-Father's Name: Khawllianthanga
-House Number: 67
-Age: 33 Gender: MALE
-524
-Name: Laldangliani
-Husband's Name: P.C.Ramliana
-House Number: 68
+302
+Name: Vaibhav Tari
+Father's Name: Vaman Tari
+House Number: 216
+Age: 21 Gender: MALE
+305
+Name: Ruby Gaude
+Father's Name: Vithu Gaude
+House Number: 576
+Age: 25 Gender: FEMALE
+308
+Name: Nikhil Naik
+Father's Name : Lavu Naik
+House Number: 584
+Age: 30 Gender: MALE
+TMN0285833
+Date of Publication:-01-11-2022
+Photo is
+Available
+TMN0159061
+Photo is
+Available
+TMN0209122
+Photo is
+Available
+TMN0255760
+Photo is
+Available
+BGW4505814
+Photo is
+Available
+BGW0753525
+Photo is
+Available
+TRW0286690
+Photo is
+Available
+TMN0333443
+Photo is
+Available
+TMN0271379
+Photo is
+Available
+RNM0218594
+Photo is
+Available
+282
+Name: Akshay Naik
+Father's Name: Dyaneshwar Naik
+House Number: 212
+Age: 19 Gender: MALE
+285
+Part number: 16
+Name: Mangesh Jamuvant Chodankar
+Father's Name: Jamuvant Chodankar
+House Number: 213
+Age: 58 Gender: MALE
+288
+Name: Jambuvant Shamba Chodankar
+Father's Name: Shamba Chodankar
+House Number: 213
+Age: 32 Gender: MALE
+291
+Name: Vijayamala Narayan Tari
+Husband's Name: Narayan Tari
+House Number: 216
 Age: 75 Gender: FEMALE
-527
-Name: Vanlalhruaia
-Father's Name: Thantluanga (L)
-House Number: 69
-Age: 71 Gender: MALE
-530
-Name: Biakthankimi
-Husband's Name: Lallianbuanga
-House Number: 69
-Age: 33 Gender: FEMALE
-533
-Name: Rochawngpuii
-Father's Name: Darkhuma
-House Number: 70
-Age: 47 Gender: FEMALE
-536
-Name: L.C. Mawia Chawngthu
-Father's Name: Darkhuma Chhawngthu
-House Number: 71
-Age: 44 Gender: MALE
-539
-Name: Solomon Lalramnghaka
-Father's Name: Lalsawmliana
-House Number: 73
-Age: 20 Gender: MALE
-Age as on 01.01.2023
-JKF0056713
-Photo is
-Available
-JKF0073973
-Photo is
-Available
-JSX0145870
-Photo is
-Available
-WTT0009365
-Photo is
-Available
-JKF0053389
-Photo is
-Available
-JKF0077792
-Photo is
-Available
-JKF0201129
-Photo is
-Available
-JKF0041194
-Photo is
-Available
-JKF0175497
-Photo is
-Available
-WTT0091488
-Photo is
-Available
-513
-Name: Sanghlupuii
-Husband's Name: C.Lalkhuma
-House Number: 64
-Age: 58 Gender: FEMALE
-516
-Name: Lalrinengi
-Father's Name: Lalzawmliana
-House Number: 65
-Age: 37 Gender: FEMALE
-519
-Name: Lalramdinthara
-Father's Name: Lalrampara
-House Number: 66
-Age: 33 Gender: MALE
-522
-Name: Rosiampuii
-Father's Name: Lalthanmawia
-House Number: 67
-Age: 32 Gender: FEMALE
-525
-Name Malsawmkimi
-Father's Name: B.Kaphranga
-House Number: 68
-Age: 47 Gender: FEMALE
-528
-Name: Thanchhungi
-Husband's Name: Vanlalhruaia
-House Number: 69
-Age: 67 Gender: FEMALE
-531
-Name: Darkhuma
-Father's Name: Chhunga (L)
-House Number: 70
-Age: 92 Gender: MALE
-534
-Name: C.Vanlallawmi
-Father's Name: C.Lalchhanhima
-House Number: 70
-Age: 24 Gender: FEMALE
-537
-Name Siamthankimi
-Father's Name: C.Thankhuma
-House Number: 71
-Age: 42 Gender: FEMALE
-540
-Name: Lasawmliana
-Father's Name: Pathiauva (L)
-House Number: 73
-Age: 52 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0056705
-Photo is
-Available
-JKF0175307
-Photo is
-Available
-WTT0048686
-Photo is
-Available
-WTT0025098
-Photo is
-Available
-JKF0114181
-Photo is
-Available
-JKF0057430
-Photo is
-Available
-JKF0078014
-Photo is
-Available
-WTT0068916
-Photo is
-Available
-JKF0008839
-Photo is
-Available
-JKF0056655
-Photo is
-Available
-514
-Name: Laltanpuii
-Father's Name: C.Lalkhuma
-House Number: 64
-Age: 33 Gender: FEMALE
-517
-Name Lalhlira
-Father's Name: Lallura (L)
-House Number: 66
-Age: 91 Gender: MALE
-520
-Name: Khawllianthanga
-Father's Name: Lalhlira
-House Number: 67
-Age: 64 Gender: MALE
-523
-Name: Lalchhanhimi
-Father's Name: Khawllianthanga
-House Number: 67
-Age: 28 Gender: FEMALE
-526
-Name Lalfakmawia
-Father's Name: P.C.Ramliana
-House Number: 68
-Age: 46 Gender: MALE
-529
-Part number: 1
-Name: Lallianbuanga
-Father's Name: Vanlalhruaia
-House Number: 69
-Age: 38 Gender: MALE
-532
-Name: Phirthankima
-Father's Name: Darkhuma
-House Number: 70
-Age: 51 Gender: MALE
-535
-Name: Lalruatmawii
-Father's Name: Sangkunga
-House Number: 70
-Age: 24 Gender: FEMALE
-538
-Name: Lalremruata
-Father's Name : Taisena
-House Number: 72
-Age: 43 Gender: MALE
-541
-Name: Lalrinkimi
-Husband's Name: Lalsawmliana
-House Number: 73
-Age: 37 Gender: FEMALE
-WTT0009357
-Photo is
-Available
-JKF0077560
-Photo is
-Available
-JKF0073015
-Photo is
-Available
-WTT0036913
-Photo is
-Available
-JKF0057612
-Photo is
-Available
-JKF0057729
-Photo is
-Available
-JKF0041939
-Photo is
-Available
-WTT0068924
-Photo is
-Available
-JKF0181867
-Photo is
-Available
-JKF0053207
-Photo is
-Available
-Total Pages 33 - Page 21
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-542
-Name: Vanlalbawii
-Husband's Name: Lalhmangaiha
-House Number: 74
-Age: 80 Gender: FEMALE
-545
-Name: L.R.Chanchinmawia
-Father's Name: Lalhmangaiha
-House Number: 74
-Age: 37 Gender: MALE
-548
-Name: Lalawmpuia
-Mother's Name: Chawngthanmawii
-House Number: 75
-Age: 30 Gender: MALE
-551
-Name: Lalzarzokima
-Father's Name: Lalhmingliana
-House Number: 76
-Age: 31 Gender: MALE
-554
-Name: Vanlalchaka
-Father's Name : Tlanglianruma
-House Number: 77
-Age: 55 Gender: MALE
-557
-Name: Rawikungi
-Husband's Name: R.Zahminga
-House Number: 78
-Age: 72 Gender: FEMALE
-560
-Name: Sangropari
-Husband's Name : Kailiana
-House Number: 79
-Age: 66 Gender: FEMALE
-563
-Name: Chhawntluangi
-Husband's Name: Remdingsanga
-House Number: 80
-Age: 54 Gender: FEMALE
-566
-Name: Lalduatkimi
-Father's Name: Remdinsanga
-House Number: 80
-Age: 29 Gender: FEMALE
-569
-Name: Lalrammawia
-Father's Name: Vanlalzuia (L)
-House Number: 81
-Age: 52 Gender: MALE
-Age as on 01.01.2023
-JKF0077776
-Photo is
-Available
-JKF0057281
-Photo is
-Available
-WTT0052308
-Photo is
-Available
-WTT0009381
-Photo is
-Available
-JKF0077982
-Photo is
-Available
-JKF0075374
-Photo is
-Available
-JKF0021238
-Photo is
-Available
-JKF0070888
-Photo is
-Available
-WTT0011486
-Photo is
-Available
-JKF0077677
-Photo is
-Available
-543
-Name: Lalhmangaiha
-Father's Name: Taia (L)
-House Number: 74
-Age: 76 Gender: MALE
-546
-Name: Lalliankimi
-Father's Name: Thansanga
-House Number: 74
-Age: 36 Gender: FEMALE
-549
-Name: Lalhmingliana
-Father's Name: L.S.Zuala (L)
-House Number: 76
-Age: 63 Gender: MALE
-552
-Name: Zothansanga
-Father's Name: Lalhmingliana
-House Number: 76
-Age: 27 Gender: MALE
-555
-Name: Lalhminghlui
-Husband's Name: Vanlalchaka
-House Number: 77
-Age: 46 Gender: FEMALE
-558
-Name Lalnunfela
-Father's Name: R.Zahminga
-House Number: 78
-Age: 41 Gender: MALE
-561
-Name: Daniel Hmingthansanga
-Father's Name: Lalkailiana
-House Number: 79
-Age: 32 Gender: MALE
-564
-Name: Remdingsanga
-Father's Name: Rochhunga (L)
-House Number: 80
-Age: 50 Gender: MALE
-567
-Name: Lalnunpuia
-Father's Name: Remdingsanga
-House Number: 80
-Age: 28 Gender: MALE
-570
-Name: Lalremruata
-Father's Name: Vanlalzuia (L)
-House Number: 81
-Age: 37 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0053983
-Photo is
-Available
-JKF0114397
-Photo is
-Available
-JKF0077875
-Photo is
-Available
-WTT0052332
-Photo is
-Available
-MQG0093062
-Photo is
-Available
-JKF0041061
-Photo is
-Available
-WTT0018630
-Photo is
-Available
-JKF0113076
-Photo is
-Available
-WTT0036921
-Photo is
-Available
-JKF0053611
-Photo is
-Available
-544
-Name: Lalremmawia
-Father's Name: Lalhmangaiha
-House Number: 74
-Age: 42 Gender: MALE
-547
-Name: Chawngthanmawii
-Father's Name : Rosiama (L)
-House Number: 75
-Age: 53 Gender: FEMALE
-550
-Name: V.L. Remtluanga
-Father's Name: Lalhmingliana
-House Number: 76
-Age: 33 Gender: MALE
-553
-Name: Darrothangi
-Husband's Name: Liana (L)
-Part number: 1
-House Number: 77
-Age: 83 Gender: FEMALE
-556
-Name: R.Zahminga
-Father's Name: Lama (L)
-House Number: 78
-Age: 82 Gender: MALE
-559
-Name: Kailiana
-Father's Name: Zathuama (L)
-House Number: 79
-Age: 66 Gender: MALE
-562
-Name: Susan Lalruatfeli
-Father's Name: Lalkailiana
-House Number: 79
-Age: 28 Gender: FEMALE
-565
-Name: Lalchhanhima
-Mother's Name: Chhawntluangi
-House Number: 80
-Age: 38 Gender: MALE
-568
-Name: Zonunpari
-Husband's Name: Vanlalzuia (L)
-House Number: 81
-Age: 63 Gender: FEMALE
-571
-Name: Lalnunvuli
-Father's Name: Vanlalzuia (L)
-House Number: 82
-Age: 44 Gender: FEMALE
-JKF0073833
-Photo is
-Available
-JKF0021394
-Photo is
-Available
-WTT0009373
-Photo is
-Available
-JKF0077966
-Photo is
-Available
-JKF0005694
-Photo is
-Available
-JKF0021212
-Photo is
-Available
-WTT0046425
-Photo is
-Available
-JKF0114371
-Photo is
-Available
-JKF0058016
-Photo is
-Available
-JKF0056960
-Photo is
-Available
-Total Pages 33 - Page 22
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-572
-Name: Lalthlengliana
-Father's Name: Johana
-House Number: 82
-Age: 28 Gender: MALE
-575
-Name: Malsawma Ralte
-Father's Name: Lalrinfela Ralte
-House Number: 83
-Age: 19 Gender: MALE
-578
-Name Lalnunthara
-Father's Name: Vanlalzuia (L)
-House Number: 84
-Age: 43 Gender: MALE
-581
-Name: Rohmingliani
-Husband's Name: Khawvelthanga
-House Number: 85
-Age: 66 Gender: FEMALE
-584
-Name: H.Thansiami
-Husband's Name: P. Ramliana
-House Number: 86
-Age: 47 Gender: FEMALE
-587
-Name: Lalchawimawii
-Father's Name: Samuela
-House Number: 87
-Age: 23 Gender: FEMALE
-590
-Name: Lalrinawma
-Father's Name: K.Mangvunga
-House Number: 87
-Age: 33 Gender: MALE
-593
-Name: Lalbiakthangi
-Husband's Name: Vanlallawma
-House Number: 88
-Age: 57 Gender: FEMALE
-596
-Name: Ramengzami
-Father's Name: Vanlallawma
-House Number: 89
-Age: 36 Gender: FEMALE
-599
-Name: Zonunmawia
-Father's Name: Lalremsiama
-House Number: 90
-Age: 25 Gender: MALE
-Age as on 01.01.2023
-WTT0036798
-Photo is
-Available
-WIT0104687
-Photo is
-Available
-JKF0056523
-Photo is
-Available
-JKF0057877
-Photo is
-Available
-JKF0056796
-Photo is
-Available
-WTT0091439
-Photo is
-Available
-JKF0198127
-Photo is
-Available
-JKF0114116
-Photo is
-Available
-JKF0173658
-Photo is
-Available
-WTT0052407
-Photo is
-Available
-573
-Name: Lalrinfela Ralte
-Father's Name: R.Vanlalenga
-House Number: 83
-Age: 43 Gender: MALE
-576
-Name R.Lalenga
-Father's Name : Lama (L)
-House Number: 83
-Age: 77 Gender: MALE
-579
-Name: Lalfamkimi
-Mother's Name: Chhawntluangi
-House Number: 84
-Age: 37 Gender: FEMALE
-582
-Name: Lalbiakfela
-Father's Name: P Ramliana
-House Number: 86
-Age: 21 Gender: MALE
-585
-Name: David Malsawmtluanga
-Father's Name: P.Ramliana
-House Number: 86
-Age: 25 Gender: MALE
-588
-Name: Kaphnuni
-Husband's Name: Lalrammawia
-House Number: 87
-Age: 59 Gender: FEMALE
-591
-Name: Zothanpuia
-Father's Name: H. Vanlallawma
-House Number: 88
-Age: 33 Gender: MALE
-594
-Name: Lalnunfima
-Father's Name: Vanlallawma
-House Number: 88
-Age: 38 Gender: MALE
-597
-Name: Lalchuailova
-Father's Name: H.Malsawmthanga
-House Number: 89
-Age: 35 Gender: MALE
-600
-Name: Lalhmangaihzuala
-Father's Name: Lalremsiama
-House Number: 90
-Age: 24 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0057323
-Photo is
-Available
-JKF0072983
-Photo is
-Available
-WTT0018622
-Photo is
-Available
-WTT0091330
-Photo is
-Available
-WTT0052324
-Photo is
-Available
-JKF0075564
-Photo is
-Available
-WTT0085100
-Photo is
-Available
-JKF0181933
-Photo is
-Available
-WTT0031484
-Photo is
-Available
-WIT0058081
-Photo is
-Available
-574
-Name: Remruatpuii Ralte
-Father's Name: Lalrinfela Ralte
-House Number: 83
-Age: 20 Gender: FEMALE
-577
-Name: Thenphungi
-Husband's Name : R. Lalenga
-House Number: 83
-Age: 66 Gender: FEMALE
-580
-Name: Khawvelthanga
-Father's Name: Hranghleia (L)
-House Number: 85
-Age: 69 Gender: MALE
-583
-Name: P.Ramliana
-Father's Name: T.Kapthanga
-House Number: 86
-Age: 58 Gender: MALE
-Part number: 1
-586
-Name: Alice Lalnunziri
-Father's Name: P.Ramliana
-House Number: 86
-Age: 22 Gender: FEMALE
-589
-Name: M.S.Dawngruali
-Mother's Name: Kaphnuni
-House Number: 87
-Age: 38 Gender: FEMALE
-592
-Name: Vanlallawma
-Father's Name: Thangvela (L)
-House Number: 88
-Age: 62 Gender: MALE
-595
-Name: H.Lalrinpuia
-Father's Name: H.Vanlallawma
-House Number: 88
-Age: 30 Gender: MALE
-598
-Name: P.C.Lalremsiama
-Mother's Name : Vannguri
-House Number: 90
+294
+Name: Gopal Narayan Tari
+Father's Name : Narayan Tari
+House Number: 216
 Age: 53 Gender: MALE
-601
-Name: Lalveni
-Father's Name : Kailiana
-House Number: 91
-Age: 40 Gender: FEMALE
-WTT0091215
-Photo is
-Available
-JKF0072942
-Photo is
-Available
-JKF0079012
-Photo is
-Available
-WTT0046458
-Photo is
-Available
-WTT0078915
-Photo is
-Available
-JKF0173666
-Photo is
-Available
-JKF0006031
-Photo is
-Available
-WTT0031500
-Photo is
-Available
-JKF0007203
-Photo is
-Available
-JKF0056903
-Photo is
-Available
-Total Pages 33 - Page 23
-Assembly Constituency No and Name: 2-DAMPA (ST)
-Section No and Name: 2-W.Phaileng-Vanapa
-602
-Name: P.C.Zorempuia
-Father's Name: P.C.Lalremsiama
-House Number: 91
-Age: 28 Gender: MALE
-605
-Name: Zaithankima
-Father's Name: C.Lalkhuma
-House Number: 93
-Age: 37 Gender: MALE
-608
-Name: Lalrammawii
-Father's Name: Hermana
-House Number: 94
-Age: 35 Gender: FEMALE
-611
-Name: Zonunmawia
-Father's Name : Kailiana
-House Number: 96
-Age: 43 Gender: MALE
-614
-Name: Sangzawna
-Father's Name: Biaktluanga (L)
-House Number: 98
-Age: 55 Gender: MALE
-617
-Name: V Lalmuanpuia
-Mother's Name: Ramnunthari
-House Number: 100
-Age: 33 Gender: MALE
-Age as on 01.01.2023
-WTT0036152
-Photo is
-Available
-JKF0041111
-Photo is
-Available
-JKF0188052
-Photo is
-Available
-JKF0077685
-Photo is
-Available
-JKF0070797
-Photo is
-Available
-WTT0078014
-Photo is
-Available
-603
-Name Israel Lalzawnchhuaha
-Father's Name: Remdinsanga
-House Number: 92
-Age: 33 Gender: MALE
-606
-Name: Lalbiaknungi
-Father's Name: Lalzawmliana
-House Number: 93
-Age: 32 Gender: FEMALE
-609
-Name: Lalrinfeli
-Father's Name: Rangkhuma (L)
-House Number: 95
-Age: 43 Gender: FEMALE
-612
-Name Lalchhuanliana
-Father's Name: Vanlalfaka
-House Number: 97
-Age: 38 Gender: MALE
-615
-Name: Lalsangpuii
-Father's Name: Lalchhunga
-House Number: 99
-Age: 45 Gender: FEMALE
-Date of Publication:-09-11-2022
-WTT0011478
-Photo is
-Available
-WTT0031468
-Photo is
-Available
-JKF0113936
-Photo is
-Available
-JKF0041954
-Photo is
-Available
-WTT0018671
-Photo is
-Available
-604
-Name: Rebecca Zosangliani
-Husband's Name: Israel
-Lalzawnchhuaha
-House Number: 92
-Age: 30 Gender: FEMALE
-607
-Name: Vanlalhlana
-Father's Name: Lalfela
-House Number: 94
-Age: 26 Gender: MALE
-610
-Part number: 1
-Name: Vanlalnghaki
-Father's Name: Rangkhuma (L)
-House Number: 95
-Age: 40 Gender: FEMALE
-613
-Name: Malsawmtluangi
-Mother's Name: Chawngthanmawii
-House Number: 97
-Age: 32 Gender: FEMALE
-616
-Name: J.Pazawna
-Father's Name: J.Laikhuma
-House Number: 99
-Age: 43 Gender: MALE
-INU0038836
-Photo is
-Available
-WTT0085092
-Photo is
-Available
-JKF0113944
-Photo is
-Available
-WTT0009340
-Photo is
-Available
-JKF0187591
-Photo is
-Available
-Total Pages 33 - Page 24
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-618
-Name: C.Zodinpuii
-Father's Name: C.Rosangliana
-House Number: 1
-Age: 20 Gender: FEMALE
-621
-Name: Rosangliana
-Father's Name: Zaluta (L)
-House Number: 1
-Age: 41 Gender: MALE
-624
-Name: Lalrinzuali
-Father's Name: Zaluta (L)
-House Number: 1
-Age: 35 Gender: FEMALE
-627
-Name: Tlanglawma
-Father's Name: Sena (L)
-House Number: 3
-Age: 86 Gender: MALE
-630
-Name: Thanseia
-Father's Name: Ruaia (L)
-House Number: 4
-Age: 76 Gender: MALE
-633
-Name: Lalfakzuali
-Father's Name: Thansanga
-House Number: 4
-Age: 34 Gender: FEMALE
-636
-Name: Lalremtluangi
-Husband's Name: Hmingthantluanga
-House Number: 5
-Age: 40 Gender: FEMALE
-639
-Name: C.Lalhruaitluangi
-Father's Name: C.Laltanpuia
-House Number: 6
-Age: 20 Gender: FEMALE
-642
-Name: Lalhmangaihzuala
-Father's Name: PC Lalsangzuala
-House Number: 7
-Age: 23 Gender: MALE
-645
-Name: Vanlalmawia
-Father's Name : Biakhnuna
-House Number: 8
-Age: 43 Gender: MALE
-Age as on 01.01.2023
-WTT0091363
-Photo is
-Available
-JKF0071613
-Photo is
-Available
-JKF0175372
-Photo is
-Available
-JKF0071738
-Photo is
-Available
-JKF0041236
-Photo is
-Available
-JKF0175299
-Photo is
-Available
-JKF0053470
-Photo is
-Available
-WTT0091397
-Photo is
-Available
-WTT0091314
-Photo is
-Available
-JKF0057778
-Photo is
-Available
-619
-Name: Zakunga
-Father's Name: Zahlira (L)
-House Number: 1
-Age: 64 Gender: MALE
-622
-Name: Lalfakmawii
-Husband's Name: Rosangliana
-House Number: 1
-Age: 39 Gender: FEMALE
-625
-Name: Lalhruaitluanga
-Father's Name: Zaluta (L)
-House Number: 2
-Age: 34 Gender: MALE
-628
-Name: Ringliani
-Husband's Name: Tlanglawma
-House Number: 3
-Age: 83 Gender: FEMALE
-631
-Name: Khawlthangi
-Husband's Name: Thanseia
-House Number: 4
-Age: 70 Gender: FEMALE
-634
-Name: Zoramthanga
-Father's Name: Challiana (L)
-House Number: 5
-Age: 74 Gender: MALE
-637
-Name: Hmingthantluanga
-Father's Name: Zoramthanga
-House Number: 5
-Age: 38 Gender: MALE
-640
-Name: Laltanpuia
-Father's Name : Denghnuna
-House Number: 6
-Age: 46 Gender: MALE
-643
-Name: Saikhumi
-Husband's Name: Biakhnuna
-House Number: 7
-Age: 85 Gender: FEMALE
-646
-Name Lily Parmawii
-Father's Name : Biakhnuna
-House Number: 8
-Age: 37 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0053090
-Photo is
-Available
-JKF0005900
-Photo is
-Available
-JKF0201046
-Photo is
-Available
-JKF0077040
-Photo is
-Available
-JKF0114280
-Photo is
-Available
-JKF0057471
-Photo is
-Available
-JKF0053413
-Photo is
-Available
-JKF0053629
-Photo is
-Available
-JKF0053876
-Photo is
-Available
-JKF0079152
-Photo is
-Available
-620
-Name: Rimawii
-Husband's Name: Zaluta (L)
-House Number: 1
-Age: 61 Gender: FEMALE
-623
-Name: Remlalnghaki
-Father's Name: Zaluta (L)
-House Number: 1
-Age: 39 Gender: FEMALE
-626
-Name: Ruthi Zoramsangi
-Father's Name : Lalremruata
-House Number: 2
-Age: 23 Gender: FEMALE
-629
-Name: Lalbiakdawli
-Father's Name : Tlanglawma
-House Number: 3
-Age: 53 Gender: FEMALE
-632
-Part number: 1
-Name: Lalbiakmawia
-Father's Name: Thanseia
-House Number: 4
-Age: 39 Gender: MALE
-635
-Name: Zangengi
-Husband's Name: Zoramthanga
-House Number: 5
-Age: 69 Gender: FEMALE
-638
-Name: LALNGHAKLIANA
-Father's Name: C.LALTANPUIA
-House Number: 6
-Age: 22 Gender: MALE
-641
-Name: Lalawmpuii
-Husband's Name: Laltanpuia
-House Number: 6
-Age: 40 Gender: FEMALE
-644
-Name: Vanlalpari
-Father's Name : Biakhnuna
-House Number: 7
-Age: 47 Gender: FEMALE
-647
-Name: Vanlalnghaka
-Father's Name : Biakhnuna
-House Number: 9
-Age: 44 Gender: MALE
-JKF0057620
-Photo is
-Available
-JKF0071712
-Photo is
-Available
-WTT0077651
-Photo is
-Available
-JKF0007591
-Photo is
-Available
-JKF0057299
-Photo is
-Available
-JKF0072900
-Photo is
-Available
-WTT0083345
-Photo is
-Available
-JKF0077750
-Photo is
-Available
-JKF0056564
-Photo is
-Available
-JKF0071829
-Photo is
-Available
-Total Pages 33 - Page 25
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-648
-Name: Lalramengi
-Husband's Name: Vanlalnghaka
-House Number: 9
-Age: 28 Gender: FEMALE
-651
-Name: P.C. Malsawmzeli
-Father's Name : Sangrokima
-House Number: 11
-Age: 22 Gender: FEMALE
-654
-Name: Ramthianghlimi
-Husband's Name: Sangrokima
-House Number: 11
-Age: 43 Gender: FEMALE
-657
-Name: Lalrinmawii
-Father's Name : Suakliana (L)
-House Number: 13
-Age: 61 Gender: FEMALE
-660
-Name: C.Thanchhunga
-Father's Name: Saichhawna (L)
-House Number: 14
-Age: 63 Gender: MALE
-663
-Name: Lalhmingliana
-Father's Name: C.Thanchhunga
-House Number: 14
-Age: 36 Gender: MALE
-666
-Name: Euniki Lalnunfeli
-Husband's Name: C.Lalruatsanga
-House Number: 15
-Age: 29 Gender: FEMALE
-669
-Name: Lalhminghlui
-Father's Name: Lalduhawma
-House Number: 17
-Age: 20 Gender: FEMALE
-672
-Name: Rohlupuii
-Father's Name: Lalchhawna
-House Number: 17
-Age: 40 Gender: FEMALE
-675
-Name: Rosiampuii
-Father's Name: Zakiamlova
-House Number: 18
-Age: 49 Gender: FEMALE
-Age as on 01.01.2023
-WTT0041954
-Photo is
-Available
-WTT0091207
-Photo is
-Available
-JKF0056945
-Photo is
-Available
-JKF0057950
-Photo is
-Available
-JKF0042002
-Photo is
-Available
-JKF0192294
-Photo is
-Available
-WTT0048694
-Photo is
-Available
-WTT0091272
-Photo is
-Available
-JKF0070813
-Photo is
-Available
-JKF0044982
-Photo is
-Available
-649
-Name: Vanlalliani
-Husband's Name: R.Lalmuana
-House Number: 10
-Age: 76 Gender: FEMALE
-652
-Name: Sangtluanga
-Father's Name: Lianchelhlova
-House Number: 11
-Age: 59 Gender: MALE
-655
-Name: P.C.Malsawmtluanga
-Father's Name: P.C.Sangrokima
-House Number: 11
-Age: 23 Gender: MALE
-658
-Name Lalrinkimi
-Father's Name : Suakliana (L)
-House Number: 13
-Age: 57 Gender: FEMALE
-661
-Name: Lalthathangi
-Husband's Name: C.Thanchhunga
-House Number: 14
-Age: 59 Gender: FEMALE
-664
-Name: C.Lalrawngbawla
-Father's Name: C.Thanchhunga
-House Number: 14
-Age: 31 Gender: MALE
-667
-Name: K.Lalnunpari
-Father's Name: K.Zalena
-House Number: 16
-Age: 42 Gender: FEMALE
-670
-Name: Lalchhawna
-Father's Name: Thangvunga (L)
-House Number: 17
-Age: 88 Gender: MALE
-673
-Name: Rosawma
-Father's Name: Zakiamlova
-House Number: 18
-Age: 62 Gender: MALE
-676
-Name: Rozamliana
-Father's Name : Zakiamlova
-House Number: 18
-Age: 44 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0070789
-Photo is
-Available
-JKF0070912
-Photo is
-Available
-WTT0065052
-Photo is
-Available
-JKF0056580
-Photo is
-Available
-JKF0056929
-Photo is
-Available
-WTT0018580
-Photo is
-Available
-DPC0143099
-Photo is
-Available
-JKF0070714
-Photo is
-Available
-JKF0053702
-Photo is
-Available
-JKF0114306
-Photo is
-Available
-650
-Name Chhandama
-Father's Name : R.Lalmuana
-House Number: 10
-Age: 53 Gender: MALE
-653
-Name: P.C. Sangrokima
-Father's Name: Lianchelhlova
-House Number: 11
+297
+Name: Surendra Tari
+Father's Name : Narayan Tari
+House Number: 216
 Age: 45 Gender: MALE
-656
-Name: Hmangaihkimi
-Father's Name : Taikhuma (L)
-House Number: 12
-Age: 46 Gender: FEMALE
-659
-Name: Zirsangzuali
-Mother's Name: Lalrinmawii
-House Number: 13
-Age: 37 Gender: FEMALE
-662
-Part number: 1
-Name: Lalhriatpuia
-Father's Name: C.Thanchhunga
-House Number: 14
-Age: 36 Gender: MALE
-665
-Name: Lalruatsanga
-Father's Name: C.Thanchhunga
-House Number: 15
-Age: 35 Gender: MALE
-668
-Name: Lallawmkima
-Father's Name: Lalramthanga
-House Number: 16
-Age: 37 Gender: MALE
-671
-Name: Zosangliani
-Husband's Name: Lalchhawna
-House Number: 17
-Age: 70 Gender: FEMALE
-674
-Name: Ronghinglova
-Father's Name: Zakiamlova
-House Number: 18
-Age: 58 Gender: MALE
-677
-Name: Lalmalsawma
-Father's Name: Zakiamlova
-House Number: 18
-Age: 40 Gender: MALE
-JKF0078956
-Photo is
-Available
-JKF0072629
-Photo is
-Available
-JKF0053595
-Photo is
-Available
-JKF0005751
-Photo is
-Available
-JKF0173997
-Photo is
-Available
-WTT0009415
-Photo is
-Available
-JKF0073924
-Photo is
-Available
-JKF0070748
-Photo is
-Available
-JKF0072603
-Photo is
-Available
-JKF0057315
-Photo is
-Available
-Total Pages 33 - Page 26
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-678
-Name: Lallawmzela
-Father's Name: Rosawma
-House Number: 18
-Age: 29 Gender: MALE
-681
-Name: Zokailiana
-Mother's Name: Lalkhawthangi
-House Number: 19
-Age: 48 Gender: MALE
-684
-Name: Andrew Laldingliana
-Father's Name: Zokailiana
-House Number: 19
-Age: 24 Gender: MALE
-687
-Name: Lalramsangi
-Mother's Name: Lalhlupuii
-House Number: 20
+300
+Name: Sanika Tari
+Husband's Name: Surendra Tari
+House Number: 216
 Age: 34 Gender: FEMALE
-690
-Name: Lalramnghaka
-Father's Name: P.C.Lalengvara
-House Number: 21
-Age: 37 Gender: MALE
-693
-Name: P.C.Malsawmtluanga
-Father's Name: P.C.Lalengvara
-House Number: 22
-Age: 47 Gender: MALE
-696
-Name: Rodingliana Sailo
-Father's Name: Lalthanzuala (L)
-House Number: 23
-Age: 49 Gender: MALE
-699
-Name: Saitluangpuii
-Father's Name: Rodingliana
-House Number: 23
-Age: 26 Gender: FEMALE
-702
-Name Lalthansiami
-Father's Name: Lalrinliana
-House Number: 24
-Age: 25 Gender: FEMALE
-705
-Name: Ramngaihzuala
-Father's Name: Thangmawia (L)
-House Number: 25
-Age: 45 Gender: MALE
-Age as on 01.01.2023
-WIT0036939
-Photo is
-Available
-JKF0187351
-Photo is
-Available
-WTT0065060
-Photo is
-Available
-WTT0009423
-Photo is
-Available
-JKF0175240
-Photo is
-Available
-WTT0027839
-Photo is
-Available
-JKF0174425
-Photo is
-Available
-WTT0052415
-Photo is
-Available
-WTT0052316
-Photo is
-Available
-JKF0053728
-Photo is
-Available
-679
-Name: Rosangzuala
-Father's Name: Lalthakima
-House Number: 18
-Age: 23 Gender: MALE
-682
-Name: Lalfakmawii
-Father's Name: Zokailiana
-House Number: 19
-Age: 28 Gender: FEMALE
-685
-Name: Lalduhawma
-Father's Name: Laltanpuia
-House Number: 20
-Age: 21 Gender: MALE
-688
-Name: P.C.Lalengvara
-Father's Name: Lalchungnunga (L)
-House Number: 21
-Age: 67 Gender: MALE
-691
-Name Lalhriatzuali
-Father's Name: PC Malsawmtluanga
-House Number: 22
-Age: 22 Gender: FEMALE
-694
-Name: Lallianpuii
-Husband's Name: Malsawmtluanga
-House Number: 22
-Age: 43 Gender: FEMALE
-697
-Name: Lalparmawii
-Husband's Name: Rodingliana
-House Number: 23
-Age: 49 Gender: FEMALE
-700
-Name: Sailothangi
-Husband's Name: Lalrinliana (L)
-House Number: 24
-Age: 54 Gender: FEMALE
-703
-Name: Lalliana
-Father's Name : Tawna (L)
-House Number: 25
-Age: 69 Gender: MALE
-706
-Name: R.K. Lalruatpuia
-Father's Name: Lalliana
-House Number: 25
-Age: 34 Gender: MALE
-Date of Publication:-09-11-2022
-WTT0068908
-Photo is
-Available
-WTT0031518
-Photo is
-Available
-WTT0091298
-Photo is
-Available
-JKF0077909
-Photo is
-Available
-WIT0083113
-Photo is
-Available
-JKF0044990
-Photo is
-Available
-JKF0070599
-Photo is
-Available
-JKF0070581
-Photo is
-Available
-JKF0113167
-Photo is
-Available
-JKF0192310
-Photo is
-Available
-680
-Name: Lalremmawii
-Husband's Name: Zokailiana
-House Number: 19
-Age: 51 Gender: FEMALE
-683
-Name: Lalmuanpuia
-Father's Name: Zokailiana
-House Number: 19
-Age: 27 Gender: MALE
-686
-Name: Lalhlupuii
-Mother's Name: Lalkhawthangi
-House Number: 20
-Age: 57 Gender: FEMALE
-689
-Name: Lalhliappuii
-Father's Name: Rohmingthanga
-House Number: 21
-Age: 43 Gender: FEMALE
-Part number: 1
-692
-Name: Baby Lalruatkimi
-Father's Name: Malsawmtluanga
-House Number: 22
-Age: 20 Gender: FEMALE
-695
-Name: P.C.Laldinpuii
-Father's Name: P.C.Malsawmtluanga
-House Number: 22
-Age: 26 Gender: FEMALE
-698
-Name: Hmangaihrammuanpuii
-Father's Name: Rodingliana
-House Number: 23
-Age: 28 Gender: FEMALE
-701
-Name: Zaihmingthanga
-Father's Name: Lalrinliana
-House Number: 24
-Age: 26 Gender: MALE
-704
-Name: Lalrammawii
-Husband's Name : Lalliana
-House Number: 25
-Age: 65 Gender: FEMALE
-707
-Name: Malsawmzuali
-Father's Name: Lallianzuala
-House Number: 26
-Age: 22 Gender: FEMALE
-JKF0053074
-Photo is
-Available
-WTT0036947
-Photo is
-Available
-JKF0056556
-Photo is
-Available
-JKF0053231
-Photo is
-Available
-WTT0091280
-Photo is
-Available
-WTT0052373
-Photo is
-Available
-WTT0036954
-Photo is
-Available
-WIT0052423
-Photo is
-Available
-JKF0041103
-Photo is
-Available
-WTT0104653
-Photo is
-Available
-Total Pages 33 - Page 27
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-708
-Name: Laldingliana
-Father's Name: Malsawmzuala
-House Number: 26
-Age: 21 Gender: MALE
-711
-Name: Lalawmpuia
-Father's Name: Malsawmzuala
-House Number: 26
-Age: 23 Gender: MALE
-714
-Name: Sangmawii
-Father's Name: Liankeuva
-House Number: 28
-Age: 64 Gender: FEMALE
-717
-Name: Vanlalhluta
-Father's Name: Kaichhunga (L)
-House Number: 29
-Age: 71 Gender: MALE
-720
-Name: Sangzuali
-Father's Name: B.Lalthanmawia
-House Number: 30
-Age: 34 Gender: FEMALE
-723
-Name: Lalramzauva
-Father's Name: Lalthanmawia
-House Number: 31
-Age: 42 Gender: MALE
-726
-Name: Chawiliani
-Husband's Name: Lalthanmawia
-House Number: 32
-Age: 61 Gender: FEMALE
-729
-Name: R.Vanlalrawna
-Father's Name: Darbuaia (L)
-House Number: 33
-Age: 71 Gender: MALE
-732
-Name: Lalhriatpuia
-Father's Name: R.Vanlalrawna
-House Number: 34
-Age: 44 Gender: MALE
-735
-Name M.S.Famkima
-Father's Name: R.Vanlalrawna
-House Number: 35
-Age: 43 Gender: MALE
-Age as on 01.01.2023
-WTT0085159
-Photo is
-Available
-WTT0077552
-Photo is
-Available
-JKF0053504
-Photo is
-Available
-JKF0053660
-Photo is
-Available
-JKF0194787
-Photo is
-Available
-JKF0021246
-Photo is
-Available
-JKF0071530
-Photo is
-Available
-JKF0056754
-Photo is
-Available
-JKF0021402
-Photo is
-Available
-JKF0057695
-Photo is
-Available
-709
-Name: M.S.Zuala
-Father's Name: Denghnuna
-House Number: 26
-Age: 51 Gender: MALE
-712
-Name: Lalzosanga
-Mother's Name: Lalchhungi
-House Number: 27
-Age: 49 Gender: MALE
-715
-Name: Zochhingpuii
-Father's Name: Liankeuva
-House Number: 28
-Age: 62 Gender: FEMALE
-718
-Name L.Chhanhimi
-Husband's Name: Vanlalhluta
-House Number: 29
-Age: 68 Gender: FEMALE
-721
-Name: Lalhmingmawia
-Father's Name: Romawia
-House Number: 30
-Age: 30 Gender: MALE
-724
-Name: Elizabeti
-Husband's Name: Lalramzauva
-House Number: 31
-Age: 40 Gender: FEMALE
-727
-Name: Lalhmangaihzuali
-Mother's Name : Kapthangi
-House Number: 32
-Age: 52 Gender: FEMALE
-730
-Name: Ziakmawithangi
-Father's Name: R.Vanlalrawna
-House Number: 33
-Age: 49 Gender: FEMALE
-733
-Name: Lalengmawii
-Father's Name: C.L.Mawia
-House Number: 34
-Age: 44 Gender: FEMALE
-736
-Name Laltlankimi
-Husband's Name: M.S.Famkima
-House Number: 35
-Age: 38 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0113928
-Photo is
-Available
-WTT0027847
-Photo is
-Available
-JKF0053041
-Photo is
-Available
-JKF0057570
-Photo is
-Available
-JKF0175455
-Photo is
-Available
-JKF0173724
-Photo is
-Available
-JKF0071522
-Photo is
-Available
-JKF0079897
-Photo is
-Available
-JKF0175349
-Photo is
-Available
-JKF0057703
-Photo is
-Available
-710
-Name: Lalthansangi
-Husband's Name : M.S.Zuala
-House Number: 26
-Age: 49 Gender: FEMALE
-713
-Name: J.Malsawmzela
-Father's Name: Vanlalhluta
-House Number: 27
-Age: 41 Gender: MALE
-716
-Name: Remsangpuii
-Mother's Name: Lalnunsiami
-House Number: 29
-Age: 21 Gender: FEMALE
-719
-Part number: 1
-Name: Lalnunsiami
-Father's Name: Vanlalhluta
-House Number: 29
-Age: 46 Gender: FEMALE
-722
-Name Mendy Lalrinsangi
-Father's Name: Lalramzauva
-House Number: 31
-Age: 21 Gender: FEMALE
-725
-Name: Lalthanmawia
-Father's Name : Zadingliana
-House Number: 32
-Age: 63 Gender: MALE
-728
-Name: Lalmuanpuii
-Father's Name: Lalthanmawia
-House Number: 32
-Age: 27 Gender: FEMALE
-731
-Name: Peniel Lalkhawngaihzuala
-Father's Name: Lalramsanga
-House Number: 33
-Age: 29 Gender: MALE
-734
-Name: Zodinpuia
-Father's Name: Malsawmfamkima
-House Number: 35
-Age: 19 Gender: MALE
-737
-Name: B. Malsawmdawngpuii
-Father's Name: B. Ramthianghlima
-House Number: 36
-Age: 25 Gender: FEMALE
-JKF0079889
-Photo is
-Available
-WTT0048702
-Photo is
-Available
-WTT0091199
-Photo is
-Available
-JKF0077727
-Photo is
-Available
-WTT0091256
-Photo is
-Available
-JKF0021220
-Photo is
-Available
-WTT0048603
-Photo is
-Available
-WTT0031526
-Photo is
-Available
-WTT0104679
-Photo is
-Available
-UGN0051185
-Photo is
-Available
-Total Pages 33 - Page 28
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-738
-Name: Lalthlengliani
-Husband's Name : Lalrama
-House Number: 36
-Age: 64 Gender: FEMALE
-741
-Name: Roliani
-Husband's Name: Sapthlengliana
-House Number: 37
-Age: 59 Gender: FEMALE
-744
-Name: Lalrotluangi
-Father's Name: Sapthlengliana
-House Number: 37
-Age: 39 Gender: FEMALE
-747
-Name: Lalmuanthangi
-Husband's Name: Laldala
-House Number: 38
-Age: 80 Gender: FEMALE
-750
-Name Lalthakima
-Father's Name: Laldala
-House Number: 39
-Age: 46 Gender: MALE
-753
-Name: H Laldinmawia
-Father's Name: H Lalthansanga
-House Number: 41
-Age: 20 Gender: MALE
-756
-Name: H.Lalmuanpuia
-Father's Name: H.Lalthansanga
-House Number: 41
-Age: 26 Gender: MALE
-759
-Name: Lalchhanhima
-Father's Name : Bawlkunga
-House Number: 42
+303
+Name: Sudha Atmaram Naik
+Father's Name: Atmaram Naik
+House Number: 217
+Age: 56 Gender: FEMALE
+306
+Name: Lavu Krishna Naik
+Father's Name: Krishna Naik
+House Number: 584
 Age: 70 Gender: MALE
-762
-Name B.Lalthazuala
-Father's Name: B.Ramdinliana
-House Number: 42
-Age: 28 Gender: MALE
-765
-Name: Vanhlupuii
-Husband's Name: Lalramthanga
-Ngente
-House Number: 43
-Age: 52 Gender: FEMALE
-Age as on 01.01.2023
-JKF0041871
+309
+Name: Marcus Savio Fernandes
+Father's Name : Maximiano Guilherme
+S. Fernandes
+House Number: 587
+Age: 52 Gender: MALE
+TMN0348342
 Photo is
 Available
-JKF0057133
+TMN0159079
 Photo is
 Available
-JKF0007559
+TMN0189803
 Photo is
 Available
-JKF0057984
+BGW4866711
 Photo is
 Available
-JKF0057331
+BGW0753533
 Photo is
 Available
-WTT0102053
+BGW0754002
 Photo is
 Available
-WTT0052282
+YCC0328310
 Photo is
 Available
-JKF0057059
+TMN0059535
 Photo is
 Available
-WTT0036962
+TMN0191593
 Photo is
 Available
-WTT0018564
+TMN0151779
 Photo is
 Available
-739
-Name: Lalmuankima
-Father's Name: Lalrama
-House Number: 36
-Age: 36 Gender: MALE
-742
-Name: Sapthlengliana
-Father's Name: Lalchhawna
-House Number: 37
-Age: 58 Gender: MALE
-745
-Name: Julie Lalzampuii
-Father's Name: Lalthanmawia
-House Number: 37
-Age: 37 Gender: FEMALE
-748
-Name: Lalhruaitluanga
-Other's Name: Laldala
-House Number: 38
-Age: 36 Gender: MALE
-751
-Name: Laldinpuia
-Father's Name: Lalhmingthanga
-House Number: 40
-Age: 19 Gender: MALE
-754
-Name: H.Lalthansanga
-Father's Name: H. Siamkunga
-House Number: 41
-Age: 55 Gender: MALE
-757
-Name: Malsawmtluangi Hnamte
-Father's Name: Hmingthankima
-Hnamte
-House Number: 41
-Age: 23 Gender: FEMALE
-760
-Name: Rothangi
-Husband's Name: Lalchhanhima
-House Number: 42
-Age: 70 Gender: FEMALE
-763
-Name: Hlimpuii
-Husband's Name : Siamkunga
-House Number: 43
-Age: 66 Gender: FEMALE
-766
-Name: Lalramsanga
-Father's Name: Siamkunga
-House Number: 43
-Age: 43 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0187641
-Photo is
-Available
-JKF0057125
-Photo is
-Available
-JKF0056689
-Photo is
-Available
-JKF0187955
-Photo is
-Available
-WIT0102061
-Photo is
-Available
-JKF0056606
-Photo is
-Available
-WTT0069054
-Photo is
-Available
-JKF0077032
-Photo is
-Available
-JKF0071472
-Photo is
-Available
-JKF0057422
-Photo is
-Available
-740
-Name: Lalrinchhana
-Father's Name: Lalrama
-House Number: 36
-Age: 34 Gender: MALE
-743
-Name Lalsawmliana
-Father's Name : Sapthlengliana
-House Number: 37
-Age: 41 Gender: MALE
-746
-Name Laldala
-Father's Name : Saihmingliana (L)
-House Number: 38
-Age: 82 Gender: MALE
-749
-Name: Lalropuia
-Father's Name: Lalthakima
-House Number: 38
-Age: 24 Gender: MALE
-752
-Part number: 1
-Name Lalchhanhimi
-Husband's Name: Lalhmingthanga
-House Number: 40
-Age: 39 Gender: FEMALE
-755
-Name: C. Vanlalruati
-Husband's Name: H. Lalthansanga
-House Number: 41
-Age: 52 Gender: FEMALE
-758
-Name: H.Lalthantluanga
-Father's Name: H.Lalthansanga
-House Number: 41
-Age: 23 Gender: MALE
-761
-Name: Lalruatpuia
-Father's Name: Lalchhanhima
-House Number: 42
-Age: 45 Gender: MALE
-764
-Name: Lalramthanga Ngente
-Mother's Name: Hlimpuii
-House Number: 43
-Age: 60 Gender: MALE
-767
-Name: Rozampuii Ngente
-Father's Name: Lalramfawna
-House Number: 43
-Age: 25 Gender: FEMALE
-WTT0018614
-Photo is
-Available
-JKF0056663
-Photo is
-Available
-JKF0053082
-Photo is
-Available
-WTT0065078
-Photo is
-Available
-JKF0005702
-Photo is
-Available
-JKF0071688
-Photo is
-Available
-WTT0072215
-Photo is
-Available
-JKF0007476
-Photo is
-Available
-WTT0018556
-Photo is
-Available
-WTT0052381
-Photo is
-Available
-Total Pages 33 - Page 29
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-768
-Name: Baby Lalruatkimi
-Father's Name: Lalramfawna
-House Number: 44
+Total Pages 15 - Page 13
+Assembly Constituency No and Name: 9-Porvorim
+Section No and Name : 2-Badem, Salvador do Mundo
+310
+TMN0245936
+Name: Delaila Fernandes
+Father's Name: Mario Caridade Jose
+Fernandes
+House Number: 587
+Age: 28 Gender: FEMALE
+313
+Name: Sunita Naik
+Husband's Name: Dnyaneshwar Naik
+House Number: 590
+Age: 53 Gender: FEMALE
+316
+Name: Yashasvi brahmanand Naik
+Father's Name: Brahmanand Naik
+House Number: 603
 Age: 21 Gender: FEMALE
-771
-Name: Zahmingthanga
-Father's Name: Hranglawta (L)
-House Number: 45
-Age: 77 Gender: MALE
-774
-Name: Lalrammuana
-Father's Name: Zahmingthanga
-House Number: 45
-Age: 36 Gender: MALE
-777
-Name: Rosie Lalhlimpuii
-Husband's Name: Rosangliana
-House Number: 46
-Age: 39 Gender: FEMALE
-780
-Name: Lalremthangi
-Husband's Name: P.C. Lalvunga
-House Number: 47
-Age: 58 Gender: FEMALE
-783
-Name: Chuauthangpuii
-Husband's Name: Lalnuntluanga
-House Number: 48
-Age: 67 Gender: FEMALE
-786
-Name: Lalchawiliani
-Husband's Name: Challiankhuma
-House Number: 49
-Age: 63 Gender: FEMALE
-789
-Name: Lalhruaitluangi
-Father's Name: Challiankhuma
-House Number: 49
-Age: 35 Gender: FEMALE
-792
-Name: Lalremkimi Ngente
-Father's Name: Lalramfawna Ngente
-House Number: 50
-Age: 23 Gender: FEMALE
-795
-Name: Lalbiaknii
-Husband's Name: Lalpianfela
-House Number: 52
-Age: 55 Gender: FEMALE
-Age as on 01.01.2023
-WTT0091165
-Photo is
-Available
-JKF0078808
-Photo is
-Available
-JKF0187948
-Photo is
-Available
-JKF0110460
-Photo is
-Available
-JKF0053355
-Photo is
-Available
-JKF0057968
-Photo is
-Available
-JKF0071894
-Photo is
-Available
-JKF0187401
-Photo is
-Available
-WTT0077578
-Photo is
-Available
-JKF0075549
-Photo is
-Available
-769
-Name: Lalramfawna
-Father's Name: Siamkunga
-House Number: 44
-Age: 50 Gender: MALE
-772
-Name: Zahmingliani
-Husband's Name: Zahmingthanga
-House Number: 45
-Age: 73 Gender: FEMALE
-775
-Name: Lalrohlua
-Father's Name: Laltinkhuma
-House Number: 45
-Age: 30 Gender: MALE
-778
-Name: J Malsawmdawngliana
-Father's Name: PC Lalvunga
-House Number: 47
-Age: 34 Gender: MALE
-781
-Name: C.Lalthakimi
-Father's Name: Lalpianfela
-House Number: 47
-Age: 30 Gender: FEMALE
-784
-Name: Lalramhmachhuana
-Father's Name: Lalnuntluanga
-House Number: 48
-Age: 36 Gender: MALE
-787
-Name: Challiankhuma
-Father's Name: S.Thianga
-House Number: 49
-Age: 60 Gender: MALE
-790
-Name: Vanlalfela
-Father's Name: Challiankhuma
-House Number: 49
+319
+Name: Krupesh Volvoikar
+Father's Name: Santosh Volvoikar
+House Number: 608
 Age: 35 Gender: MALE
-793
-Name J.Laikhuma
-Father's Name: Vanlala (L)
-House Number: 51
-Age: 69 Gender: MALE
-796
-Name: Lalpianfela
-Father's Name: R.H.Liana (L)
-House Number: 52
-Age: 49 Gender: MALE
-Date of Publication:-09-11-2022
-JKF0053637
-Photo is
-Available
-JKF0077024
-Photo is
-Available
-WIT0031534
-Photo is
-Available
-WTT0027854
-Photo is
-Available
-WTT0019869
-Photo is
-Available
-JKF0173013
-Photo is
-Available
-JKF0071555
-Photo is
-Available
-JKF0194936
-Photo is
-Available
-JKF0003301
-Photo is
-Available
-JKF0077743
-Photo is
-Available
-770
-Name: Lalthansangi
-Husband's Name: Lalramfawna
-House Number: 44
-Age: 48 Gender: FEMALE
-773
-Name: Malsawmtluanga
-Father's Name: Zahmingthanga
-House Number: 45
-Age: 45 Gender: MALE
-776
-Name: R. Rosangliana
-Father's Name: Zahmingthanga
-House Number: 46
-Age: 42 Gender: MALE
-779
-Name: P.C.Lalvunga
-Father's Name: Thangpianga
-House Number: 47
-Age: 61 Gender: MALE
-782
-Part number: 1
-Name Lalrinchhana
-Father's Name: P.C.Lalvunga
-House Number: 47
-Age: 28 Gender: MALE
-785
-Name: Lalrammawia
-Father's Name: Lalnuntluanga
-House Number: 48
-Age: 36 Gender: MALE
-788
-Name: Lalremkima
-Father's Name: Challiankhuma
-House Number: 49
-Age: 38 Gender: MALE
-791
-Name Lalnunziri
-Father's Name: Siamkunga
-House Number: 50
-Age: 60 Gender: FEMALE
-794
-Name: C.Lallawmzuali
-Husband's Name: J.Laikhuma
-House Number: 51
-Age: 51 Gender: FEMALE
-797
-Name: Janet Zodinpuii
-Father's Name: Lalpianfela
-House Number: 52
-Age: 24 Gender: FEMALE
-JKF0005744
-Photo is
-Available
-JKF0053488
-Photo is
-Available
-JKF0113910
-Photo is
-Available
-JKF0053371
-Photo is
-Available
-WTT0019851
-Photo is
-Available
-JKF0188110
-Photo is
-Available
-JKF0187419
-Photo is
-Available
-JKF0057844
-Photo is
-Available
-WTT0036988
-Photo is
-Available
-WTT0065086
-Photo is
-Available
-Total Pages 33 - Page 30
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-798
-Name: Lawmsangzuala
-Father's Name: Lalpianfela
-House Number: 52
-Age: 22 Gender: MALE
-801
-Name: Ruth Lalnunthari
-Husband's Name: Laldinpuia
-House Number: 53
-Age: 40 Gender: FEMALE
-804
-Name: Lalhmachhuana
-Father's Name: Darkhuma
-House Number: 54
-Age: 65 Gender: MALE
-807
-Name: Chawnghmingmawia
-Father's Name: Lalhmachhuana
-House Number: 54
-Age: 29 Gender: MALE
-810
-Name: Lalramnghaki
-Father's Name: Hermana
-House Number: 56
-Age: 38 Gender: FEMALE
-813
-Name: Lalnunpuii
-Husband's Name: Chungnungmawia
-House Number: 57
-Age: 50 Gender: FEMALE
-816
-Name: Rozama
-Father's Name : Zika (L)
-House Number: 58
-Age: 92 Gender: MALE
-819
-Name: Liansailova
-Father's Name: J.Lalhluna
-House Number: 58
-Age: 39 Gender: MALE
-822
-Name: Lalmuanpuii Chawngthu
-Husband's Name: C.Ramdinliana
-House Number: 60
-Age: 56 Gender: FEMALE
-825
-Name: H. Lalzairema
-Father's Name: Halvunga (L)
-House Number: 61
+322
+Name: Sarabjeet Singh
+Father's Name: Suvinder Singh
+House Number: 610/A 112
+Age: 27 Gender: MALE
+325
+Name: Amrutlal K Makwama
+Father's Name: Karamshibhi Shami
+Makwama
+House Number: 647
 Age: 55 Gender: MALE
 Age as on 01.01.2023
-WTT0072231
 Photo is
 Available
-WTT0009464
+TMN0309096
 Photo is
 Available
-JKF0077834
+TMN0331405
 Photo is
 Available
-WTT0027896
+TMN0191569
 Photo is
 Available
-JKF0114405
+TMN0260844
 Photo is
 Available
-JKF0071902
+TMN0215335
 Photo is
 Available
-JKF0078816
-Photo is
-Available
-JKF0187526
-Photo is
-Available
-JKF0053025
-Photo is
-Available
-JKF0077917
-Photo is
-Available
-799
-Name: T.C.Zahnuna
-Father's Name : Lianthuama
-House Number: 53
-Age: 57 Gender: MALE
-802
-Name: T.C.Lalremruata
-Father's Name: T.C.Zahnuna
-House Number: 53
-Age: 30 Gender: MALE
-805
-Name: Roziki
-Husband's Name: Lalhmachhuana
-House Number: 54
-Age: 63 Gender: FEMALE
-808
-Name: Zothanfela
-Father's Name: Lalhmachhuana
-House Number: 55
-Age: 39 Gender: MALE
-811
-Name: Zoramthara
-Father's Name: Lalhmachhuana
-House Number: 56
-Age: 37 Gender: MALE
-814
-Name: Elbethel Zonunthari
-Father's Name: B.Ramdinliana
-House Number: 57
-Age: 31 Gender: FEMALE
-817
-Name: Lalchungnunga
-Father's Name: Rozama
-House Number: 58
-Age: 64 Gender: MALE
-820
-Name: Mina Kumari
-Father's Name: Bhim Bhadur
-House Number: 59
-Age: 64 Gender: FEMALE
-823
-Name: C.Ramdinliana
-Father's Name: Vanlalduha
-House Number: 60
-Age: 51 Gender: MALE
-826
-Name: Rosangpuii
-Husband's Name: Lalzairema
-House Number: 61
-Age: 55 Gender: FEMALE
-Date of Publication:-09-11-2022
-JKF0021071
-Photo is
-Available
-WTT0025114
-Photo is
-Available
-JKF0071431
-Photo is
-Available
-JKF0057737
-Photo is
-Available
-JKF0174003
-Photo is
-Available
-WTT0031559
-Photo is
-Available
-JKF0114090
-Photo is
-Available
-JKF0053124
-Photo is
-Available
-JKF0075408
-Photo is
-Available
-JKF0057232
-Photo is
-Available
-800
-Name: Lalmuanpuii
-Husband's Name: T.C.Zahnuna
-House Number: 53
-Age: 55 Gender: FEMALE
-803
-Name: T.C.Vanlalawmpuia
-Father's Name: T.C.Zahnuna
-House Number: 53
-Age: 27 Gender: MALE
-806
-Name: Chawngchhingpuii
-Father's Name: Lalhmachhuana
-House Number: 54
+311
+Name: Swezel Fernandes
+Father's Name: Marcus Fernandes
+House Number: 587
+Age: 21 Gender: FEMALE
+314
+Name: Usha Naik
+Husband's Name: Chandreshwar Naik
+House Number: 590
+Age: 46 Gender: FEMALE
+317
+Name: Srushty Naik
+Father's Name: Bramhanand Naik
+House Number: 603
+Age: 23 Gender: FEMALE
+320
+Name Pratiksha Volvoikar
+Husband's Name: Krupesh Volvoikar
+House Number: 608
+Age: 32 Gender: FEMALE
+323
+Name: Lalita Alba Alvares Braganza
+Husband's Name: Jose Alvin Martinho
+Jaques Braganza
+House Number: 629
 Age: 42 Gender: FEMALE
-809
-Part number: 1
-Name: Vanlalchhuangi
-Father's Name: Rokima Pautu
-House Number: 55
-Age: 37 Gender: FEMALE
-812
-Name: Chungnungmawia
-Father's Name: Laldala
-House Number: 57
-Age: 54 Gender: MALE
-815
-Name: Zothankima
-Father's Name: Chungnungmawia
-House Number: 57
+326
+Name: Prafullaben Amrutlal Makwama
+Husband's Name: Amrutlal Makwama
+House Number: 647
+Age: 52 Gender: FEMALE
+Date of Publication:-01-11-2022
+TMN0333427
+Photo is
+Available
+TMN0230151
+Photo is
+Available
+TMN0291724
+Photo is
+Available
+TMN0262188
+Photo is
+Available
+TMN0293605
+Photo is
+Available
+TMN0215343
+Photo is
+Available
+312
+Name: Santana Rodrigues
+Husband's Name: Marcus Fernandes
+House Number: 587
+Age: 48 Gender: FEMALE
+315
+Part number: 16
+Name: Hrushikesh Naik
+Father's Name: Anil Naik
+House Number: 590/A
+Age: 27 Gender: MALE
+318
+Name: Jeetesh Naik
+Father's Name: Jaihind Janu Naik
+House Number: 606
 Age: 26 Gender: MALE
-818
-Name: Lalpari
-Husband's Name: P.C.Lalchungnunga
-House Number: 58
-Age: 64 Gender: FEMALE
-821
-Name: Vanneihtluanga
-Mother's Name: Mina Kumari
-House Number: 59
-Age: 39 Gender: MALE
-824
-Name: Marcus C.Lalmuanzuala
-Father's Name: C. Ramdinliana
-House Number: 60
-Age: 25 Gender: MALE
-827
-Name: H. Lalruatfeli
-Father's Name: H. Lalzairema
-House Number: 61
-Age: 24 Gender: FEMALE
-JKF0071910
+321
+Name: Pushpinder Kaur
+Father's Name: Surindaer Kaur
+House Number: 610
+Age: 32 Gender: FEMALE
+324
+BGW4507836
+Name: Karamshibhi Shamji Makwama
+Father's Name: Shamji Deuji Makwama
+House Number: 647
+Age: 91 Gender: MALE
 Photo is
 Available
-WTT0046441
+TMN0259697
 Photo is
 Available
-JKF0041186
+TMN0271643
 Photo is
 Available
-JKF0175505
+TMN0191544
 Photo is
 Available
-JKF0041889
+TMN0214791
 Photo is
 Available
-WTT0052399
-Photo is
-Available
-JKF0077172
-Photo is
-Available
-JKF0118976
-Photo is
-Available
-WTT0058040
-Photo is
-Available
-WIT0058123
-Photo is
-Available
-Total Pages 33 - Page 31
-Assembly Constituency No and Name : 2-DAMPA (ST)
-Section No and Name: 3-W.Phaileng-Khuangchera
-828
-Name: H.Lalnunfeli
-Father's Name: H.Lalzairema
-House Number: 61
-Age: 22 Gender: FEMALE
-831
-Name: Sangthanglura
-Father's Name: Lianchelhlova
-House Number: 63
-Age: 48 Gender: MALE
-834
-Name: Lalrinawma
-Father's Name: Vanlalmuanpuia
-House Number: 65
-Age: 22 Gender: MALE
-837
-Name: Ramengmawii
-Husband's Name: B.Lalliankima
-House Number: 67
-Age: 35 Gender: FEMALE
-840
-Name: K.Lalremruati
-Father's Name: Lalrinmawia
-House Number: 68
-Age: 35 Gender: FEMALE
-Age as on 01.01.2023
-WTT0072132
-Photo is
-Available
-JKF0071761
-Photo is
-Available
-WTT0077735
-Photo is
-Available
-HJH0162230
-Photo is
-Available
-JKF0192245
-Photo is
-Available
-829
-Name: Veronica Ngurthanpari
-Husband's Name: Lalthakima Ralte
-House Number: 62
-Age: 45 Gender: FEMALE
-832
-Name: Lalrinngheti
-Father's Name: Thanseia
-House Number: 63
-Age: 43 Gender: FEMALE
-835
-Name: P.C. Zaithanpuii
-Father's Name: C.Lalthakima
-House Number: 66
-Age: 20 Gender: FEMALE
-838
-Name: Lalrinmawia
-Father's Name: Lalkima
-House Number: 68
-Age: 61 Gender: MALE
-841
-Name: K.Lalruatkima
-Father's Name: Lalrinmawia
-House Number: 68
-Age: 30 Gender: MALE
-Date of Publication:-09-11-2022
-WTT0052365
-Photo is
-Available
-JKF0175331
-Photo is
-Available
-WIT0091173
-Photo is
-Available
-JKF0110890
-Photo is
-Available
-WTT0016337
-Photo is
-Available
-830
-Name Lalthakima
-Father's Name: Lalthanmawia
-House Number: 62
-Age: 40 Gender: MALE
-833
-Name: Zonunpari
-Father's Name: Lalchhawna
-Part number: 1
-House Number: 64
-Age: 43 Gender: FEMALE
-836
-Name: B.Lalliankima
-Father's Name: Lalthanmawia
-House Number: 67
-Age: 39 Gender: MALE
-839
-Name: Lalthantlingi
-Husband's Name: Lalrinmawia
-House Number: 68
-Age: 56 Gender: FEMALE
-842
-Name: Lalnunremi
-Husband's Name: K. Lalruatkima
-House Number: 68
-Age: 30 Gender: FEMALE
-JKF0062885
-Photo is
-Available
-JKF0072561
-Photo is
-Available
-JKF0007625
-Photo is
-Available
-JKF0040782
-Photo is
-Available
-ICH0013318
-Photo is
-Available
-Total Pages 33 - Page 32
-Assembly Constituency No and Name : 2-DAMPA (ST)
-SUMMARY OF ELECTORS
-A) NUMBER OF ELECTORS
-T
-Mother Roll
-Age as on 01.01.2023
-Roll Type
-Mother Roll
-Roll Identification
-Basic Roll of Intensive
-Revision, 2005 integrated with
-all supplements preceding
-Special Summary Revision
-2023
-Date of Publication:-09-11-2022
-NUMBER OF ELECTORS
-Male Female
-438
-438
-404
-Part number: 1
-404
-Third Total
-Gender
-0
-0
-Signature of Electoral Registration Officer
-842
-842
-Total Pages 33 - Page 33
+Total Pages 15 - Page 14
