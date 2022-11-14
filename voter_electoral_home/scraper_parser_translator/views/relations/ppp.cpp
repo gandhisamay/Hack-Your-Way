@@ -90,7 +90,7 @@ vector<vector<string>> content;
 vector<string> row;
 string line, word;
 string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-/* string fname="det.csv"; */
+// string fname="det.csv";
 fstream file (fname, ios::in);
 if(file.is_open())
 {
@@ -159,7 +159,7 @@ vector<vector<string>> content;
 vector<string> row;
 string line, word;
 string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
-/* string fname="det.csv"; */
+// string fname="det.csv";
 
 fstream file (fname, ios::in);
 if(file.is_open())
@@ -349,10 +349,10 @@ void create(string name, string f, string Fname, string age)
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::trunc);
+	fout.open("Out.csv", ios::out | ios::trunc);
    fout<<"Id,Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
-    
+    int mat=0;
     for(int i=0;i<n;i++){
         string fnam=(f=="1")?(peeps[i]->father?peeps[i]->father->name:""):(peeps[i]->spouse?peeps[i]->spouse->name:"");
         string A,B,C;
@@ -374,6 +374,7 @@ void create(string name, string f, string Fname, string age)
         if(peeps[i]->name!=name || (f=="1")&& peeps[i]->father && !(peeps[i]->father->name==Fname|| Fname==fnam) || (f=="0")&& peeps[i]->spouse && !(peeps[i]->spouse->name==Fname||Fname==fnam) ||  peeps[i]->age!=stoi(age)){
                 continue;
         }
+        mat++;
         fout<<i<<",";
         fout<<peeps[i]->name<<","<<peeps[i]->hno<<",";
         if(peeps[i]->gender==1)fout<<"MALE";
@@ -415,7 +416,32 @@ void create(string name, string f, string Fname, string age)
         fout<<""<<endl;
     }
 
-	
+	if(!mat){
+
+        fout<<0<<",";
+        fout<<name<<","<<"UNDEFINED"<<",";
+        fout<<"UNDEFINED";
+        fout<<",";
+        fout<<age;
+        fout<<",";
+        if(f=="1")fout<<Fname;else fout<<0;
+        fout<<",";
+        fout<<0;
+        fout<<",";
+        if(f=="0")fout<<Fname;
+        else fout<<0;
+        fout<<",";
+        fout<<0;
+        fout<<",";
+        fout<<0;
+        fout<<",";
+        int z=0;
+        fout<<0;
+        fout<<",";
+        fout<<0;
+        fout<<""<<endl;
+
+    }
 		// Insert the data to file
 		
 	}
@@ -519,6 +545,7 @@ vector<string>v;
 
 int32_t main(int32_t argc, char **argv){
 Radhe Krishna
+int mat=0;
 v.push_back(argv[0]);
 v.push_back(argv[1]);
 v.push_back(argv[2]);
@@ -569,10 +596,28 @@ for(int i=0;i<n;i++){
         if(peeps[i]->name!=v[1] || (v[2]=="1")&& peeps[i]->father && !(peeps[i]->father->name==v[3]|| fnam==v[3]) || (v[2]=="0")&& peeps[i]->spouse && !(peeps[i]->spouse->name==v[3]||fnam==v[3]) ||  peeps[i]->age!=stoi(v[4])){
                 continue;
         }
+        mat++;
     cout<<i<<endl;
     peeps[i]->print();
-}
 
+}
+if(!mat){
+    cout<<"Name: "<<v[1]<<endl;
+        cout<<"H.No.: "<<"UNDEFINED"<<endl;
+        cout<<"Gender: ";
+        cout<<"UNDEFINED"<<endl;
+        cout<<"Age: "<<v[4]<<endl;
+        cout<<"Father: "<<(v[2]=="0"?"Not defined":v[3])<<endl;
+        cout<<"Mother: "<<"Not defined"<<endl;
+        cout<<"Spouse: "<<(v[2]=="1"?"Not defined":v[3])<<endl;
+        cout<<"Father-in-law: "<<"Not defined"<<endl;
+        cout<<"Mother-in-law: "<<"Not defined"<<endl;
+        cout<<"Children: ";
+        cout<<"Not defined"<<endl;
+        cout<<"Neighbours: ";
+        cout<<"Not defined"<<endl;
+        cout<<endl;
+}
 return 0;
 }
 

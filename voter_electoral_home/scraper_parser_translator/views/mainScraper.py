@@ -109,6 +109,11 @@ class MainScraper:
             # subprocess.run([exec_location, "TARUN RAI", "1", "HARKA BAHADUR RAI", "23"])
             subprocess.run([exec_location, name, father_or_husband, father_or_husband_name, age])
             dict=make_json(csvFilePath, jsonFilePath)
+            if(len(dict)==0):
+                if(father_or_husband=="1"):
+                    return {'0':{'Name':name,'Father\'s Name':father_or_husband_name}}
+                else:
+                    return {'0':{'Name':name,'Husband\'s Name':father_or_husband_name}}
             return dict
         except Exception as e:
             print(e)
