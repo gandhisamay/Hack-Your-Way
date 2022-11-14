@@ -55,7 +55,7 @@ def details(request):
         print(voter_portal_response)
     
         if voter_portal_response != None:
-            particular_portal_response = MAIN_SCRAPER.callParticularScraper(voter_portal_response.state, 
+            particular_portal_response = MAIN_SCRAPER.callParticularScraper(input_data.state, 
                                             voter_portal_response.district, 
                                             f"{voter_portal_response.assembly_constituency_name}-{voter_portal_response.assembly_constituency_no}",
                                             voter_portal_response.part_number)
@@ -76,10 +76,10 @@ def details(request):
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if generated_csv_data != None:
-            final_response = MAIN_SCRAPER.csvToJsonPostAlgo(voter_portal_response.name, 
+            final_response = MAIN_SCRAPER.csvToJsonPostAlgo(input_data.name, 
                                                             "1" if input_data.father_or_husband else "0", 
-                                                            voter_portal_response.father_or_husband_name,
-                                                            voter_portal_response.age)
+                                                            input_data.father_or_husband_name,
+                                                            input_data.age)
             print(final_response)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
@@ -104,6 +104,7 @@ def epic(request):
             else: raise ValueError()
         except:
             return JsonResponse({"message": f"Your request does not conform to the required format"})
+        voter_portal_response = None
         voter_portal_response = MAIN_SCRAPER.callVoterPortal(True, input_data)
         print(voter_portal_response)
     
@@ -114,10 +115,20 @@ def epic(request):
                                             voter_portal_response.part_number)
             print(particular_portal_response)
         else:
+            # particular_portal_response = MAIN_SCRAPER.callParticularScraper("Mizoram", 
+            #                                 "MAMIT", 
+            #                                 "DAMPA-2",
+            #                                 "1")
+            # input_data.name = "Lalruatkimi"
+            # input_data.father_or_husband = True
+            # input_data.father_or_husband_name = "Lalramthara"
+            # input_data.age = "25"
+            # input_data.gender = "F"
+            # print(particular_portal_response)
             return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
 
         if particular_portal_response != None:
-            translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, voter_portal_response.state)
+            translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, input_data.state)
             print(translated_parsed_response)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
@@ -129,10 +140,10 @@ def epic(request):
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if generated_csv_data != None:
-            final_response = MAIN_SCRAPER.csvToJsonPostAlgo(voter_portal_response.name, 
+            final_response = MAIN_SCRAPER.csvToJsonPostAlgo(input_data.name, 
                                                             "1" if input_data.father_or_husband else "0", 
-                                                            voter_portal_response.father_or_husband_name,
-                                                            voter_portal_response.age)
+                                                            input_data.father_or_husband_name,
+                                                            input_data.age)
             print(final_response)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})

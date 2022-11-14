@@ -1,4 +1,5 @@
 from selenium import webdriver
+from time import sleep
 import os
 import requests
 from pathlib import Path
@@ -25,9 +26,16 @@ class ScraperClass:
         s = requests.session()
         assemblyCode = assemblyConstituency.split('-')[-1].strip()
 
+        left = assemblyConstituency.rsplit("-", 1)[0]
+        right = assemblyConstituency.rsplit("-", 1)[1]
+        print(left) 
+        print(right)
+        assemblyConstituency = right.strip(" ") + "-" + left.strip(" ")
         url = f"https://ceo.mizoram.gov.in/ERollReportWithoutPhoto/S16/{assemblyConstituency}/S16A{assemblyCode}P{pollingPart}.pdf"
+        print(url)
 
         r = s.get(url)
+        sleep(2)
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
             if not guess: guess = ".pdf"

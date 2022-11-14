@@ -37,10 +37,11 @@ class ScraperClass:
 
         sleep(1)
         
-        rev = str(reversed(assemblyConstituency))
-        left = rev.split("-", 1)[0]
-        right = rev.split("-", 1)[1]
-        assemblyConstituency = left + " - " + right
+        left = assemblyConstituency.rsplit("-", 1)[0]
+        right = assemblyConstituency.rsplit("-", 1)[1]
+        print(left) 
+        print(right)
+        assemblyConstituency = left.strip(" ") + " - " + right.strip(" ")
         # AS_name = str(assemblyConstituency.rsplit("-", 1)[0])
         selectAssemblyConstituency = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_AssemblyList"))
         selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
@@ -80,6 +81,7 @@ class ScraperClass:
 
         self.DRIVER.find_element(By.ID, "ctl00_Content_txtcaptcha").send_keys(CAPTCHA_TEXT)
         self.DRIVER.find_element(By.ID, "ctl00_Content_OpenButton").click()
+        sleep(2)
 
         print("Parsing PDF...")
         if r.status_code == 200:

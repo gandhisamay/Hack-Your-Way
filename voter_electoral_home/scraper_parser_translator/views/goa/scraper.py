@@ -1,4 +1,5 @@
 from selenium import webdriver
+from time import sleep
 import os
 import requests
 from pathlib import Path
@@ -29,6 +30,7 @@ class ScraperClass:
         
         url = f"https://ceogoa.nic.in/PDF/EROLL/MOTHERROLL/2021/{assemblyCode}/S05A{assemblyCode}P{partNumber}.pdf"
         r = s.get(url, verify=False)
+        sleep(2)
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
             if not guess: guess = ".pdf"
