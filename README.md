@@ -120,3 +120,25 @@ We started with a ``getData()`` function that fetched all the data contained wit
  Then, we used the ``pruneData()`` function to extend the information available into setting the Mothers, Father-in-laws and Mother-in-laws of the individuals, and also clubbed all the individuals living in the same household together using a similar hash-like **balanced binary search tree method** in the form of an unordered map.  
 
 After finishing all of this, we returned the necessary candidates in the CSV file format that matched the search query that was supplied as parameter arguments to the main function.
+
+## Input format for Postman API
+
+### For Search via Voter Information
+```
+{
+    "name": "NAME_YOU_WANT_TO_SEARCH",
+    "state": "STATE",
+    "gender": "GENDER( CAN ONLY BE M/F/O)",
+    "age": AGE,
+    "father_or_husband_name": "FATHER'S OR HUSBAND'S NAME",
+    "father_or_husband": 1 FOR FATHER, 0 FOR HUSBAND
+}
+```
+
+### For EPIC Search
+```
+{
+    "epic_no": "EPIC NUMBER",
+    "state": "STATE"
+}
+```
