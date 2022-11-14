@@ -349,7 +349,7 @@ void create(string name, string f, string Fname, string age)
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("Out.csv", ios::out | ios::trunc);
+	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::trunc);
    fout<<"Id,Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     int mat=0;

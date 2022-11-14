@@ -52,7 +52,7 @@ def details(request):
         except:
             return JsonResponse({"message": f"Your request does not conform to the required format"})
         voter_portal_response = None
-        # voter_portal_response = MAIN_SCRAPER.callVoterPortal(False, input_data)
+        voter_portal_response = MAIN_SCRAPER.callVoterPortal(False, input_data)
         print(voter_portal_response)
     
         if voter_portal_response != None:
@@ -62,17 +62,17 @@ def details(request):
                                             voter_portal_response.part_number)
             print(particular_portal_response)
         else:
-            particular_portal_response = MAIN_SCRAPER.callParticularScraper("Goa", 
-                                            "North Goa", 
-                                            "Porvorim-9",
-                                            "16")
+            # particular_portal_response = MAIN_SCRAPER.callParticularScraper("Sikkim", 
+            #                                 "North Goa", 
+            #                                 "Porvorim-9",
+            #                                 "16")
             # input_data.name = "Deepali"
             # input_data.father_or_husband = True
             # input_data.father_or_husband_name = "Laximan Naik"
             # input_data.age = "26"
             # input_data.gender = "M"
-            print(particular_portal_response)
-            # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
+            # print(particular_portal_response)
+            return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
 
         if particular_portal_response != None:
             translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, input_data.state)
@@ -116,7 +116,7 @@ def epic(request):
         except:
             return JsonResponse({"message": f"Your request does not conform to the required format"})
         voter_portal_response = None
-        voter_portal_response = MAIN_SCRAPER.callVoterPortal(True, input_data)
+        # voter_portal_response = MAIN_SCRAPER.callVoterPortal(True, input_data)
         print(voter_portal_response)
     
         if voter_portal_response != None:
@@ -126,7 +126,17 @@ def epic(request):
                                             voter_portal_response.part_number)
             print(particular_portal_response)
         else:
-            return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
+            particular_portal_response = MAIN_SCRAPER.callParticularScraper("Sikkim", 
+                                            "Sikkim", 
+                                            "RINCHENPONG-5",
+                                            "1")
+            input_data.name = "SONAM TSH LEPCHA"
+            input_data.father_or_husband = True
+            input_data.father_or_husband_name = "DAWA TSH LEPCHA"
+            input_data.age = "29"
+            input_data.gender = "M"
+            print(particular_portal_response)
+            # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
 
         if particular_portal_response != None:
             translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, input_data.state)
