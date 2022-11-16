@@ -17,7 +17,7 @@ class VoterPortalScrapper {
 
   }
 
-  async run(name, daddyName, age, gender, state) {
+  async run(name, daddyName, age, gender, state, district, assemblyConstituency) {
     this.chrome.get(this.search_url);
     await this.chrome.sleep(1000)
     while ((await this.chrome.findElements({ 'id': 'continue' })).length == 1) {
@@ -36,6 +36,11 @@ class VoterPortalScrapper {
     await this.chrome.findElement({ 'css': `#ageList>option[value="number:${age}"]` }).click()
     await this.chrome.findElement({ 'css': `#listGender>option[value="${gender}"]` }).click()
     await this.chrome.findElement({ 'css': `#nameStateList>option[value="${mapped_state}"]` }).click()
+
+    let dropDowns = await this.chrome.findElements({ 'css': '#namelocationList' })
+    if (district) await dropDowns[0].sendKeys(district)
+    if (assemblyConstituency) await dropDowns[1].sendKeys(assemblyConstituency)
+
     await this.chrome.findElement({ 'id': 'txtCaptcha' }).sendKeys("axx")
     await this.chrome.sleep(2500)
 
@@ -100,12 +105,12 @@ class VoterPortalScrapper {
       if (err) throw err
     })
 
+    this.chrome.close()
   }
 }
 
 
 console.log(process.argv)
-let [_, __, name, fatherOrHusbandName, age, gender, state] = process.argv
+let [_, __, name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency] = process.argv
 let scraper = new VoterPortalScrapper()
-scraper.run(name, fatherOrHusbandName, age, gender, state);
-// this.chrome.close()
+scraper.run(name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency);
