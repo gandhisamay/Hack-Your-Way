@@ -2,23 +2,25 @@
 var driver = require('selenium-webdriver')
 var fs = require('fs')
 var chrome = new driver.Builder().withCapabilities(driver.Capabilities.chrome()).build()
+var exec = require('child_process').exec
 
 let func = async function() {
-
-
-
   url = "https://electoralsearch.in/"
-
   chrome.get(url);
 
   await chrome.findElement({ id: 'continue' }).click()
   chrome.findElement({ id: 'captchaDetailImg' }).takeScreenshot().then(
     function(image, err) {
-      fs.writeFile('captcha.png', image, 'base64', function(err) {
+      fs.writeFile('scraper_parser_translator/views/voter_portal/captcha.png', image, 'base64', function(err) {
         if (err) throw err
       })
     }
   )
+
+  exec('python3 -m  scraper_parser_translator.views.mainCaptcha ; cat scraper_parser_translator/view/voter_portal/captcha_text', function(err, stdout, _) {
+    if (err) throw err
+    console.log(stdout)
+  })
 
   // var promise = chrome.getTitle();
 
