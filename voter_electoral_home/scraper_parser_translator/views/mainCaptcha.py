@@ -21,7 +21,7 @@ class Captcha_To_Txt:
             content = image_file.read()
         self.IMAGE = vision.Image(content=content)
         
-    def get(self) -> str:
+    def get(self, voter_portal: bool = False) -> str:
         # get response
         response = self.CLIENT.text_detection(image=self.IMAGE)
         texts = response.text_annotations
@@ -33,15 +33,20 @@ class Captcha_To_Txt:
                 '{}\nFor more info on error messages, check: '
                 'https://cloud.google.com/apis/design/errors'.format(
                     response.error.message))
+        if voter_portal:
+            self.CAPTCHA_TEXT_LOCATION = self.FILE_NAME.rsplit("/", 1)[0] + "/captcha_text"
+            with io.open(self.CAPTCHA_TEXT_LOCATION, 'w') as file:
+                file.write(CAPTCHA_TEXT)
+            print(f"Captcha text `{CAPTCHA_TEXT}` stored at: {self.CAPTCHA_TEXT_LOCATION}")
         return CAPTCHA_TEXT
 
-def main(state: str):
+def main(state: str, voter_portal: bool = False):
     ctt = Captcha_To_Txt(state)
-    return ctt.get()
+    return ctt.get(voter_portal)
 
-# if __name__ == "__main__":
-#     response = main("maharashtra")
-#     print(response)
+if __name__ == "__main__":
+    response = main("voter_portal", voter_portal=True)
+    print(response)
 
 # for text in texts:
 #     print('\n"{}"'.format(text.description))

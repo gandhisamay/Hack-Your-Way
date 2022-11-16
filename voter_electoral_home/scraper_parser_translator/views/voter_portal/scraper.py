@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 import requests
-from ..mainCaptcha import Captcha_To_Txt, main
+from ..mainCaptcha import main
 from ..scraperResponse import VoterPortalResponse 
 from time import sleep
 
@@ -67,7 +67,7 @@ class VoterPortalScraper:
             with open("scraper_parser_translator/views/voter_portal/captcha" + guess, "wb") as f:
                 f.write(r.content)
 
-        CAPTCHA_TEXT = main("voter_portal")
+        CAPTCHA_TEXT = main("voter_portal", voter_portal=True)
         return CAPTCHA_TEXT
 
     def extract_results(self):

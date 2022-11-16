@@ -51,6 +51,7 @@ def details(request):
             input_data.epic_no = str(req_body["epic_no"]) if "epic_no" in req_body else None
         except:
             return JsonResponse({"message": f"Your request does not conform to the required format"})
+        print(input_data)
         voter_portal_response = None
         voter_portal_response = MAIN_SCRAPER.callVoterPortal(False, input_data)
         print(voter_portal_response)
@@ -115,9 +116,16 @@ def epic(request):
             else: raise ValueError()
         except:
             return JsonResponse({"message": f"Your request does not conform to the required format"})
+        print(input_data)
         voter_portal_response = None
         voter_portal_response = MAIN_SCRAPER.callVoterPortal(True, input_data)
         print(voter_portal_response)
+        if voter_portal_response:
+            input_data.name = voter_portal_response.name
+            input_data.state = voter_portal_response.state
+            input_data.age = voter_portal_response.age
+            input_data.father_or_husband_name = voter_portal_response.father_or_husband_name
+            # input_data.father_or_husband = True
     
         if voter_portal_response != None:
             particular_portal_response = MAIN_SCRAPER.callParticularScraper(voter_portal_response.state, 
