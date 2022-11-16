@@ -1,62 +1,111 @@
-// var fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
-var driver = require('selenium-webdriver')
-var fs = require('fs')
-var chrome = new driver.Builder().withCapabilities(driver.Capabilities.chrome()).build()
-var exec = require('child_process').exec
+let driver = require('selenium-webdriver')
+let fs = require('fs')
+let exec = require('child_process').execSync
 
-let func = async function() {
-  url = "https://electoralsearch.in/"
-  chrome.get(url);
+class VoterPortalScrapper {
+  map_of_states = new Map([
+    ["Maharashtra", "S13"],
+    ["Goa", "S05"],
+    ["Sikkim", "S21"],
+    ["Mizoram", "S17"],
+    ["Gujarat", "S06"],
+  ]);
 
-  await chrome.findElement({ id: 'continue' }).click()
-  chrome.findElement({ id: 'captchaDetailImg' }).takeScreenshot().then(
-    function(image, err) {
-      fs.writeFile('scraper_parser_translator/views/voter_portal/captcha.png', image, 'base64', function(err) {
+  constructor() {
+    this.chrome = new driver.Builder().withCapabilities(driver.Capabilities.chrome()).build()
+    this.search_url = "https://electoralsearch.in/"
+
+  }
+
+  async run(name, daddyName, age, gender, state) {
+    this.chrome.get(this.search_url);
+    await this.chrome.sleep(1000)
+    while ((await this.chrome.findElements({ 'id': 'continue' })).length == 1) {
+      try {
+        await this.chrome.findElement({ 'id': 'continue' }).click()
+      }
+      catch (err) {
+        break;
+      }
+    }
+
+    let mapped_state = this.map_of_states.get(state);
+
+    await this.chrome.findElement({ 'id': 'name1' }).sendKeys(name)
+    await this.chrome.findElement({ 'id': 'txtFName' }).sendKeys(daddyName)
+    await this.chrome.findElement({ 'css': `#ageList>option[value="number:${age}"]` }).click()
+    await this.chrome.findElement({ 'css': `#listGender>option[value="${gender}"]` }).click()
+    await this.chrome.findElement({ 'css': `#nameStateList>option[value="${mapped_state}"]` }).click()
+    await this.chrome.findElement({ 'id': 'txtCaptcha' }).sendKeys("axx")
+    await this.chrome.sleep(2500)
+
+
+    let buttons = await this.chrome.findElements({ 'id': 'btnDetailsSubmit' })
+    await buttons[1].click()
+
+    let refreshes = -1
+    let found = true
+    while ((await this.chrome.findElements({ 'css': "input[name='epic_no_plain']" })).length == 0) {
+      refreshes++;
+
+      if (refreshes >= 15) {
+        found = false
+        break;
+      }
+
+      let image = await this.chrome.findElement({ id: 'captchaDetailImg' }).takeScreenshot()
+      fs.writeFileSync('scraper_parser_translator/views/voter_portal/captcha.png', image, 'base64', function(err) {
         if (err) throw err
       })
+
+
+      exec('python3 -m  scraper_parser_translator.views.mainCaptcha ; cat scraper_parser_translator/views/voter_portal/captcha_text', function(err, stdout, _) {
+        console.log(stdout)
+        if (err) throw err
+      })
+
+
+      fs.readFile('scraper_parser_translator/views/voter_portal/captcha_text', { encoding: 'utf8' }, async (_, data) => {
+        await this.chrome.findElement({ 'id': 'txtCaptcha' }).sendKeys(data)
+        this.chrome.sleep(2500)
+        let buttons = await this.chrome.findElements({ 'id': 'btnDetailsSubmit' })
+        await buttons[1].click()
+      });
+
+      await this.chrome.sleep(1000)
     }
-  )
 
-  exec('python3 -m  scraper_parser_translator.views.mainCaptcha ; cat scraper_parser_translator/view/voter_portal/captcha_text', function(err, stdout, _) {
-    if (err) throw err
-    console.log(stdout)
-  })
+    var user;
 
-  // var promise = chrome.getTitle();
+    if (found) {
+      let epicNo = await this.chrome.findElement({ "css": "input[name='epic_no_plain']" }).getAttribute('value')
+      let district = await this.chrome.findElement({ "css": "input[name='district']" }).getAttribute('value')
+      let ac_name = await this.chrome.findElement({ "css": "input[name='ac_name']" }).getAttribute('value')
+      let ac_no = await this.chrome.findElement({ "css": "input[name='ac_no']" }).getAttribute('value')
+      let pc_name = await this.chrome.findElement({ "css": "input[name='pc_name']" }).getAttribute('value')
+      let part_no = await this.chrome.findElement({ "css": "input[name='part_no']" }).getAttribute('value')
+      let ps_name = await this.chrome.findElement({ "css": "input[name='ps_name']" }).getAttribute('value')
 
-  //
-  // promise.then(function(title) {
-  //
-  //   console.log(title);
-  //
-  // });
+      user = {
+        found, epicNo, district, ac_no, ac_name, pc_name, part_no, ps_name
+      }
+    }
+    else {
+      user = {
+        found
+      }
+    }
 
+    fs.writeFile('scraper_parser_translator/views/voter_portal/data.json', JSON.stringify(user), function(err) {
+      if (err) throw err
+    })
 
-  // data = {
-  //   "txtCaptcha": "qIyuDe",
-  //   "search_type": "details",
-  //   "reureureired": "ca3ac2c8-4676-48eb-9129-4cdce3adf6ea",
-  //   "name": "Nirali Gandhi",
-  //   "rln_name": "Amit Gandhi",
-  //   "page_no": 1,
-  //   "location": "S13,,",
-  //   "results_per_page": 10,
-  //   "location_range": "20",
-  //   "age": 45,
-  //   "dob": null,
-  //   "gender": "F"
-  // }
-  //
-  // let res = await fetch(url, {
-  //   method: 'POST',
-  //   headers: {
-  //     'Content-Type': 'application/json',
-  //   },
-  //   body: JSON.stringify(data)
-  // })
-  //
-  // let result = await res.text()
-  // console.log(result)
+  }
 }
 
-func()
+
+console.log(process.argv)
+let [_, __, name, fatherOrHusbandName, age, gender, state] = process.argv
+let scraper = new VoterPortalScrapper()
+scraper.run(name, fatherOrHusbandName, age, gender, state);
+// this.chrome.close()
