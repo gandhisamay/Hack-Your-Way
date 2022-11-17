@@ -196,9 +196,15 @@ class VoterPortalScrapper {
 
 
 console.log(process.argv)
-let [_, __, searchMethod, name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency] = process.argv
 let scraper = new VoterPortalScrapper()
+let [__, ___, searchMethod] = process.argv
 
-if (searchMethod == "epic_search")
-  scraper.epicSearch(name, fatherOrHusbandName)
-else scraper.detailedSearch(name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency)
+if (searchMethod == "epic_search"){
+    let [_, __, searchMethod, epicNo, state] = process.argv
+    scraper.epicSearch(epicNo, state)
+}
+else{
+    let [_, __, searchMethod, name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency] = process.argv
+    scraper.detailedSearch(name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency)
+}
+
