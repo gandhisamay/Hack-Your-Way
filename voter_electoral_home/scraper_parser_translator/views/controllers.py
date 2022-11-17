@@ -115,6 +115,9 @@ def details(request):
             # input_data.age = "26"
             # input_data.gender = "M"
             # print(particular_portal_response)
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
 
         if particular_portal_response != None:
@@ -123,6 +126,9 @@ def details(request):
             translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, input_data.state)
             print(translated_parsed_response)
         else:
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if translated_parsed_response != None:
@@ -131,6 +137,9 @@ def details(request):
             generated_csv_data = MAIN_SCRAPER.generateDataCSV(translated_parsed_response)
             print(generated_csv_data)
         else:
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if generated_csv_data != None:
@@ -143,8 +152,14 @@ def details(request):
                                                             request_media_dir)
             print(final_response)
         else:
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
+        print("Cleaning Request Media Data directory...")
+        subprocess.run(["rm", "-rf", request_media_dir])
+        print(f"Cleared Directory: {request_media_dir}")
         return JsonResponse({"message": "Successfull", "data": final_response})
 
 @csrf_exempt
@@ -223,18 +238,27 @@ def epic(request):
             # input_data.age = "53"
             # input_data.gender = "M"
             # print(particular_portal_response)
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
 
         if particular_portal_response != None:
             translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, input_data.state)
             print(translated_parsed_response)
         else:
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if translated_parsed_response != None:
             generated_csv_data = MAIN_SCRAPER.generateDataCSV(translated_parsed_response)
             print(generated_csv_data)
         else:
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if generated_csv_data != None:
@@ -245,7 +269,13 @@ def epic(request):
                                                             request_media_dir)
             print(final_response)
         else:
+            print("Cleaning Request Media Data directory...")
+            subprocess.run(["rm", "-rf", request_media_dir])
+            print(f"Cleared Directory: {request_media_dir}")
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
+        print("Cleaning Request Media Data directory...")
+        subprocess.run(["rm", "-rf", request_media_dir])
+        print(f"Cleared Directory: {request_media_dir}")
         return JsonResponse({"message": "Successfull", "data": final_response})
         # MAIN_SCRAPER.callParticularScraper("sikkim", None, None, None)
