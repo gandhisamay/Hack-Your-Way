@@ -12,7 +12,14 @@ RUN apt-get install -y gconf-service libasound2 libatk1.0-0 libcairo2 libcups2 l
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN dpkg -i google-chrome-stable_current_amd64.deb; apt-get -fy install
 
-#
+
+RUN apt-get update && \
+ apt-get install -y \
+    nodejs npm
+
+RUN curl -fsSL https://deb.nodesource.com/setup_current.x | bash - && \
+ apt-get install -y nodejs
+
 # # install google chrome
 # RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
 # RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
@@ -34,12 +41,16 @@ RUN pip install --upgrade pip
 RUN pip install -r req.txt
 
 COPY . $APP_HOME
-# COPY scripts/keys.json $APP_HOME
 RUN ls
+RUN cd scraper_parser_translator/views/voter_portal_js && npm i
+WORKDIR $APP_HOME
+
+
+# COPY scripts/keys.json $APP_HOME
 # ENV GOOGLE_APPLICATION_CREDENTIALS /home/app/keys.json
 
 # WORKDIR $APP_HOME/voter_electoral_home
 # CMD ["python3", "-m", "scripts.voter_portal.scraper"]
 # CMD ["python3", "-m", "scripts.mainScraper"]
 EXPOSE 8000
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]MD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
