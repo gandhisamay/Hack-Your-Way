@@ -14,8 +14,8 @@ class VoterPortalScrapper {
 
   constructor() {
     this.chrome = new driver.Builder().withCapabilities(driver.Capabilities.chrome())
-            .setChromeOptions(new chrome.Options()
-            .addArguments("--headless=chrome", "--no-sandbox", "--disable-dev-shm-usage")).build()
+      .setChromeOptions(new chrome.Options()
+        .addArguments("--headless=chrome", "--no-sandbox", "--disable-dev-shm-usage")).build()
 
     this.search_url = "https://electoralsearch.in/"
 
@@ -187,11 +187,10 @@ class VoterPortalScrapper {
 
     console.log(`   Found user details: ${found}`)
     if (found) {
-    console.log(`   Parsing user details...`)
-      this.chrome.sleep(500)
-      let name = await this.chrome.findElement({ 'css': 'input[name="name"]' }).getAttribute('value')
-            let name2 = await this.chrome.findElements({'id': '#resultsTable'})
-            console.log(name2)
+      console.log(`   Parsing user details...`)
+      let tds = await this.chrome.findElements({ 'css': '#resultsTable td' })
+      let name = await tds[2].getText()
+      name = name.split('\n')[0]
       let epicNo = await this.chrome.findElement({ "css": "input[name='epic_no_plain']" }).getAttribute('value')
       let gender = await this.chrome.findElement({ 'css': "input[name='gender']" }).getAttribute('value')
       let age = await this.chrome.findElement({ 'css': "input[name='age']" }).getAttribute('value')
@@ -230,12 +229,12 @@ console.log(process.argv)
 let scraper = new VoterPortalScrapper()
 let [__, ___, searchMethod] = process.argv
 
-if (searchMethod == "epic_search"){
-    let [_, __, searchMethod, epicNo, state] = process.argv
-    scraper.epicSearch(epicNo, state)
+if (searchMethod == "epic_search") {
+  let [_, __, searchMethod, epicNo, state] = process.argv
+  scraper.epicSearch(epicNo, state)
 }
-else{
-    let [_, __, searchMethod, name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency] = process.argv
-    scraper.detailedSearch(name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency)
+else {
+  let [_, __, searchMethod, name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency] = process.argv
+  scraper.detailedSearch(name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency)
 }
 
