@@ -40,6 +40,7 @@ class PDF_to_Txt:
 
 
     def convert(self, file_name):
+        req_media_dir = file_name.rsplit("/", 1)[0] + "/"
         input_file = file_name if file_name else "roll.pdf"
         inputpdf = PdfFileReader(input_file)
         offset=2
@@ -54,7 +55,7 @@ class PDF_to_Txt:
                 no=10
             for j in range(no):
                 output.addPage(inputpdf.getPage((i*10)+j+offset))
-            with open("document-page%s.pdf" % i, "wb") as outputStream:
+            with open(req_media_dir + ("document-page%s.pdf" % i), "wb") as outputStream:
                 output.write(outputStream)
 
         translated_text=""
@@ -75,10 +76,10 @@ class PDF_to_Txt:
             # print(document.text)
             return document.text
         for i in range(noOfpdf+1):
-            file_path = os.path.abspath('document-page%s.pdf' % i)
+            file_path = os.path.abspath(req_media_dir + ('document-page%s.pdf' % i))
             translated_text+=quickstart(self.project_id, self.location, self.processor_id, file_path, self.mime_type, translated_text)
             #write in file
-        file_path = "scraper_parser_translator/views/pdf_to_txt/parsed.txt"
+        file_path = req_media_dir + "parsed.txt"
         self.CUSTOM_RESPONSE.parsed_text_generated = Path(file_path)
         with open(file_path, 'w') as f:
             f.write(translated_text)
@@ -86,6 +87,7 @@ class PDF_to_Txt:
         return self.CUSTOM_RESPONSE
 
     def convert_translated(self, file_name, state_lang):
+        req_media_dir = file_name.rsplit("/", 1)[0] + "/"
         input_file = file_name if file_name else "roll.pdf"
         inputpdf = PdfFileReader(input_file)
         offset=2
@@ -100,7 +102,7 @@ class PDF_to_Txt:
                 no=10
             for j in range(no):
                 output.addPage(inputpdf.getPage((i*10)+j+offset))
-            with open("document-page%s.pdf" % i, "wb") as outputStream:
+            with open(req_media_dir + ("document-page%s.pdf" % i), "wb") as outputStream:
                 output.write(outputStream)
 
         translated_text=""
@@ -132,10 +134,10 @@ class PDF_to_Txt:
             return trans    
 
         for i in range(noOfpdf+1):
-            file_path = os.path.abspath('document-page%s.pdf' % i)
+            file_path = os.path.abspath(req_media_dir + ('document-page%s.pdf' % i))
             translated_text += quickstart(self.project_id, self.location, self.processor_id, file_path, self.mime_type,translated_text)
 
-        file_path = "scraper_parser_translator/views/pdf_to_txt/parsed_translated.txt"
+        file_path = req_media_dir + "parsed_translated.txt"
         self.CUSTOM_RESPONSE.parsed_text_generated = Path(file_path)
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(translated_text)

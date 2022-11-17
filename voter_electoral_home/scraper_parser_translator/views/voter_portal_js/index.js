@@ -21,7 +21,7 @@ class VoterPortalScrapper {
 
   }
 
-  async epicSearch(epicNo, state) {
+  async epicSearch(epicNo, state, req_media_dir) {
     this.chrome.get(this.search_url);
     await this.chrome.sleep(1000)
     while ((await this.chrome.findElements({ 'id': 'continue' })).length == 1) {
@@ -68,20 +68,21 @@ class VoterPortalScrapper {
 
       console.log("Storing captcha png...")
       let image = await this.chrome.findElement({ id: 'captchaEpicImg' }).takeScreenshot()
-      fs.writeFileSync('scraper_parser_translator/views/voter_portal/captcha.png', image, 'base64', function(err) {
+      console.log(req_media_dir)
+      fs.writeFileSync(req_media_dir + "captcha.png", image, 'base64', function(err) {
         if (err) throw err
       })
 
 
       console.log("Parsing captcha png to text...")
-      exec('python3 -m  scraper_parser_translator.views.mainCaptcha', function(err, stdout, _) {
+      exec(`python3 -m  scraper_parser_translator.views.mainCaptcha ${req_media_dir}`, function(err, stdout, _) {
         console.log(stdout)
         if (err) throw err
       })
 
 
       console.log("Reading captcha text...")
-      fs.readFile('scraper_parser_translator/views/voter_portal/captcha_text', { encoding: 'utf8' }, async (_, data) => {
+      fs.readFile(req_media_dir + "captcha_text", { encoding: 'utf8' }, async (_, data) => {
         console.log(`Got captcha text: ${data}`)
         await this.chrome.findElement({ 'id': 'txtEpicCaptcha' }).sendKeys(data)
         this.chrome.sleep(2500)
@@ -95,7 +96,7 @@ class VoterPortalScrapper {
     }
 
     console.log("Extracting obtained details...")
-    await this.extractDetails(found);
+    await this.extractDetails(found, req_media_dir);
 
     console.log(await this.chrome.getCurrentUrl())
 
@@ -104,7 +105,7 @@ class VoterPortalScrapper {
 
   }
 
-  async detailedSearch(name, daddyName, age, gender, state, district, assemblyConstituency) {
+  async detailedSearch(name, daddyName, age, gender, state, district, assemblyConstituency, req_media_dir) {
     this.chrome.get(this.search_url);
     await this.chrome.sleep(1000)
     while ((await this.chrome.findElements({ 'id': 'continue' })).length == 1) {
@@ -149,20 +150,21 @@ class VoterPortalScrapper {
 
       console.log("Storing captcha png...")
       let image = await this.chrome.findElement({ id: 'captchaDetailImg' }).takeScreenshot()
-      fs.writeFileSync('scraper_parser_translator/views/voter_portal/captcha.png', image, 'base64', function(err) {
+      console.log(req_media_dir)
+      fs.writeFileSync(req_media_dir + "captcha.png", image, 'base64', function(err) {
         if (err) throw err
       })
 
 
       console.log("Parsing captcha png to text...")
-      exec('python3 -m  scraper_parser_translator.views.mainCaptcha', function(err, stdout, _) {
+      exec(`python3 -m  scraper_parser_translator.views.mainCaptcha ${req_media_dir}`, function(err, stdout, _) {
         console.log(stdout)
         if (err) throw err
       })
 
 
       console.log("Reading captcha text...")
-      fs.readFile('scraper_parser_translator/views/voter_portal/captcha_text', { encoding: 'utf8' }, async (_, data) => {
+      fs.readFile(req_media_dir + "captcha_text", { encoding: 'utf8' }, async (_, data) => {
         console.log(`Got captcha text: ${data}`)
         await this.chrome.findElement({ 'id': 'txtCaptcha' }).sendKeys(data)
         this.chrome.sleep(2500)
@@ -176,13 +178,13 @@ class VoterPortalScrapper {
     }
 
     console.log("Extracting obtained details...")
-    await this.extractDetails(found);
+    await this.extractDetails(found, req_media_dir);
 
     console.log("Closing chrome...")
     this.chrome.close()
   }
 
-  async extractDetails(found) {
+  async extractDetails(found, req_media_dir) {
     var user;
 
     console.log(`   Found user details: ${found}`)
@@ -216,7 +218,7 @@ class VoterPortalScrapper {
     }
 
     console.log(`   Writing user details to json...`)
-    fs.writeFile('scraper_parser_translator/views/voter_portal/data.json', JSON.stringify(user), function(err) {
+    fs.writeFile(req_media_dir + "data.json", JSON.stringify(user), function(err) {
       if (err) throw err
     })
     console.log(`   Written user details to json...`)
@@ -227,14 +229,14 @@ class VoterPortalScrapper {
 
 console.log(process.argv)
 let scraper = new VoterPortalScrapper()
-let [__, ___, searchMethod] = process.argv
+let [__, ___, searchMethod, req_media_dir] = process.argv
 
 if (searchMethod == "epic_search") {
-  let [_, __, searchMethod, epicNo, state] = process.argv
-  scraper.epicSearch(epicNo, state)
+  let [_, __, searchMethod, ___, epicNo, state] = process.argv
+  scraper.epicSearch(epicNo, state, req_media_dir)
 }
 else {
-  let [_, __, searchMethod, name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency] = process.argv
-  scraper.detailedSearch(name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency)
+  let [_, __, searchMethod, ___, name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency] = process.argv
+  scraper.detailedSearch(name, fatherOrHusbandName, age, gender, state, district, assemblyConstituency, req_media_dir)
 }
 

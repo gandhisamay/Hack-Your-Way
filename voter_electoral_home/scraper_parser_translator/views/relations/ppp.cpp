@@ -84,12 +84,13 @@ vector<Node*> children;
 vector<Node*> peeps;
 unordered_map<string,vector<Node*>>homes;
 
-void getData(){
+void getData(string CSV_LOCATION){
 bool f=0;int m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+/* string fname="scraper_parser_translator/views/txt_to_csv/output.csv"; */
+string fname=CSV_LOCATION;
 // string fname="det.csv";
 fstream file (fname, ios::in);
 if(file.is_open())
@@ -153,12 +154,13 @@ homes[hno].push_back(n);
 }
 
 
-void setData(){
+void setData(string CSV_LOCATION){
     bool f=0;int m=0;
 vector<vector<string>> content;
 vector<string> row;
 string line, word;
-string fname="scraper_parser_translator/views/txt_to_csv/output.csv";
+/* string fname="scraper_parser_translator/views/txt_to_csv/output.csv"; */
+string fname=CSV_LOCATION;
 // string fname="det.csv";
 
 fstream file (fname, ios::in);
@@ -343,13 +345,13 @@ void pruneData(){
 }
 
 
-void create(string name, string f, string Fname, string age)
+void create(string name, string f, string Fname, string age, string OUT_CSV_LOCATION)
 {
 	// file pointer
 	fstream fout;
 
 	// opens an existing csv file or creates a new file.
-	fout.open("scraper_parser_translator/views/relations/Out.csv", ios::out | ios::trunc);
+	fout.open(OUT_CSV_LOCATION, ios::out | ios::trunc);
    fout<<"Id,Name,HNo,Gender,Age,Father,Mother,Spouse,FIL,MIL,Children,Neighbours"<<endl;
 	int n=peeps.size();
     int mat=0;
@@ -551,6 +553,12 @@ v.push_back(argv[1]);
 v.push_back(argv[2]);
 v.push_back(argv[3]);
 v.push_back(argv[4]);
+string CSV_LOCATION = argv[5];
+string IN_CSV_LOCATION = CSV_LOCATION + "output.csv";
+string OUT_CSV_LOCATION = CSV_LOCATION + "Out.csv";
+cout << "CSV_LOCATION: " << CSV_LOCATION << "\n";
+cout << "IN_CSV_LOCATION: " << IN_CSV_LOCATION << "\n";
+cout << "OUT_CSV_LOCATION: " << OUT_CSV_LOCATION << "\n";
 transform(v[0].begin(), v[0].end(),v[0].begin(), ::toupper);
 transform(v[1].begin(), v[1].end(),v[1].begin(), ::toupper);
 // transform(v[2].begin(), v[2].end(),v[2].begin(), ::toupper);
@@ -560,10 +568,10 @@ transform(v[3].begin(), v[3].end(),v[3].begin(), ::toupper);
 cout<<v[0]<<" "<<v[1]<<" "<<v[2]<<" "<<v[3]<<" "<<stoi(v[4])<<endl;
 
 
-getData();
-setData();
+getData(IN_CSV_LOCATION);
+setData(IN_CSV_LOCATION);
 pruneData();
-create(v[1],v[2],v[3],v[4]);
+create(v[1],v[2],v[3],v[4], OUT_CSV_LOCATION);
 
 // createJson(v[1],v[2],v[3],v[4]);
 // for(auto i:peeps){

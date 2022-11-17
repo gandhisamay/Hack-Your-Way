@@ -1,16 +1,18 @@
 import io
 import os
+import sys
 # Imports the Google Cloud client library
 from google.cloud import vision
 from google.oauth2 import service_account
 
 class Captcha_To_Txt:
-    def __init__(self, STATE: str) -> None:
+    def __init__(self, STATE: str, req_dir: str) -> None:
         # The name of the image file to annotate
-        self.FILE_NAME = os.path.abspath('.')
+        self.FILE_NAME = req_dir
         self.CAPTCHA_LOCATION = "captcha.png"
         # + os.path.abspath('captcha.png')
-        self.FILE_NAME = os.path.join(self.FILE_NAME, "scraper_parser_translator/views", STATE, self.CAPTCHA_LOCATION)
+        # self.FILE_NAME = os.path.join(self.FILE_NAME, "scraper_parser_translator/views", STATE, self.CAPTCHA_LOCATION)
+        self.FILE_NAME += self.CAPTCHA_LOCATION
         print(self.FILE_NAME)
         # Instantiates a client
         credentials = service_account.Credentials.from_service_account_file('keys.json')
@@ -40,12 +42,13 @@ class Captcha_To_Txt:
             print(f"Captcha text `{CAPTCHA_TEXT}` stored at: {self.CAPTCHA_TEXT_LOCATION}")
         return CAPTCHA_TEXT
 
-def main(state: str, voter_portal: bool = False):
-    ctt = Captcha_To_Txt(state)
+def main(state: str, req_dir: str, voter_portal: bool = False):
+    ctt = Captcha_To_Txt(state, req_dir)
     return ctt.get(voter_portal)
 
 if __name__ == "__main__":
-    response = main("voter_portal", voter_portal=True)
+    # print(sys.argv)
+    response = main("voter_portal", sys.argv[1], voter_portal=True)
     print(response)
 
 # for text in texts:

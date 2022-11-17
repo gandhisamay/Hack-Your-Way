@@ -1,27 +1,32 @@
-from django.shortcuts import render
 from django.http import JsonResponse
 from .mainScraper import MainScraper
 from django.views.decorators.csrf import csrf_exempt
-import pprint
 import json
 import subprocess
 from .scraperResponse import UserInput, VoterPortalResponse, JSONClassEncoder
+from .middleware import RequestUniqueID
 # from ..scraper_parser_translator.views.mainScraper import MainScraper
 
 # class ControllerClass:
     # def __init__(self) -> None:
         # self.MAIN_SCRAPER = MainScraper()
 MAIN_SCRAPER = MainScraper()
+json_class_encoder = JSONClassEncoder()
+REQUEST_MEDIA_HOME = "scraper_parser_translator/requests_data/"
         
 @csrf_exempt
 def home(request):
-    print(request)
-    return JsonResponse({"message": "Hey there >"})
+    print(f"Printing Request's unique ID: {request.META.get('uuid')}")
+    return JsonResponse({"message": "Follow the below URLs (POST) for obtaining relevant data.", 
+                            "Detailed_Search": "/api/details", 
+                            "Epic_Search": "/api/epic"})
 
 # TODO: DOB?
 @csrf_exempt
 def details(request):
-    json_class_encoder = JSONClassEncoder()
+    request_media_dir = REQUEST_MEDIA_HOME + str(request.META.get('uuid')) + "/"
+    subprocess.run(["mkdir", "-p", request_media_dir])
+    print(f">>> Created Requests MEDIA DATA DIRECTORY at: {request_media_dir}")
     if request.method == "GET":
         return JsonResponse({"message": "Please make a POST Request with Citizen's data!"})
     elif request.method == "POST":
@@ -59,6 +64,7 @@ def details(request):
  
         subprocess.run(["node", "scraper_parser_translator/views/voter_portal_js/index.js", 
                         "detailedSearch",
+                        request_media_dir,
                         input_data.name,
                         input_data.father_or_husband_name,
                         input_data.age,
@@ -68,9 +74,9 @@ def details(request):
                         input_data.assembly_constituency if input_data.assembly_constituency else "0"])
         # Opening JSON file
         voter_portal_response = None
-        with open('scraper_parser_translator/views/voter_portal/data.json') as json_file:
+        with open(request_media_dir + "data.json") as json_file:
             data = json.load(json_file)
-            print(data)
+            print(f"Data from Main Portal: {data}")
             print(data["found"] == True)
             if data["found"] == True:
                 voter_portal_response = VoterPortalResponse()
@@ -91,11 +97,12 @@ def details(request):
     
         if voter_portal_response != None:
             # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again.", 
-                                # "data": json_class_encoder.encode(voter_portal_response)})
+            #                     "data": json_class_encoder.encode(voter_portal_response)})
             particular_portal_response = MAIN_SCRAPER.callParticularScraper(input_data.state, 
                                             voter_portal_response.district, 
                                             f"{voter_portal_response.assembly_constituency_name}-{voter_portal_response.assembly_constituency_no}",
-                                            voter_portal_response.part_number)
+                                            voter_portal_response.part_number,
+                                            request_media_dir)
             print(particular_portal_response)
         else:
             # particular_portal_response = MAIN_SCRAPER.callParticularScraper("Sikkim", 
@@ -111,22 +118,29 @@ def details(request):
             return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again."})
 
         if particular_portal_response != None:
+            # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again.", 
+            #                     "data": json_class_encoder.encode(particular_portal_response)})
             translated_parsed_response = MAIN_SCRAPER.translateParseElectoralRollPDF(particular_portal_response, input_data.state)
             print(translated_parsed_response)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if translated_parsed_response != None:
+            # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again.", 
+            #                     "data": json_class_encoder.encode(particular_portal_response)})
             generated_csv_data = MAIN_SCRAPER.generateDataCSV(translated_parsed_response)
             print(generated_csv_data)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
 
         if generated_csv_data != None:
+            # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again.", 
+            #                     "data": json_class_encoder.encode(particular_portal_response)})
             final_response = MAIN_SCRAPER.csvToJsonPostAlgo(input_data.name, 
                                                             "1" if input_data.father_or_husband else "0", 
                                                             input_data.father_or_husband_name,
-                                                            input_data.age)
+                                                            input_data.age,
+                                                            request_media_dir)
             print(final_response)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})
@@ -135,7 +149,9 @@ def details(request):
 
 @csrf_exempt
 def epic(request):
-    json_class_encoder = JSONClassEncoder()
+    request_media_dir = REQUEST_MEDIA_HOME + str(request.META.get('uuid')) + "/"
+    subprocess.run(["mkdir", "-p", request_media_dir])
+    print(f">>> Created Requests MEDIA DATA DIRECTORY at: {request_media_dir}")
     if request.method == "GET":
         return JsonResponse({"message": "Please make a POST Request with Citizen's EPIC No!"})
     elif request.method == "POST":
@@ -156,12 +172,13 @@ def epic(request):
         voter_portal_response = None
         subprocess.run(["node", "scraper_parser_translator/views/voter_portal_js/index.js", 
                         "epic_search",
+                        request_media_dir,
                         input_data.epic_no,
                         input_data.state])
         # Opening JSON file
-        with open('scraper_parser_translator/views/voter_portal/data.json') as json_file:
+        with open(request_media_dir + "data.json") as json_file:
             data = json.load(json_file)
-            print(data)
+            print(f"Data from Main Portal: {data}")
             print(data["found"] == True)
             if data["found"] == True:
                 voter_portal_response = VoterPortalResponse()
@@ -192,7 +209,8 @@ def epic(request):
             particular_portal_response = MAIN_SCRAPER.callParticularScraper(voter_portal_response.state, 
                                             voter_portal_response.district, 
                                             f"{voter_portal_response.assembly_constituency_name}-{voter_portal_response.assembly_constituency_no}",
-                                            voter_portal_response.part_number)
+                                            voter_portal_response.part_number,
+                                            request_media_dir)
             print(particular_portal_response)
         else:
             # particular_portal_response = MAIN_SCRAPER.callParticularScraper("Sikkim", 
@@ -223,7 +241,8 @@ def epic(request):
             final_response = MAIN_SCRAPER.csvToJsonPostAlgo(input_data.name, 
                                                             "1" if input_data.father_or_husband else "0", 
                                                             input_data.father_or_husband_name,
-                                                            input_data.age)
+                                                            input_data.age,
+                                                            request_media_dir)
             print(final_response)
         else:
             return JsonResponse({"message": "Sorry, the google document ai service for translation is not up, please try again."})

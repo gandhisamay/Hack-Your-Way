@@ -22,7 +22,7 @@ class ScraperClass:
         self.SCRAPER_RESPONSE = ScraperResponse()
         self.SCRAPER_RESPONSE.captcha_generated = None
 
-    def run(self, district, assemblyConstituency, pollingPart):
+    def run(self, district, assemblyConstituency, pollingPart, req_media_dir):
         s = requests.session()
         assemblyCode = assemblyConstituency.split('-')[-1].strip()
 
@@ -39,8 +39,9 @@ class ScraperClass:
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
             if not guess: guess = ".pdf"
-            pdf_file_path = "/scraper_parser_translator/views/mizoram/electoral_rolls" + guess
-            pdf_file_path = (os.path.abspath(os.getcwd()) + pdf_file_path)
+            # pdf_file_path = "/scraper_parser_translator/views/mizoram/electoral_rolls" + guess
+            pdf_file_path = req_media_dir + "electoral_rolls" + guess
+            # pdf_file_path = (os.path.abspath(os.getcwd()) + pdf_file_path)
             print(pdf_file_path)
             self.SCRAPER_RESPONSE.electoral_roll_PDF = pdf_file_path
             if guess:

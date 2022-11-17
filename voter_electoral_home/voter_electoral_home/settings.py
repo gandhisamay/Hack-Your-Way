@@ -51,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'scraper_parser_translator.views.middleware.RequestUniqueID'
 ]
 
 ROOT_URLCONF = 'voter_electoral_home.urls'

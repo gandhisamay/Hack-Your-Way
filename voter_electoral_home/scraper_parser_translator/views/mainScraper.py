@@ -50,11 +50,11 @@ class MainScraper:
             return None
     # detailed_data = DetailedData(name="Aditya Sheth", father_or_husband_name="Milap Sheth", age="20", state="Gujarat", district="Vadodara", assembly_constituency="Dabhoi", gender="M")
 
-    def callParticularScraper(self, state, district, assemblyConstituency, pollingPart):
+    def callParticularScraper(self, state, district, assemblyConstituency, pollingPart, req_media_dir):
         try:
             particular_parser = self.STATE_SCRAPER_MAP[state]()
             print(particular_parser)
-            scraper_response: ScraperResponse = particular_parser.run(district, assemblyConstituency, pollingPart)
+            scraper_response: ScraperResponse = particular_parser.run(district, assemblyConstituency, pollingPart, req_media_dir)
             return scraper_response
         except Exception as e:
             print(e)
@@ -83,14 +83,15 @@ class MainScraper:
         try:
             print("Generating Data CSV from parsed text")
             txt_file_path = parsed_response.parsed_text_generated if parsed_response else "scraper_parser_translator/views/pdf_to_txt/parsed.txt"
-            csv_generated_response = parse_english(str(txt_file_path), "scraper_parser_translator/views/txt_to_csv/output.csv")
+            csv_generated_response = parse_english(str(txt_file_path), 
+                                                   str(txt_file_path).rsplit("/", 1)[0] + "/output.csv")
             print(csv_generated_response)
             return csv_generated_response
         except Exception as e:
             print(e)
             return None
 
-    def csvToJsonPostAlgo(self, name, father_or_husband, father_or_husband_name, age):
+    def csvToJsonPostAlgo(self, name, father_or_husband, father_or_husband_name, age, req_media_dir):
         try:
             print("Generating JSON from created csv")
             exec_location = os.path.abspath(os.curdir)
@@ -106,11 +107,11 @@ class MainScraper:
                         key = rows['Id']
                         data[key] = rows
                 return data
-            csvFilePath = 'scraper_parser_translator/views/relations/Out.csv'
-            jsonFilePath = 'scraper_parser_translator/views/relations/Out.json'
+            csvFilePath = req_media_dir + 'Out.csv'
+            jsonFilePath = req_media_dir + 'Out.json'
             # subprocess.run(exec_location)
             # subprocess.run([exec_location, "TARUN RAI", "1", "HARKA BAHADUR RAI", "23"])
-            subprocess.run([exec_location, name, father_or_husband, father_or_husband_name, age])
+            subprocess.run([exec_location, name, father_or_husband, father_or_husband_name, age, req_media_dir])
             dict=make_json(csvFilePath, jsonFilePath)
             if(len(dict)==0):
                 if(father_or_husband=="1"):

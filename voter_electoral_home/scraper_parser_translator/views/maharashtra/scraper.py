@@ -28,7 +28,7 @@ class ScraperClass:
         # driver = webdriver.Chrome(options=options, executable_path='/usr/local/bin/chromedriver')
         # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME, options=options)
 
-    def run(self, district, assemblyConstituency, pollingPart):
+    def run(self, district, assemblyConstituency, pollingPart, req_media_dir):
         self.DRIVER.get("https://ceoelection.maharashtra.gov.in/searchlist/")
 
         sleep(1)
@@ -41,7 +41,7 @@ class ScraperClass:
         right = assemblyConstituency.rsplit("-", 1)[1]
         print(left) 
         print(right)
-        assemblyConstituency = left.strip(" ") + " - " + right.strip(" ")
+        assemblyConstituency = right.strip(" ") + " - " + left.strip(" ")
         # AS_name = str(assemblyConstituency.rsplit("-", 1)[0])
         selectAssemblyConstituency = Select(self.DRIVER.find_element(By.ID, "ctl00_Content_AssemblyList"))
         selectAssemblyConstituency.select_by_visible_text(assemblyConstituency)
@@ -64,8 +64,9 @@ class ScraperClass:
             if r.status_code == 200:
                 guess = guess_extension(r.headers['content-type'])
                 if not guess: guess = ".png"
-                captcha_file_path = "/scraper_parser_translator/views/maharashtra/captcha" + guess
-                captcha_file_path = (os.path.abspath(os.getcwd()) + captcha_file_path)
+                # captcha_file_path = "/scraper_parser_translator/views/maharashtra/captcha" + guess
+                captcha_file_path = req_media_dir + "captcha" + guess
+                # captcha_file_path = (os.path.abspath(os.getcwd()) + captcha_file_path)
                 print(captcha_file_path)
                 self.SCRAPER_RESPONSE.captcha_generated = (captcha_file_path)
                 if guess:
@@ -76,7 +77,7 @@ class ScraperClass:
                 self.SCRAPER_RESPONSE.message += "\n Could not solve Captcha."
                 return self.SCRAPER_RESPONSE
 
-        CAPTCHA_TEXT = main("maharashtra")
+        CAPTCHA_TEXT = main("maharashtra", req_media_dir)
         print(f"Captcha Text obtained: {CAPTCHA_TEXT}")
 
         self.DRIVER.find_element(By.ID, "ctl00_Content_txtcaptcha").send_keys(CAPTCHA_TEXT)
@@ -89,8 +90,9 @@ class ScraperClass:
             if r.status_code == 200:
                 guess = guess_extension(r.headers['content-type'])
                 if not guess: guess = ".pdf"
-                pdf_file_path = "/scraper_parser_translator/views/maharashtra/electoral_rolls" + guess
-                pdf_file_path = (os.path.abspath(os.getcwd()) + pdf_file_path)
+                # pdf_file_path = "/scraper_parser_translator/views/maharashtra/electoral_rolls" + guess
+                pdf_file_path = req_media_dir + "electoral_rolls" + guess
+                # pdf_file_path = (os.path.abspath(os.getcwd()) + pdf_file_path)
                 print(pdf_file_path)
                 self.SCRAPER_RESPONSE.electoral_roll_PDF = pdf_file_path
                 if guess:

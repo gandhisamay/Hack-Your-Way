@@ -24,7 +24,7 @@ class ScraperClass:
         # driver = webdriver.Chrome(service=Service(executable_path=driver_path), options=options)
         # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME, options=options)
 
-    def run(self, district, assemblyConstituency, pollingPart):
+    def run(self, district, assemblyConstituency, pollingPart, req_media_dir):
         self.DRIVER.get("https://erms.gujarat.gov.in/ceo-gujarat/master/frmEPDFRoll.aspx")
         self.DRIVER.maximize_window()
         # district = "3-Patan"
@@ -45,8 +45,9 @@ class ScraperClass:
         if r.status_code == 200:
             guess = guess_extension(r.headers['content-type'])
             if not guess: guess = ".pdf"
-            pdf_file_path = "/scraper_parser_translator/views/gujarat/electoral_rolls" + guess
-            pdf_file_path = (os.path.abspath(os.getcwd()) + pdf_file_path)
+            # pdf_file_path = "/scraper_parser_translator/views/gujarat/electoral_rolls" + guess
+            pdf_file_path = req_media_dir + "electoral_rolls" + guess
+            # pdf_file_path = (os.path.abspath(os.getcwd()) + pdf_file_path)
             print(pdf_file_path)
             self.SCRAPER_RESPONSE.electoral_roll_PDF = pdf_file_path
             if guess:

@@ -3,3 +3,6 @@ run.sh
 voter_electoral_home/keys.json
 voter_electoral_home/scraper_parser_translator/views/keys.json
 voter_electoral_home/scraper_parser_translator/views/pdf_to_txt/keys.json
+voter_electoral_home/scraper_parser_translator/__pycache__/
+voter_electoral_home/scraper_parser_translator/views/__pycache__/
+voter_electoral_home/scraper_parser_translator/requests_data/
