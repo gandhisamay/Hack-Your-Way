@@ -2,9 +2,10 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from .mainScraper import MainScraper
 from django.views.decorators.csrf import csrf_exempt
+import pprint
 import json
 import subprocess
-from .scraperResponse import UserInput
+from .scraperResponse import UserInput, VoterPortalResponse, JSONClassEncoder
 # from ..scraper_parser_translator.views.mainScraper import MainScraper
 
 # class ControllerClass:
@@ -20,6 +21,7 @@ def home(request):
 # TODO: DOB?
 @csrf_exempt
 def details(request):
+    json_class_encoder = JSONClassEncoder()
     if request.method == "GET":
         return JsonResponse({"message": "Please make a POST Request with Citizen's data!"})
     elif request.method == "POST":
@@ -54,18 +56,42 @@ def details(request):
             return JsonResponse({"message": f"Your request does not conform to the required format"})
         print(input_data)
         #  getting main portal response
-        import json
  
+        subprocess.run(["node", "scraper_parser_translator/views/voter_portal_js/index.js", 
+                        "detailedSearch",
+                        input_data.name,
+                        input_data.father_or_husband_name,
+                        input_data.age,
+                        input_data.gender,
+                        input_data.state,
+                        input_data.district if input_data.district else "0",
+                        input_data.assembly_constituency if input_data.assembly_constituency else "0"])
         # Opening JSON file
-        #subprocess.run
+        voter_portal_response = None
         with open('scraper_parser_translator/views/voter_portal/data.json') as json_file:
             data = json.load(json_file)
             print(data)
-        voter_portal_response = None
+            print(data["found"] == True)
+            if data["found"] == True:
+                voter_portal_response = VoterPortalResponse()
+                voter_portal_response.epic_no                         = data["epicNo"]
+                voter_portal_response.state                           = input_data.state
+                voter_portal_response.name                            = data["name"]
+                voter_portal_response.age                             = data["age"]
+                voter_portal_response.gender                          = data["gender"]
+                voter_portal_response.father_or_husband_name          = data["fatherOrHusbandName"]
+                voter_portal_response.district                        = data["district"]
+                voter_portal_response.assembly_constituency_no        = data["ac_no"]
+                voter_portal_response.assembly_constituency_name      = data["ac_name"]
+                voter_portal_response.parliamentary_constituency_name = data["pc_name"]
+                voter_portal_response.polling_station_name            = data["ps_name"]
+                voter_portal_response.part_number                     = data["part_no"]
         #voter_portal_response = MAIN_SCRAPER.callVoterPortal(False, input_data)
         print(voter_portal_response)
     
         if voter_portal_response != None:
+            # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again.", 
+                                # "data": json_class_encoder.encode(voter_portal_response)})
             particular_portal_response = MAIN_SCRAPER.callParticularScraper(input_data.state, 
                                             voter_portal_response.district, 
                                             f"{voter_portal_response.assembly_constituency_name}-{voter_portal_response.assembly_constituency_no}",
@@ -109,6 +135,7 @@ def details(request):
 
 @csrf_exempt
 def epic(request):
+    json_class_encoder = JSONClassEncoder()
     if request.method == "GET":
         return JsonResponse({"message": "Please make a POST Request with Citizen's EPIC No!"})
     elif request.method == "POST":
@@ -127,7 +154,30 @@ def epic(request):
             return JsonResponse({"message": f"Your request does not conform to the required format"})
         print(input_data)
         voter_portal_response = None
-        voter_portal_response = MAIN_SCRAPER.callVoterPortal(True, input_data)
+        subprocess.run(["node", "scraper_parser_translator/views/voter_portal_js/index.js", 
+                        "epic_search",
+                        input_data.epic_no,
+                        input_data.state])
+        # Opening JSON file
+        with open('scraper_parser_translator/views/voter_portal/data.json') as json_file:
+            data = json.load(json_file)
+            print(data)
+            print(data["found"] == True)
+            if data["found"] == True:
+                voter_portal_response = VoterPortalResponse()
+                voter_portal_response.epic_no                         = input_data.epic_no
+                voter_portal_response.state                           = input_data.state
+                voter_portal_response.name                            = data["name"]
+                voter_portal_response.age                             = data["age"]
+                voter_portal_response.gender                          = data["gender"]
+                voter_portal_response.father_or_husband_name          = data["fatherOrHusbandName"]
+                voter_portal_response.district                        = data["district"]
+                voter_portal_response.assembly_constituency_no        = data["ac_no"]
+                voter_portal_response.assembly_constituency_name      = data["ac_name"]
+                voter_portal_response.parliamentary_constituency_name = data["pc_name"]
+                voter_portal_response.polling_station_name            = data["ps_name"]
+                voter_portal_response.part_number                     = data["part_no"]
+        # voter_portal_response = MAIN_SCRAPER.callVoterPortal(True, input_data)
         print(voter_portal_response)
         if voter_portal_response:
             input_data.name = voter_portal_response.name
@@ -137,6 +187,8 @@ def epic(request):
             # input_data.father_or_husband = True
     
         if voter_portal_response != None:
+            # return JsonResponse({"message": "Sorry, the main NSVP Portal couldn't be reached at the moment, please try again.", 
+            #                     "data": json_class_encoder.encode(voter_portal_response)})
             particular_portal_response = MAIN_SCRAPER.callParticularScraper(voter_portal_response.state, 
                                             voter_portal_response.district, 
                                             f"{voter_portal_response.assembly_constituency_name}-{voter_portal_response.assembly_constituency_no}",

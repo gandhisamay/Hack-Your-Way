@@ -13,7 +13,9 @@ class VoterPortalScrapper {
   ]);
 
   constructor() {
-    this.chrome = new driver.Builder().withCapabilities(driver.Capabilities.chrome()).setChromeOptions(new chrome.Options().addArguments("--headless=chrome")).build()
+    this.chrome = new driver.Builder().withCapabilities(driver.Capabilities.chrome())
+            .setChromeOptions(new chrome.Options()
+            .addArguments("--headless=chrome", "--no-sandbox", "--disable-dev-shm-usage")).build()
 
     this.search_url = "https://electoralsearch.in/"
 
@@ -42,6 +44,7 @@ class VoterPortalScrapper {
     await tab2.click()
 
 
+    console.log(`Filling Epic with state ${mapped_state}...`)
     await this.chrome.findElement({ 'id': 'name' }).sendKeys(epicNo)
     await this.chrome.findElement({ 'css': `#epicStateList>option[value="${mapped_state}"]` }).click()
 
@@ -51,6 +54,7 @@ class VoterPortalScrapper {
 
     let buttons = await this.chrome.findElement({ 'id': 'btnEpicSubmit' })
     await buttons.click()
+    console.log("Submitted with fake Captcha...")
 
     let refreshes = -1
     let found = true
@@ -62,30 +66,40 @@ class VoterPortalScrapper {
         break;
       }
 
+      console.log("Storing captcha png...")
       let image = await this.chrome.findElement({ id: 'captchaEpicImg' }).takeScreenshot()
       fs.writeFileSync('scraper_parser_translator/views/voter_portal/captcha.png', image, 'base64', function(err) {
         if (err) throw err
       })
 
 
+      console.log("Parsing captcha png to text...")
       exec('python3 -m  scraper_parser_translator.views.mainCaptcha', function(err, stdout, _) {
         console.log(stdout)
         if (err) throw err
       })
 
 
+      console.log("Reading captcha text...")
       fs.readFile('scraper_parser_translator/views/voter_portal/captcha_text', { encoding: 'utf8' }, async (_, data) => {
+        console.log(`Got captcha text: ${data}`)
         await this.chrome.findElement({ 'id': 'txtEpicCaptcha' }).sendKeys(data)
         this.chrome.sleep(2500)
+        console.log(`Submitting with captcha: ${data}`)
         let buttons = await this.chrome.findElement({ 'id': 'btnEpicSubmit' })
         await buttons.click()
+        console.log(`Submitted with captcha: ${data}`)
       });
 
       await this.chrome.sleep(500)
     }
 
+    console.log("Extracting obtained details...")
     await this.extractDetails(found);
 
+    console.log(await this.chrome.getCurrentUrl())
+
+    console.log("Closing chrome...")
     this.chrome.close()
 
   }
@@ -104,6 +118,7 @@ class VoterPortalScrapper {
 
     let mapped_state = this.map_of_states.get(state);
 
+    console.log("Filling details...")
     await this.chrome.findElement({ 'id': 'name1' }).sendKeys(name)
     await this.chrome.findElement({ 'id': 'txtFName' }).sendKeys(daddyName)
     await this.chrome.findElement({ 'css': `#ageList>option[value="number:${age}"]` }).click()
@@ -120,6 +135,7 @@ class VoterPortalScrapper {
 
     let buttons = await this.chrome.findElements({ 'id': 'btnDetailsSubmit' })
     await buttons[1].click()
+    console.log("Submitted with fake Captcha...")
 
     let refreshes = -1
     let found = true
@@ -131,41 +147,52 @@ class VoterPortalScrapper {
         break;
       }
 
+      console.log("Storing captcha png...")
       let image = await this.chrome.findElement({ id: 'captchaDetailImg' }).takeScreenshot()
       fs.writeFileSync('scraper_parser_translator/views/voter_portal/captcha.png', image, 'base64', function(err) {
         if (err) throw err
       })
 
 
+      console.log("Parsing captcha png to text...")
       exec('python3 -m  scraper_parser_translator.views.mainCaptcha', function(err, stdout, _) {
         console.log(stdout)
         if (err) throw err
       })
 
 
+      console.log("Reading captcha text...")
       fs.readFile('scraper_parser_translator/views/voter_portal/captcha_text', { encoding: 'utf8' }, async (_, data) => {
+        console.log(`Got captcha text: ${data}`)
         await this.chrome.findElement({ 'id': 'txtCaptcha' }).sendKeys(data)
         this.chrome.sleep(2500)
+        console.log(`Submitting with captcha: ${data}`)
         let buttons = await this.chrome.findElements({ 'id': 'btnDetailsSubmit' })
         await buttons[1].click()
+        console.log(`Submitted with captcha: ${data}`)
       });
 
       await this.chrome.sleep(1000)
     }
 
-    this.extractDetails(found);
+    console.log("Extracting obtained details...")
+    await this.extractDetails(found);
 
+    console.log("Closing chrome...")
     this.chrome.close()
   }
 
   async extractDetails(found) {
     var user;
 
+    console.log(`   Found user details: ${found}`)
     if (found) {
+    console.log(`   Parsing user details...`)
+      this.chrome.sleep(500)
+      let name = await this.chrome.findElement({ 'css': 'input[name="name"]' }).getAttribute('value')
+            let name2 = await this.chrome.findElements({'id': '#resultsTable'})
+            console.log(name2)
       let epicNo = await this.chrome.findElement({ "css": "input[name='epic_no_plain']" }).getAttribute('value')
-      let name = await this.chrome.findElement({ 'css': "input[name='name']" }).getAttribute('value')
-      console.log(await this.chrome.findElement({ 'css': "input[name='name']" }))
-      console.log(name)
       let gender = await this.chrome.findElement({ 'css': "input[name='gender']" }).getAttribute('value')
       let age = await this.chrome.findElement({ 'css': "input[name='age']" }).getAttribute('value')
       let fatherOrHusbandName = await this.chrome.findElement({ 'css': "input[name='rln_name']" }).getAttribute('value')
@@ -176,10 +203,12 @@ class VoterPortalScrapper {
       let pc_name = await this.chrome.findElement({ "css": "input[name='pc_name']" }).getAttribute('value')
       let part_no = await this.chrome.findElement({ "css": "input[name='part_no']" }).getAttribute('value')
       let ps_name = await this.chrome.findElement({ "css": "input[name='ps_name']" }).getAttribute('value')
+      console.log(`   Parsed user details with name: ${name}...`)
 
       user = {
         found, epicNo, name, age, gender, fatherOrHusbandName, state, district, ac_no, ac_name, pc_name, part_no, ps_name
       }
+      console.log(`   User created: ${user}`)
     }
     else {
       user = {
@@ -187,9 +216,11 @@ class VoterPortalScrapper {
       }
     }
 
+    console.log(`   Writing user details to json...`)
     fs.writeFile('scraper_parser_translator/views/voter_portal/data.json', JSON.stringify(user), function(err) {
       if (err) throw err
     })
+    console.log(`   Written user details to json...`)
 
   }
 }

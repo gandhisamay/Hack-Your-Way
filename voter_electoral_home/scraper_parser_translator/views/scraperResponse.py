@@ -1,4 +1,5 @@
 from pathlib import Path
+from json import JSONEncoder
 
 class ScraperResponse:
     def __init__(self) -> None:
@@ -91,6 +92,11 @@ class VoterPortalResponse:
         PAR_CON_NAME: {self.parliamentary_constituency_name} \n \
         PART_NO: {self.part_number}\n " 
 
+
+# subclass JSONEncoder
+class JSONClassEncoder(JSONEncoder):
+        def default(self, objectInstance):
+            return objectInstance.__dict__
 
 # if __name__ == "__main__":
 #     scraper_reponse = ScraperResponse()

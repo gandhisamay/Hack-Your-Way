@@ -53,4 +53,4 @@ WORKDIR $APP_HOME
 # CMD ["python3", "-m", "scripts.voter_portal.scraper"]
 # CMD ["python3", "-m", "scripts.mainScraper"]
 EXPOSE 8000
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]MD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
