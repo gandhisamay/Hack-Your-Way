@@ -36,11 +36,14 @@ class MainScraper:
                 data = EpicData(epic_no=UserInput.epic_no, state=UserInput.state)
                 response = self.VOTER_PORTAL_SCRAPER.epic_search(data)
             else:
+                # subprocess.call("npm list")
+                # subprocess.run(["npm list"])
                 data = DetailedData(name=UserInput.name, father_or_husband_name=UserInput.father_or_husband_name, 
                                     age=UserInput.age, state=UserInput.state, district=UserInput.district, 
                                     assembly_constituency=UserInput.assembly_constituency, gender=UserInput.gender)
+                subprocess.run(["node", "scraper_parser_translator/views/voter_portal_js/index.js"])
                 print(f"Data for detailed Search:\n {data}")
-                response = self.VOTER_PORTAL_SCRAPER.detailed_search(data)
+                # response = self.VOTER_PORTAL_SCRAPER.detailed_search(data)
             return response
         except Exception as e:
             print(e)
