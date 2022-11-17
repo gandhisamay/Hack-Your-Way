@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from .mainScraper import MainScraper
 from django.views.decorators.csrf import csrf_exempt
 import json
+import subprocess
 from .scraperResponse import UserInput
 # from ..scraper_parser_translator.views.mainScraper import MainScraper
 
@@ -52,8 +53,16 @@ def details(request):
         except:
             return JsonResponse({"message": f"Your request does not conform to the required format"})
         print(input_data)
+        #  getting main portal response
+        import json
+ 
+        # Opening JSON file
+        #subprocess.run
+        with open('scraper_parser_translator/views/voter_portal/data.json') as json_file:
+            data = json.load(json_file)
+            print(data)
         voter_portal_response = None
-        voter_portal_response = MAIN_SCRAPER.callVoterPortal(False, input_data)
+        #voter_portal_response = MAIN_SCRAPER.callVoterPortal(False, input_data)
         print(voter_portal_response)
     
         if voter_portal_response != None:
