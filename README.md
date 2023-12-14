@@ -10,7 +10,9 @@ Our approach is divided into 4 parts:
 1) Scrapped the Voter Information Portal and got the user state, district and assembly constituency details.
 2) Scrapped the Statewise Electoral Rolls Portal to get the voters list for the all the users in the user state. 
 3) Parsed the pdf obtained from the statewise portal and then stored the details for each voter in a csv file.
-4) Used the csv file and then used binary search trees, maps and set data structures and recursive algorithms to generate the final family tree. 
+4) Used the csv file and then used binary search trees, maps and set data structures and recursive algorithms to generate the final family tree.
+
+Demonstration video -> https://drive.google.com/file/d/1mLunYKgA3oZdR3z4-wbAR697d73OU47d/view?usp=drive_link
 
 # Stepwise details
 
